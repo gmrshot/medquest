@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "topic": "Introduction to Carcinogenesis",
+      "subtopic": "Oncogenes",
+      "slide_ref": 7,
+      "stem": "HER2 amplification leads to:",
+      "options": [
+        "Reduced proliferation",
+        "Constitutive TK signaling",
+        "Enhanced MMR",
+        "Exclusive apoptosis",
+        "Loss cyclin D"
+      ],
+      "answer": "Constitutive TK signaling",
+      "explanation": "Growth/survival signaling.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Introduction_to_Carcinogenesis/slide07.png"
+    },
+    {
+      "topic": "Introduction to Carcinogenesis",
+      "subtopic": "Tumor Suppressors",
+      "slide_ref": 10,
+      "stem": "Inherited RB1 model:",
+      "options": [
+        "GOF",
+        "Two-hit hypothesis",
+        "HER2 haploinsuff",
+        "Triploidy",
+        "Anticipation"
+      ],
+      "answer": "Two-hit hypothesis",
+      "explanation": "Germline + somatic hit.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Introduction_to_Carcinogenesis/slide10.png"
+    },
+    {
+      "topic": "Introduction to Carcinogenesis",
+      "subtopic": "Cell Cycle",
+      "slide_ref": 6,
+      "stem": "p53 directly upregulates:",
+      "options": [
+        "Cyclin E",
+        "CDK4",
+        "p21",
+        "E2F",
+        "BCL2"
+      ],
+      "answer": "p21",
+      "explanation": "G1 arrest via CDK inhibition.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Introduction_to_Carcinogenesis/slide06.png"
+    },
+    {
+      "topic": "Introduction to Carcinogenesis",
+      "subtopic": "DNA Damage",
+      "slide_ref": 14,
+      "stem": "UVB creates:",
+      "options": [
+        "8-oxoG",
+        "Thymine dimers",
+        "DSBs",
+        "Abasic",
+        "ICLs"
+      ],
+      "answer": "Thymine dimers",
+      "explanation": "NER repairs dimers.",
+      "difficulty": "hard"
+    },
+    {
+      "topic": "Introduction to Carcinogenesis",
+      "subtopic": "Basics",
+      "slide_ref": 5,
+      "stem": "DNA synthesis phase:",
+      "options": [
+        "G0",
+        "G1",
+        "S",
+        "G2",
+        "M"
+      ],
+      "answer": "S",
+      "explanation": "Replication in S.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Introduction_to_Carcinogenesis/slide05.png"
+    }
+  ]
+}

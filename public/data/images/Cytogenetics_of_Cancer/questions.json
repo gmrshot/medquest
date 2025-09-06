@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "topic": "Cytogenetics of Cancer",
+      "subtopic": "Oncogenic Translocations",
+      "slide_ref": 2,
+      "stem": "t(9;22) in CML creates:",
+      "options": [
+        "PML-RARA",
+        "MYC-IGH",
+        "BCR-ABL1",
+        "ETV6-RUNX1",
+        "EWS-FLI1"
+      ],
+      "answer": "BCR-ABL1",
+      "explanation": "Philadelphia chromosome TK fusion.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics_of_Cancer/slide02.png"
+    },
+    {
+      "topic": "Cytogenetics of Cancer",
+      "subtopic": "Lymphoma",
+      "slide_ref": 3,
+      "stem": "t(14;18) overexpresses:",
+      "options": [
+        "Cyclin D1",
+        "BCL2",
+        "MYC",
+        "BCL6",
+        "PAX5"
+      ],
+      "answer": "BCL2",
+      "explanation": "IGH enhancer drives BCL2.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics_of_Cancer/slide03.png"
+    },
+    {
+      "topic": "Cytogenetics of Cancer",
+      "subtopic": "Ewing",
+      "slide_ref": 4,
+      "stem": "Classic Ewing sarcoma translocation:",
+      "options": [
+        "t(15;17)",
+        "t(11;22)",
+        "t(8;14)",
+        "t(2;5)",
+        "t(3;14)"
+      ],
+      "answer": "t(11;22)",
+      "explanation": "EWSR1-FLI1 fusion.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics_of_Cancer/slide04.png"
+    },
+    {
+      "topic": "Cytogenetics of Cancer",
+      "subtopic": "APL",
+      "slide_ref": 5,
+      "stem": "t(15;17) AML best initial therapy:",
+      "options": [
+        "ATRA \u00b1 ATO",
+        "Imatinib",
+        "Rituximab",
+        "Trastuzumab",
+        "Bevacizumab"
+      ],
+      "answer": "ATRA \u00b1 ATO",
+      "explanation": "Treat PML-RARA APL with ATRA/ATO.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics_of_Cancer/slide05.png"
+    },
+    {
+      "topic": "Cytogenetics of Cancer",
+      "subtopic": "HER2",
+      "slide_ref": 6,
+      "stem": "Confirm HER2 amplification with:",
+      "options": [
+        "Karyotype",
+        "Sanger",
+        "FISH HER2/CEP17 ratio",
+        "Southern",
+        "MSP"
+      ],
+      "answer": "FISH HER2/CEP17 ratio",
+      "explanation": "Clinical HER2 assessment often uses ratios.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics_of_Cancer/slide06.png"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "topic": "Molecular Diagnostics",
+      "subtopic": "Techniques",
+      "slide_ref": 4,
+      "stem": "Best same-day test for known EGFR exon 19 deletion?",
+      "options": [
+        "Karyotype",
+        "FISH dual-fusion",
+        "Allele-specific PCR",
+        "WES",
+        "RNA microarray"
+      ],
+      "answer": "Allele-specific PCR",
+      "explanation": "Allele-specific PCR is rapid for known hotspots.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Molecular_Diagnostics/slide04.png"
+    },
+    {
+      "topic": "Molecular Diagnostics",
+      "subtopic": "Fusions",
+      "slide_ref": 6,
+      "stem": "Standard to visualize ALK rearrangement on small biopsy:",
+      "options": [
+        "Karyotype",
+        "Array CGH",
+        "FISH break-apart probes",
+        "Sanger",
+        "qPCR (DNA only)"
+      ],
+      "answer": "FISH break-apart probes",
+      "explanation": "Break-apart FISH works in interphase nuclei.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Molecular_Diagnostics/slide06.png"
+    },
+    {
+      "topic": "Molecular Diagnostics",
+      "subtopic": "NGS",
+      "slide_ref": 8,
+      "stem": "Main advantage of targeted NGS panels:",
+      "options": [
+        "Specificity only",
+        "Throughput & breadth",
+        "Cytogenetic resolution",
+        "Mitochondrial only",
+        "Protein quant"
+      ],
+      "answer": "Throughput & breadth",
+      "explanation": "Panels profile many genes simultaneously.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Molecular_Diagnostics/slide08.png"
+    },
+    {
+      "topic": "Molecular Diagnostics",
+      "subtopic": "Workflow",
+      "slide_ref": 10,
+      "stem": "Efficient NSCLC workflow:",
+      "options": [
+        "RNA-seq first",
+        "DNA panel then reflex RNA/FISH for fusions",
+        "Karyotype first",
+        "Single gene PCR",
+        "Skip fusions"
+      ],
+      "answer": "DNA panel then reflex RNA/FISH for fusions",
+      "explanation": "Balanced coverage/cost.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Molecular_Diagnostics/slide10.png"
+    },
+    {
+      "topic": "Molecular Diagnostics",
+      "subtopic": "Liquid Biopsy",
+      "slide_ref": 2,
+      "stem": "Why detect resistance earlier than imaging?",
+      "options": [
+        "ctDNA half-life months",
+        "ctDNA mirrors clonal evolution in near real-time",
+        "From normal hepatocytes",
+        "Unaffected by therapy",
+        "Cannot detect SNVs"
+      ],
+      "answer": "ctDNA mirrors clonal evolution in near real-time",
+      "explanation": "ctDNA levels/variants change dynamically.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Molecular_Diagnostics/slide02.png"
+    }
+  ]
+}

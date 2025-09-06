@@ -1,0 +1,31 @@
+{
+  "weeks": [
+    {
+      "id": 6,
+      "label": "Week 6 \u2014 Immunology",
+      "subtitle": "Compact JSON (notes+qbank)",
+      "kind": "json",
+      "notes": "week6_notes.json",
+      "qbank": "week6_qbank.json",
+      "podcasts": [
+        {
+          "title": "B & T Cells",
+          "src": "The_Immune_System_s_Precision_Playbook__B_Cells,_T_Cells,_and_the_Battle_for_Immunity.mp3"
+        },
+        {
+          "title": "Adaptive Immune System",
+          "src": "Your_Adaptive_Immune_System__A_Deep_Dive_into_B_&_T_Cells,_Antibodies,_and_MHC.mp3"
+        },
+        {
+          "title": "Innate Immunity",
+          "src": "Your_Invisible_Shield__Navigating_the_Innate_Immune_System_and_Its_Clinical_Connections.mp3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "label": "Week 5 (Legacy)",
+      "kind": "legacy"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "topic": "Cytogenetics",
+      "subtopic": "Karyotyping",
+      "slide_ref": 2,
+      "stem": "Best detected by G-banded karyotype:",
+      "options": [
+        "SNV",
+        "10 bp deletion",
+        "Balanced reciprocal translocation",
+        "Point mutation KRAS",
+        "Methylation change"
+      ],
+      "answer": "Balanced reciprocal translocation",
+      "explanation": "Karyotype detects large structural changes.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics/slide02.png"
+    },
+    {
+      "topic": "Cytogenetics",
+      "subtopic": "Aneuploidy",
+      "slide_ref": 3,
+      "stem": "47,XX,+21 indicates:",
+      "options": [
+        "Turner",
+        "Klinefelter",
+        "Down syndrome",
+        "Edwards",
+        "Patau"
+      ],
+      "answer": "Down syndrome",
+      "explanation": "Trisomy 21.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics/slide03.png"
+    },
+    {
+      "topic": "Cytogenetics",
+      "subtopic": "FISH",
+      "slide_ref": 4,
+      "stem": "Best probe design to detect unknown partner rearrangement:",
+      "options": [
+        "Dual-fusion known partners",
+        "Break-apart flanking gene",
+        "Centromeric only",
+        "Telomeric only",
+        "Mito probes"
+      ],
+      "answer": "Break-apart flanking gene",
+      "explanation": "Detects rearrangements independent of partner.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics/slide04.png"
+    },
+    {
+      "topic": "Cytogenetics",
+      "subtopic": "Microarray",
+      "slide_ref": 5,
+      "stem": "Chromosomal microarray best for:",
+      "options": [
+        "Balanced translocations",
+        "Copy-number variations",
+        "Triplet repeats",
+        "Point mutations",
+        "Methylation defects"
+      ],
+      "answer": "Copy-number variations",
+      "explanation": "Array CGH/SNP arrays detect CNVs genome-wide.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics/slide05.png"
+    },
+    {
+      "topic": "Cytogenetics",
+      "subtopic": "Mosaicism",
+      "slide_ref": 6,
+      "stem": "Highest sensitivity for mosaic CNV:",
+      "options": [
+        "Karyotype only",
+        "Microarray",
+        "Sanger",
+        "Southern",
+        "qPCR one locus"
+      ],
+      "answer": "Microarray",
+      "explanation": "Arrays detect low-level mosaic CNVs.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cytogenetics/slide06.png"
+    }
+  ]
+}

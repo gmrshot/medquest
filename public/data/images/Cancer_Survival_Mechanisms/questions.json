@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "topic": "Cancer Survival Mechanisms",
+      "subtopic": "Hallmarks",
+      "slide_ref": 2,
+      "stem": "Sustained signaling, suppressor evasion, resisting death are:",
+      "options": [
+        "Paraneoplastic",
+        "Hallmarks of cancer",
+        "TME only",
+        "Stromal reactions",
+        "Epigenetic drift"
+      ],
+      "answer": "Hallmarks of cancer",
+      "explanation": "Core biological capabilities.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cancer_Survival_Mechanisms/slide02.png"
+    },
+    {
+      "topic": "Cancer Survival Mechanisms",
+      "subtopic": "Apoptosis",
+      "slide_ref": 3,
+      "stem": "BCL2 overexpression promotes survival by:",
+      "options": [
+        "Activating caspases",
+        "Releasing cytochrome c",
+        "Stabilizing microtubules",
+        "Blocking mitochondrial outer membrane permeabilization",
+        "Activating death receptors"
+      ],
+      "answer": "Blocking mitochondrial outer membrane permeabilization",
+      "explanation": "Anti-apoptotic BCL2.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cancer_Survival_Mechanisms/slide03.png"
+    },
+    {
+      "topic": "Cancer Survival Mechanisms",
+      "subtopic": "Cell Cycle",
+      "slide_ref": 4,
+      "stem": "p53 loss permits bypass of:",
+      "options": [
+        "G0\u2192G1",
+        "G1\u2192S",
+        "S\u2192G2",
+        "G2\u2192M",
+        "M\u2192G1"
+      ],
+      "answer": "G1\u2192S",
+      "explanation": "p53 via p21 halts G1\u2192S.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cancer_Survival_Mechanisms/slide04.png"
+    },
+    {
+      "topic": "Cancer Survival Mechanisms",
+      "subtopic": "Angiogenesis",
+      "slide_ref": 5,
+      "stem": "Most direct hypoxia-driven factor:",
+      "options": [
+        "NF-\u03baB",
+        "HIF-1\u03b1\u2192VEGF",
+        "pRB",
+        "SMAD4",
+        "GSK3\u03b2"
+      ],
+      "answer": "HIF-1\u03b1\u2192VEGF",
+      "explanation": "Hypoxia stabilizes HIF-1\u03b1.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cancer_Survival_Mechanisms/slide05.png"
+    },
+    {
+      "topic": "Cancer Survival Mechanisms",
+      "subtopic": "Immune Evasion",
+      "slide_ref": 6,
+      "stem": "PD-L1 mainly impairs:",
+      "options": [
+        "Neutrophil burst",
+        "CD8+ T-cell function via PD-1",
+        "NK ADCC",
+        "B-cell class switching",
+        "Eosinophil degranulation"
+      ],
+      "answer": "CD8+ T-cell function via PD-1",
+      "explanation": "T-cell checkpoint inhibition.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Cancer_Survival_Mechanisms/slide06.png"
+    }
+  ]
+}

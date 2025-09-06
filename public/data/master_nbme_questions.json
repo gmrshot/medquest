@@ -1,0 +1,3210 @@
+{
+  "lectures": [
+    {
+      "lectures": [
+        {
+          "topic": "Introduction to Neoplasia",
+          "subtopics": [
+            {
+              "name": "Histologic Classification of Tumors",
+              "long_questions": [
+                {
+                  "id": "Q1_Histo",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "A benign papillary tumor of the bladder is called a papilloma. Which feature defines papillomas regardless of site?",
+                  "options": {
+                    "A": "Presence of glandular structures",
+                    "B": "Papillary histologic architecture",
+                    "C": "Lack of mitotic figures",
+                    "D": "Invasion of basement membrane",
+                    "E": "High nuclear pleomorphism"
+                  },
+                  "answer": "B",
+                  "explanation": "Papillomas are defined by their papillary (finger-like) histologic pattern, not by location. They are benign epithelial tumors with papillary architecture. Invasion and pleomorphism are malignant features.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Histo",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which of the following is an example of a papillary tumor found in multiple organ systems?",
+                  "options": {
+                    "A": "Leiomyoma",
+                    "B": "Adenocarcinoma",
+                    "C": "Papilloma",
+                    "D": "Lipoma",
+                    "E": "Fibrosarcoma"
+                  },
+                  "answer": "C",
+                  "explanation": "Papillomas can occur in breast, bladder (urothelial), and nasal mucosa, all sharing papillary histology.",
+                  "image": null
+                },
+                {
+                  "id": "Q3_Histo",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A 45-year-old woman has a benign tumor composed of papillary structures lined by normal-appearing epithelial cells. Which of the following best describes this neoplasm?",
+                  "options": {
+                    "A": "Adenoma",
+                    "B": "Papilloma",
+                    "C": "Carcinoma in situ",
+                    "D": "Leiomyoma",
+                    "E": "Fibroma"
+                  },
+                  "answer": "B",
+                  "explanation": "Papillomas are benign epithelial tumors with papillary fronds. Adenoma refers to benign gland-forming tumors.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Clonal Evolution and Tumor Heterogeneity",
+              "long_questions": [
+                {
+                  "id": "Q4_Clonal",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "Which principle explains why a tumor initially sensitive to chemotherapy later becomes resistant?",
+                  "options": {
+                    "A": "Monoclonality",
+                    "B": "Clonal evolution",
+                    "C": "Apoptosis",
+                    "D": "Contact inhibition",
+                    "E": "Differentiation"
+                  },
+                  "answer": "B",
+                  "explanation": "Clonal evolution produces genetically diverse subclones; resistant clones survive chemotherapy, leading to relapse.",
+                  "image": null
+                },
+                {
+                  "id": "Q5_Clonal",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Poorly differentiated adenocarcinomas may lack recognizable glands. This reflects loss of:",
+                  "options": {
+                    "A": "Anaplasia",
+                    "B": "Differentiation",
+                    "C": "Hyperplasia",
+                    "D": "Hypertrophy",
+                    "E": "Metaplasia"
+                  },
+                  "answer": "B",
+                  "explanation": "Differentiation describes how closely tumor cells resemble normal tissue. Poorly differentiated adenocarcinomas may show little to no gland formation.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Morphology: Anaplasia & Dysplasia",
+              "long_questions": [
+                {
+                  "id": "Q6_Anaplasia",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Tripolar mitosis in a neoplastic cell is an example of:",
+                  "options": {
+                    "A": "Hyperplasia",
+                    "B": "Dysplasia",
+                    "C": "Anaplasia",
+                    "D": "Hypertrophy",
+                    "E": "Metaplasia"
+                  },
+                  "answer": "C",
+                  "explanation": "Anaplasia = loss of normal cellular features, including abnormal mitotic figures such as tripolar mitosis.",
+                  "image": null
+                },
+                {
+                  "id": "Q7_Dysplasia",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which of the following best defines dysplasia?",
+                  "options": {
+                    "A": "Normal tissue growth",
+                    "B": "Reversible change of one adult cell type to another",
+                    "C": "Disordered growth with abnormal cells confined to epithelium",
+                    "D": "Invasion past basement membrane",
+                    "E": "Necrosis of tumor tissue"
+                  },
+                  "answer": "C",
+                  "explanation": "Dysplasia is abnormal cell development with nuclear atypia, loss of polarity, and increased mitoses, confined to epithelium. Invasion defines carcinoma.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Benign vs Malignant Growth",
+              "long_questions": [
+                {
+                  "id": "Q8_BenignMalignant",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which of the following is most characteristic of a benign tumor?",
+                  "options": {
+                    "A": "Rapid growth, invasive margin",
+                    "B": "High mitotic index, anaplasia",
+                    "C": "Well circumscribed, slow growth",
+                    "D": "Metastasis",
+                    "E": "Ill-defined infiltrative margin"
+                  },
+                  "answer": "C",
+                  "explanation": "Benign tumors grow slowly, are well circumscribed, and resemble normal cells.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_BenignMalignant",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A fast-growing uterine tumor with variable nuclear size, increased cellularity, and numerous mitoses is most consistent with:",
+                  "options": {
+                    "A": "Leiomyoma",
+                    "B": "Leiomyosarcoma",
+                    "C": "Papilloma",
+                    "D": "Adenoma",
+                    "E": "Hamartoma"
+                  },
+                  "answer": "B",
+                  "explanation": "Leiomyosarcoma is malignant, fast-growing, cellular, and shows nuclear pleomorphism with frequent mitoses. Leiomyoma is benign, slow-growing.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Tumor Margins and Invasion",
+              "long_questions": [
+                {
+                  "id": "Q10_Margins",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "A tumor described as ‘well circumscribed’ is most likely:",
+                  "options": {
+                    "A": "Benign",
+                    "B": "Malignant",
+                    "C": "Metastatic",
+                    "D": "Carcinoma in situ",
+                    "E": "Sarcoma"
+                  },
+                  "answer": "A",
+                  "explanation": "Benign tumors typically have well-defined margins, unlike malignant infiltrative growth.",
+                  "image": null
+                },
+                {
+                  "id": "Q11_Invasion",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Carcinoma in situ differs from invasive carcinoma by:",
+                  "options": {
+                    "A": "Cellular atypia",
+                    "B": "Mitotic activity",
+                    "C": "Confined above basement membrane",
+                    "D": "Genetic mutations",
+                    "E": "Clonality"
+                  },
+                  "answer": "C",
+                  "explanation": "Carcinoma in situ shows full-thickness epithelial atypia but basement membrane intact. Invasion occurs once basement membrane is breached.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Metastasis",
+              "long_questions": [
+                {
+                  "id": "Q12_Metastasis",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which cancer most commonly spreads via peritoneal seeding?",
+                  "options": {
+                    "A": "Ovarian carcinoma",
+                    "B": "Renal cell carcinoma",
+                    "C": "Prostate carcinoma",
+                    "D": "Glioblastoma",
+                    "E": "Basal cell carcinoma"
+                  },
+                  "answer": "A",
+                  "explanation": "Ovarian carcinoma often spreads by seeding the peritoneum.",
+                  "image": null
+                },
+                {
+                  "id": "Q13_Metastasis",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Breast carcinoma often spreads first to which site?",
+                  "options": {
+                    "A": "Liver",
+                    "B": "Bone",
+                    "C": "Axillary lymph nodes",
+                    "D": "Peritoneum",
+                    "E": "Brain"
+                  },
+                  "answer": "C",
+                  "explanation": "Breast carcinoma commonly metastasizes via lymphatics to axillary nodes first before distant spread.",
+                  "image": null
+                },
+                {
+                  "id": "Q14_Metastasis",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "Which mode of metastasis is most characteristic of sarcomas?",
+                  "options": {
+                    "A": "Direct seeding of body cavities",
+                    "B": "Lymphatic spread",
+                    "C": "Hematogenous spread",
+                    "D": "Local extension",
+                    "E": "Retrograde venous flow"
+                  },
+                  "answer": "C",
+                  "explanation": "Sarcomas spread predominantly via blood (hematogenous). Carcinomas usually spread via lymphatics.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Genetic Testing for Familial Cancer Syndromes",
+          "subtopics": [
+            {
+              "name": "Genetic vs Epigenetic Changes",
+              "long_questions": [
+                {
+                  "id": "Q1_GeneticVsEpigenetic",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which of the following best defines an epigenetic change?",
+                  "options": {
+                    "A": "Point mutation in a coding exon",
+                    "B": "Truncating mutation in a tumor suppressor",
+                    "C": "Promoter methylation silencing gene expression",
+                    "D": "Missense mutation in a proto-oncogene",
+                    "E": "Frameshift deletion"
+                  },
+                  "answer": "C",
+                  "explanation": "Epigenetic changes are heritable modifications to gene expression without altering DNA sequence, e.g., promoter methylation.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_GeneticVsEpigenetic",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A germline mutation in RB1 is classified as:",
+                  "options": {
+                    "A": "Somatic",
+                    "B": "Epigenetic",
+                    "C": "Hereditary",
+                    "D": "Familial without mutation",
+                    "E": "Sporadic"
+                  },
+                  "answer": "C",
+                  "explanation": "Germline variants are present in all cells and heritable → hereditary cancer syndrome.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Germline vs Somatic vs Familial vs Sporadic",
+              "long_questions": [
+                {
+                  "id": "Q3_Germline",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "A patient develops lung cancer after 40 years of smoking. Which category best applies?",
+                  "options": {
+                    "A": "Hereditary",
+                    "B": "Familial",
+                    "C": "Sporadic",
+                    "D": "Germline",
+                    "E": "Epigenetic"
+                  },
+                  "answer": "C",
+                  "explanation": "Smoking-related lung cancer is a sporadic cancer caused by acquired somatic variants.",
+                  "image": null
+                },
+                {
+                  "id": "Q4_Germline",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A germline BRCA1 variant increases cancer risk because:",
+                  "options": {
+                    "A": "Both alleles are immediately inactivated",
+                    "B": "One allele is inactivated at birth; second hit occurs later",
+                    "C": "It only affects transcriptional regulation",
+                    "D": "It requires multiple somatic mutations in oncogenes",
+                    "E": "It is inherited in recessive fashion"
+                  },
+                  "answer": "B",
+                  "explanation": "Tumor suppressor gene mutations follow the two-hit model: one allele lost in germline, second hit acquired somatically.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Oncogenes vs Tumor Suppressor Genes",
+              "long_questions": [
+                {
+                  "id": "Q5_Oncogenes",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which statement is TRUE about oncogenes compared to tumor suppressor genes?",
+                  "options": {
+                    "A": "Oncogenes require both alleles to be mutated",
+                    "B": "Oncogenes are usually inactivated by deletions",
+                    "C": "Tumor suppressor mutations are usually gain-of-function",
+                    "D": "Oncogenes require only one allele activated",
+                    "E": "TSGs are rarely hereditary"
+                  },
+                  "answer": "D",
+                  "explanation": "Oncogenes require a single gain-of-function mutation; TSGs require both alleles lost (two-hit hypothesis).",
+                  "image": null
+                },
+                {
+                  "id": "Q6_Oncogenes",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which is most often hereditary: oncogene mutations or tumor suppressor gene mutations?",
+                  "options": {
+                    "A": "Oncogenes",
+                    "B": "Tumor suppressor genes",
+                    "C": "Both equally",
+                    "D": "Neither",
+                    "E": "Epigenetic mutations"
+                  },
+                  "answer": "B",
+                  "explanation": "Hereditary syndromes usually involve tumor suppressor gene variants (e.g., BRCA, RB1, APC).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "DNA Damage Repair Pathways",
+              "long_questions": [
+                {
+                  "id": "Q7_Repair",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Mismatch repair (MMR) deficiency is most strongly associated with:",
+                  "options": {
+                    "A": "Hereditary Breast and Ovarian Cancer",
+                    "B": "Li-Fraumeni syndrome",
+                    "C": "Lynch syndrome",
+                    "D": "FAP",
+                    "E": "Multiple Endocrine Neoplasia"
+                  },
+                  "answer": "C",
+                  "explanation": "Lynch syndrome is caused by germline MMR gene mutations (MLH1, MSH2, MSH6, PMS2, EPCAM).",
+                  "image": null
+                },
+                {
+                  "id": "Q8_Repair",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "BRCA1/2 are primarily involved in which DNA repair pathway?",
+                  "options": {
+                    "A": "Nucleotide excision repair",
+                    "B": "Base excision repair",
+                    "C": "Mismatch repair",
+                    "D": "Homologous recombination repair",
+                    "E": "Non-homologous end-joining"
+                  },
+                  "answer": "D",
+                  "explanation": "BRCA1/2 are key mediators of homologous recombination repair of double-strand breaks.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Lynch Syndrome",
+              "long_questions": [
+                {
+                  "id": "Q9_Lynch",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which cancer type is most characteristic of Lynch syndrome?",
+                  "options": {
+                    "A": "Colorectal carcinoma",
+                    "B": "Breast carcinoma",
+                    "C": "Melanoma",
+                    "D": "Renal cell carcinoma",
+                    "E": "Glioblastoma"
+                  },
+                  "answer": "A",
+                  "explanation": "Lynch syndrome predisposes to colorectal, endometrial, ovarian, urothelial, pancreatic, and prostate cancers.",
+                  "image": null
+                },
+                {
+                  "id": "Q10_Lynch",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which molecular feature often characterizes Lynch syndrome tumors?",
+                  "options": {
+                    "A": "Low tumor mutation burden",
+                    "B": "Microsatellite instability-high (MSI-H)",
+                    "C": "Chromothripsis",
+                    "D": "Philadelphia chromosome",
+                    "E": "ALK rearrangements"
+                  },
+                  "answer": "B",
+                  "explanation": "MSI-H and hypermutator phenotype are hallmarks of Lynch syndrome, making tumors responsive to immunotherapy.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Familial Adenomatous Polyposis (FAP)",
+              "long_questions": [
+                {
+                  "id": "Q11_FAP",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A 19-year-old with hundreds of colon polyps is diagnosed with FAP. Which gene is mutated?",
+                  "options": {
+                    "A": "MLH1",
+                    "B": "APC",
+                    "C": "BRCA1",
+                    "D": "TP53",
+                    "E": "MSH2"
+                  },
+                  "answer": "B",
+                  "explanation": "FAP is caused by APC mutations (Wnt signaling pathway).",
+                  "image": null
+                },
+                {
+                  "id": "Q12_FAP",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "Which extracolonic features are associated with FAP?",
+                  "options": {
+                    "A": "Cafe-au-lait spots",
+                    "B": "Papillary thyroid carcinoma, desmoid tumors, osteomas, CHRPE",
+                    "C": "Hemangioblastomas, renal carcinoma",
+                    "D": "Breast carcinoma, melanoma",
+                    "E": "Adrenal tumors"
+                  },
+                  "answer": "B",
+                  "explanation": "FAP can present with desmoids, papillary thyroid carcinoma, calvarial osteomas, and congenital hypertrophic retinal pigment epithelium (CHRPE).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Hereditary Breast and Ovarian Cancer (HBOC)",
+              "long_questions": [
+                {
+                  "id": "Q13_HBOC",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which mutation is most strongly associated with hereditary breast and ovarian cancer syndrome?",
+                  "options": {
+                    "A": "TP53",
+                    "B": "APC",
+                    "C": "BRCA1/2",
+                    "D": "NF1",
+                    "E": "PTEN"
+                  },
+                  "answer": "C",
+                  "explanation": "HBOC is most commonly due to BRCA1/2 mutations, impairing homologous recombination repair.",
+                  "image": null
+                },
+                {
+                  "id": "Q14_HBOC",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Ashkenazi Jewish individuals have higher carrier frequency of:",
+                  "options": {
+                    "A": "APC mutations",
+                    "B": "BRCA1/2 founder variants",
+                    "C": "RET proto-oncogene",
+                    "D": "NF2 mutation",
+                    "E": "MEN1 mutations"
+                  },
+                  "answer": "B",
+                  "explanation": "BRCA1/2 founder variants are common in Ashkenazi Jews (~1 in 40 carriers).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Genetic Test Result Interpretation",
+              "long_questions": [
+                {
+                  "id": "Q15_VUS",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A genetic test shows a variant of uncertain significance (VUS). Best next step?",
+                  "options": {
+                    "A": "Recommend prophylactic surgery",
+                    "B": "Ignore and treat as benign",
+                    "C": "Cascade test family immediately",
+                    "D": "Reclassify as pathogenic",
+                    "E": "Use it to change screening"
+                  },
+                  "answer": "B",
+                  "explanation": "VUS should not guide clinical care or family testing until reclassified. They are managed as benign.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Molecular Diagnostics",
+          "subtopics": [
+            {
+              "name": "Isolation of Nucleic Acids",
+              "long_questions": [
+                {
+                  "id": "Q1_Isolation",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "The purity of isolated nucleic acids is commonly measured by absorbance at:",
+                  "options": {
+                    "A": "220 nm",
+                    "B": "260 nm",
+                    "C": "280 nm",
+                    "D": "320 nm",
+                    "E": "400 nm"
+                  },
+                  "answer": "B",
+                  "explanation": "DNA and RNA absorb UV light maximally at 260 nm due to aromatic nitrogenous bases.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Isolation",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which reagent is most often used to separate proteins from nucleic acids during extraction?",
+                  "options": {
+                    "A": "Ethanol",
+                    "B": "Chloroform",
+                    "C": "SDS",
+                    "D": "EDTA",
+                    "E": "Phenol"
+                  },
+                  "answer": "B",
+                  "explanation": "Chloroform (often with phenol) separates proteins from nucleic acids in organic extraction.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Restriction Endonucleases",
+              "long_questions": [
+                {
+                  "id": "Q3_REnzymes",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Restriction endonucleases recognize and cut:",
+                  "options": {
+                    "A": "Random DNA sequences",
+                    "B": "Palindromic DNA sequences",
+                    "C": "Protein coding regions only",
+                    "D": "RNA secondary structures",
+                    "E": "Promoter regions only"
+                  },
+                  "answer": "B",
+                  "explanation": "Restriction enzymes cut at palindromic sequences, generating blunt or sticky ends.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Gel Electrophoresis",
+              "long_questions": [
+                {
+                  "id": "Q4_Gel",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Polyacrylamide gels are preferred over agarose gels when:",
+                  "options": {
+                    "A": "DNA fragments are >10 kb",
+                    "B": "Proteins need to be separated",
+                    "C": "Fragments differ by only 1 nucleotide",
+                    "D": "RNA isolation is performed",
+                    "E": "Southern blot is used"
+                  },
+                  "answer": "C",
+                  "explanation": "Polyacrylamide gels have higher resolution and can distinguish fragments differing by a single base.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Reverse Transcription",
+              "long_questions": [
+                {
+                  "id": "Q5_RT",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "What is the main product of reverse transcription?",
+                  "options": {
+                    "A": "Double-stranded RNA",
+                    "B": "Complementary DNA (cDNA)",
+                    "C": "Messenger RNA",
+                    "D": "MicroRNA",
+                    "E": "Ribosomal RNA"
+                  },
+                  "answer": "B",
+                  "explanation": "Reverse transcriptase copies mRNA into cDNA, lacking introns and regulatory regions.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "DNA Amplification Techniques",
+              "long_questions": [
+                {
+                  "id": "Q6_PCR",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "PCR requires knowledge of:",
+                  "options": {
+                    "A": "Sequence at one end only",
+                    "B": "Entire gene sequence",
+                    "C": "Sequences flanking the target region",
+                    "D": "Protein translation product",
+                    "E": "DNA methylation pattern"
+                  },
+                  "answer": "C",
+                  "explanation": "Primers must be complementary to sequences flanking the DNA segment of interest.",
+                  "image": null
+                },
+                {
+                  "id": "Q7_RT-PCR",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "RT-PCR differs from PCR by requiring:",
+                  "options": {
+                    "A": "Restriction enzyme digestion",
+                    "B": "Reverse transcriptase step",
+                    "C": "Southern blot",
+                    "D": "RNA polymerase",
+                    "E": "Next-generation sequencer"
+                  },
+                  "answer": "B",
+                  "explanation": "RT-PCR begins with RNA, which is reverse transcribed into cDNA before amplification.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Blotting Techniques",
+              "long_questions": [
+                {
+                  "id": "Q8_Southern",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Southern blotting detects:",
+                  "options": {
+                    "A": "DNA",
+                    "B": "RNA",
+                    "C": "Proteins",
+                    "D": "DNA-binding proteins",
+                    "E": "Carbohydrates"
+                  },
+                  "answer": "A",
+                  "explanation": "Southern blot: DNA. Northern: RNA. Western: Protein. Southwestern: DNA-binding proteins.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_Western",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which probe is used in Western blotting?",
+                  "options": {
+                    "A": "Radiolabeled DNA",
+                    "B": "Radiolabeled RNA",
+                    "C": "Antibodies",
+                    "D": "Restriction enzymes",
+                    "E": "Fluorescent nucleotides"
+                  },
+                  "answer": "C",
+                  "explanation": "Western blots use antibodies to detect specific proteins.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Sequencing Methods",
+              "long_questions": [
+                {
+                  "id": "Q10_Sanger",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "The Sanger sequencing method relies on the use of:",
+                  "options": {
+                    "A": "ddNTPs",
+                    "B": "dNTPs only",
+                    "C": "RNA probes",
+                    "D": "Restriction enzymes",
+                    "E": "Hybridization probes"
+                  },
+                  "answer": "A",
+                  "explanation": "Dideoxynucleotides (ddNTPs) terminate chain elongation, generating fragments for size-based sequencing.",
+                  "image": null
+                },
+                {
+                  "id": "Q11_NGS",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Whole-exome sequencing focuses on:",
+                  "options": {
+                    "A": "Introns",
+                    "B": "Promoters",
+                    "C": "Exons",
+                    "D": "Non-coding RNAs",
+                    "E": "Mitochondrial DNA only"
+                  },
+                  "answer": "C",
+                  "explanation": "Whole-exome sequencing targets protein-coding exons (~2% of genome), capturing most disease-causing mutations.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Polymorphism Analysis",
+              "long_questions": [
+                {
+                  "id": "Q12_RFLP",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Restriction fragment length polymorphism (RFLP) is based on:",
+                  "options": {
+                    "A": "Differences in tandem repeat length",
+                    "B": "DNA methylation sites",
+                    "C": "Presence or absence of restriction enzyme cut sites",
+                    "D": "Protein size differences",
+                    "E": "RNA transcript stability"
+                  },
+                  "answer": "C",
+                  "explanation": "RFLP analysis detects polymorphisms that alter restriction sites, changing fragment lengths after digestion.",
+                  "image": null
+                },
+                {
+                  "id": "Q13_STR",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Short tandem repeat (STR) analysis is useful for:",
+                  "options": {
+                    "A": "Measuring gene expression",
+                    "B": "Detecting chromosomal translocations",
+                    "C": "Paternity testing and forensics",
+                    "D": "Identifying RNA splicing errors",
+                    "E": "Detecting viral RNA"
+                  },
+                  "answer": "C",
+                  "explanation": "STR analysis examines repeat numbers in microsatellite DNA, useful for identity and parentage testing.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Gene Therapy Basics",
+              "long_questions": [
+                {
+                  "id": "Q14_GeneTherapy",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which viral vector is most commonly used for long-term gene expression in dividing and non-dividing cells?",
+                  "options": {
+                    "A": "Adenovirus",
+                    "B": "Retrovirus",
+                    "C": "Adeno-associated virus (AAV)",
+                    "D": "Lentivirus",
+                    "E": "Herpesvirus"
+                  },
+                  "answer": "D",
+                  "explanation": "Lentiviral vectors (HIV-derived) integrate into host genome and infect both dividing and non-dividing cells. Widely used in gene therapy.",
+                  "image": null
+                },
+                {
+                  "id": "Q15_GeneTherapy",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "Exon-skipping therapy using antisense oligonucleotides can restore partial function in which condition?",
+                  "options": {
+                    "A": "Cystic fibrosis",
+                    "B": "Duchenne muscular dystrophy",
+                    "C": "Huntington disease",
+                    "D": "Sickle cell disease",
+                    "E": "Hemophilia A"
+                  },
+                  "answer": "B",
+                  "explanation": "Exon skipping can convert Duchenne (out-of-frame mutation) into Becker muscular dystrophy (in-frame), producing partially functional dystrophin.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Cytogenetics",
+          "subtopics": [
+            {
+              "name": "Karyotyping Basics",
+              "long_questions": [
+                {
+                  "id": "Q1_Karyo",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "The short arm of a chromosome is designated as:",
+                  "options": {
+                    "A": "q arm",
+                    "B": "p arm",
+                    "C": "r arm",
+                    "D": "s arm",
+                    "E": "t arm"
+                  },
+                  "answer": "B",
+                  "explanation": "The short arm is 'p' (petite), while 'q' is the long arm.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Karyo",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which phase of mitosis is typically arrested for chromosome visualization in karyotyping?",
+                  "options": {
+                    "A": "Prophase",
+                    "B": "Metaphase",
+                    "C": "Anaphase",
+                    "D": "Telophase",
+                    "E": "Interphase"
+                  },
+                  "answer": "B",
+                  "explanation": "Karyotyping examines metaphase chromosomes arrested with colchicine, when they are most condensed and visible.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Chromosome Morphology",
+              "long_questions": [
+                {
+                  "id": "Q3_Morphology",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Chromosomes with centromeres near the end, such as 13, 14, 15, 21, 22, are called:",
+                  "options": {
+                    "A": "Metacentric",
+                    "B": "Submetacentric",
+                    "C": "Acrocentric",
+                    "D": "Telocentric",
+                    "E": "Isochromosomes"
+                  },
+                  "answer": "C",
+                  "explanation": "Acrocentric chromosomes have very short p arms and long q arms; common sites of Robertsonian translocations.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Trisomy 21 (Down Syndrome)",
+              "long_questions": [
+                {
+                  "id": "Q4_Down",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which karyotype represents Down syndrome in a male?",
+                  "options": {
+                    "A": "47, XY, +21",
+                    "B": "47, XXY",
+                    "C": "45, XO",
+                    "D": "47, XY, +18",
+                    "E": "47, XY, +13"
+                  },
+                  "answer": "A",
+                  "explanation": "Down syndrome = trisomy 21. Males are 47, XY, +21; females 47, XX, +21.",
+                  "image": null
+                },
+                {
+                  "id": "Q5_Down",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A newborn has hypotonia, simian crease, and Brushfield spots. Which complication is most likely?",
+                  "options": {
+                    "A": "Neural tube defect",
+                    "B": "Congenital heart disease",
+                    "C": "Renal agenesis",
+                    "D": "Microcephaly",
+                    "E": "Adrenal hyperplasia"
+                  },
+                  "answer": "B",
+                  "explanation": "Congenital heart defects (e.g., endocardial cushion defects) are common in Down syndrome, along with GI atresias and leukemia risk.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Trisomy 18 (Edwards Syndrome)",
+              "long_questions": [
+                {
+                  "id": "Q6_Edwards",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Characteristic hand finding in Edwards syndrome:",
+                  "options": {
+                    "A": "Clinodactyly",
+                    "B": "Overlapping fingers with clenched fist",
+                    "C": "Single palmar crease",
+                    "D": "Absent thumbs",
+                    "E": "Arachnodactyly"
+                  },
+                  "answer": "B",
+                  "explanation": "Edwards syndrome = clenched fist with overlapping fingers, rocker-bottom feet, micrognathia, congenital heart disease.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Trisomy 13 (Patau Syndrome)",
+              "long_questions": [
+                {
+                  "id": "Q7_Patau",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which congenital anomaly is strongly associated with Patau syndrome?",
+                  "options": {
+                    "A": "Cleft lip/palate",
+                    "B": "Cafe-au-lait spots",
+                    "C": "Lisch nodules",
+                    "D": "Wilms tumor",
+                    "E": "Neurofibromas"
+                  },
+                  "answer": "A",
+                  "explanation": "Patau syndrome commonly presents with cleft lip/palate, polydactyly, severe intellectual disability, congenital heart disease.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Mechanisms of Aneuploidy",
+              "long_questions": [
+                {
+                  "id": "Q8_Nondisjunction",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Most cases of trisomy 21 are caused by:",
+                  "options": {
+                    "A": "Robertsonian translocation",
+                    "B": "Isochromosome formation",
+                    "C": "Somatic mosaicism",
+                    "D": "Meiotic nondisjunction",
+                    "E": "Unequal crossing over"
+                  },
+                  "answer": "D",
+                  "explanation": "95% of Down syndrome is due to meiotic nondisjunction, usually maternal meiosis I.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_Robertsonian",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "Robertsonian translocations involve fusion of:",
+                  "options": {
+                    "A": "Metacentric chromosomes",
+                    "B": "Telocentric chromosomes",
+                    "C": "Acrocentric chromosomes",
+                    "D": "Isochromosomes",
+                    "E": "Paracentric inversions"
+                  },
+                  "answer": "C",
+                  "explanation": "Robertsonian translocations occur between acrocentric chromosomes (13, 14, 15, 21, 22).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Structural Chromosomal Abnormalities",
+              "long_questions": [
+                {
+                  "id": "Q10_Structural",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "A ring chromosome results from:",
+                  "options": {
+                    "A": "Fusion of acrocentric centromeres",
+                    "B": "Loss of one arm and duplication of the other",
+                    "C": "Deletion of both telomeres with end fusion",
+                    "D": "Non-disjunction in meiosis II",
+                    "E": "Insertion of a segment into another chromosome"
+                  },
+                  "answer": "C",
+                  "explanation": "Ring chromosomes form when both ends lose telomeres and fuse, often causing instability.",
+                  "image": null
+                },
+                {
+                  "id": "Q11_CriDuChat",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A newborn with a high-pitched cry, hypertelorism, and severe intellectual disability most likely has which cytogenetic abnormality?",
+                  "options": {
+                    "A": "Deletion of 5p",
+                    "B": "Deletion of 22q11",
+                    "C": "Duplication of 15q",
+                    "D": "Isochromosome X",
+                    "E": "Monosomy X"
+                  },
+                  "answer": "A",
+                  "explanation": "Cri-du-chat syndrome is due to a terminal deletion on chromosome 5p.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Microdeletion Syndromes",
+              "long_questions": [
+                {
+                  "id": "Q12_DiGeorge",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "22q11 microdeletion is associated with:",
+                  "options": {
+                    "A": "Beckwith-Wiedemann syndrome",
+                    "B": "DiGeorge syndrome",
+                    "C": "Angelman syndrome",
+                    "D": "Cri-du-chat",
+                    "E": "Williams syndrome"
+                  },
+                  "answer": "B",
+                  "explanation": "22q11 deletion causes DiGeorge (thymic hypoplasia, hypocalcemia, congenital heart disease).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "FISH Technique",
+              "long_questions": [
+                {
+                  "id": "Q13_FISH",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which FISH probe is most appropriate for detecting trisomy 21?",
+                  "options": {
+                    "A": "Whole chromosome paint probe",
+                    "B": "Cosmid/locus-specific probe",
+                    "C": "Centromere enumeration probe",
+                    "D": "Telomere probe",
+                    "E": "RNA probe"
+                  },
+                  "answer": "C",
+                  "explanation": "Centromere probes identify chromosome number; useful for aneuploidy detection such as trisomy 21.",
+                  "image": null
+                },
+                {
+                  "id": "Q14_FISH",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "Which statement about FISH is correct?",
+                  "options": {
+                    "A": "Only works on metaphase spreads",
+                    "B": "Cannot detect microdeletions",
+                    "C": "Uses fluorescent probes to hybridize DNA sequences",
+                    "D": "Has lower sensitivity than karyotyping",
+                    "E": "Requires protein probes"
+                  },
+                  "answer": "C",
+                  "explanation": "FISH uses fluorescent DNA probes, works on interphase and metaphase nuclei, and can detect microdeletions invisible to karyotype.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Introduction to Carcinogenesis",
+          "subtopics": [
+            {
+              "name": "Cancer Incidence and Mortality by Sex",
+              "long_questions": [
+                {
+                  "id": "Q1_Carcinogenesis",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "What is the most common cancer in women worldwide?",
+                  "options": {
+                    "A": "Lung cancer",
+                    "B": "Breast cancer",
+                    "C": "Cervical cancer",
+                    "D": "Colorectal cancer",
+                    "E": "Ovarian cancer"
+                  },
+                  "answer": "B",
+                  "explanation": "Breast cancer is the most common cancer in women globally. Lung cancer is the most deadly.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Carcinogenesis",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which cancer is the leading cause of cancer death in women?",
+                  "options": {
+                    "A": "Breast cancer",
+                    "B": "Colorectal cancer",
+                    "C": "Lung cancer",
+                    "D": "Ovarian cancer",
+                    "E": "Endometrial cancer"
+                  },
+                  "answer": "C",
+                  "explanation": "Lung cancer is the most common cause of cancer death in women, even though breast cancer is more common.",
+                  "image": null
+                },
+                {
+                  "id": "Q3_Carcinogenesis",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "What is the most common cancer in men?",
+                  "options": {
+                    "A": "Lung cancer",
+                    "B": "Prostate cancer",
+                    "C": "Colorectal cancer",
+                    "D": "Bladder cancer",
+                    "E": "Pancreatic cancer"
+                  },
+                  "answer": "B",
+                  "explanation": "Prostate cancer is the most common cancer in men. Lung cancer is the deadliest.",
+                  "image": null
+                },
+                {
+                  "id": "Q4_Carcinogenesis",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which cancer is the most common cause of cancer-related death in men?",
+                  "options": {
+                    "A": "Prostate cancer",
+                    "B": "Lung cancer",
+                    "C": "Colorectal cancer",
+                    "D": "Pancreatic cancer",
+                    "E": "Liver cancer"
+                  },
+                  "answer": "B",
+                  "explanation": "Lung cancer is the leading cause of cancer death in men, followed by prostate and colorectal cancers.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "General Epidemiology",
+              "long_questions": [
+                {
+                  "id": "Q5_Epi",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Cancer epidemiology shows that most deaths are caused by:",
+                  "options": {
+                    "A": "Cancers with high incidence",
+                    "B": "Cancers with high metastatic potential",
+                    "C": "Cancers with effective early screening",
+                    "D": "Cancers with short latency periods",
+                    "E": "Benign tumors"
+                  },
+                  "answer": "B",
+                  "explanation": "Mortality is linked to cancers with high metastatic potential and late diagnosis (e.g., lung, pancreatic).",
+                  "image": null
+                },
+                {
+                  "id": "Q6_Epi",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which is a correct statement about US cancer screening impact?",
+                  "options": {
+                    "A": "Screening has eliminated breast cancer deaths",
+                    "B": "Lung cancer mortality remains high despite screening",
+                    "C": "Colorectal screening has no impact on survival",
+                    "D": "Cervical cancer incidence has increased due to screening",
+                    "E": "Screening guarantees cure in all cancers"
+                  },
+                  "answer": "B",
+                  "explanation": "Lung cancer mortality is still high due to late-stage detection and aggressive biology, even with screening.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Carcinogenesis Concepts",
+              "long_questions": [
+                {
+                  "id": "Q7_Concept",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Carcinogenesis is primarily driven by:",
+                  "options": {
+                    "A": "Epigenetic changes only",
+                    "B": "Transcriptional regulation changes",
+                    "C": "Acquired genetic alterations in DNA",
+                    "D": "Protein folding errors",
+                    "E": "Metabolic pathway shifts alone"
+                  },
+                  "answer": "C",
+                  "explanation": "Carcinogenesis arises from genetic mutations in DNA. Epigenetic and metabolic changes are secondary.",
+                  "image": null
+                },
+                {
+                  "id": "Q8_Concept",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "A cancer with a clonal origin later displays heterogeneous phenotypes. This reflects:",
+                  "options": {
+                    "A": "Hyperplasia",
+                    "B": "Clonal evolution",
+                    "C": "Cell senescence",
+                    "D": "Necrosis",
+                    "E": "Differentiation"
+                  },
+                  "answer": "B",
+                  "explanation": "Clonal evolution leads to heterogeneity, explaining varied behavior and drug resistance in cancers.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Nucleotide Metabolism",
+          "subtopics": [
+            {
+              "name": "PRPP and Regulation",
+              "long_questions": [
+                {
+                  "id": "Q1_PRPP",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which molecule is the common precursor for both purine and pyrimidine nucleotide synthesis?",
+                  "options": {
+                    "A": "Ribose-5-phosphate",
+                    "B": "PRPP",
+                    "C": "Orotate",
+                    "D": "Hypoxanthine",
+                    "E": "Aspartate"
+                  },
+                  "answer": "B",
+                  "explanation": "PRPP (phosphoribosyl pyrophosphate) is the activated ribose donor for both purine and pyrimidine biosynthesis.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_PRPP",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "PRPP synthetase is inhibited by:",
+                  "options": {
+                    "A": "ADP and GDP",
+                    "B": "ATP only",
+                    "C": "Glutamine",
+                    "D": "Folate",
+                    "E": "Orotate"
+                  },
+                  "answer": "A",
+                  "explanation": "Purine and pyrimidine nucleotides (ADP, GDP) feedback inhibit PRPP synthetase, preventing overproduction.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Purine Synthesis",
+              "long_questions": [
+                {
+                  "id": "Q3_PurineSynth",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which enzyme is the rate-limiting step of de novo purine synthesis?",
+                  "options": {
+                    "A": "Thymidylate synthase",
+                    "B": "Glutamine-PRPP amidotransferase",
+                    "C": "Adenylosuccinate synthetase",
+                    "D": "Xanthine oxidase",
+                    "E": "HGPRT"
+                  },
+                  "answer": "B",
+                  "explanation": "Glutamine-PRPP amidotransferase is the committed, regulated step in purine synthesis.",
+                  "image": null
+                },
+                {
+                  "id": "Q4_PurineSynth",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which nutrient deficiency impairs de novo purine synthesis, causing megaloblastic anemia?",
+                  "options": {
+                    "A": "Vitamin B6",
+                    "B": "Vitamin B12",
+                    "C": "Folate",
+                    "D": "Riboflavin",
+                    "E": "Niacin"
+                  },
+                  "answer": "C",
+                  "explanation": "Folate derivatives donate one-carbon units in purine biosynthesis; deficiency reduces nucleotide synthesis.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Purine Salvage Pathway",
+              "long_questions": [
+                {
+                  "id": "Q5_Salvage",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which enzyme salvages hypoxanthine and guanine?",
+                  "options": {
+                    "A": "APRT",
+                    "B": "HGPRT",
+                    "C": "Xanthine oxidase",
+                    "D": "Glutamine-PRPP amidotransferase",
+                    "E": "PRPP synthetase"
+                  },
+                  "answer": "B",
+                  "explanation": "HGPRT (hypoxanthine-guanine phosphoribosyl transferase) salvages purine bases using PRPP.",
+                  "image": null
+                },
+                {
+                  "id": "Q6_Salvage",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "APRT salvages which base?",
+                  "options": {
+                    "A": "Hypoxanthine",
+                    "B": "Adenine",
+                    "C": "Guanine",
+                    "D": "Cytosine",
+                    "E": "Thymine"
+                  },
+                  "answer": "B",
+                  "explanation": "APRT (adenine phosphoribosyl transferase) salvages adenine → AMP.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Purine Degradation",
+              "long_questions": [
+                {
+                  "id": "Q7_Degradation",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "What is the final product of purine degradation in humans?",
+                  "options": {
+                    "A": "Allantoin",
+                    "B": "Urea",
+                    "C": "Ammonia",
+                    "D": "Uric acid",
+                    "E": "Xanthine"
+                  },
+                  "answer": "D",
+                  "explanation": "Uric acid is the end product of purine degradation in humans.",
+                  "image": null
+                },
+                {
+                  "id": "Q8_Degradation",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Xanthine oxidase deficiency leads to accumulation of:",
+                  "options": {
+                    "A": "Uric acid",
+                    "B": "Xanthine and hypoxanthine",
+                    "C": "PRPP",
+                    "D": "AMP",
+                    "E": "Cytosine"
+                  },
+                  "answer": "B",
+                  "explanation": "Xanthine oxidase deficiency causes xanthinuria with xanthine/hypoxanthine accumulation but low uric acid.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Purine Disorders",
+              "long_questions": [
+                {
+                  "id": "Q9_LeschNyhan",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "A boy with self-mutilating behavior and hyperuricemia most likely has deficiency of:",
+                  "options": {
+                    "A": "HGPRT",
+                    "B": "APRT",
+                    "C": "Xanthine oxidase",
+                    "D": "PRPP synthetase",
+                    "E": "ADA"
+                  },
+                  "answer": "A",
+                  "explanation": "Lesch-Nyhan syndrome results from near-absent HGPRT, causing hyperuricemia and neurologic symptoms.",
+                  "image": null
+                },
+                {
+                  "id": "Q10_ADA",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Adenosine deaminase (ADA) deficiency leads to:",
+                  "options": {
+                    "A": "Severe combined immunodeficiency",
+                    "B": "X-linked agammaglobulinemia",
+                    "C": "Chronic granulomatous disease",
+                    "D": "Wiskott-Aldrich syndrome",
+                    "E": "Fanconi anemia"
+                  },
+                  "answer": "A",
+                  "explanation": "ADA deficiency causes SCID due to toxic accumulation of dATP inhibiting ribonucleotide reductase.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Pyrimidine Synthesis",
+              "long_questions": [
+                {
+                  "id": "Q11_Pyrimidine",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "What is the committed step in pyrimidine synthesis?",
+                  "options": {
+                    "A": "PRPP formation",
+                    "B": "Carbamoyl phosphate synthesis by CPS II",
+                    "C": "Aspartate transcarbamoylase",
+                    "D": "UMP synthase",
+                    "E": "Dihydroorotate dehydrogenase"
+                  },
+                  "answer": "B",
+                  "explanation": "CPS II in cytosol (glutamine → carbamoyl phosphate) is the rate-limiting step in pyrimidine synthesis.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Pyrimidine Disorders",
+              "long_questions": [
+                {
+                  "id": "Q12_Orotic",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A child with megaloblastic anemia unresponsive to B12/folate supplementation has high urinary orotic acid but no hyperammonemia. Diagnosis?",
+                  "options": {
+                    "A": "Ornithine transcarbamylase deficiency",
+                    "B": "Hereditary orotic aciduria",
+                    "C": "ADA deficiency",
+                    "D": "Lesch-Nyhan syndrome",
+                    "E": "Xanthinuria"
+                  },
+                  "answer": "B",
+                  "explanation": "Hereditary orotic aciduria results from UMP synthase deficiency. Orotic acid accumulates, but no hyperammonemia is present.",
+                  "image": null
+                },
+                {
+                  "id": "Q13_OTC",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "A patient with elevated orotic acid and hyperammonemia likely has:",
+                  "options": {
+                    "A": "Hereditary orotic aciduria",
+                    "B": "OTC deficiency",
+                    "C": "ADA deficiency",
+                    "D": "HGPRT deficiency",
+                    "E": "G6PD deficiency"
+                  },
+                  "answer": "B",
+                  "explanation": "OTC deficiency (urea cycle disorder) causes increased carbamoyl phosphate → excess orotic acid, with hyperammonemia.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Deoxyribonucleotide Synthesis",
+              "long_questions": [
+                {
+                  "id": "Q14_RNR",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Ribonucleotide reductase is inhibited by:",
+                  "options": {
+                    "A": "ATP",
+                    "B": "dATP",
+                    "C": "ADP",
+                    "D": "Folate",
+                    "E": "IMP"
+                  },
+                  "answer": "B",
+                  "explanation": "Ribonucleotide reductase is activated by ATP and inhibited by dATP — explains SCID in ADA deficiency.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Drugs Affecting Nucleotide Metabolism",
+              "long_questions": [
+                {
+                  "id": "Q15_6MP",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "6-mercaptopurine is activated by:",
+                  "options": {
+                    "A": "HGPRT",
+                    "B": "Xanthine oxidase",
+                    "C": "ADA",
+                    "D": "PRPP synthetase",
+                    "E": "Thymidylate synthase"
+                  },
+                  "answer": "A",
+                  "explanation": "HGPRT activates 6-MP to thio-IMP, which inhibits purine synthesis.",
+                  "image": null
+                },
+                {
+                  "id": "Q16_5FU",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "5-fluorouracil inhibits which enzyme?",
+                  "options": {
+                    "A": "DHFR",
+                    "B": "PRPP synthetase",
+                    "C": "Thymidylate synthase",
+                    "D": "Xanthine oxidase",
+                    "E": "HGPRT"
+                  },
+                  "answer": "C",
+                  "explanation": "5-FU forms 5-fdUMP, irreversibly inhibiting thymidylate synthase, blocking dTMP synthesis.",
+                  "image": null
+                },
+                {
+                  "id": "Q17_MTX",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Methotrexate inhibits:",
+                  "options": {
+                    "A": "Thymidylate synthase directly",
+                    "B": "Dihydrofolate reductase",
+                    "C": "Ribonucleotide reductase",
+                    "D": "Xanthine oxidase",
+                    "E": "PRPP amidotransferase"
+                  },
+                  "answer": "B",
+                  "explanation": "Methotrexate inhibits DHFR, preventing regeneration of THF, thus blocking purine and thymidylate synthesis.",
+                  "image": null
+                },
+                {
+                  "id": "Q18_Hydroxyurea",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Hydroxyurea inhibits which enzyme?",
+                  "options": {
+                    "A": "Ribonucleotide reductase",
+                    "B": "HGPRT",
+                    "C": "Xanthine oxidase",
+                    "D": "Thymidylate synthase",
+                    "E": "APRT"
+                  },
+                  "answer": "A",
+                  "explanation": "Hydroxyurea inhibits ribonucleotide reductase → decreased DNA synthesis; also ↑ HbF for sickle cell therapy.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Cytogenetics of Cancer",
+          "subtopics": [
+            {
+              "name": "Bcl2 and Multidrug Resistance",
+              "long_questions": [
+                {
+                  "id": "Q1_Bcl2",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which translocation is most associated with follicular lymphoma?",
+                  "options": {
+                    "A": "t(9;22)",
+                    "B": "t(8;14)",
+                    "C": "t(14;18)",
+                    "D": "t(15;17)",
+                    "E": "t(11;22)"
+                  },
+                  "answer": "C",
+                  "explanation": "Follicular lymphoma is caused by t(14;18), placing Bcl2 under the Ig heavy-chain promoter → apoptosis resistance.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Bcl2",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Overexpression of Bcl2 leads to:",
+                  "options": {
+                    "A": "Increased apoptosis",
+                    "B": "Decreased apoptosis",
+                    "C": "Increased necrosis",
+                    "D": "DNA repair activation",
+                    "E": "Autophagy"
+                  },
+                  "answer": "B",
+                  "explanation": "Bcl2 blocks intrinsic apoptosis → cells survive longer, leading to multidrug resistance.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Philadelphia Chromosome",
+              "long_questions": [
+                {
+                  "id": "Q3_Philly",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "The Philadelphia chromosome results from which translocation?",
+                  "options": {
+                    "A": "t(9;22)",
+                    "B": "t(14;18)",
+                    "C": "t(8;14)",
+                    "D": "t(11;22)",
+                    "E": "t(15;17)"
+                  },
+                  "answer": "A",
+                  "explanation": "Philadelphia chromosome = t(9;22), creating BCR-ABL fusion gene with constitutive tyrosine kinase activity.",
+                  "image": null
+                },
+                {
+                  "id": "Q4_Philly",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "The abnormal protein product of the Philadelphia chromosome is best described as:",
+                  "options": {
+                    "A": "Constitutively active tyrosine kinase",
+                    "B": "Growth factor receptor",
+                    "C": "DNA helicase",
+                    "D": "Tumor suppressor",
+                    "E": "Histone acetyltransferase"
+                  },
+                  "answer": "A",
+                  "explanation": "BCR-ABL encodes a constitutively active tyrosine kinase → drives CML pathogenesis.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Genomic Instability",
+              "long_questions": [
+                {
+                  "id": "Q5_Instability",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Genomic instability in cancers is most often caused by loss of:",
+                  "options": {
+                    "A": "p53 or Rb",
+                    "B": "BRCA1",
+                    "C": "MYC",
+                    "D": "Bcl2",
+                    "E": "Cyclin D"
+                  },
+                  "answer": "A",
+                  "explanation": "Loss of p53 or Rb removes cell cycle checkpoints, leading to mutations, gene amplifications, and aneuploidy.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Gene Amplification Types",
+              "long_questions": [
+                {
+                  "id": "Q6_Amplification",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Double minutes (dmin) represent:",
+                  "options": {
+                    "A": "Chromosomal translocation",
+                    "B": "Small extrachromosomal DNA fragments",
+                    "C": "Balanced inversion",
+                    "D": "Chromothripsis",
+                    "E": "Isochromosome"
+                  },
+                  "answer": "B",
+                  "explanation": "Double minutes are small circular extrachromosomal DNA fragments that often carry amplified oncogenes.",
+                  "image": null
+                },
+                {
+                  "id": "Q7_Amplification",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Homogeneously staining regions (HSRs) are best described as:",
+                  "options": {
+                    "A": "Balanced reciprocal translocations",
+                    "B": "Intrachromosomal gene amplification",
+                    "C": "Interchromosomal insertion",
+                    "D": "Subtelomeric duplication",
+                    "E": "Centromeric expansion"
+                  },
+                  "answer": "B",
+                  "explanation": "HSRs represent intrachromosomal regions of amplified DNA without normal banding.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Oncogene Amplifications",
+              "long_questions": [
+                {
+                  "id": "Q8_CyclinD",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Cyclin D1 amplification is associated with:",
+                  "options": {
+                    "A": "Colon cancer",
+                    "B": "Breast and bladder cancers",
+                    "C": "Osteosarcoma",
+                    "D": "Glioblastoma",
+                    "E": "Hepatocellular carcinoma"
+                  },
+                  "answer": "B",
+                  "explanation": "Cyclin D1 amplification → breast and bladder cancers. Leads to unchecked G1→S transition.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_MDM2",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "MDM2 amplification is most associated with:",
+                  "options": {
+                    "A": "Sarcomas",
+                    "B": "Breast cancers",
+                    "C": "Neuroblastoma",
+                    "D": "Melanoma",
+                    "E": "Thyroid cancer"
+                  },
+                  "answer": "A",
+                  "explanation": "MDM2 amplification → sarcomas. MDM2 promotes p53 degradation, removing cell cycle control.",
+                  "image": null
+                },
+                {
+                  "id": "Q10_MYCN",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "MYCN amplification is strongly associated with:",
+                  "options": {
+                    "A": "Retinoblastoma",
+                    "B": "Neuroblastoma",
+                    "C": "Osteosarcoma",
+                    "D": "Glioblastoma",
+                    "E": "Lung adenocarcinoma"
+                  },
+                  "answer": "B",
+                  "explanation": "MYCN amplification is seen in ~25% of neuroblastomas and indicates poor prognosis.",
+                  "image": null
+                },
+                {
+                  "id": "Q11_HER2",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "HER2/neu amplification is present in ~20% of:",
+                  "options": {
+                    "A": "Colon cancers",
+                    "B": "Breast cancers",
+                    "C": "Pancreatic cancers",
+                    "D": "Prostate cancers",
+                    "E": "Liver cancers"
+                  },
+                  "answer": "B",
+                  "explanation": "HER2/neu amplification occurs in ~15–30% of breast cancers, guiding therapy with trastuzumab.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Targeted Therapies",
+              "long_questions": [
+                {
+                  "id": "Q12_Gleevec",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which drug targets the BCR-ABL tyrosine kinase in CML?",
+                  "options": {
+                    "A": "Rituximab",
+                    "B": "Trastuzumab",
+                    "C": "Imatinib",
+                    "D": "Cetuximab",
+                    "E": "Bevacizumab"
+                  },
+                  "answer": "C",
+                  "explanation": "Imatinib (Gleevec) inhibits the BCR-ABL fusion protein → cornerstone therapy for CML.",
+                  "image": null
+                },
+                {
+                  "id": "Q13_HER2Therapy",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which drug targets HER2/neu amplification in breast cancer?",
+                  "options": {
+                    "A": "Bevacizumab",
+                    "B": "Trastuzumab",
+                    "C": "Rituximab",
+                    "D": "Imatinib",
+                    "E": "Gefitinib"
+                  },
+                  "answer": "B",
+                  "explanation": "Trastuzumab is a monoclonal antibody against HER2/neu → effective in HER2+ breast cancer.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Foundations of Cancer Screening & Diagnosis",
+          "subtopics": [
+            {
+              "name": "Principles of Population Screening",
+              "long_questions": [
+                {
+                  "id": "Q1_Screening",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which is a prerequisite for an effective population cancer screening program?",
+                  "options": {
+                    "A": "The disease must lack a latent period",
+                    "B": "The test should have high sensitivity and specificity",
+                    "C": "There should be no available treatment",
+                    "D": "The disease must be extremely rare",
+                    "E": "The test must be expensive"
+                  },
+                  "answer": "B",
+                  "explanation": "Effective screening requires high sensitivity/specificity, an identifiable latent stage, and an effective treatment.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Screening",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "For breast cancer, how long does it typically take for a single cancer cell to become clinically detectable without additional mutations?",
+                  "options": {
+                    "A": "6 months",
+                    "B": "1 year",
+                    "C": "5 years",
+                    "D": "10 years",
+                    "E": "20 years"
+                  },
+                  "answer": "C",
+                  "explanation": "It takes ~5 years and ~30 doublings for breast cancer to become palpable if undetected.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Test Characteristics",
+              "long_questions": [
+                {
+                  "id": "Q3_Sensitivity",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "A highly sensitive test has the ability to:",
+                  "options": {
+                    "A": "Correctly identify true negatives",
+                    "B": "Correctly identify true positives",
+                    "C": "Rule out disease with positive results",
+                    "D": "Minimize false positives",
+                    "E": "Minimize cost"
+                  },
+                  "answer": "B",
+                  "explanation": "Sensitivity = true positives / (true positives + false negatives). High sensitivity → few false negatives.",
+                  "image": null
+                },
+                {
+                  "id": "Q4_Specificity",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "A highly specific test has the ability to:",
+                  "options": {
+                    "A": "Correctly identify true negatives",
+                    "B": "Correctly identify true positives",
+                    "C": "Rule out disease",
+                    "D": "Increase sensitivity",
+                    "E": "Lower predictive value"
+                  },
+                  "answer": "A",
+                  "explanation": "Specificity = true negatives / (true negatives + false positives). High specificity → few false positives.",
+                  "image": null
+                },
+                {
+                  "id": "Q5_PPV",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Positive predictive value depends most on:",
+                  "options": {
+                    "A": "Disease prevalence",
+                    "B": "Sensitivity only",
+                    "C": "Specificity only",
+                    "D": "Test cost",
+                    "E": "Patient compliance"
+                  },
+                  "answer": "A",
+                  "explanation": "PPV increases with higher disease prevalence. NPV decreases as prevalence rises.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Screening Biases",
+              "long_questions": [
+                {
+                  "id": "Q6_Bias",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Lead-time bias refers to:",
+                  "options": {
+                    "A": "Longer survival due to slower-growing cancers",
+                    "B": "Earlier diagnosis without changing death outcome",
+                    "C": "Patient drop-out from screening",
+                    "D": "Errors in test interpretation",
+                    "E": "Overdiagnosis of benign disease"
+                  },
+                  "answer": "B",
+                  "explanation": "Lead-time bias: survival seems longer because diagnosis is earlier, but overall life span unchanged.",
+                  "image": null
+                },
+                {
+                  "id": "Q7_Bias",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Length-time bias in screening means:",
+                  "options": {
+                    "A": "Fast-growing cancers are more likely to be detected",
+                    "B": "Slow-growing cancers are more likely to be detected",
+                    "C": "Early screening reduces overdiagnosis",
+                    "D": "Screening increases specificity",
+                    "E": "Screening errors are random"
+                  },
+                  "answer": "B",
+                  "explanation": "Length-time bias: screening preferentially detects indolent cancers, missing aggressive ones.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Breast Cancer Screening",
+              "long_questions": [
+                {
+                  "id": "Q8_Breast",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "According to ACS, women should begin annual mammograms at age:",
+                  "options": {
+                    "A": "30",
+                    "B": "35",
+                    "C": "40",
+                    "D": "45",
+                    "E": "50"
+                  },
+                  "answer": "C",
+                  "explanation": "ACS: annual mammograms from age 40. USPSTF recommends biennial screening age 40–74.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_Breast",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "USPSTF recommends breast cancer screening how often for women 40–74?",
+                  "options": {
+                    "A": "Annually",
+                    "B": "Biennially",
+                    "C": "Every 3 years",
+                    "D": "Every 5 years",
+                    "E": "Only once at age 50"
+                  },
+                  "answer": "B",
+                  "explanation": "USPSTF: biennial mammograms for women 40–74.",
+                  "image": null
+                },
+                {
+                  "id": "Q10_Breast",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which is NOT recommended by USPSTF for breast cancer screening?",
+                  "options": {
+                    "A": "Biennial mammography age 40–74",
+                    "B": "Breast self-exam",
+                    "C": "No CBE recommendation",
+                    "D": "Stopping mammograms after 75",
+                    "E": "Screening reduces mortality"
+                  },
+                  "answer": "B",
+                  "explanation": "USPSTF recommends against BSE due to risk of harm from false positives.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Lung Cancer Screening",
+              "long_questions": [
+                {
+                  "id": "Q11_Lung",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "NCCN recommends lung cancer screening in patients:",
+                  "options": {
+                    "A": "Age 30–50, any smoker",
+                    "B": "Age 40–60, >10 pack-years",
+                    "C": "Age 50–80, >20 pack-years, current or quit <15 years",
+                    "D": "Age 60–80, >40 pack-years only",
+                    "E": "Only symptomatic patients"
+                  },
+                  "answer": "C",
+                  "explanation": "High-risk: 50–80 yo, >20 pack-years, current or quit <15 years. Annual low-dose CT recommended.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Biopsy & Diagnosis",
+              "long_questions": [
+                {
+                  "id": "Q12_Biopsy",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which biopsy method is least invasive?",
+                  "options": {
+                    "A": "Excisional biopsy",
+                    "B": "Incisional biopsy",
+                    "C": "Core needle biopsy",
+                    "D": "Fine-needle aspiration",
+                    "E": "Open wedge biopsy"
+                  },
+                  "answer": "D",
+                  "explanation": "Fine-needle aspiration is least invasive but provides limited cytology only.",
+                  "image": null
+                },
+                {
+                  "id": "Q13_Biopsy",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which diagnostic tool can help determine tumor tissue of origin when histology and IHC are inconclusive?",
+                  "options": {
+                    "A": "Electron microscopy",
+                    "B": "Next-generation sequencing and AI",
+                    "C": "Ultrasound",
+                    "D": "CT scan",
+                    "E": "Serum tumor markers only"
+                  },
+                  "answer": "B",
+                  "explanation": "NGS and AI-based classifiers can suggest tissue of origin when traditional pathology is uncertain.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Foundations of Cancer Therapy",
+          "subtopics": [
+            {
+              "name": "Cancer Surgery",
+              "long_questions": [
+                {
+                  "id": "Q1_Surgery",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which surgical approach removes the entire tumor with normal margins for cure?",
+                  "options": {
+                    "A": "Incisional biopsy",
+                    "B": "Excisional biopsy",
+                    "C": "Definitive surgery",
+                    "D": "Cytoreductive surgery",
+                    "E": "Palliative surgery"
+                  },
+                  "answer": "C",
+                  "explanation": "Definitive/curative surgery = tumor resection with margins. Cytoreductive debulks but leaves residual disease.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Surgery",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Cytoreductive surgery is performed to:",
+                  "options": {
+                    "A": "Remove all tumor cells",
+                    "B": "Debulk tumor and improve chemo/radiation efficacy",
+                    "C": "Confirm diagnosis only",
+                    "D": "Prevent metastasis",
+                    "E": "Prevent recurrence"
+                  },
+                  "answer": "B",
+                  "explanation": "Cytoreduction reduces tumor burden, allowing adjuvant therapies to be more effective.",
+                  "image": null
+                },
+                {
+                  "id": "Q3_Surgery",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which of the following is an example of prophylactic surgery?",
+                  "options": {
+                    "A": "Colectomy in familial adenomatous polyposis",
+                    "B": "Lobectomy for lung cancer",
+                    "C": "Craniotomy for brain tumor",
+                    "D": "Lumpectomy for breast cancer",
+                    "E": "Splenectomy for trauma"
+                  },
+                  "answer": "A",
+                  "explanation": "High-risk patients (FAP, BRCA mutations) benefit from prophylactic colectomy or mastectomy/oophorectomy.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Radiation Therapy",
+              "long_questions": [
+                {
+                  "id": "Q4_Radiation",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which of the following best describes the bystander effect of radiation?",
+                  "options": {
+                    "A": "Only irradiated cells are damaged",
+                    "B": "Nearby unirradiated cells are affected by signals from irradiated cells",
+                    "C": "Cells in G0 phase are most sensitive",
+                    "D": "DNA repair is enhanced in irradiated cells",
+                    "E": "Radiation causes only apoptosis"
+                  },
+                  "answer": "B",
+                  "explanation": "Bystander effect = irradiated cells release signals (ROS, cytokines) that damage nearby unirradiated cells.",
+                  "image": null
+                },
+                {
+                  "id": "Q5_Radiation",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which of the '5 R's of radiobiology' refers to killing hypoxic cells by reoxygenating tumor core?",
+                  "options": {
+                    "A": "Repair",
+                    "B": "Redistribution",
+                    "C": "Reoxygenation",
+                    "D": "Repopulation",
+                    "E": "Radiosensitivity"
+                  },
+                  "answer": "C",
+                  "explanation": "Reoxygenation improves killing of hypoxic tumor cells by making them more radiosensitive.",
+                  "image": null
+                },
+                {
+                  "id": "Q6_Radiation",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which is a late complication of radiation therapy?",
+                  "options": {
+                    "A": "Fatigue",
+                    "B": "Mucositis",
+                    "C": "Leukemia",
+                    "D": "Nausea",
+                    "E": "Hair loss"
+                  },
+                  "answer": "C",
+                  "explanation": "Late toxicities include secondary malignancies (e.g., leukemia), infertility, fibrosis. Acute = fatigue, mucositis, hair loss.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy Principles",
+              "long_questions": [
+                {
+                  "id": "Q7_Chemo",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which drug class is cell cycle nonspecific and works in G0?",
+                  "options": {
+                    "A": "Antimetabolites",
+                    "B": "Alkylating agents",
+                    "C": "Topoisomerase inhibitors",
+                    "D": "Vinca alkaloids",
+                    "E": "Taxanes"
+                  },
+                  "answer": "B",
+                  "explanation": "Alkylating agents (cyclophosphamide, cisplatin) are nonspecific, damaging DNA in all phases.",
+                  "image": null
+                },
+                {
+                  "id": "Q8_Chemo",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "A patient receiving chemotherapy develops fever and neutropenia. Best next step?",
+                  "options": {
+                    "A": "Wait and monitor",
+                    "B": "Start broad-spectrum IV antibiotics",
+                    "C": "Start antifungals only",
+                    "D": "Give colony-stimulating factors only",
+                    "E": "Delay treatment until ANC recovers"
+                  },
+                  "answer": "B",
+                  "explanation": "Neutropenic fever is a medical emergency. Immediate empiric IV broad-spectrum antibiotics are required.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_Chemo",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Tumor lysis syndrome causes all EXCEPT:",
+                  "options": {
+                    "A": "Hyperuricemia",
+                    "B": "Hyperkalemia",
+                    "C": "Hypocalcemia",
+                    "D": "Hypernatremia",
+                    "E": "Hyperphosphatemia"
+                  },
+                  "answer": "D",
+                  "explanation": "Tumor lysis = ↑ uric acid, K, phosphate; ↓ Ca (precipitates with phosphate). Hypernatremia is not typical.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Chemotherapy Drug Classes",
+              "long_questions": [
+                {
+                  "id": "Q10_Antimetabolites",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "5-fluorouracil inhibits:",
+                  "options": {
+                    "A": "Thymidylate synthase",
+                    "B": "Dihydrofolate reductase",
+                    "C": "Topoisomerase I",
+                    "D": "DNA polymerase",
+                    "E": "Microtubule polymerization"
+                  },
+                  "answer": "A",
+                  "explanation": "5-FU → 5-fdUMP → irreversible inhibition of thymidylate synthase.",
+                  "image": null
+                },
+                {
+                  "id": "Q11_Antifolates",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Methotrexate toxicity is reduced by giving:",
+                  "options": {
+                    "A": "Allopurinol",
+                    "B": "Leucovorin (folinic acid)",
+                    "C": "Mesna",
+                    "D": "Hydration",
+                    "E": "Ondansetron"
+                  },
+                  "answer": "B",
+                  "explanation": "Leucovorin rescues normal cells from MTX-induced folate depletion.",
+                  "image": null
+                },
+                {
+                  "id": "Q12_Taxanes",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Paclitaxel works by:",
+                  "options": {
+                    "A": "Preventing microtubule polymerization",
+                    "B": "Stabilizing microtubules and preventing depolymerization",
+                    "C": "Crosslinking DNA",
+                    "D": "Inhibiting topoisomerase II",
+                    "E": "Inhibiting thymidylate synthase"
+                  },
+                  "answer": "B",
+                  "explanation": "Taxanes stabilize microtubules, freezing mitosis in metaphase.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Targeted Therapy",
+              "long_questions": [
+                {
+                  "id": "Q13_Targeted",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Bevacizumab targets:",
+                  "options": {
+                    "A": "HER2",
+                    "B": "EGFR",
+                    "C": "VEGF",
+                    "D": "PD-1",
+                    "E": "CD20"
+                  },
+                  "answer": "C",
+                  "explanation": "Bevacizumab is anti-VEGF, inhibiting angiogenesis.",
+                  "image": null
+                },
+                {
+                  "id": "Q14_Targeted",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Imatinib is effective in CML because it inhibits:",
+                  "options": {
+                    "A": "EGFR",
+                    "B": "BCR-ABL tyrosine kinase",
+                    "C": "HER2",
+                    "D": "VEGF receptor",
+                    "E": "ALK fusion protein"
+                  },
+                  "answer": "B",
+                  "explanation": "Imatinib blocks BCR-ABL, a constitutive tyrosine kinase from t(9;22).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Hormone Therapy",
+              "long_questions": [
+                {
+                  "id": "Q15_Hormone",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Tamoxifen is a:",
+                  "options": {
+                    "A": "Aromatase inhibitor",
+                    "B": "SERM (selective estrogen receptor modulator)",
+                    "C": "GnRH agonist",
+                    "D": "Androgen receptor antagonist",
+                    "E": "Progesterone analog"
+                  },
+                  "answer": "B",
+                  "explanation": "Tamoxifen is an ER antagonist in breast, partial agonist in bone/uterus.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Immunotherapy",
+              "long_questions": [
+                {
+                  "id": "Q16_Immunotherapy",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Ipilimumab targets which immune checkpoint?",
+                  "options": {
+                    "A": "PD-1",
+                    "B": "PD-L1",
+                    "C": "CTLA-4",
+                    "D": "VEGF",
+                    "E": "EGFR"
+                  },
+                  "answer": "C",
+                  "explanation": "Ipilimumab is anti–CTLA-4, enhancing T-cell activation.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Cancer Survival Mechanisms",
+          "subtopics": [
+            {
+              "name": "Hallmarks of Cancer",
+              "long_questions": [
+                {
+                  "id": "Q1_Hallmarks",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which hallmark of cancer involves the ability to evade apoptosis?",
+                  "options": {
+                    "A": "Sustained growth signaling",
+                    "B": "Immune evasion",
+                    "C": "Resistance to cell death",
+                    "D": "Angiogenesis",
+                    "E": "Metastasis"
+                  },
+                  "answer": "C",
+                  "explanation": "Cancer cells upregulate anti-apoptotic proteins like Bcl2, allowing survival despite DNA damage.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Hallmarks",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which hallmark allows tumors to spread to distant organs?",
+                  "options": {
+                    "A": "Inducing angiogenesis",
+                    "B": "Activating invasion and metastasis",
+                    "C": "Reprogramming energy metabolism",
+                    "D": "Evading growth suppression",
+                    "E": "Replicative immortality"
+                  },
+                  "answer": "B",
+                  "explanation": "Metastasis is the spread of tumor cells to distant organs, a major cause of cancer mortality.",
+                  "image": null
+                },
+                {
+                  "id": "Q3_Hallmarks",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which emerging hallmark involves tumor cells avoiding recognition by the immune system?",
+                  "options": {
+                    "A": "Reprogrammed metabolism",
+                    "B": "Immune evasion",
+                    "C": "Inducing angiogenesis",
+                    "D": "Sustained proliferative signaling",
+                    "E": "Evading growth suppression"
+                  },
+                  "answer": "B",
+                  "explanation": "Immune evasion is a key mechanism where tumors express PD-L1 or recruit Tregs to suppress immunity.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Cell Cycle Dysregulation",
+              "long_questions": [
+                {
+                  "id": "Q4_CellCycle",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which checkpoint is most affected by loss of p53?",
+                  "options": {
+                    "A": "G1/S",
+                    "B": "S/G2",
+                    "C": "G2/M",
+                    "D": "M/G1",
+                    "E": "Spindle checkpoint"
+                  },
+                  "answer": "A",
+                  "explanation": "p53 induces p21 to block G1/S transition. Mutation = unchecked DNA replication.",
+                  "image": null
+                },
+                {
+                  "id": "Q5_CellCycle",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Cyclin D overexpression promotes cancer by:",
+                  "options": {
+                    "A": "Activating CDK4/6 and inactivating Rb",
+                    "B": "Activating p21",
+                    "C": "Suppressing E2F",
+                    "D": "Inducing apoptosis",
+                    "E": "Inhibiting telomerase"
+                  },
+                  "answer": "A",
+                  "explanation": "Cyclin D-CDK4/6 phosphorylates Rb → releases E2F → uncontrolled G1/S progression.",
+                  "image": null
+                },
+                {
+                  "id": "Q6_CellCycle",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which FDA-approved drugs directly inhibit CDK4/6 in HR+, HER2- breast cancer?",
+                  "options": {
+                    "A": "Trastuzumab, Pertuzumab",
+                    "B": "Palbociclib, Ribociclib, Abemaciclib",
+                    "C": "Imatinib, Dasatinib",
+                    "D": "Tamoxifen, Raloxifene",
+                    "E": "Olaparib, Niraparib"
+                  },
+                  "answer": "B",
+                  "explanation": "CDK4/6 inhibitors block G1/S transition and improve survival in ER+ breast cancer.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Apoptosis",
+              "long_questions": [
+                {
+                  "id": "Q7_Apoptosis",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which caspase is an executioner caspase in apoptosis?",
+                  "options": {
+                    "A": "Caspase 3",
+                    "B": "Caspase 8",
+                    "C": "Caspase 9",
+                    "D": "Caspase 12",
+                    "E": "Caspase 1"
+                  },
+                  "answer": "A",
+                  "explanation": "Caspase 3 (and 7) are executioner caspases that cleave structural proteins and DNA repair enzymes.",
+                  "image": null
+                },
+                {
+                  "id": "Q8_Apoptosis",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Activation of cytochrome c release from mitochondria occurs in which apoptosis pathway?",
+                  "options": {
+                    "A": "Intrinsic",
+                    "B": "Extrinsic",
+                    "C": "Necrosis",
+                    "D": "Autophagy",
+                    "E": "Ferroptosis"
+                  },
+                  "answer": "A",
+                  "explanation": "Intrinsic (mitochondrial) pathway involves BAX/BAK opening pores, releasing cytochrome c → caspase 9.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_Apoptosis",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "Resistance to apoptosis in follicular lymphoma is due to overexpression of:",
+                  "options": {
+                    "A": "Bcl-2",
+                    "B": "p53",
+                    "C": "Bax",
+                    "D": "PUMA",
+                    "E": "Caspase 3"
+                  },
+                  "answer": "A",
+                  "explanation": "t(14;18) → Bcl-2 overexpression → inhibition of intrinsic apoptosis → lymphoma survival.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Replicative Immortality",
+              "long_questions": [
+                {
+                  "id": "Q10_Telomerase",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Normal somatic cells senesce after ~50 divisions due to:",
+                  "options": {
+                    "A": "Oncogene activation",
+                    "B": "Telomere shortening",
+                    "C": "Loss of Rb",
+                    "D": "Overexpression of telomerase",
+                    "E": "Mitochondrial dysfunction"
+                  },
+                  "answer": "B",
+                  "explanation": "Somatic cells lack telomerase, so telomeres shorten each division until senescence occurs.",
+                  "image": null
+                },
+                {
+                  "id": "Q11_Telomerase",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Telomerase is most active in:",
+                  "options": {
+                    "A": "Somatic cells",
+                    "B": "Cancer cells",
+                    "C": "Hepatocytes",
+                    "D": "Fibroblasts",
+                    "E": "Mature neurons"
+                  },
+                  "answer": "B",
+                  "explanation": "Cancer cells maintain immortality by upregulating telomerase, preserving chromosome ends.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Metabolic Reprogramming",
+              "long_questions": [
+                {
+                  "id": "Q12_Warburg",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Cancer cells preferentially use aerobic glycolysis because:",
+                  "options": {
+                    "A": "It produces more ATP per glucose",
+                    "B": "It generates biosynthetic intermediates",
+                    "C": "It reduces lactic acid production",
+                    "D": "It enhances mitochondrial efficiency",
+                    "E": "It prevents hypoxia"
+                  },
+                  "answer": "B",
+                  "explanation": "Warburg effect: glycolysis provides intermediates for nucleotides, lipids, and proteins, even if ATP yield is low.",
+                  "image": null
+                },
+                {
+                  "id": "Q13_Metabolism",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "IDH1 mutations produce which oncometabolite?",
+                  "options": {
+                    "A": "Succinate",
+                    "B": "Fumarate",
+                    "C": "2-hydroxyglutarate",
+                    "D": "Citrate",
+                    "E": "Malate"
+                  },
+                  "answer": "C",
+                  "explanation": "Mutant IDH converts α-ketoglutarate into 2-HG, inhibiting DNA repair enzymes → oncogenesis.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Cachexia",
+              "long_questions": [
+                {
+                  "id": "Q14_Cachexia",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Cancer cachexia is primarily mediated by:",
+                  "options": {
+                    "A": "Insulin",
+                    "B": "IL-6, TNF-α",
+                    "C": "Glucagon",
+                    "D": "IGF-1",
+                    "E": "Epinephrine"
+                  },
+                  "answer": "B",
+                  "explanation": "Cachexia = systemic inflammation mediated by IL-6, TNF-α → muscle breakdown, anorexia, wasting.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Angiogenesis",
+              "long_questions": [
+                {
+                  "id": "Q15_Angiogenesis",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which factor is the major driver of tumor angiogenesis?",
+                  "options": {
+                    "A": "EGFR",
+                    "B": "VEGF",
+                    "C": "E2F",
+                    "D": "Bcl-2",
+                    "E": "p53"
+                  },
+                  "answer": "B",
+                  "explanation": "VEGF drives endothelial proliferation and neovascularization in tumors.",
+                  "image": null
+                },
+                {
+                  "id": "Q16_Angiogenesis",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Resistance to bevacizumab often occurs because tumors:",
+                  "options": {
+                    "A": "Lose VEGF expression",
+                    "B": "Activate alternative angiogenesis pathways",
+                    "C": "Downregulate PD-1",
+                    "D": "Switch to necrosis",
+                    "E": "Become hormone dependent"
+                  },
+                  "answer": "B",
+                  "explanation": "Tumors bypass VEGF inhibition by upregulating alternative pro-angiogenic factors (FGF, PDGF).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Metastasis",
+              "long_questions": [
+                {
+                  "id": "Q17_Metastasis",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "The first step in metastasis requires:",
+                  "options": {
+                    "A": "Basement membrane invasion",
+                    "B": "Circulation survival",
+                    "C": "Angiogenic switch",
+                    "D": "Extravasation",
+                    "E": "Metastatic colonization"
+                  },
+                  "answer": "C",
+                  "explanation": "Tumors need angiogenesis to enable invasion and spread.",
+                  "image": null
+                },
+                {
+                  "id": "Q18_Metastasis",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which concept explains organ-specific metastasis (e.g., breast cancer to bone)?",
+                  "options": {
+                    "A": "Warburg effect",
+                    "B": "Immune evasion",
+                    "C": "Seed and soil hypothesis",
+                    "D": "Clonal evolution",
+                    "E": "Cachexia"
+                  },
+                  "answer": "C",
+                  "explanation": "Seed and soil hypothesis = tumor cells (seed) preferentially colonize organs (soil) with favorable environment.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Immune Evasion",
+              "long_questions": [
+                {
+                  "id": "Q19_Immune",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Tumors expressing PD-L1 inhibit:",
+                  "options": {
+                    "A": "B cells",
+                    "B": "CD8+ T cells",
+                    "C": "Macrophages",
+                    "D": "NK cells",
+                    "E": "Dendritic cells"
+                  },
+                  "answer": "B",
+                  "explanation": "PD-L1 on tumor binds PD-1 on T-cells → exhaustion, preventing cytotoxic activity.",
+                  "image": null
+                },
+                {
+                  "id": "Q20_Immune",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "CAR-T therapy failures often occur due to:",
+                  "options": {
+                    "A": "Tumor immunogenicity too high",
+                    "B": "T-cell exhaustion and antigen escape",
+                    "C": "Overactive NK cell clearance",
+                    "D": "p53 overexpression",
+                    "E": "Lack of telomerase"
+                  },
+                  "answer": "B",
+                  "explanation": "CAR-T often fails from tumor antigen loss and T-cell exhaustion, limiting long-term efficacy.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Individualizing Care of Cancer Patients",
+          "subtopics": [
+            {
+              "name": "Precision and Stratified Medicine",
+              "long_questions": [
+                {
+                  "id": "Q1_Precision",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which term describes tailoring treatment to a patient based on their genetic and molecular tumor profile?",
+                  "options": {
+                    "A": "Population medicine",
+                    "B": "Precision medicine",
+                    "C": "Stratified medicine",
+                    "D": "Palliative care",
+                    "E": "Empiric therapy"
+                  },
+                  "answer": "B",
+                  "explanation": "Precision medicine uses patient-specific tumor biology (mutations, biomarkers) to guide therapy.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Stratified",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Stratified medicine differs from precision medicine by:",
+                  "options": {
+                    "A": "Grouping patients into biomarker-defined subgroups",
+                    "B": "Treating all patients the same way",
+                    "C": "Ignoring molecular profiling",
+                    "D": "Only using histology",
+                    "E": "Focusing on palliative outcomes"
+                  },
+                  "answer": "A",
+                  "explanation": "Stratified medicine groups patients by biomarkers (e.g., PD-L1+ vs PD-L1–) to predict response.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Biomarkers and Liquid Biopsy",
+              "long_questions": [
+                {
+                  "id": "Q3_Biomarker",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which of the following is a predictive biomarker for trastuzumab therapy?",
+                  "options": {
+                    "A": "BRCA1",
+                    "B": "HER2/neu amplification",
+                    "C": "EGFR mutation",
+                    "D": "PD-L1 expression",
+                    "E": "KRAS mutation"
+                  },
+                  "answer": "B",
+                  "explanation": "Trastuzumab is effective in HER2-amplified breast cancer.",
+                  "image": null
+                },
+                {
+                  "id": "Q4_Biomarker",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Liquid biopsy primarily analyzes:",
+                  "options": {
+                    "A": "Tumor tissue only",
+                    "B": "Circulating tumor DNA and circulating tumor cells",
+                    "C": "Urinary proteins",
+                    "D": "Salivary enzymes",
+                    "E": "Only lymph node aspirates"
+                  },
+                  "answer": "B",
+                  "explanation": "Liquid biopsy detects ctDNA and CTCs in blood, useful for monitoring tumor burden and mutations.",
+                  "image": null
+                },
+                {
+                  "id": "Q5_Biomarker",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "PD-L1 expression testing is used to guide therapy with:",
+                  "options": {
+                    "A": "Imatinib",
+                    "B": "Tamoxifen",
+                    "C": "Pembrolizumab",
+                    "D": "Bevacizumab",
+                    "E": "Cyclophosphamide"
+                  },
+                  "answer": "C",
+                  "explanation": "PD-L1 positivity predicts response to anti–PD-1 therapy (pembrolizumab, nivolumab).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Pharmacogenomics",
+              "long_questions": [
+                {
+                  "id": "Q6_Pharmaco",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Patients with thiopurine methyltransferase (TPMT) deficiency are at increased risk of toxicity from:",
+                  "options": {
+                    "A": "5-fluorouracil",
+                    "B": "6-mercaptopurine",
+                    "C": "Cisplatin",
+                    "D": "Methotrexate",
+                    "E": "Doxorubicin"
+                  },
+                  "answer": "B",
+                  "explanation": "TPMT metabolizes 6-MP and azathioprine. Deficiency → bone marrow toxicity at normal doses.",
+                  "image": null
+                },
+                {
+                  "id": "Q7_Pharmaco",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Patients with DPD (dihydropyrimidine dehydrogenase) deficiency risk severe toxicity from:",
+                  "options": {
+                    "A": "Cyclophosphamide",
+                    "B": "5-fluorouracil",
+                    "C": "Cytarabine",
+                    "D": "Paclitaxel",
+                    "E": "Vincristine"
+                  },
+                  "answer": "B",
+                  "explanation": "DPD deficiency prevents 5-FU breakdown → life-threatening toxicity.",
+                  "image": null
+                },
+                {
+                  "id": "Q8_Pharmaco",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "UGT1A1*28 polymorphism increases risk of neutropenia and diarrhea with:",
+                  "options": {
+                    "A": "Irinotecan",
+                    "B": "Etoposide",
+                    "C": "Gemcitabine",
+                    "D": "Vinblastine",
+                    "E": "Methotrexate"
+                  },
+                  "answer": "A",
+                  "explanation": "UGT1A1 glucuronidates SN-38, the active metabolite of irinotecan. Mutation → toxicity.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Cellular Therapies (CAR-T, TIL)",
+              "long_questions": [
+                {
+                  "id": "Q9_CART",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "CAR-T therapy works by:",
+                  "options": {
+                    "A": "Infusion of checkpoint inhibitors",
+                    "B": "Engineering patient T-cells with chimeric antigen receptors",
+                    "C": "Donor stem cell transplantation",
+                    "D": "Blocking VEGF signaling",
+                    "E": "Targeting estrogen receptors"
+                  },
+                  "answer": "B",
+                  "explanation": "CAR-T = patient T-cells are modified to express CARs targeting tumor antigens.",
+                  "image": null
+                },
+                {
+                  "id": "Q10_CART",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "A major life-threatening toxicity of CAR-T therapy is:",
+                  "options": {
+                    "A": "Tumor lysis syndrome",
+                    "B": "Cytokine release syndrome",
+                    "C": "Cardiotoxicity",
+                    "D": "Pulmonary fibrosis",
+                    "E": "Infertility"
+                  },
+                  "answer": "B",
+                  "explanation": "CAR-T often causes cytokine release syndrome (CRS), with fever, hypotension, multi-organ dysfunction.",
+                  "image": null
+                },
+                {
+                  "id": "Q11_TIL",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Tumor-infiltrating lymphocyte (TIL) therapy differs from CAR-T in that:",
+                  "options": {
+                    "A": "TIL uses expanded patient lymphocytes naturally infiltrating tumors",
+                    "B": "TIL requires genetic engineering",
+                    "C": "TIL is only used in leukemia",
+                    "D": "TIL relies exclusively on NK cells",
+                    "E": "TIL therapy is given orally"
+                  },
+                  "answer": "A",
+                  "explanation": "TIL expands naturally occurring tumor-reactive T-cells ex vivo, unlike engineered CAR-T.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Personalized Prognosis and Response",
+              "long_questions": [
+                {
+                  "id": "Q12_Prognosis",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Oncotype Dx is primarily used for:",
+                  "options": {
+                    "A": "Risk stratification in acute myeloid leukemia",
+                    "B": "Predicting recurrence in breast cancer",
+                    "C": "Predicting survival in lung cancer",
+                    "D": "Targeting BRCA-mutated cancers",
+                    "E": "Diagnosing prostate cancer"
+                  },
+                  "answer": "B",
+                  "explanation": "Oncotype Dx scores breast cancer recurrence risk, guiding adjuvant therapy decisions.",
+                  "image": null
+                },
+                {
+                  "id": "Q13_Prognosis",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which is TRUE about targeted therapies vs traditional chemotherapy?",
+                  "options": {
+                    "A": "Targeted therapies are always curative",
+                    "B": "Targeted therapies are usually cytostatic, not cytotoxic",
+                    "C": "Targeted therapies have no side effects",
+                    "D": "Chemotherapy is more personalized",
+                    "E": "Targeted therapies always replace chemotherapy"
+                  },
+                  "answer": "B",
+                  "explanation": "Targeted drugs block proliferation pathways (cytostatic). Chemo is cytotoxic but less specific.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lectures": [
+        {
+          "topic": "Genetic Counseling of Familial Cancers",
+          "subtopics": [
+            {
+              "name": "Principles of Genetic Counseling",
+              "long_questions": [
+                {
+                  "id": "Q1_Counseling",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "The primary purpose of genetic counseling is to:",
+                  "options": {
+                    "A": "Mandate genetic testing",
+                    "B": "Educate and guide patients about genetic risk",
+                    "C": "Prevent all cancers",
+                    "D": "Provide chemotherapy",
+                    "E": "Replace oncology care"
+                  },
+                  "answer": "B",
+                  "explanation": "Genetic counseling provides education, risk assessment, and informed decision-making support.",
+                  "image": null
+                },
+                {
+                  "id": "Q2_Counseling",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which family history pattern most strongly suggests a hereditary cancer syndrome?",
+                  "options": {
+                    "A": "One distant relative with prostate cancer at age 80",
+                    "B": "Two siblings with lung cancer, both heavy smokers",
+                    "C": "Multiple close relatives with the same or related cancers at young ages",
+                    "D": "One grandparent with colon cancer at age 85",
+                    "E": "Any cancer after age 70"
+                  },
+                  "answer": "C",
+                  "explanation": "Clustering of early-onset, related cancers in close relatives strongly suggests hereditary cancer.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Inheritance Patterns",
+              "long_questions": [
+                {
+                  "id": "Q3_Inheritance",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Most hereditary cancer syndromes (BRCA, Lynch, FAP) are inherited in which pattern?",
+                  "options": {
+                    "A": "Autosomal dominant",
+                    "B": "Autosomal recessive",
+                    "C": "X-linked dominant",
+                    "D": "X-linked recessive",
+                    "E": "Mitochondrial"
+                  },
+                  "answer": "A",
+                  "explanation": "Most hereditary cancer syndromes are autosomal dominant with variable penetrance.",
+                  "image": null
+                },
+                {
+                  "id": "Q4_Inheritance",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "Which concept explains why not all individuals with BRCA1 mutation develop breast cancer?",
+                  "options": {
+                    "A": "Variable expressivity",
+                    "B": "Incomplete penetrance",
+                    "C": "Anticipation",
+                    "D": "Mosaicism",
+                    "E": "Epigenetic silencing"
+                  },
+                  "answer": "B",
+                  "explanation": "Incomplete penetrance = not every mutation carrier expresses the disease phenotype.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Testing Criteria and NCCN Guidelines",
+              "long_questions": [
+                {
+                  "id": "Q5_NCCN",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "NCCN recommends germline testing for which of the following patients?",
+                  "options": {
+                    "A": "Breast cancer diagnosed at age 65 with no family history",
+                    "B": "Triple-negative breast cancer diagnosed before age 60",
+                    "C": "Sporadic colon cancer at age 72",
+                    "D": "Basal cell carcinoma at age 70",
+                    "E": "One melanoma at age 75"
+                  },
+                  "answer": "B",
+                  "explanation": "NCCN: TNBC ≤ 60 years, ovarian cancer at any age, colon cancer ≤ 50 years, or multiple affected relatives → test.",
+                  "image": null
+                },
+                {
+                  "id": "Q6_NCCN",
+                  "difficulty": "Hard",
+                  "long_form": false,
+                  "stem": "A patient with colon cancer at 48 and a sibling with endometrial cancer at 45 meets criteria for testing for:",
+                  "options": {
+                    "A": "Hereditary breast and ovarian cancer",
+                    "B": "Lynch syndrome",
+                    "C": "Li-Fraumeni syndrome",
+                    "D": "Cowden syndrome",
+                    "E": "Peutz-Jeghers syndrome"
+                  },
+                  "answer": "B",
+                  "explanation": "NCCN recommends MMR gene testing for patients with CRC <50 or with related cancers (endometrial).",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Variant Interpretation",
+              "long_questions": [
+                {
+                  "id": "Q7_VUS",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "A Variant of Uncertain Significance (VUS) in BRCA2 should be managed as:",
+                  "options": {
+                    "A": "Pathogenic mutation",
+                    "B": "Benign mutation",
+                    "C": "Uninformative; do not guide management",
+                    "D": "Indication for immediate surgery",
+                    "E": "Confirmation of hereditary risk"
+                  },
+                  "answer": "C",
+                  "explanation": "VUS should not guide clinical decisions. Reclassification is needed before use.",
+                  "image": null
+                }
+              ]
+            },
+            {
+              "name": "Ethics and Counseling Practice",
+              "long_questions": [
+                {
+                  "id": "Q8_Ethics",
+                  "difficulty": "Medium",
+                  "long_form": false,
+                  "stem": "The Genetic Information Nondiscrimination Act (GINA) prevents:",
+                  "options": {
+                    "A": "Life insurance companies from using genetic info",
+                    "B": "Employers and health insurers from discriminating based on genetic results",
+                    "C": "Patients from undergoing genetic testing",
+                    "D": "Genetic testing in minors",
+                    "E": "Disclosure of results to family members"
+                  },
+                  "answer": "B",
+                  "explanation": "GINA (2008) prevents employment and health insurance discrimination, but not life/disability insurance restrictions.",
+                  "image": null
+                },
+                {
+                  "id": "Q9_Ethics",
+                  "difficulty": "Easy",
+                  "long_form": false,
+                  "stem": "Which counseling approach is emphasized when disclosing cancer genetic risk?",
+                  "options": {
+                    "A": "Directive and paternalistic",
+                    "B": "Non-directive, patient-centered",
+                    "C": "Avoidance of genetic discussions",
+                    "D": "Focus only on cost",
+                    "E": "Guaranteeing specific outcomes"
+                  },
+                  "answer": "B",
+                  "explanation": "Genetic counseling is non-directive: patients are supported in making informed personal choices.",
+                  "image": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "questions": [
+    {
+      "topic": "Foundations of Cancer Screening & Diagnosis",
+      "subtopic": "Principles",
+      "slide_ref": 6,
+      "stem": "Valid screening requires:",
+      "options": [
+        "No treatment",
+        "One-time testing",
+        "Latent stage + accurate test",
+        "Accuracy < cost",
+        "Acceptance irrelevant"
+      ],
+      "answer": "Latent stage + accurate test",
+      "explanation": "Principles of screening.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Foundations_of_Cancer_Screening_and_Diagnosis/slide06.png"
+    },
+    {
+      "topic": "Foundations of Cancer Screening & Diagnosis",
+      "subtopic": "Test Characteristics",
+      "slide_ref": 8,
+      "stem": "If missing a case is catastrophic, maximize:",
+      "options": [
+        "Specificity",
+        "Sensitivity",
+        "PPV",
+        "NPV",
+        "Pretest odds"
+      ],
+      "answer": "Sensitivity",
+      "explanation": "SNOUT.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Foundations_of_Cancer_Screening_and_Diagnosis/slide08.png"
+    },
+    {
+      "topic": "Foundations of Cancer Screening & Diagnosis",
+      "subtopic": "Predictive Values",
+      "slide_ref": 9,
+      "stem": "Low prevalence mostly lowers:",
+      "options": [
+        "Sensitivity",
+        "Specificity",
+        "PPV",
+        "NPV",
+        "LRs"
+      ],
+      "answer": "PPV",
+      "explanation": "PPV falls as prevalence drops.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Foundations_of_Cancer_Screening_and_Diagnosis/slide09.png"
+    },
+    {
+      "topic": "Foundations of Cancer Screening & Diagnosis",
+      "subtopic": "Outcomes by Stage",
+      "slide_ref": 12,
+      "stem": "Earlier dx w/o mortality change:",
+      "options": [
+        "Verification",
+        "Lead-time",
+        "Length-time",
+        "Selection",
+        "Confounding"
+      ],
+      "answer": "Lead-time",
+      "explanation": "Apparent survival inflation.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Foundations_of_Cancer_Screening_and_Diagnosis/slide12.png"
+    },
+    {
+      "topic": "Foundations of Cancer Screening & Diagnosis",
+      "subtopic": "Biases",
+      "slide_ref": 16,
+      "stem": "Overcapture of indolent tumors:",
+      "options": [
+        "Lead-time",
+        "Length-time",
+        "Referral",
+        "Attrition",
+        "Confounding"
+      ],
+      "answer": "Length-time",
+      "explanation": "Slow tumors more likely detected.",
+      "difficulty": "hard"
+    }
+  ]
+}

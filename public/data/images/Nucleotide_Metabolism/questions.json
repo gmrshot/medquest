@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "topic": "Nucleotide Metabolism",
+      "subtopic": "PRPP & Regulation",
+      "slide_ref": 4,
+      "stem": "von Gierke \u2192 hyperuricemia via:",
+      "options": [
+        "Low R5P",
+        "Low Pi inhibits PRPP synthetase",
+        "High G6P & Pi drive PRPP synthetase \u2192 de novo purines",
+        "HGPRT overactivity",
+        "XO directly activated"
+      ],
+      "answer": "High G6P & Pi drive PRPP synthetase \u2192 de novo purines",
+      "explanation": "\u2191PRPP \u2192 \u2191purines \u2192 \u2191uric acid.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Nucleotide_Metabolism/slide04.png"
+    },
+    {
+      "topic": "Nucleotide Metabolism",
+      "subtopic": "De novo vs Salvage",
+      "slide_ref": 5,
+      "stem": "Fraction salvaged purines:",
+      "options": [
+        "~3%",
+        "~25%",
+        "~50%",
+        "~75%",
+        "~97%"
+      ],
+      "answer": "~97%",
+      "explanation": "Most purines salvaged.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Nucleotide_Metabolism/slide05.png"
+    },
+    {
+      "topic": "Nucleotide Metabolism",
+      "subtopic": "Salvage Enzymes",
+      "slide_ref": 6,
+      "stem": "HGPRT loss causes:",
+      "options": [
+        "ADA def",
+        "Lesch-Nyhan",
+        "OTC def",
+        "VHL",
+        "Marfan"
+      ],
+      "answer": "Lesch-Nyhan",
+      "explanation": "Impaired salvage, \u2191PRPP/urate.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Nucleotide_Metabolism/slide06.png"
+    },
+    {
+      "topic": "Nucleotide Metabolism",
+      "subtopic": "Gout",
+      "slide_ref": 7,
+      "stem": "Classic gout crystal property:",
+      "options": [
+        "CPPD positive rhomboids",
+        "MSU negative needles",
+        "Ca oxalate envelopes",
+        "Cholesterol plates",
+        "Cystine hexagons"
+      ],
+      "answer": "MSU negative needles",
+      "explanation": "Needle-shaped, negatively birefringent.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Nucleotide_Metabolism/slide07.png"
+    },
+    {
+      "topic": "Nucleotide Metabolism",
+      "subtopic": "TLS",
+      "slide_ref": 9,
+      "stem": "Prophylaxis before ALL induction:",
+      "options": [
+        "Aspirin",
+        "Probenecid",
+        "Allopurinol",
+        "Acetazolamide",
+        "Amiloride"
+      ],
+      "answer": "Allopurinol",
+      "explanation": "XO inhibitor to prevent uric nephropathy.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Nucleotide_Metabolism/slide09.png"
+    }
+  ]
+}

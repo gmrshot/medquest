@@ -1,0 +1,85 @@
+{
+  "questions": [
+    {
+      "topic": "Foundations of Cancer Therapy",
+      "subtopic": "Radiation",
+      "slide_ref": 11,
+      "stem": "EBRT from linacs delivers:",
+      "options": [
+        "Alpha",
+        "Cobalt gamma only",
+        "X-rays (photons)",
+        "Neutrons",
+        "Protons only"
+      ],
+      "answer": "X-rays (photons)",
+      "explanation": "Linac photons.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Foundations_of_Cancer_Therapy/slide11.png"
+    },
+    {
+      "topic": "Foundations of Cancer Therapy",
+      "subtopic": "Fractionation",
+      "slide_ref": 16,
+      "stem": "R of fractionation improving oxygenation:",
+      "options": [
+        "Repair",
+        "Repopulation",
+        "Redistribution",
+        "Reoxygenation",
+        "Radiosensitivity"
+      ],
+      "answer": "Reoxygenation",
+      "explanation": "One of the 5 R's.",
+      "difficulty": "hard"
+    },
+    {
+      "topic": "Foundations of Cancer Therapy",
+      "subtopic": "Chemo Principles",
+      "slide_ref": 22,
+      "stem": "Pulsed chemo aims to:",
+      "options": [
+        "Max repopulation",
+        "Allow normal recovery while log-kill maintained",
+        "Reduce dose intensity w/o effect",
+        "Eliminate supportive care",
+        "Increase toxicity"
+      ],
+      "answer": "Allow normal recovery while log-kill maintained",
+      "explanation": "Therapeutic index rationale.",
+      "difficulty": "hard"
+    },
+    {
+      "topic": "Foundations of Cancer Therapy",
+      "subtopic": "Phase Specificity",
+      "slide_ref": 24,
+      "stem": "Predominantly S-phase drugs:",
+      "options": [
+        "Anthracyclines",
+        "Alkylators",
+        "Antimetabolites",
+        "Taxanes",
+        "Vincas"
+      ],
+      "answer": "Antimetabolites",
+      "explanation": "Hit DNA synthesis.",
+      "difficulty": "hard"
+    },
+    {
+      "topic": "Foundations of Cancer Therapy",
+      "subtopic": "Microtubules",
+      "slide_ref": 25,
+      "stem": "Stabilizes microtubules (metaphase arrest):",
+      "options": [
+        "Vincristine",
+        "Paclitaxel",
+        "Bleomycin",
+        "Etoposide",
+        "Methotrexate"
+      ],
+      "answer": "Paclitaxel",
+      "explanation": "Taxanes stabilize; vincas depolymerize.",
+      "difficulty": "hard"
+    }
+  ]
+}

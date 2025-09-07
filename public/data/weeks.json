@@ -1,9 +1,17 @@
 {
   "weeks": [
     {
+      "id": 7,
+      "label": "Week 7 — To be added",
+      "subtitle": "Coming soon",
+      "kind": "json",
+      "notes": "week7_notes.json",
+      "qbank": "week7_qbank.json",
+      "podcasts": []
+    },
+    {
       "id": 6,
-      "label": "Week 6 \u2014 Immunology",
-      "subtitle": "Compact JSON (notes+qbank)",
+      "label": "Week 6 — Immunology",
       "kind": "json",
       "notes": "week6_notes.json",
       "qbank": "week6_qbank.json",

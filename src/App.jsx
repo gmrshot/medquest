@@ -1,6 +1,14 @@
 import React, { useEffect, useState } from "react";
 import LegacyApp from "./AppLegacy.jsx";
 
+// --- Helper to wrap JSON in a Response (used by the adapter) ---
+function jsonResponse(data) {
+  return new Response(JSON.stringify(data), {
+    status: 200,
+    headers: { "Content-Type": "application/json" }
+  });
+}
+
 /* --------------------------------------------------
    ✨ Visual FX CSS (scoped globals for this file)
    -------------------------------------------------- */
@@ -106,9 +114,18 @@ const MANIFEST_URL = `${BASE}data/weeks.json`;
 /* ------------ Utilities ------------ */
 async function fetchJSON(url) {
   const res = await fetch(url, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status} ${res.statusText}`);
+  const ct = res.headers.get("content-type") || "";
+  if (!res.ok) {
+    const txt = await res.text();
+    throw new Error(`Failed to load ${url}: ${res.status} ${res.statusText}\n${txt.slice(0, 200)}`);
+  }
+  if (!ct.includes("application/json")) {
+    const txt = await res.text();
+    throw new Error(`Expected JSON from ${url} but got ${ct}:\n${txt.slice(0, 200)}`);
+  }
   return res.json();
 }
+
 const TOPIC_KEYS = ["topic", "topic_name", "topic_title", "subject"];
 const SUBTOPIC_KEYS = ["subtopic", "name", "title", "section"];
 function pickFirst(obj, keys){
@@ -240,55 +257,154 @@ function buildLegacyQbanks(qbank){
   };
 }
 
-/* ------------ Week 6 Adapter (fetch-only) ------------ */
-function useWeek6Adapter(currentWeek){
+/* ------------ Generic JSON Week Adapter (fetch-only, unify questions + vignettes) ------------ */
+
+function normalizeQbank(qbank) {
+  // Case 1: flat questions array
+  if (qbank.questions) {
+    return buildLegacyQbanks(qbank);
+  }
+
+  // Case 2: already in lectures format
+  if (qbank.lectures) {
+    return { REGULAR: qbank, LONG: qbank, FLAT: qbank };
+  }
+
+  // Case 3: nested object (Week 6 shape, preserve order with loops)
+  if (typeof qbank === "object" && !Array.isArray(qbank)) {
+    const lectures = [];
+    for (const topic of Object.keys(qbank)) {
+      const subtopics = [];
+      for (const name of Object.keys(qbank[topic])) {
+        const questions = qbank[topic][name];
+        subtopics.push({
+          name,
+          questions: Array.isArray(questions) ? questions : [],
+          long_questions: Array.isArray(questions) ? questions : [],
+          question_count: Array.isArray(questions) ? questions.length : 0
+        });
+      }
+      lectures.push({ topic, subtopics });
+    }
+    return { REGULAR: { lectures }, LONG: { lectures }, FLAT: { lectures } };
+  }
+
+  // Fallback
+  return { REGULAR: { lectures: [] }, LONG: { lectures: [] }, FLAT: { lectures: [] } };
+}
+
+function useJsonWeekAdapter(currentWeek, setAdapterReady) {
   useEffect(() => {
     if (!currentWeek || currentWeek.kind !== "json") return;
+
     let cache = { built: null };
     const origFetch = window.fetch;
 
-    async function ensureBuilt(){
+    async function ensureBuilt() {
       if (cache.built) return cache.built;
-      const notesUrl = (currentWeek.notes?.startsWith("http") ? currentWeek.notes : `${BASE}data/${currentWeek.notes}`);
-      const qbankUrl = (currentWeek.qbank?.startsWith("http") ? currentWeek.qbank : `${BASE}data/${currentWeek.qbank}`);
-      const [notes, qbank] = await Promise.all([fetchJSON(notesUrl), fetchJSON(qbankUrl)]);
+
+      const notesUrl = (currentWeek.notes?.startsWith("http")
+        ? currentWeek.notes
+        : `${BASE}data/${currentWeek.notes}`);
+
+      const qbankUrl = (currentWeek.qbank?.startsWith("http")
+        ? currentWeek.qbank
+        : `${BASE}data/${currentWeek.qbank}`);
+
+      const [notes, qbank] = await Promise.all([
+        fetchJSON(notesUrl),
+        fetchJSON(qbankUrl)
+      ]);
+
       const notesLegacy = buildLegacyNotes(notes);
-      const qb = buildLegacyQbanks(qbank);
-      cache.built = { NOTES: notesLegacy, REGULAR: qb.REGULAR, LONG: qb.LONG, FLAT: qb.FLAT };
+      const qb = normalizeQbank(qbank);
+
+      // ✅ Force REGULAR and LONG to be identical
+      const unifiedLectures = qb.REGULAR.lectures.map(topic => ({
+        ...topic,
+        subtopics: topic.subtopics.map(s => {
+          const allQs = (s.questions || []).concat(s.long_questions || []);
+          return {
+            ...s,
+            questions: allQs,
+            long_questions: allQs,
+            question_count: allQs.length
+          };
+        })
+      }));
+
+      cache.built = {
+        NOTES: notesLegacy,
+        REGULAR: { lectures: unifiedLectures },
+        LONG: { lectures: unifiedLectures },
+        FLAT: qb.FLAT
+      };
+
+      console.log("[DEBUG] unified lectures order:", unifiedLectures.map(l => l.topic));
+
       return cache.built;
     }
 
-    function needsVirtual(u){
-      const lower = String(u || "").toLowerCase();
-      return /master_notes(\.json)?(\?|$)/.test(lower)
-          || /master_nbme_questions_layer_classified_with_counts(\.json)?(\?|$)/.test(lower)
-          || /master_nbme_questions_layer_classified(\.json)?(\?|$)/.test(lower)
-          || /master_nbme_questions_long_layer(\.json)?(\?|$)/.test(lower)
-          || /master_nbme_questions(\.json)?(\?|$)/.test(lower);
+    function needsVirtual(u) {
+      const file = String(u || "").split("/").pop().toLowerCase();
+      return file.startsWith("master_notes")
+        || file.startsWith("master_nbme_questions_long_layer")
+        || file.startsWith("master_nbme_questions_layer_classified_with_counts")
+        || file.startsWith("master_nbme_questions_layer_classified")
+        || file.startsWith("master_nbme_questions");
     }
 
-    window.fetch = async function(input, init){
+    window.fetch = async function(input, init) {
       const url = typeof input === "string" ? input : (input && input.url) || "";
-      if (!needsVirtual(url)) return origFetch(input, init);
-      try{
+      if (!needsVirtual(url)) {
+        return origFetch(input, init);
+      }
+      try {
         const built = await ensureBuilt();
-        const lower = String(url).toLowerCase();
+        const file = url.split("/").pop().toLowerCase();
         let payload = null;
-        if (/master_notes(\.json)?(\?|$)/.test(lower)) payload = built.NOTES;
-        else if (/master_nbme_questions_long_layer(\.json)?(\?|$)/.test(lower)) payload = built.LONG;
-        else if (/master_nbme_questions_layer_classified_with_counts(\.json)?(\?|$)/.test(lower)) payload = built.LONG;
-        else if (/master_nbme_questions_layer_classified(\.json)?(\?|$)/.test(lower)) payload = built.LONG;
-        else if (/master_nbme_questions(\.json)?(\?|$)/.test(lower)) payload = { ...built.REGULAR, ...built.FLAT };
-        return new Response(JSON.stringify(payload), { status: 200, headers: { "Content-Type": "application/json" } });
-      }catch(err){
-        console.error("[Week6 adapter]", err);
-        return new Response(JSON.stringify({ lectures: [] }), { status: 200, headers: { "Content-Type": "application/json" } });
+
+        if (file.startsWith("master_notes")) {
+          payload = built.NOTES;
+        } else if (file.startsWith("master_nbme_questions_long_layer")) {
+          payload = built.LONG;
+        } else if (file.startsWith("master_nbme_questions_layer_classified_with_counts")) {
+          payload = built.LONG;
+        } else if (file.startsWith("master_nbme_questions_layer_classified")) {
+          payload = built.LONG;
+        } else if (file.startsWith("master_nbme_questions")) {
+          payload = { ...built.REGULAR, ...built.FLAT };
+        }
+
+        return new Response(JSON.stringify(payload), {
+          status: 200,
+          headers: { "Content-Type": "application/json" }
+        });
+      } catch (err) {
+        console.error("[JSON Week Adapter]", err);
+        return new Response(JSON.stringify({ lectures: [] }), {
+          status: 200,
+          headers: { "Content-Type": "application/json" }
+        });
       }
     };
 
-    return () => { window.fetch = origFetch; };
-  }, [currentWeek]);
+    if (setAdapterReady) setAdapterReady(true);
+
+    return () => {
+      window.fetch = origFetch;
+      if (setAdapterReady) setAdapterReady(false);
+    };
+  }, [currentWeek, setAdapterReady]);
 }
+
+
+
+
+
+
+
+
 
 /* ------------ UI ------------ */
 function WeekPicker({ weeks, onPick, highVis=false, onToggleHighVis=()=>{}, theme='dark', onToggleTheme=()=>{} }){
@@ -329,10 +445,13 @@ function WeekPicker({ weeks, onPick, highVis=false, onToggleHighVis=()=>{}, them
 
               <div className="flex items-start justify-between gap-3 relative z-[1]">
                 <div>
-                  <div className="text-xs uppercase tracking-wider opacity-60">Week {w.id}</div>
-                  <div className="text-xl font-semibold mt-0.5">{w.label || `Week ${w.id}`}</div>
-                  <div className="text-sm opacity-70">{w.subtitle || (w.kind === "json" ? "Compact JSON" : "Legacy data")}</div>
-                </div>
+  <div className="text-xs uppercase tracking-wider opacity-60">Week {w.id}</div>
+  <div className="text-xl font-semibold mt-0.5">{w.label || `Week ${w.id}`}</div>
+  {w.subtitle && (
+    <div className="text-sm opacity-70">{w.subtitle}</div>
+  )}
+</div>
+
                 <div className="text-2xl opacity-60 group-hover:opacity-100 translate-x-0 group-hover:translate-x-1 transition">→</div>
               </div>
 
@@ -388,16 +507,20 @@ function PodcastSwitcher({ items, activeWeek }){
   );
 }
 
-export default function App(){
+export default function App() {
   const [weeks, setWeeks] = useState(null);
   const [week, setWeek] = useState(null);
   const [theme, setTheme] = useState('dark');
-  const [highVis, setHighVis] = useState(false);
+  const [highVis, setHighVis] = useState(true);
+
+  // NEW: adapterReady flag
+  const [adapterReady, setAdapterReady] = useState(false);
+
   useEffect(() => {
     const root = document.documentElement;
-    if (theme === 'dark') root.classList.add('dark'); else root.classList.remove('dark');
+    if (theme === 'dark') root.classList.add('dark');
+    else root.classList.remove('dark');
   }, [theme]);
-  
 
   useEffect(() => {
     let alive = true;
@@ -408,15 +531,28 @@ export default function App(){
         setWeeks(manifest?.weeks || []);
       } catch (e) {
         console.error("Failed to load weeks manifest:", e);
-        setWeeks([{ id: 6, label: "Week 6 — Immunology", subtitle: "Compact JSON (notes+qbank)", kind: "json", notes: "week6_notes.json", qbank: "week6_qbank.json" },
-                  { id: 5, label: "Week 5 (Legacy)", kind: "legacy" }]);
+        setWeeks([
+  {
+    id: 6,
+    label: "Week 6 — Immunology",
+    kind: "json",
+    notes: "week6_notes.json",
+    qbank: "week6_qbank.json"
+  },
+  { id: 5, label: "Week 5 (Legacy)", kind: "legacy" }
+]);
+
       }
     })();
-    return () => { alive = false; };
+    return () => {
+      alive = false;
+    };
   }, []);
 
   const current = weeks?.find(w => Number(w.id) === Number(week)) || null;
-  useWeek6Adapter(current);
+
+  // Pass in setAdapterReady so LegacyApp waits for patch
+  useJsonWeekAdapter(current, setAdapterReady);
 
   return (
     <div className="min-h-screen bg-slate-100 dark:bg-slate-950 text-slate-900 dark:text-slate-100">
@@ -428,15 +564,22 @@ export default function App(){
           highVis={highVis}
           onToggleHighVis={() => setHighVis(v => !v)}
           theme={theme}
-          onToggleTheme={() => setTheme(t => t === 'dark' ? 'light' : 'dark')}
+          onToggleTheme={() => setTheme(t => (t === 'dark' ? 'light' : 'dark'))}
         />
       )}
-      {current && <div className="p-2">
-        <button onClick={() => setWeek(null)} className="mb-3 text-sm opacity-70 hover:opacity-100">← Back</button>
-        <LegacyApp activeWeek={current} />
+      {current && (current.kind === "legacy" || adapterReady) && (
+  <div className="p-2">
+    <button
+      onClick={() => setWeek(null)}
+      className="mb-3 text-sm opacity-70 hover:opacity-100"
+    >
+      ← Back
+    </button>
+    <LegacyApp activeWeek={current} />
+  </div>
+)}
 
-
-      </div>}
     </div>
   );
 }
+

@@ -1,22 +1,27 @@
-﻿// src/App.jsx
-import React, { useEffect, useMemo, useRef, useState } from "react";
+﻿import React, { useEffect, useState, useMemo, useRef } from "react";
 
-
-/* Resolve base path for public assets (supports / and subpaths like /medquest/) */
-const BASE = (typeof import.meta !== "undefined" && import.meta.env && import.meta.env.BASE_URL)
-  || (typeof process !== "undefined" && process.env && process.env.PUBLIC_URL)
-  || "/";
 
 /* =================== Data file locations (served from /public) =================== */
-const NOTES_URL = `${BASE}data/master_notes.json`;                            // Learn (notes)
-const REGULAR_QBANK_URL = `${BASE}data/master_nbme_questions.json`;           // Battle (regular)
+
+// Vite will inject the correct base ("/medquest/") from vite.config.mjs
+const BASE = import.meta.env.BASE_URL || "/";
+
+// Notes (Learn)
+const NOTES_URL = `${BASE}data/master_notes.json`;
+
+// Regular NBME Qbank (Battle)
+const REGULAR_QBANK_URL = `${BASE}data/master_nbme_questions.json`;
+
+// Clinical Vignettes (long) — patched to only use the file we actually have
 const LONG_QBANK_URLS = [
-  `${BASE}data/master_nbme_questions_LAYER_CLASSIFIED_with_counts.json`,
-  `${BASE}data/master_nbme_questions_LAYER_CLASSIFIED.json`,
   `${BASE}data/master_nbme_questions_LONG_LAYER.json`
 ];
-// Clinical Vignettes (long)
+
+// Podcast
 const PODCAST_URL = `${BASE}data/Unraveling_Cancer__From_Molecular_Code_to_Personalized_Cures.mp3`;
+
+
+
 // Podcast audio (served from /public/data)
 
 /* =================== Required Topic Order =================== */
@@ -133,15 +138,17 @@ function buildNotesIndex(notesJson) {
     topicList.push({ name: topicName, subtopics: Array.from(subMap.values()) });
   }
 
-  return { topicList: orderTopics(topicList), topicMap };
+ return { topicList, topicMap }; // keep adapter order
 }
 
-/* =================== QBank Index (robust) =================== */
+/* =================== QBank Index (Clinical Vignettes = all questions) =================== */
 function buildQuestionIndex(bankJson, prop = "questions") {
   let lectures = Array.isArray(bankJson?.lectures) ? bankJson.lectures : [];
   // Support nested { lectures: [...] } wrappers
   if (lectures.length && lectures.some(x => Array.isArray(x?.lectures))) {
-    lectures = lectures.flatMap(x => Array.isArray(x?.lectures) ? x.lectures : (x ? [x] : []));
+    lectures = lectures.flatMap(x =>
+      Array.isArray(x?.lectures) ? x.lectures : (x ? [x] : [])
+    );
   }
   const map = new Map(); // normTopic -> Map(normSub -> Array<q>)
 
@@ -155,11 +162,15 @@ function buildQuestionIndex(bankJson, prop = "questions") {
       const subName = st.name ?? st.subtopic ?? st.title ?? "";
       const nSub = norm(subName);
 
+      // Which keys to check
       const propList = Array.isArray(prop)
         ? prop
         : prop === "long_questions"
-        ? ["long_questions", "long", "long_form_questions", "vignettes"]
-        : ["questions", "regular_questions", "items"];
+? ["long_questions", "long", "long_form_questions", "vignettes", "questions"] 
+: ["questions", "regular_questions", "items"];
+
+
+      // Gather
       let rawArr = [];
       for (const p of propList) {
         if (Array.isArray(st?.[p]) && st[p].length) {
@@ -167,12 +178,17 @@ function buildQuestionIndex(bankJson, prop = "questions") {
           break;
         }
       }
-      const arr = rawArr.map((q) => normalizeQuestion(q, topicName, subName));
+
+      // No filtering here — let Clinical Vignettes show *all* questions
+      const arr = rawArr.map((q) =>
+        normalizeQuestion(q, topicName, subName)
+      );
       subMap.set(nSub, arr);
     }
   }
   return map;
 }
+
 
 function normalizeQuestion(q, topicName, subName) {
   const stem = q.stem ?? q.question ?? q.prompt ?? "";
@@ -358,36 +374,58 @@ function renderLearnContent(raw) {
       {lines.map((ln, i) => {
         let cls = "";
         let text = ln;
+
+        // Skip lines starting with "Mnemonic:"
+        if (/^\s*Mnemonic:/i.test(ln)) {
+          return null;
+        }
+
+        // Explain Like I Am Stupid / ELI5
         if (/^\s*ELI5:/i.test(ln)) {
-          cls = "bg-amber-50 dark:bg-amber-900/30 border-amber-300 dark:border-amber-800";
+          cls =
+            "bg-amber-50 dark:bg-amber-900/30 border-amber-300 dark:border-amber-800";
           text = ln.replace(/^\s*ELI5:\s*/i, "");
           return (
             <div key={i} className={`p-3 rounded border ${cls}`}>
-              <span className="font-bold text-amber-700 dark:text-amber-300 mr-2">ELI5:</span>
+              <span className="font-bold text-amber-700 dark:text-amber-300 mr-2">
+                💡 Explain Like I Am Stupid:
+              </span>
               <span>{text}</span>
             </div>
           );
         }
-        if (/^\s*Mnemonic:/i.test(ln)) {
-          cls = "bg-fuchsia-50 dark:bg-fuchsia-900/30 border-fuchsia-300 dark:border-fuchsia-800";
-          text = ln.replace(/^\s*Mnemonic:\s*/i, "");
+
+        // Clinical Pearl
+        if (/^\s*Clinical Pearl:/i.test(ln)) {
+          cls =
+            "bg-emerald-50 dark:bg-emerald-900/30 border-emerald-300 dark:border-emerald-800";
+          text = ln.replace(/^\s*Clinical Pearl:\s*/i, "");
           return (
             <div key={i} className={`p-3 rounded border ${cls}`}>
-              <span className="font-bold text-fuchsia-700 dark:text-fuchsia-300 mr-2">Mnemonic:</span>
+              <span className="font-bold text-emerald-700 dark:text-emerald-300 mr-2">
+                🌟 Clinical Pearl:
+              </span>
               <span>{text}</span>
             </div>
           );
         }
+
+        // Connections
         if (/^\s*Connections:/i.test(ln)) {
-          cls = "bg-sky-50 dark:bg-sky-900/30 border-sky-300 dark:border-sky-800";
+          cls =
+            "bg-sky-50 dark:bg-sky-900/30 border-sky-300 dark:border-sky-800";
           text = ln.replace(/^\s*Connections:\s*/i, "");
           return (
             <div key={i} className={`p-3 rounded border ${cls}`}>
-              <span className="font-bold text-sky-700 dark:text-sky-300 mr-2">Connections:</span>
+              <span className="font-bold text-sky-700 dark:text-sky-300 mr-2">
+                🔗 Connections:
+              </span>
               <span className="whitespace-pre-wrap">{text}</span>
             </div>
           );
         }
+
+        // Bullet points
         if (/^\s*•/.test(ln)) {
           return (
             <div key={i} className="pl-2">
@@ -396,11 +434,14 @@ function renderLearnContent(raw) {
             </div>
           );
         }
+
+        // Default fallback
         return <p key={i}>{ln}</p>;
       })}
     </div>
   );
 }
+
 
 /* =================== Spotlight (tutorial highlight) =================== */
 function useSpotlight(targetId, depKey) {
@@ -1458,7 +1499,22 @@ const [notes, reg, lng] = await Promise.all([
     const idx = sub ? Math.max(0, subs.findIndex((x) => x.name === sub)) : 0;
     setLearnNav({ topic, subs, index: idx < 0 ? 0 : idx });
   };
-  const subNode = (topic, sub) => notesIndex?.topicMap.get(normTopicWithAlias(topic))?.subMap.get(norm(sub)) ?? null;
+  const subNode = (topic, sub) => {
+  const node = notesIndex?.topicMap
+    .get(normTopicWithAlias(topic))
+    ?.subMap.get(norm(sub));
+  if (!node) return null;
+  return {
+    ...node,
+    content: node.content || "",
+    explain_like_i_am_stupid:
+      node._raw?.explain_like_i_am_stupid || node._raw?.eli5 || "",
+    mnemonic: node._raw?.mnemonic || "",
+    clinical_pearl: node._raw?.clinical_pearl || "",
+    slide_reference: node.slide_reference || "",
+  };
+};
+
 
   /* Subtopics popup (from topic tile) */
   const [subsTopic, setSubsTopic] = useState(null);
@@ -1736,13 +1792,19 @@ const [notes, reg, lng] = await Promise.all([
               {canonTopics.map((t) => {
                 const unlocked = isTopicUnlocked(t.name);
                 const subList = subsForDisplay(t.name);
-                const totalAvail = subList.reduce(
-                  (a, s) =>
-                    a +
-                    ((regularIdx?.get(normTopicWithAlias(t.name))?.get(norm(s.name))?.length || 0) +
-                      (longIdx?.get(normTopicWithAlias(t.name))?.get(norm(s.name))?.length || 0)),
-                  0
-                );
+                const totalAvail = (() => {
+  const seen = new Set();
+  subList.forEach((s) => {
+    const regQs  = regularIdx?.get(normTopicWithAlias(t.name))?.get(norm(s.name)) || [];
+    const longQs = longIdx?.get(normTopicWithAlias(t.name))?.get(norm(s.name)) || [];
+    [...regQs, ...longQs].forEach((q) => {
+      const key = q.id || q.qid || q._id || JSON.stringify(q.stem);
+      seen.add(key);
+    });
+  });
+  return seen.size;
+})();
+
                 const totalDone = subList.reduce((a, s) => a + doneSub(t.name, s.name), 0);
                 const { pct, correct, total } = pctTopic(t.name);
                 return (
@@ -1787,249 +1849,297 @@ const [notes, reg, lng] = await Promise.all([
           )}
 
           {/* ================= CLINICAL VIGNETTES PAGE ================= */}
-          {tab === "vignettes" && (
-            <div className="space-y-4">
-              {canonTopics.map((t) => {
-                const tKey = normTopicWithAlias(t.name);
-                const subs = subsForDisplay(t.name);
-const subsFiltered = subs.filter((s) => (longIdx?.get(tKey)?.get(norm(s.name))?.length || 0) > 0);
-const displayedNames = new Set(subsFiltered.map(s => s.name));
-                const avail = subsFiltered.reduce((a, s) => a + (longIdx?.get(tKey)?.get(norm(s.name))?.length || 0), 0);
-                const attempted = subs.reduce((a, s) => a + (subStats(t.name, s.name)?.attempted || 0), 0);
-                const { correct, total } = pctTopic(t.name);
-                const expanded = !!cvExpanded[t.name];
-                const selectedSet = cvSel[t.name] || new Set();
-                const toggleExpand = () => setCvExpanded((m) => ({ ...m, [t.name]: !expanded }));
-                const selectAll = () => {
-                  const all = new Set(subsFiltered.map(s => s.name));
-                  setCvSel((m) => ({ ...m, [t.name]: all }));
-                };
-                const clearAll = () => setCvSel((m) => ({ ...m, [t.name]: new Set() }));
-                const toggleSub = (name) => {
-  if (!displayedNames.has(name)) return;
+{tab === "vignettes" && (
+  <div className="space-y-4">
+    {canonTopics.map((t) => {
+      const tKey = normTopicWithAlias(t.name);
+      const subs = subsForDisplay(t.name);
 
-                  setCvSel((m) => {
-                    const cur = new Set(m[t.name] || []);
-                    if (cur.has(name)) cur.delete(name); else cur.add(name);
-                    return { ...m, [t.name]: cur };
-                  });
-                };
-                const selectedCount = selectedSet.size;
-                const selectedQs = (() => {
-                  let c = 0;
-                  selectedSet.forEach(n => { if (displayedNames.has(n)) { c += (longIdx?.get(tKey)?.get(norm(n))?.length || 0); } });
-                  return c;
-                })();
-                const startFromSelected = () => {
-                  const chosen = new Set(Array.isArray(diffSet) && diffSet.length ? diffSet : ["easy","medium","hard"]);
-                  const arr = [];
-                  if (selectedSet.size > 0) {
-                    selectedSet.forEach(n => {
-                      const qs = longIdx?.get(tKey)?.get(norm(n)) || [];
-                      arr.push(...qs.filter(q => chosen.has(q.difficulty)));
-                    });
-                  } else {
-                    for (const [, subMap] of (longIdx?.get(tKey) || new Map()).entries()) {
-                      for (const qs of subMap.values()) arr.push(...qs.filter(q => chosen.has(q.difficulty)));
-                    }
-                  }
-                  startCustomQuiz(arr, `Clinical Vignettes — ${t.name}`, null, Math.min(cvPick.count, arr.length || 10));
-                };
+      // active difficulty set
+      const chosen = new Set(
+        Array.isArray(diffSet) && diffSet.length ? diffSet : ["easy", "medium", "hard"]
+      );
 
-                return (
-                  <div key={t.name} className="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow hover:shadow-xl transition-transform hover:-translate-y-0.5">
-                    <button onClick={toggleExpand} className="w-full text-left flex items-center gap-3 p-3">
-                      <div className={`font-semibold flex-1 ${highVis ? "text-emerald-400" : ""}`}>{t.name}</div>
-                      <div className="text-xs opacity-70 mr-2">
-                        {attempted} done • {avail} avail
-                      </div>
-                      <HoverBiRing correct={correct} attempted={total} size={72} />
-                      <div className="ml-2 text-sm opacity-60">{expanded ? "▲" : "▼"}</div>
-                    </button>
+      // ✅ Include BOTH reg + long, and apply difficulty
+      const subsFiltered = subs.filter((s) => {
+        const regQs  = (regularIdx?.get(tKey)?.get(norm(s.name)) || []);
+        const longQs = (longIdx?.get(tKey)?.get(norm(s.name)) || []);
+        const cnt = [...regQs, ...longQs].filter(q => chosen.has(q.difficulty)).length;
+        return cnt > 0;
+      });
 
-                    {expanded && (
-                      <div className="px-4 pb-4">
-                        <div className="flex items-center gap-2 mb-3">
-                          <button
-                            className="px-3 py-1 rounded-full border text-xs hover:bg-slate-100 dark:hover:bg-slate-800"
-                            onClick={selectAll}
-                          >
-                            Select all
-                          </button>
-                          <button
-                            className="px-3 py-1 rounded-full border text-xs hover:bg-slate-100 dark:hover:bg-slate-800"
-                            onClick={clearAll}
-                          >
-                            Clear
-                          </button>
-                          <div className="ml-auto text-xs opacity-70">
-                            Selected subtopics: {selectedCount} • Questions: {selectedQs}
-                          </div>
-                        </div>
+      const displayedNames = new Set(subsFiltered.map(s => s.name));
 
-                        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-3">
-                          {subsFiltered.map((s) => {
-                            const cnt = (longIdx?.get(tKey)?.get(norm(s.name))?.length || 0);
-                            const on = (cvSel[t.name] || new Set()).has(s.name);
-                            return (
-                              <div
-  key={s.name}
-  onClick={() => toggleSub(s.name)}
-  className={`cursor-pointer flex items-center gap-3 rounded-xl border p-3 transition
-    ${on ? "bg-indigo-50 border-indigo-400 dark:bg-indigo-900/40" : "bg-slate-50 dark:bg-slate-900/40 border-slate-200 dark:border-slate-700"}
-    ${cnt === 0 ? "opacity-50 pointer-events-none" : "hover:shadow"}`}
->
-  <div className="flex-1">
-    <div className="font-semibold">{s.name}</div>
-    <div className="text-xs opacity-70">{cnt} questions</div>
-  </div>
-  <Btn
-    kind="ghost"
-    onClick={(e) => {
-      e.stopPropagation(); // prevent tile toggle on start
-      setCvSel(m => ({ ...m, [t.name]: new Set([s.name]) }));
-      startFromSelected();
-    }}
-    disabled={cnt === 0}
-  >
-    ▶ Start
-  </Btn>
-</div>
-                            );
-                          })}
-                        </div>
+      const avail = (() => {
+  const seen = new Set();
+  subsFiltered.forEach((s) => {
+    const regQs  = (regularIdx?.get(tKey)?.get(norm(s.name)) || []);
+    const longQs = (longIdx?.get(tKey)?.get(norm(s.name)) || []);
+    [...regQs, ...longQs].forEach((q) => {
+      if (chosen.has(q.difficulty)) {
+        const key = q.id || q.qid || q._id || JSON.stringify(q.stem);
+        seen.add(key);
+      }
+    });
+  });
+  return seen.size;
+})();
 
-                        <div className="mt-3 flex items-center gap-2">
-                          <Btn id="btn-start-vignette-topic" onClick={startFromSelected} disabled={selectedQs === 0 && avail === 0}>
-                            ▶ Start Vignette (Selected)
-                          </Btn>
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                );
-              })}
 
-              {/* Builder footer */}
-              <div className="sticky bottom-6 flex flex-wrap items-center gap-3 bg-white/70 dark:bg-slate-900/70 backdrop-blur p-3 rounded-2xl border border-slate-200 dark:border-slate-700">
-                <div className="text-sm opacity-75">Pool: Use per-topic selections above, or start from all topics.</div>
+      const attempted = subs.reduce((a, s) => a + (subStats(t.name, s.name)?.attempted || 0), 0);
+      const { correct, total } = pctTopic(t.name);
+      const expanded = !!cvExpanded[t.name];
+      const selectedSet = cvSel[t.name] || new Set();
 
-                <label className="text-sm">
-                  # Questions
-                  <input
-                    className="ml-2 w-24 px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800"
-                    type="number"
-                    min="1"
-                    value={cvPick.count}
-                    onChange={(e) => setCvPick((p) => ({ ...p, count: Number(e.target.value || 10) }))}
-                  />
-                </label>
+      const toggleExpand = () =>
+        setCvExpanded((m) => ({ ...m, [t.name]: !expanded }));
 
-                {/* Difficulty */}
-                <div className="flex items-center gap-2 ml-2">
-                  {["easy","medium","hard"].map((lvl) => {
-                    const on = diffSet.includes(lvl);
-                    return (
-                      <button
-                        key={lvl}
-                        onClick={() => {
-                          setDiffSet((cur) => {
-                            const s = new Set(cur || []);
-                            on ? s.delete(lvl) : s.add(lvl);
-                            const arr = [...s];
-                            return arr.length ? arr : ["easy","medium","hard"];
-                          });
-                        }}
-                        className={`px-2 py-1 rounded-full text-xs border transition ${on ? "border-emerald-400 bg-emerald-50 dark:bg-emerald-900/40" : "hover:bg-slate-100 dark:hover:bg-slate-800"}`}
-                        aria-pressed={on}
-                      >
-                        {lvl[0].toUpperCase() + lvl.slice(1)}
-                      </button>
-                    );
-                  })}
-                </div>
+      const selectAll = () => {
+        const all = new Set(subsFiltered.map(s => s.name));
+        setCvSel((m) => ({ ...m, [t.name]: all }));
+      };
 
-                {/* Global start from ALL topics (ignores per-topic selections) */}
-                <div className="flex items-center gap-2 ml-auto">
-                  <Btn id="btn-start-vignette-all"
-                    onClick={() => {
-                      const chosen = new Set(Array.isArray(diffSet) && diffSet.length ? diffSet : ["easy","medium","hard"]);
-                      const arr = [];
-                      for (const [, subMap] of (longIdx || new Map()).entries()) {
-                        for (const qs of subMap.values()) {
-                          arr.push(...qs.filter((q) => chosen.has(q.difficulty)));
-                        }
-                      }
-                      startCustomQuiz(arr, "Clinical Vignettes", null, Math.min(cvPick.count, arr.length || 10));
-                    }}
-                  >
-                    ▶ Start Vignette (All)
-                  </Btn>
+      const clearAll = () =>
+        setCvSel((m) => ({ ...m, [t.name]: new Set() }));
+
+      const toggleSub = (name) => {
+        if (!displayedNames.has(name)) return;
+        setCvSel((m) => {
+          const cur = new Set(m[t.name] || []);
+          if (cur.has(name)) cur.delete(name);
+          else cur.add(name);
+          return { ...m, [t.name]: cur };
+        });
+      };
+
+      const selectedCount = selectedSet.size;
+
+      // ✅ Count with difficulty applied
+      const selectedQs = (() => {
+        let c = 0;
+        selectedSet.forEach(n => {
+          if (displayedNames.has(n)) {
+            const regQs  = (regularIdx?.get(tKey)?.get(norm(n)) || []);
+            const longQs = (longIdx?.get(tKey)?.get(norm(n)) || []);
+            c += [...regQs, ...longQs].filter(q => chosen.has(q.difficulty)).length;
+          }
+        });
+        return c;
+      })();
+
+      // ✅ Start quiz with difficulty filter
+      const startFromSelected = () => {
+        const arr = [];
+        if (selectedSet.size > 0) {
+          selectedSet.forEach(n => {
+            const regQs  = (regularIdx?.get(tKey)?.get(norm(n)) || []);
+            const longQs = (longIdx?.get(tKey)?.get(norm(n)) || []);
+            arr.push(...[...regQs, ...longQs].filter(q => chosen.has(q.difficulty)));
+          });
+        } else {
+          for (const [, subMap] of (regularIdx?.get(tKey) || new Map()).entries()) {
+            for (const qs of subMap.values()) {
+              arr.push(...qs.filter(q => chosen.has(q.difficulty)));
+            }
+          }
+          for (const [, subMap] of (longIdx?.get(tKey) || new Map()).entries()) {
+            for (const qs of subMap.values()) {
+              arr.push(...qs.filter(q => chosen.has(q.difficulty)));
+            }
+          }
+        }
+        startCustomQuiz(arr, `Clinical Vignettes — ${t.name}`, null, Math.min(cvPick.count, arr.length || 10));
+      };
+
+      return (
+        <div
+          key={t.name}
+          className="rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow hover:shadow-xl transition-transform hover:-translate-y-0.5"
+        >
+          <button onClick={toggleExpand} className="w-full text-left flex items-center gap-3 p-3">
+            <div className={`font-semibold flex-1 ${highVis ? "text-emerald-400" : ""}`}>{t.name}</div>
+            <div className="text-xs opacity-70 mr-2">
+              {attempted} done • {avail} avail
+            </div>
+            <HoverBiRing correct={correct} attempted={total} size={72} />
+            <div className="ml-2 text-sm opacity-60">{expanded ? "▲" : "▼"}</div>
+          </button>
+
+          {expanded && (
+            <div className="px-4 pb-4">
+              <div className="flex items-center gap-2 mb-3">
+                <button
+                  className="px-3 py-1 rounded-full border text-xs hover:bg-slate-100 dark:hover:bg-slate-800"
+                  onClick={selectAll}
+                >
+                  Select all
+                </button>
+                <button
+                  className="px-3 py-1 rounded-full border text-xs hover:bg-slate-100 dark:hover:bg-slate-800"
+                  onClick={clearAll}
+                >
+                  Clear
+                </button>
+                <div className="ml-auto text-xs opacity-70">
+                  Selected subtopics: {selectedCount} • Questions: {selectedQs}
                 </div>
               </div>
-            </div>
-          )}{tab === "review" && (
-            <div className="space-y-6" id="mq-review">
-              {canonTopics.map((t) => {
-                const subGroups = {};
-                for (const id in missed) {
-                  const q = missed[id];
-                  if (q.topic !== t.name) continue;
-                  (subGroups[q.subtopic] = subGroups[q.subtopic] || []).push(q);
-                }
-                const totMissed = Object.values(subGroups).reduce((a, b) => a + b.length, 0);
-                if (totMissed === 0) return null;
 
-                const { correct, total } = pctTopic(t.name);
-
-                return (
-                  <Card key={t.name}>
-                    <div className="flex items-center gap-3">
-                      <div className={`font-extrabold text-lg flex-1 ${highVis ? "text-emerald-400" : ""}`}>{t.name}</div>
-                      {/* Topic dynamic circle + below numbers */}
-                      <HoverBiRing correct={correct} attempted={total} size={88} />
-                      <div className="ml-auto">
-                        <Btn onClick={() => startCustomQuiz(Object.values(missed).filter((q) => q.topic === t.name), `Retest: ${t.name}`)}>
-                          🔁 Retest Topic
-                        </Btn>
+              <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-3">
+                {subsFiltered.map((s) => {
+                  const regQs  = (regularIdx?.get(tKey)?.get(norm(s.name)) || []);
+                  const longQs = (longIdx?.get(tKey)?.get(norm(s.name)) || []);
+                  const cnt = [...regQs, ...longQs].filter(q => chosen.has(q.difficulty)).length;
+                  const on = (cvSel[t.name] || new Set()).has(s.name);
+                  return (
+                    <div
+                      key={s.name}
+                      onClick={() => toggleSub(s.name)}
+                      className={`cursor-pointer flex items-center gap-3 rounded-xl border p-3 transition
+                        ${on ? "bg-indigo-50 border-indigo-400 dark:bg-indigo-900/40" : "bg-slate-50 dark:bg-slate-900/40 border-slate-200 dark:border-slate-700"}
+                        ${cnt === 0 ? "opacity-50 pointer-events-none" : "hover:shadow"}`}
+                    >
+                      <div className="flex-1">
+                        <div className="font-semibold">{s.name}</div>
+                        <div className="text-xs opacity-70">{cnt} questions</div>
                       </div>
+                      <Btn
+                        kind="ghost"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setCvSel(m => ({ ...m, [t.name]: new Set([s.name]) }));
+                          startFromSelected();
+                        }}
+                        disabled={cnt === 0}
+                      >
+                        ▶ Start
+                      </Btn>
                     </div>
+                  );
+                })}
+              </div>
 
-                    <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-4 mt-4">
-                      {Object.entries(subGroups).map(([sub, arr]) => {
-                        const rec = subStats(t.name, sub);
-                        return (
-                          <div
-                            key={sub}
-                            className="rounded-xl border border-slate-200 dark:border-slate-700 p-4 bg-slate-50 dark:bg-slate-900/40 hover:shadow-lg transition-transform hover:-translate-y-0.5"
-                          >
-                            <div className="flex items-center gap-3">
-                              <div className="font-semibold flex-1">{sub}</div>
-                              <HoverBiRing correct={rec.correct} attempted={rec.attempted} size={80} />
-                            </div>
-                            <div className="text-sm opacity-70 mt-1">{arr.length} missed</div>
-                            <div className="mt-3 flex items-center gap-2">
-                              <Btn kind="outline" onClick={() => openLearnNav(t.name, sub)}>
-                                📖 Relearn
-                              </Btn>
-                              <Btn className="ml-auto" onClick={() => startCustomQuiz(arr, `Retest: ${t.name} › ${sub}`, sub)}>
-                                🔁 Retest Subtopic
-                              </Btn>
-                            </div>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </Card>
-                );
-              })}
-              {Object.keys(missed).length === 0 && (
-                <Card>
-                  <div className="text-center py-10 opacity-75">🎉 Nothing to review yet. Missed questions will show here.</div>
-                </Card>
-              )}
+              <div className="mt-3 flex items-center gap-2">
+                <Btn id="btn-start-vignette-topic" onClick={startFromSelected} disabled={selectedQs === 0 && avail === 0}>
+                  ▶ Start Vignette (Selected)
+                </Btn>
+              </div>
             </div>
           )}
+        </div>
+      );
+    })}
+
+    {/* Builder footer */}
+    <div className="sticky bottom-6 flex flex-wrap items-center gap-3 bg-white/70 dark:bg-slate-900/70 backdrop-blur p-3 rounded-2xl border border-slate-200 dark:border-slate-700">
+      <div className="text-sm opacity-75">
+        Pool: Use per-topic selections above, or start from all topics.
+      </div>
+
+      {/* ✅ Show global total (unique across reg + long, difficulty applied) */}
+<div className="ml-4 text-sm font-semibold text-indigo-600">
+  Total Available: {(() => {
+    const chosen = new Set(
+      Array.isArray(diffSet) && diffSet.length ? diffSet : ["easy","medium","hard"]
+    );
+    const seen = new Set();
+    for (const [, subMap] of (regularIdx || new Map()).entries()) {
+      for (const qs of subMap.values()) {
+        qs.forEach((q) => {
+          if (chosen.has(q.difficulty)) {
+            const key = q.id || q.qid || q._id || JSON.stringify(q.stem);
+            seen.add(key);
+          }
+        });
+      }
+    }
+    for (const [, subMap] of (longIdx || new Map()).entries()) {
+      for (const qs of subMap.values()) {
+        qs.forEach((q) => {
+          if (chosen.has(q.difficulty)) {
+            const key = q.id || q.qid || q._id || JSON.stringify(q.stem);
+            seen.add(key);
+          }
+        });
+      }
+    }
+    return seen.size;
+  })()}
+</div>
+
+<label className="text-sm">
+  # Questions
+  <input
+    className="ml-2 w-24 px-3 py-2 rounded-lg border border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800"
+    type="number"
+    min="1"
+    value={cvPick.count}
+    onChange={(e) => setCvPick((p) => ({ ...p, count: Number(e.target.value || 10) }))}
+  />
+</label>
+
+{/* Difficulty */}
+<div className="flex items-center gap-2 ml-2">
+  {["easy","medium","hard"].map((lvl) => {
+    const on = diffSet.includes(lvl);
+    return (
+      <button
+        key={lvl}
+        onClick={() => {
+          setDiffSet((cur) => {
+            const s = new Set(cur || []);
+            on ? s.delete(lvl) : s.add(lvl);
+            const arr = [...s];
+            return arr.length ? arr : ["easy","medium","hard"];
+          });
+        }}
+        className={`px-2 py-1 rounded-full text-xs border transition ${
+          on ? "border-emerald-400 bg-emerald-50 dark:bg-emerald-900/40"
+             : "hover:bg-slate-100 dark:hover:bg-slate-800"
+        }`}
+        aria-pressed={on}
+      >
+        {lvl[0].toUpperCase() + lvl.slice(1)}
+      </button>
+    );
+  })}
+</div>
+
+{/* Global start from ALL topics */}
+<div className="flex items-center gap-2 ml-auto">
+  <Btn id="btn-start-vignette-all"
+    onClick={() => {
+      const chosen = new Set(
+        Array.isArray(diffSet) && diffSet.length ? diffSet : ["easy","medium","hard"]
+      );
+      const seen = new Set();
+      const arr = [];
+      for (const [, subMap] of (longIdx || new Map()).entries()) {
+        for (const qs of subMap.values()) {
+          qs.forEach((q) => {
+            if (chosen.has(q.difficulty)) {
+              const key = q.id || q.qid || q._id || JSON.stringify(q.stem);
+              if (!seen.has(key)) {
+                seen.add(key);
+                arr.push(q);
+              }
+            }
+          });
+        }
+      }
+      startCustomQuiz(arr, "Clinical Vignettes", null, Math.min(cvPick.count, arr.length || 10));
+    }}
+  >
+    ▶ Start Vignette (All)
+  </Btn>
+</div>
+
+
+
+    </div>
+  </div>
+)}
+
           {/* ================= PODCAST PAGE ================= */}
           {tab === "podcast" && (
   <div className="space-y-4" id="mq-podcast">
@@ -2088,50 +2198,121 @@ const displayedNames = new Set(subsFiltered.map(s => s.name));
       </Modal>
 
       {/* ================= LEARN NAVIGATOR (color-coded) — ABOVE QUIZ (higher z) ================= */}
-      <Modal open={!!learnNav} onClose={() => setLearnNav(null)} title={`Learn — ${learnNav?.topic}`} wide z={1600}>
-        {learnNav && (
-          <div className="grid md:grid-cols-[280px,1fr] gap-4">
-            <div className="rounded-xl border border-slate-200 dark:border-slate-700 p-2 max-h-[70vh] overflow-auto">
-              {learnNav.subs.map((s, i) => (
-                <div
-                  key={s.name}
-                  onClick={() => setLearnNav((n) => ({ ...n, index: i }))}
-                  className={`cursor-pointer rounded-lg px-3 py-2 text-sm mb-1 transition-transform hover:scale-[1.02] ${
-                    i === learnNav.index ? "bg-indigo-50 dark:bg-indigo-900/30 font-semibold" : "hover:bg-slate-100 dark:hover:bg-slate-800"
-                  }`}
-                >
-                  {s.name}
-                </div>
-              ))}
-            </div>
-            <div className="rounded-xl border border-slate-200 dark:border-slate-700 p-4 max-h-[70vh] overflow-auto">
-              {(() => {
-                const sub = learnNav.subs[learnNav.index];
-                const node = subNode(learnNav.topic, sub?.name);
-                if (!node) return <div>No notes yet.</div>;
-                return (
-                  <div className={`prose prose-sm dark:prose-invert max-w-none ${document.documentElement.getAttribute("data-highvis")==="true" ? "prose-emerald" : ""}`}>
-                    {renderLearnContent(node.content)}
-                    {node.slide_reference && (
-                      <p className="mt-3 text-xs opacity-70">
-                        <b>Slide reference:</b> {node.slide_reference}
-                      </p>
-                    )}
-                  </div>
-                );
-              })()}
-              <div className="flex items-center justify-between mt-4">
-                <Btn kind="ghost" onClick={() => setLearnNav((n) => ({ ...n, index: Math.max(0, n.index - 1) }))}>
-                  &larr; Prev
-                </Btn>
-                <Btn kind="ghost" onClick={() => setLearnNav((n) => ({ ...n, index: Math.min(n.subs.length - 1, n.index + 1) }))}>
-                  Next &rarr;
-                </Btn>
-              </div>
-            </div>
+<Modal
+  open={!!learnNav}
+  onClose={() => setLearnNav(null)}
+  title={`Learn — ${learnNav?.topic}`}
+  wide
+  z={1600}
+>
+  {learnNav && (
+    <div className="grid md:grid-cols-[280px,1fr] gap-4">
+      {/* Sidebar with subtopics */}
+      <div className="rounded-xl border border-slate-200 dark:border-slate-700 p-2 max-h-[70vh] overflow-auto">
+        {learnNav.subs.map((s, i) => (
+          <div
+            key={s.name}
+            onClick={() => setLearnNav((n) => ({ ...n, index: i }))}
+            className={`cursor-pointer rounded-lg px-3 py-2 text-sm mb-1 transition-transform hover:scale-[1.02] ${
+              i === learnNav.index
+                ? "bg-indigo-50 dark:bg-indigo-900/30 font-semibold"
+                : "hover:bg-slate-100 dark:hover:bg-slate-800"
+            }`}
+          >
+            {s.name}
           </div>
-        )}
-      </Modal>
+        ))}
+      </div>
+
+      {/* Main content area */}
+      <div className="rounded-xl border border-slate-200 dark:border-slate-700 p-4 max-h-[70vh] overflow-auto">
+        {(() => {
+          const sub = learnNav.subs[learnNav.index];
+          const node = subNode(learnNav.topic, sub?.name);
+          if (!node) return <div>No notes yet.</div>;
+
+          return (
+            <div
+              className={`prose prose-sm dark:prose-invert max-w-none ${
+                document.documentElement.getAttribute("data-highvis") === "true"
+                  ? "prose-emerald"
+                  : ""
+              }`}
+            >
+              {/* Main content */}
+              {renderLearnContent(node.content)}
+
+              {/* Explain Like I Am Stupid */}
+              {node.explain_like_i_am_stupid && (
+                <div className="p-3 rounded border bg-amber-50 dark:bg-amber-900/30 border-amber-300 dark:border-amber-800 mb-2">
+                  <span className="font-bold text-amber-700 dark:text-amber-300 mr-2">
+                    💡 Explain Like I Am Stupid:
+                  </span>
+                  <span>{node.explain_like_i_am_stupid}</span>
+                </div>
+              )}
+
+              {/* Mnemonic */}
+              {node.mnemonic && (
+                <div className="p-3 rounded border bg-fuchsia-50 dark:bg-fuchsia-900/30 border-fuchsia-300 dark:border-fuchsia-800 mb-2">
+                  <span className="font-bold text-fuchsia-700 dark:text-fuchsia-300 mr-2">
+                    🧠 Mnemonic:
+                  </span>
+                  <span>{node.mnemonic}</span>
+                </div>
+              )}
+
+              {/* Clinical pearl */}
+              {node.clinical_pearl && (
+                <div className="p-3 rounded border bg-emerald-50 dark:bg-emerald-900/30 border-emerald-300 dark:border-emerald-800 mb-2">
+                  <span className="font-bold text-emerald-700 dark:text-emerald-300 mr-2">
+                    🌟 Clinical Pearl:
+                  </span>
+                  <span>{node.clinical_pearl}</span>
+                </div>
+              )}
+
+              {/* Slide reference */}
+              {node.slide_reference && (
+                <p className="mt-3 text-xs opacity-70">
+                  <b>Slide reference:</b> {node.slide_reference}
+                </p>
+              )}
+            </div>
+          );
+        })()}
+
+        {/* Navigation buttons */}
+        <div className="flex items-center justify-between mt-4">
+          <Btn
+            kind="ghost"
+            onClick={() =>
+              setLearnNav((n) => ({
+                ...n,
+                index: Math.max(0, n.index - 1),
+              }))
+            }
+          >
+            &larr; Prev
+          </Btn>
+          <Btn
+            kind="ghost"
+            onClick={() =>
+              setLearnNav((n) => ({
+                ...n,
+                index: Math.min(n.subs.length - 1, n.index + 1),
+              }))
+            }
+          >
+            Next &rarr;
+          </Btn>
+        </div>
+      </div>
+    </div>
+  )}
+</Modal>
+
+
 
       {/* ================= QUIZ MODAL (z lower than Learn so Relearn sits above) ================= */}
       <Modal

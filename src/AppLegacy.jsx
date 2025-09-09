@@ -2505,16 +2505,19 @@ const prevQ = () => {
               const done = doneSub(subsTopic.name, s.name);
               const rec = subStats(subsTopic.name, s.name);
               return (
-                <div key={s.name} className="rounded-xl p-4 border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900/40 transition-transform hover:-translate-y-0.5">
-                  <div className="flex items-center gap-3">
-                  <h3 className={`text-xl font-extrabold flex-1 ${highVis ? "text-emerald-400" : ""}`}>{t.name}</h3>
+                <div key={s.name} className="rounded-xl p-4 border ...">
+                <div className="flex items-center gap-3">
+                  <h3 className={`text-xl font-extrabold flex-1 ${highVis ? "text-emerald-400" : ""}`}>
+                    {s.name}
+                  </h3>
                   <HoverBiRing
-                    correct={correct}
-                    attempted={total}
+                    correct={rec.correct}
+                    attempted={rec.attempted}
                     size={96}
-                    className="-ml-2 mt-1"   // ← tiny nudge: a bit left, a bit down
+                    className="-ml-2 mt-1"
                   />
                 </div>
+
 
                   <div className="text-xs opacity-70 mt-1">
                     {done} completed • {avail} available

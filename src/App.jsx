@@ -569,12 +569,25 @@ export default function App() {
       )}
       {current && (current.kind === "legacy" || adapterReady) && (
   <div className="p-2">
-    <button
-      onClick={() => setWeek(null)}
-      className="mb-3 text-sm opacity-70 hover:opacity-100"
-    >
-      ← Back
-    </button>
+    {/* Week header with Back + Title */}
+<div className="flex items-center justify-between mb-3">
+  {/* Back button on the left */}
+  <button
+    onClick={() => setWeek(null)}
+    className="text-sm opacity-70 hover:opacity-100"
+  >
+    ← Back
+  </button>
+
+  {/* Week title in the center */}
+  <div className="flex-1 text-center font-bold text-lg">
+    {current.label || `Week ${current.id}`}
+  </div>
+
+  {/* Spacer to balance layout */}
+  <div className="w-12" />
+</div>
+
     <LegacyApp activeWeek={current} />
   </div>
 )}

@@ -284,10 +284,13 @@ const Btn = ({ children, onClick, kind = "primary", className = "", ...r }) => {
 };
 
 const Card = ({ children, className = "" }) => (
-  <div className={`rounded-2xl p-5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow transition-transform hover:-translate-y-0.5 ${className}`}>
+  <div
+    className={`relative overflow-hidden rounded-2xl p-5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 shadow transition-transform hover:-translate-y-0.5 ${className}`}
+  >
     {children}
   </div>
 );
+
 
 /** Generic modal: allow custom z-index so Learn can appear above Quiz **/
 const Modal = ({ open, onClose, title, wide = false, children, z = 1000 }) => {
@@ -333,37 +336,46 @@ const Ring = ({ value = 0, size = 56, thick = 8, showText = true, className = ""
   );
 };
 
-/** NEW: Dynamic bi-color circular progress with centered % and below "correct/attempted". */
-const HoverBiRing = ({ correct = 0, attempted = 0, size = 96, thick = 12, className = "" }) => {
-  const pct = attempted ? correct / attempted : 0;
+/** Compact, locked circular progress ring (no hover drift). */
+const HoverBiRing = ({
+  correct = 0,
+  attempted = 0,
+  size = 41,     // smaller so it never crowds the tile
+  thick = 6,
+  className = ""
+}) => {
+  const pct = attempted > 0 ? Math.max(0, Math.min(1, correct / attempted)) : 0;
   const pct100 = Math.round(pct * 100);
   const deg = Math.round(360 * pct);
 
-  const inset = Math.max(8, Math.floor(thick)); // inner cutout
+  const isEmpty = attempted === 0;
+  const ringStyle = isEmpty
+    ? { background: "conic-gradient(#94a3b8 0deg, #94a3b8 360deg)" } // neutral when 0/0
+    : { background: `conic-gradient(#22c55e 0deg, #22c55e ${deg}deg, #ef4444 ${deg}deg, #ef4444 360deg)` };
+
+  const inset = Math.max(6, Math.floor(thick));
 
   return (
-    <div className={`group inline-flex flex-col items-center ${className}`} title={`${correct}/${attempted} correct`}>
-      <div
-        className="relative transition-transform duration-200 group-hover:scale-105 group-hover:drop-shadow-[0_6px_24px_rgba(34,197,94,0.35)]"
-        style={{ width: size, height: size }}
-      >
-        <div
-          className="absolute inset-0 rounded-full"
-          style={{
-            background: `conic-gradient(#22c55e 0deg, #22c55e ${deg}deg, #ef4444 ${deg}deg, #ef4444 360deg)`,
-          }}
-        />
+    <div className={`flex flex-col items-center ${className}`} style={{ width: size }}>
+      <div className="relative" style={{ width: size, height: size }}>
+        <div className="absolute inset-0 rounded-full" style={ringStyle} />
         <div
           className="absolute rounded-full bg-white dark:bg-slate-900 grid place-items-center"
           style={{ inset }}
+          aria-label={`Accuracy ${pct100}% (${correct} correct out of ${attempted})`}
+          role="img"
+          title={`${correct}/${attempted} correct`}
         >
-          <div className="text-lg md:text-xl font-black">{pct100}%</div>
+          <div className="text-sm font-bold">{pct100}%</div>
         </div>
       </div>
-      <div className="mt-1 text-xs opacity-75">{correct}/{attempted}</div>
+      <div className="mt-1 text-[10px] opacity-75">
+        {correct}/{attempted}
+      </div>
     </div>
   );
 };
+
 
 /* =================== Learn content colorizer =================== */
 function renderLearnContent(raw) {
@@ -1299,6 +1311,24 @@ const pod =
     return "topics";
   });
 
+
+// Which list to show inside Review: "missed" | "retested"
+const [reviewView, setReviewView] = useState(() => {
+  try {
+    return localStorage.getItem("mq_review_view") || "missed";
+  } catch {
+    return "missed";
+  }
+});
+
+// Persist selection so it survives reload
+useEffect(() => {
+  try {
+    localStorage.setItem("mq_review_view", reviewView);
+  } catch {}
+}, [reviewView]);
+
+
   useEffect(() => {
     try { localStorage.setItem("mq_tab", tab); } catch {}
     if (typeof window !== "undefined") {
@@ -1341,6 +1371,45 @@ const pod =
 
   const [missed, setMissed] = useState(() => JSON.parse(localStorage.getItem("mq_missed") ?? "{}"));
   useEffect(() => localStorage.setItem("mq_missed", JSON.stringify(missed)), [missed]);
+
+  // Track questions that were missed but later answered correctly on retest
+const [retested, setRetested] = useState({});
+
+// Load retested from localStorage on mount
+useEffect(() => {
+  try {
+    const raw = localStorage.getItem("mq_retested");
+    setRetested(raw ? JSON.parse(raw) : {});
+  } catch {}
+}, []);
+
+// Persist retested to localStorage whenever it changes
+useEffect(() => {
+  try {
+    localStorage.setItem("mq_retested", JSON.stringify(retested || {}));
+  } catch {}
+}, [retested]);
+
+// === Confirm Clear modal state + helpers ===
+const [confirmClear, setConfirmClear] = useState({ open: false, type: null }); // "missed" | "retested"
+
+const requestClear = (type) => setConfirmClear({ open: true, type });
+const cancelClear = () => setConfirmClear({ open: false, type: null });
+
+const performClear = () => {
+  const type = confirmClear.type;
+  try {
+    if (type === "missed") {
+      setMissed({});
+      localStorage.removeItem("mq_missed");
+    } else if (type === "retested") {
+      setRetested({});
+      localStorage.removeItem("mq_retested");
+    }
+  } catch {}
+  cancelClear();
+};
+
 
   /* Tutorial */
   const [showTut, setShowTut] = useState(true);
@@ -1668,72 +1737,124 @@ const [notes, reg, lng] = await Promise.all([
   };
 
   const record = (q, correct) => {
-    setStats((prev) => {
-      const key = `${q.topic}|${q.subtopic}`;
-      const rec = prev.subs[key] || { attempted: 0, correct: 0 };
-      const next = { ...prev };
-      next.subs[key] = { attempted: rec.attempted + 1, correct: rec.correct + (correct ? 1 : 0) };
-      return next;
-    });
-    if (!correct) setMissed((prev) => ({ ...prev, [qid(q)]: q }));
-  };
+  // keep your stats logic the same
+  setStats((prev) => {
+    const key = `${q.topic}|${q.subtopic}`;
+    const rec = prev.subs[key] || { attempted: 0, correct: 0 };
+    const next = { ...prev };
+    next.subs[key] = {
+      attempted: rec.attempted + 1,
+      correct: rec.correct + (correct ? 1 : 0),
+    };
+    return next;
+  });
 
-  const lockIn = () => {
-    if (!quiz) return;
-    const q = currentQ();
-    const ai = quiz.answers[quiz.idx];
-    if (!q || ai.locked || quiz.answer == null) return;
+  const wk = activeWeek?.id || activeWeek?.slug || activeWeek?.name || "unknown-week";
+  const id = qid(q);
 
-    const correct = quiz.answer === q.answer;
-    record(q, correct);
+  if (!correct) {
+    // Save as missed, stamped with weekId (used by Review filtering)
+    const enriched = { ...q, weekId: wk };
+    setMissed((prev) => ({ ...(prev || {}), [id]: enriched }));
+    return;
+  }
 
-    if (!explore && quiz.mode === "battle" && !quiz.sub) {
-      setTopicProgress((prev) => {
-        const st = correct ? (prev[q.topic] || 0) + 1 : 0;
-        const np = { ...prev, [q.topic]: st };
-        if (st >= 3) {
-          const idx = canonTopics.findIndex((tt) => tt.name === q.topic);
-          const nextTopic = canonTopics[idx + 1]?.name;
-          if (nextTopic) setTopicUnlocks((u) => (u.includes(nextTopic) ? u : [...u, nextTopic]));
-          np[q.topic] = 0;
+  // If answered correctly AND it was previously missed,
+  // move from "missed" -> "retested"
+  setMissed((prevMissed) => {
+    if (!prevMissed || !prevMissed[id]) return prevMissed;
+    const moved = {
+      ...prevMissed[id],
+      weekId: prevMissed[id].weekId || wk,
+      retestedAt: Date.now(),
+    };
+    setRetested((prev) => ({ ...(prev || {}), [id]: moved }));
+    const { [id]: _removed, ...rest } = prevMissed;
+    return rest;
+  });
+};
+
+// === Quiz handlers (must be defined before JSX that uses them) ===
+const lockIn = () => {
+  if (!quiz) return;
+  const q = currentQ();
+  const ai = quiz.answers[quiz.idx];
+  if (!q || ai.locked || quiz.answer == null) return;
+
+  const correct = quiz.answer === q.answer;
+  record(q, correct);
+
+  // battle streak + unlocks
+  if (!explore && quiz.mode === "battle" && !quiz.sub) {
+    setTopicProgress((prev) => {
+      const st = correct ? (prev[q.topic] || 0) + 1 : 0;
+      const np = { ...prev, [q.topic]: st };
+      if (st >= 3) {
+        const idx = canonTopics.findIndex((tt) => tt.name === q.topic);
+        const nextTopic = canonTopics[idx + 1]?.name;
+        if (nextTopic) {
+          setTopicUnlocks((u) => (u.includes(nextTopic) ? u : [...u, nextTopic]));
         }
-        return np;
-      });
-    }
+        np[q.topic] = 0; // reset streak after unlock
+      }
+      return np;
+    });
+  }
 
-    const answers = [...quiz.answers];
-    answers[quiz.idx] = { picked: quiz.answer, locked: true, correct };
-    setQuiz((s) => ({ ...s, answers, reveal: true, softHide: false, correctCount: s.correctCount + (correct ? 1 : 0) }));
-  };
+  const answers = [...quiz.answers];
+  answers[quiz.idx] = { picked: quiz.answer, locked: true, correct };
+  setQuiz((s) => ({
+    ...s,
+    answers,
+    reveal: true,
+    softHide: false,
+    correctCount: s.correctCount + (correct ? 1 : 0),
+  }));
+};
 
-  const finishQuiz = () => {
-    if (!quiz) return;
-    setStats((prev) => ({
-      ...prev,
-      quizzes: [...(prev.quizzes || []), { title: quiz.topic, total: quiz.items.length, correct: quiz.correctCount, ts: Date.now() }],
-    }));
-    setQuiz(null);
-    setTopicProgress({});
-  };
+const finishQuiz = () => {
+  if (!quiz) return;
+  setStats((prev) => ({
+    ...prev,
+    quizzes: [
+      ...(prev.quizzes || []),
+      { title: quiz.topic, total: quiz.items.length, correct: quiz.correctCount, ts: Date.now() },
+    ],
+  }));
+  setQuiz(null);
+  setTopicProgress({});
+};
 
-  const nextQ = () => {
-    if (!quiz) return;
-    const isLast = quiz.idx >= quiz.items.length - 1;
-    if (isLast) {
-      setQuiz((s) => ({ ...s, stage: "review" }));
-      return;
-    }
-    const newIdx = quiz.idx + 1;
-    const ans = quiz.answers[newIdx];
-    setQuiz((s) => ({ ...s, idx: newIdx, reveal: false, softHide: false, answer: ans?.picked ?? null }));
-  };
+const nextQ = () => {
+  if (!quiz) return;
+  const isLast = quiz.idx >= quiz.items.length - 1;
+  if (isLast) {
+    setQuiz((s) => ({ ...s, stage: "review" }));
+    return;
+  }
+  const newIdx = quiz.idx + 1;
+  const ans = quiz.answers[newIdx];
+  setQuiz((s) => ({
+    ...s,
+    idx: newIdx,
+    reveal: false,
+    softHide: false,
+    answer: ans?.picked ?? null,
+  }));
+};
 
-  const prevQ = () => {
-    if (!quiz) return;
-    const newIdx = Math.max(0, quiz.idx - 1);
-    const ans = quiz.answers[newIdx];
-    setQuiz((s) => ({ ...s, idx: newIdx, reveal: false, softHide: true, answer: ans?.picked ?? null }));
-  };
+const prevQ = () => {
+  if (!quiz) return;
+  const newIdx = Math.max(0, quiz.idx - 1);
+  const ans = quiz.answers[newIdx];
+  setQuiz((s) => ({
+    ...s,
+    idx: newIdx,
+    reveal: false,
+    softHide: true,
+    answer: ans?.picked ?? null,
+  }));
+};
 
   /* Clinical Vignettes builder UI */
   const [cvExpanded, setCvExpanded] = useState({}); // { topicName: boolean }
@@ -1812,7 +1933,7 @@ const [notes, reg, lng] = await Promise.all([
                     <div className="flex items-start gap-3">
                       <h3 className={`text-xl font-extrabold flex-1 ${highVis ? "text-emerald-400" : ""}`}>{t.name}</h3>
                       {/* BIG dynamic circle with centered percent + numbers below */}
-                      <HoverBiRing correct={correct} attempted={total} size={96} />
+                      <HoverBiRing correct={correct} attempted={total} size={65} />
                     </div>
                     <div className="text-xs opacity-70 mt-1">
                       {totalDone} completed • {totalAvail} available
@@ -1961,7 +2082,7 @@ const [notes, reg, lng] = await Promise.all([
             <div className="text-xs opacity-70 mr-2">
               {attempted} done • {avail} avail
             </div>
-            <HoverBiRing correct={correct} attempted={total} size={72} />
+            <HoverBiRing correct={correct} attempted={total} size={72} className="-ml-1 mt-0.5" />
             <div className="ml-2 text-sm opacity-60">{expanded ? "▲" : "▼"}</div>
           </button>
 
@@ -2140,6 +2261,218 @@ const [notes, reg, lng] = await Promise.all([
   </div>
 )}
 
+{/* ================= REVIEW PAGE ================= */}
+{tab === "review" && (
+  <div id="mq-review" className="space-y-4">
+    {(() => {
+      // -- reuse your Btn/Card if present --
+      const Wrapper = ({ children, className = "" }) =>
+        Card ? (
+          <Card className={className}>{children}</Card>
+        ) : (
+          <div className={"rounded-2xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 shadow " + className}>
+            {children}
+          </div>
+        );
+
+      const Button = ({ children, onClick, kind = "default", className = "" }) =>
+        Btn ? (
+          <Btn onClick={onClick} kind={kind} className={className}>
+            {children}
+          </Btn>
+        ) : (
+          <button onClick={onClick} className={"px-3 py-1 rounded-xl border text-sm " + className}>
+            {children}
+          </button>
+        );
+
+      // -- WEEK SCOPING --
+      const currentWeekId = activeWeek?.id || activeWeek?.slug || activeWeek?.name;
+      const belongsToWeek = (q, wk) =>
+        !wk ||
+        q.weekId === wk ||
+        q.deck === wk ||
+        q.tags?.includes?.(wk) ||
+        q.source?.includes?.(wk);
+
+      // Choose the base collection by view (state is lifted: reviewView / setReviewView)
+      const base = reviewView === "retested" ? (retested || {}) : (missed || {});
+      const entries = Object.values(base).filter((q) => belongsToWeek(q, currentWeekId));
+
+      // -- group by Topic → Subtopic --
+      const groups = new Map();
+      for (const q of entries) {
+        const t = q.topic || "Misc.";
+        const s = q.subtopic || "All";
+        if (!groups.has(t)) groups.set(t, new Map());
+        if (!groups.get(t).has(s)) groups.get(t).set(s, []);
+        groups.get(t).get(s).push(q);
+      }
+
+      // -- launch a retest using your existing quiz flow --
+      const startRetest = (qs, title) => {
+        const normalized = qs.map((q) => ({ ...q, _id: qid ? qid(q) : q._id }));
+        const limit = Math.min(10, normalized.length);
+        startCustomQuiz(normalized, title, null, limit);
+      };
+
+      
+
+      const totalCount = entries.length;
+
+      return (
+        <>
+          {/* Header with view switch — ALWAYS visible */}
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <div className="text-xl font-bold">Review</div>
+
+            <div className="flex items-center gap-2">
+              <div className="inline-flex rounded-xl overflow-hidden border">
+                <button
+                  onClick={() => setReviewView("missed")}
+                  className={
+                    "px-3 py-1 text-sm " +
+                    (reviewView === "missed"
+                      ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
+                      : "bg-transparent")
+                  }
+                >
+                  Still Missed
+                </button>
+                <button
+                  onClick={() => setReviewView("retested")}
+                  className={
+                    "px-3 py-1 text-sm " +
+                    (reviewView === "retested"
+                      ? "bg-slate-900 text-white dark:bg-slate-100 dark:text-slate-900"
+                      : "bg-transparent")
+                  }
+                >
+                  Retested Correct
+                </button>
+              </div>
+
+              <div className="text-sm opacity-70">{totalCount} total</div>
+
+              {reviewView === "missed" ? (
+  <Button kind="outline" onClick={() => requestClear("missed")}>🗑 Clear missed</Button>
+) : (
+  <Button kind="outline" onClick={() => requestClear("retested")}>🗑 Clear retested</Button>
+)}
+            </div>
+          </div>
+
+          {/* Empty state renders BELOW the header, so you can always switch back */}
+          {entries.length === 0 ? (
+            <Wrapper>
+              <div className="p-4">
+                {reviewView === "retested"
+                  ? "No retested-correct items for this week yet."
+                  : "No missed questions for this week. Do a quiz, then come back!"}
+              </div>
+            </Wrapper>
+          ) : (
+            [...groups.entries()].map(([topic, subMap]) => {
+              const allQs = [].concat(...[...subMap.values()].map((arr) => arr));
+              return (
+                <Wrapper key={topic}>
+                  <div className="p-3 flex items-center gap-3">
+                    <div className="font-bold text-lg flex-1">{topic}</div>
+                    {reviewView === "missed" ? (
+                      <Button kind="outline" onClick={() => startRetest(allQs, `Retest — ${topic}`)}>
+                        ▶ Retest Topic
+                      </Button>
+                    ) : (
+                      <div className="text-xs opacity-70">Retested items</div>
+                    )}
+                  </div>
+
+                  <div className="p-3 pt-0 grid md:grid-cols-2 xl:grid-cols-3 gap-3">
+                    {[...subMap.entries()].map(([sub, qs]) => (
+                      <div key={sub} className="rounded-xl border border-slate-200 dark:border-slate-700 p-3">
+                        <div className="flex items-center justify-between">
+                          <div className="font-semibold">{sub}</div>
+                          <div className="text-xs opacity-70">
+                            {qs.length} {reviewView === "missed" ? "missed" : "retested"}
+                          </div>
+                        </div>
+
+                        <div className="mt-2 flex items-center gap-2">
+                          {reviewView === "missed" ? (
+                            <>
+                              <Button kind="ghost" onClick={() => openLearnNav && openLearnNav(topic, sub)}>
+                                📖 Relearn
+                              </Button>
+                              <Button onClick={() => startRetest(qs, `${topic} — ${sub}`)}>
+                                ▶ Retest
+                              </Button>
+                            </>
+                          ) : (
+                            <div className="text-xs opacity-70">✅ Correct on retest</div>
+                          )}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </Wrapper>
+              );
+            })
+          )}
+        </>
+      );
+    })()}
+  </div>
+)}
+
+{/* === Confirm Clear Modal (global) === */}
+{confirmClear.open && (
+  <div
+    className="fixed inset-0 z-[2000] flex items-center justify-center"
+    aria-labelledby="confirm-clear-title"
+    role="dialog"
+    aria-modal="true"
+  >
+    {/* Backdrop */}
+    <div className="absolute inset-0 bg-black/60" onClick={cancelClear} />
+
+    {/* Dialog */}
+    <div className="relative w-[92vw] max-w-md rounded-2xl border border-slate-700 bg-slate-900 text-slate-100 shadow-xl">
+      <div className="p-4 border-b border-slate-700">
+        <h2 id="confirm-clear-title" className="text-lg font-semibold">
+          {confirmClear.type === "missed" ? "Clear all missed?" : "Clear all retested?"}
+        </h2>
+      </div>
+
+      <div className="p-4 space-y-2 text-sm text-slate-300">
+        <p>
+          {confirmClear.type === "missed"
+            ? "This will remove every missed question in the current storage. You can’t undo this."
+            : "This will remove every item marked as retested correct. You can’t undo this."}
+        </p>
+      </div>
+
+      <div className="p-4 flex gap-2 justify-end border-t border-slate-700">
+        <button
+          onClick={cancelClear}
+          className="px-3 py-1 rounded-xl border border-slate-600 hover:bg-slate-800"
+        >
+          Cancel
+        </button>
+        <button
+          onClick={performClear}
+          className="px-3 py-1 rounded-xl bg-red-600 hover:bg-red-500 text-white"
+          autoFocus
+        >
+          Yes, clear
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
+
+
+
           {/* ================= PODCAST PAGE ================= */}
           {tab === "podcast" && (
   <div className="space-y-4" id="mq-podcast">
@@ -2173,10 +2506,16 @@ const [notes, reg, lng] = await Promise.all([
               const rec = subStats(subsTopic.name, s.name);
               return (
                 <div key={s.name} className="rounded-xl p-4 border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900/40 transition-transform hover:-translate-y-0.5">
-                  <div className="flex items-start gap-3">
-                    <div className="font-semibold text-lg flex-1">{s.name}</div>
-                    <HoverBiRing correct={rec.correct} attempted={rec.attempted} size={80} />
-                  </div>
+                  <div className="flex items-center gap-3">
+                  <h3 className={`text-xl font-extrabold flex-1 ${highVis ? "text-emerald-400" : ""}`}>{t.name}</h3>
+                  <HoverBiRing
+                    correct={correct}
+                    attempted={total}
+                    size={96}
+                    className="-ml-2 mt-1"   // ← tiny nudge: a bit left, a bit down
+                  />
+                </div>
+
                   <div className="text-xs opacity-70 mt-1">
                     {done} completed • {avail} available
                   </div>

@@ -2,12 +2,16 @@
   "weeks": [
     {
       "id": 7,
-      "label": "Week 7 — To be added",
-      "subtitle": "Coming soon",
+      "label": "Week 7 — Virologyy",
       "kind": "json",
       "notes": "week7_notes.json",
       "qbank": "week7_qbank.json",
-      "podcasts": []
+      "podcasts": [
+        {
+          "title": "From Allergies to Antivirals",
+          "src": "From_Allergies_to_Antivirals.mp3"
+        }
+      ]
     },
     {
       "id": 6,
@@ -32,7 +36,7 @@
     },
     {
       "id": 5,
-      "label": "Week 5 (Legacy)",
+      "label": "Week 5",
       "kind": "legacy"
     }
   ]

@@ -1,0 +1,89 @@
+{
+  "questions": [
+    {
+      "topic": "Genetic Testing for Familial Cancer Syndromes",
+      "subtopic": "BRCA",
+      "slide_ref": 5,
+      "stem": "32F TNBC + aunt ovarian 45: next step?",
+      "options": [
+        "Test aunt",
+        "Wait until 40",
+        "Germline multi-gene panel (BRCA1/2)",
+        "Tumor-only NGS",
+        "CMA"
+      ],
+      "answer": "Germline multi-gene panel (BRCA1/2)",
+      "explanation": "Age and family history support germline testing.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Genetic_Testing_for_Familial_Cancer_Syndromes/slide05.png"
+    },
+    {
+      "topic": "Genetic Testing for Familial Cancer Syndromes",
+      "subtopic": "BRCA",
+      "slide_ref": 5,
+      "stem": "Most supports pathogenic BRCA1 vs VUS:",
+      "options": [
+        "High pop freq",
+        "Co-segregation + truncation in key domain",
+        "Synonymous",
+        "Conflicting in silico",
+        "Single report"
+      ],
+      "answer": "Co-segregation + truncation in key domain",
+      "explanation": "Variant type + segregation.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Genetic_Testing_for_Familial_Cancer_Syndromes/slide05.png"
+    },
+    {
+      "topic": "Genetic Testing for Familial Cancer Syndromes",
+      "subtopic": "Lynch",
+      "slide_ref": 7,
+      "stem": "MSI-H, MLH1/PMS2 loss: distinguish sporadic vs Lynch with:",
+      "options": [
+        "RB IHC",
+        "HER2 FISH",
+        "BRAF V600E + MLH1 methylation",
+        "EGFR amp",
+        "TP53 LOH"
+      ],
+      "answer": "BRAF V600E + MLH1 methylation",
+      "explanation": "These favor sporadic MLH1 silencing.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Genetic_Testing_for_Familial_Cancer_Syndromes/slide07.png"
+    },
+    {
+      "topic": "Genetic Testing for Familial Cancer Syndromes",
+      "subtopic": "Pedigree",
+      "slide_ref": 3,
+      "stem": "Criterion prompting Lynch evaluation:",
+      "options": [
+        "Second cousin 72",
+        "Two BCCs",
+        "Amsterdam criteria met",
+        "Single breast cancer",
+        "Melanoma 65"
+      ],
+      "answer": "Amsterdam criteria met",
+      "explanation": "Amsterdam/Bethesda criteria.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Genetic_Testing_for_Familial_Cancer_Syndromes/slide03.png"
+    },
+    {
+      "topic": "Genetic Testing for Familial Cancer Syndromes",
+      "subtopic": "Workflow",
+      "slide_ref": 9,
+      "stem": "Best sequence for hereditary eval:",
+      "options": [
+        "Test minor",
+        "Tumor-only seq first",
+        "Counseling \u2192 test affected proband \u2192 cascade",
+        "Test all family members",
+        "Wait for recurrence"
+      ],
+      "answer": "Counseling \u2192 test affected proband \u2192 cascade",
+      "explanation": "Most informative person first.",
+      "difficulty": "hard",
+      "image": "sandbox:/mnt/data/Master_Qbank_All/Genetic_Testing_for_Familial_Cancer_Syndromes/slide09.png"
+    }
+  ]
+}

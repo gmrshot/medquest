@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>MedQuest Data Debug v2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    body{font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; background:#0b1220; color:#e6e8ee; margin:0; padding:24px;}
+    .card{background:#111827; border:1px solid #374151; border-radius:14px; padding:16px; margin:12px 0;}
+    .ok{color:#34d399} .warn{color:#f59e0b} .err{color:#ef4444}
+    code,pre{background:#0f172a; border:1px solid #334155; border-radius:8px; padding:8px; display:block; overflow:auto; max-height:260px;}
+    .row{display:flex; gap:12px; flex-wrap:wrap}
+    .row > .card{flex:1 1 320px}
+    .k{color:#93c5fd}
+  </style>
+</head>
+<body>
+  <h1>🩺 MedQuest Data Debug v2</h1>
+  <p>This page probes your three JSON endpoints and shows what the app would see.</p>
+  <div id="env" class="card"></div>
+  <div class="row">
+    <div class="card"><h2>Notes</h2><div id="notes"></div></div>
+    <div class="card"><h2>Regular QBank</h2><div id="reg"></div></div>
+    <div class="card"><h2>Long QBank</h2><div id="lng"></div></div>
+  </div>
+  <div class="card">
+    <h2>Console</h2>
+    <pre id="log"></pre>
+  </div>
+<script>
+(function(){
+  const $ = id => document.getElementById(id);
+  const log = (m) => { $("log").textContent += m + "\\n"; console.log(m); };
+
+  $("env").innerHTML = `<div>location.href: <code>${location.href}</code></div>
+<div>location.origin: <code>${location.origin}</code></div>
+<div>location.pathname: <code>${location.pathname}</code></div>
+<div>Serving from: <code>${location.origin}${location.pathname.replace(/[^/]+$/, '')}</code></div>`;
+
+  // Use RELATIVE paths to avoid any base confusion
+  const endpoints = {
+    notes:   "data/master_notes.json",
+    reg:     "data/master_nbme_questions.json",
+    lng:     "data/master_nbme_questions_LONG_LAYER.json",
+  };
+
+  async function probe(id, url, kind){
+    const box = $(id);
+    box.innerHTML = `<div>GET <code>${url}</code></div>`;
+    try{
+      const res = await fetch(url, {cache: "no-store"});
+      log(`[${kind}] fetch status=${res.status} ok=${res.ok}`);
+      if(!res.ok){
+        box.innerHTML += `<div class="err">HTTP ${res.status} ${res.statusText}</div>`;
+        return;
+      }
+      const txt = await res.text();
+      try {
+        const j = JSON.parse(txt);
+        const hasLectures = Array.isArray(j.lectures);
+        if(!hasLectures){
+          box.innerHTML += `<div class="warn">Parsed JSON but no <code>lectures</code> at root</div>`;
+          box.innerHTML += `<details><summary>raw</summary><pre>${escapeHtml(txt.slice(0, 2000))}${txt.length>2000?'\\n...':''}</pre></details>`;
+        } else {
+          // count
+          let total = 0;
+          for(const lec of j.lectures){
+            for(const st of (lec.subtopics||[])){
+              const arr = (kind==="reg") ? (st.questions||[]) : (kind==="lng" ? (st.long_questions||[]) : (st.subtopics?[]:[]));
+              if (Array.isArray(arr)) total += arr.length;
+            }
+          }
+          box.innerHTML += `<div class="ok">OK • lectures=${j.lectures.length}${kind!=="notes" ? " • total="+total : ""}</div>`;
+          box.innerHTML += `<details><summary>preview</summary><pre>${escapeHtml(txt.slice(0, 2000))}${txt.length>2000?'\\n...':''}</pre></details>`;
+        }
+      } catch(e){
+        box.innerHTML += `<div class="err">JSON parse failed: ${e && e.message ? e.message : e}</div>`;
+        box.innerHTML += `<details><summary>raw text</summary><pre>${escapeHtml(txt.slice(0, 2000))}${txt.length>2000?'\\n...':''}</pre></details>`;
+      }
+    }catch(e){
+      box.innerHTML += `<div class="err">Failed to fetch: ${e && e.message ? e.message : e}</div>`;
+      log(`[${kind}] fetch error: ${e && e.message ? e.message : e}`);
+      // XHR fallback test to surface CORS/mime errors differently
+      try{
+        await xhrProbe(url, kind+"-xhr", box);
+      }catch(x){
+        log(`[${kind}-xhr] error: ${x && x.message ? x.message : x}`);
+      }
+    }
+  }
+
+  function xhrProbe(url, label, box){
+    return new Promise((resolve,reject)=>{
+      const xhr = new XMLHttpRequest();
+      xhr.open("GET", url);
+      xhr.responseType = "text";
+      xhr.onload = () => {
+        if (xhr.status >= 200 && xhr.status < 300){
+          box.innerHTML += `<div>XMLHttpRequest OK ${xhr.status}</div>`;
+          resolve();
+        } else {
+          box.innerHTML += `<div class="err">XMLHttpRequest HTTP ${xhr.status}</div>`;
+          reject(new Error(`HTTP ${xhr.status}`));
+        }
+      };
+      xhr.onerror = () => { box.innerHTML += `<div class="err">XMLHttpRequest network error</div>`; reject(new Error("network")); };
+      xhr.send();
+    });
+  }
+
+  function escapeHtml(s){return s.replace(/[&<>]/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;"}[ch]));}
+
+  probe("notes", endpoints.notes, "notes");
+  probe("reg", endpoints.reg, "reg");
+  probe("lng", endpoints.lng, "lng");
+})();
+</script>
+</body>
+</html>

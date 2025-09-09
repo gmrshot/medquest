@@ -1,0 +1,2506 @@
+{
+  "Overview of the Immune System": {
+    "Main Purposes of the Immune System and Clinical Disease": [
+      {
+        "stem": "A 28-year-old woman develops progressive dyspnea and nonproductive cough 8 weeks after returning from a desert camping trip. She has no fever or weight loss. Chest X-ray shows bilateral hilar fullness and reticulonodular opacities. Bronchoscopy with BAL reveals CD4+ T-lymphocyte predominance. Transbronchial biopsy demonstrates noncaseating granulomas. She asks how her \u201cimmune system that\u2019s supposed to protect me\u201d is now causing symptoms. Which concept best explains the link between normal immune purpose and this clinical disease?",
+        "options": {
+          "A": "Th2 skewing fits atopic disease, not granulomas.",
+          "B": "TLR4 deficiency would predispose to Gram-negative sepsis, not granulomatous lung disease.",
+          "C": "Dysregulated chronic inflammation from persistent antigen, forming granulomas that impair function",
+          "D": "Autoantibodies to surfactant are not a typical cause of this picture.",
+          "E": "Immune complex alveolitis would show vasculitic features and complement consumption, not organized granulomas."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Dysregulated chronic inflammation from persistent antigen, forming granulomas that impair function Why this is right: Granulomatous inflammation represents a persistent T cell\u2013macrophage response to poorly cleared antigens, linking host defense to tissue dysfunction. The immune system\u2019s protective mechanisms (Th1 cytokines, macrophage activation) can cause organ damage when persistent. Noncaseating granulomas and BAL CD4+ predominance support immune-mediated granulomatous disease. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 19-year-old man presents with anaphylaxis minutes after eating a peanut-containing cookie. He has a history of childhood eczema and seasonal rhinitis. Vitals after epinephrine are stable. Serum tryptase is transiently elevated. He asks why this happened \u201cso fast.\u201d Which statement best describes how the immune system\u2019s normal purpose can, in this case, produce clinical disease?",
+        "options": {
+          "A": "CTL responses are delayed and peptide-specific; not the mechanism of anaphylaxis.",
+          "B": "TLR responses alone don\u2019t explain IgE-mediated immediate reactions.",
+          "C": "Preformed, high-affinity IgE on mast cells triggering rapid mediator release to a non-danger antigen",
+          "D": "MAC formation is not central to anaphylaxis.",
+          "E": "NK \u201cmissing-self\u201d is unrelated to IgE allergy."
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Preformed, high-affinity IgE on mast cells triggering rapid mediator release to a non-danger antigen Why this is right: In IgE-mediated food allergy, prior sensitization leads to IgE bound to Fc\u03b5RI on mast cells. Re-exposure cross-links IgE, causing immediate degranulation (histamine, tryptase) and anaphylaxis\u2014an inappropriate application of a defense pathway against parasites/toxins to a harmless food antigen. The speed reflects pre-armed effector cells. Why the others are wrong:"
+        },
+        "expl": "E \u2014 Preformed, high-affinity IgE on mast cells triggering rapid mediator release to a non-danger antigen Why this is right: In IgE-mediated food allergy, prior sensitization leads to IgE bound to Fc\u03b5RI on mast cells. Re-exposure cross-links IgE, causing immediate degranulation (histamine, tryptase) and anaphylaxis\u2014an inappropriate application of a defense pathway against parasites/toxins to a harmless food antigen. The speed reflects pre-armed effector cells. Why the others are wrong: A. CTL responses are delayed and peptide-specific; not the mechanism of anaphylaxis. B. TLR responses alone don\u2019t explain IgE-mediated immediate reactions. D. MAC formation is not central to anaphylaxis. E. NK \u201cmissing-self\u201d is unrelated to IgE allergy.",
+        "long_form": true
+      },
+      {
+        "stem": "A 34-year-old woman has fatigue, arthralgias, photosensitive rash, and oral ulcers. Labs: anemia, thrombocytopenia, low C3/C4, positive anti-dsDNA, proteinuria. Renal biopsy shows granular immune complex deposition with subendothelial \u201cwire-loop\u201d lesions. Which statement best links the immune system\u2019s normal purposes to the clinical disease seen here?",
+        "options": {
+          "A": "\u2014 Correct (selected).",
+          "B": "NK surveillance is more about tumors/viruses.",
+          "C": "Th17 and eosinophils do not explain immune complex GN.",
+          "D": "MAC deficiency affects bacterial killing; the issue is tolerance, not MAC.",
+          "E": "TLR3 viral sensing is unrelated to SLE nephritis pathogenesis. Subtopic: Detection and Response to Danger Signals"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Failure of peripheral tolerance leading to autoantibodies that form tissue-depositing immune complexes Why this is right: SLE features breakdown of tolerance with autoantibody formation (e.g., anti-dsDNA). Immune complexes deposit in tissues, activate complement, and drive inflammation, linking adaptive immune purpose (specific recognition) to immunopathology when misdirected. Hypocomplementemia supports consumption by immune complex deposition. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 21-year-old college student receives her first dose of an inactivated influenza vaccine. Ten days later, she is exposed to influenza but remains asymptomatic. Which feature best explains her protection at this time point?",
+        "options": {
+          "A": "Describes innate sensing, not vaccine-induced specificity.",
+          "B": "Memory B cells typically dominate upon re-exposure; 10 days after first dose is primary response.",
+          "C": "Generation of antigen-specific receptors via somatic recombination enabling clonal selection",
+          "D": "Defensins are innate and nonspecific.",
+          "E": "NETs are more antibacterial and not the key protective feature here."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Generation of antigen-specific receptors via somatic recombination enabling clonal selection Why this is right: By ~10 days, adaptive immunity has generated antigen-specific B and T cells via V(D)J recombination, clonal expansion, and differentiation. This yields specific, effective responses (including early antibodies) that provide protection beyond innate immediacy. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 68-year-old man with Parkinson disease experiences delirium during pneumonia. CSF is normal. PET imaging highlights activated CNS-resident phagocytes around microinfarcts. Which innate immune cell population is primarily responsible for debris clearance within the brain parenchyma?",
+        "options": {
+          "A": "Alveolar macrophages reside in lungs.",
+          "B": "Microglia",
+          "C": "Langerhans cells are epidermal DCs.",
+          "D": "Osteoclasts resorb bone, not neural debris.",
+          "E": "Mast cells mediate allergy, not parenchymal phagocytosis."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Microglia Why this is right: Microglia are CNS-resident macrophage-lineage cells that clear debris and orchestrate neuroinflammation. Their activation around injury sites is a hallmark of innate responses in the brain. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 35-year-old man has episodic dark urine, abdominal pain, and hepatic vein thrombosis. Flow cytometry shows absence of CD55 (DAF) and CD59 on erythrocytes. Which mechanism best explains his hemolysis?",
+        "options": {
+          "A": "Autoantibodies are not the driver here.",
+          "B": "Properdin excess is not the core lesion.",
+          "C": "C1-INH excess would not cause hemolysis.",
+          "D": "Uncontrolled complement MAC formation on RBCs due to loss of GPI-anchored regulators",
+          "E": "The issue is excessive, not absent, complement attack on RBCs."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Uncontrolled complement MAC formation on RBCs due to loss of GPI-anchored regulators Why this is right: Paroxysmal nocturnal hemoglobinuria results from PIGA mutations causing loss of GPI-anchored CD55/CD59, rendering RBCs susceptible to complement-mediated lysis, especially intravascular by MAC. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 64-year-old rancher steps on a rusty nail and presents 2 days later with trismus and painful muscle spasms. He last received tetanus vaccine 20 years ago. You give wound care, metronidazole, and human tetanus immune globulin (TIG). Twelve hours later he has no progression of spasms. Which antibody function from the TIG most directly explains the clinical benefit?",
+        "options": {
+          "A": "Complement lysis targets bacteria, not soluble toxin.",
+          "B": "Spores are poorly opsonized and not the main target.",
+          "C": "Neutralization of circulating toxin by binding its receptor-binding domain",
+          "D": "NK-mediated killing requires Fc on cell surfaces, not free toxin.",
+          "E": "Agglutination is less relevant than blocking toxin\u2013receptor interaction."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Neutralization of circulating toxin by binding its receptor-binding domain Why this is right: Passive Ig binds tetanospasmin, preventing neuronal binding and uptake. Neutralization works even after toxin release, limiting progression while antibiotics reduce production. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A healthy 2-week-old exclusively breastfed infant is exposed to norovirus at daycare but remains well. Which immunoglobulin in breast milk most directly protects the infant\u2019s intestinal mucosa?",
+        "options": {
+          "A": "Dimeric secretory IgA with J chain and secretory component",
+          "B": "FcRn transport is placental, not gut luminal in newborns. C/D/E. Do not provide primary mucosal immunity.",
+          "C": "Serum IgM pentamer diffusing into the lumen",
+          "D": "IgD released from B-cell surfaces",
+          "E": "IgE binding to Fc\u03b5RI on enterocytes Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Dimeric secretory IgA with J chain and secretory component Why this is right: sIgA resists proteolysis, neutralizes pathogens/toxins at mucosa, and limits inflammation by not fixing complement efficiently. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A patient with autoimmune neuropathy receives high-dose IVIG. After therapy, endogenous IgG levels fall faster than expected due to accelerated catabolism. Which property of IgG is being pharmacologically perturbed?",
+        "options": {
+          "A": "FcRn-mediated pH-dependent recycling that normally prolongs IgG serum half-life",
+          "B": "IgG\u2019s exclusive mucosal secretion pathway",
+          "C": "Requirement for J chain to polymerize IgG",
+          "D": "High-affinity binding to Fc\u03b5RI",
+          "E": "Ability to cross epithelium via pIgR Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "FcRn-mediated pH-dependent recycling that normally prolongs IgG serum half-life Why this is right: Saturating FcRn with IVIG can reduce recycling of endogenous IgG, shortening its half-life. Why the others are wrong: B/C/D/E. Describe features of other isotypes or unrelated receptors."
+        }
+      },
+      {
+        "stem": "A 58-year-old man develops thrombocytopenia and digital ischemia 6 days after starting heparin. Platelet activation testing is positive with addition of PF4\u2013heparin\u2013IgG immune complexes. Which Fc receptor on platelets transduces the activating signal from these complexes?",
+        "options": {
+          "A": "Fc\u03b3RI (CD64)",
+          "B": "Fc\u03b5RI",
+          "C": "Fc\u03b1RI (CD89)",
+          "D": "Fc\u03b3RIIIa (CD16a)",
+          "E": "Fc\u03b3RIIA (CD32A) Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Fc\u03b3RIIA (CD32A) Why this is right: In HIT, anti\u2013PF4\u2013heparin IgG immune complexes activate platelets via Fc\u03b3RIIA (ITAM-bearing), causing thrombocytopenia and thrombosis. Why the others are wrong: A/D. Not the principal platelet Fc\u03b3R. B/C. Wrong isotype receptors. Topic: T Cell Receptors and the MHC [No high-yield questions available] Subtopic: Interaction of APCs and Processed Peptides with T Cell Receptors"
+        }
+      },
+      {
+        "stem": "A structural immunology lab shows a TCR contacting both \u03b1-helices of an MHC molecule and the bound peptide. Mutating CDR3 abolishes peptide specificity, whereas CDR1/2 mutations alter MHC recognition. Which statement best explains these observations?",
+        "options": {
+          "A": "CDR3 primarily contacts MHC helices; CDR1/2 contact peptide",
+          "B": "CDR1/2 and CDR3 all contact only peptide",
+          "C": "CDR1/2 predominantly contact MHC helices, while CDR3 focuses on the peptide",
+          "D": "All CDRs contact \u03b22-microglobulin",
+          "E": "CDR loops contact only the invariant CD3 complex Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "CDR1/2 predominantly contact MHC helices, while CDR3 focuses on the peptide Why this is right: TCR recognition is \u201ccomposite\u201d: germline-encoded CDR1/2 engage MHC \u03b1-helices; hypervariable CDR3 confers peptide specificity. Why the others are wrong: A/B. Reverse or ignore the division of labor. D/E. \u03b22-microglobulin and CD3 are not the paratope targets. Subtopic: MHC Class I and Class II Molecules"
+        }
+      },
+      {
+        "stem": "A 34-year-old man starting abacavir for HIV is screened before therapy. Which HLA result contraindicates abacavir due to high risk of hypersensitivity?",
+        "options": {
+          "A": "Carbamazepine SJS/TEN (East Asian).",
+          "B": "HLA-B57:01",
+          "C": "Allopurinol SCAR risk. D/E. Not relevant here.",
+          "D": "HLA-A02:01",
+          "E": "HLA-DRB1*15:01 Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "HLA-B*57:01 Why this is right: HLA-B*57:01 strongly predicts abacavir hypersensitivity; screening prevents severe reactions. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 22-year-old Han Chinese patient needs carbamazepine. Which pre-prescription HLA test is most appropriate to prevent SJS/TEN?",
+        "options": {
+          "A": "HLA-B15:02 testing",
+          "B": "HLA-B57:01 testing",
+          "C": "HLA-B58:01 testing",
+          "D": "HLA-A24:02 testing",
+          "E": "HLA-DR3 testing Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "HLA-B*15:02 testing Why this is right: HLA-B*15:02 is linked to carbamazepine SJS/TEN in certain Asian populations. Why the others are wrong: B/C. Different drug associations. D/E. Not indicated for carbamazepine risk."
+        }
+      },
+      {
+        "stem": "A 28-year-old woman with chronic diarrhea has equivocal celiac serologies. HLA testing is ordered. How will the result be most clinically useful?",
+        "options": {
+          "A": "A positive HLA-DQ2 confirms celiac disease",
+          "B": "B27 is unrelated.",
+          "C": "Absence of HLA-DQ2/DQ8 virtually excludes celiac disease (high NPV)",
+          "D": "Presence of HLA-DR3 directly predicts villous atrophy",
+          "E": "It can be useful for exclusion."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Absence of HLA-DQ2/DQ8 virtually excludes celiac disease (high NPV) Why this is right: Most patients with celiac carry DQ2 or DQ8; their absence makes celiac very unlikely. Why the others are wrong: A/D. Positive alleles are not diagnostic."
+        }
+      },
+      {
+        "stem": "A renal-transplant candidate has a positive flow cytometric crossmatch with the intended donor. What does this finding indicate and how is it used clinically?",
+        "options": {
+          "A": "It detects minor histocompatibility antigens and predicts chronic rejection only",
+          "B": "It detects recipient anti-donor HLA antibodies pretransplant and predicts hyperacute/antibody-mediated rejection risk",
+          "C": "It measures T-cell alloreactivity in a mixed lymphocyte reaction",
+          "D": "It identifies ABO incompatibility exclusively",
+          "E": "It predicts GVHD after solid-organ transplant Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "It detects recipient anti-donor HLA antibodies pretransplant and predicts hyperacute/antibody-mediated rejection risk Why this is right: Positive crossmatch reveals donor-specific antibodies that can cause immediate or early humoral rejection. Why the others are wrong: A/C/D/E. Misstate the assay\u2019s purpose or context. Subtopic: Antigen Processing: The Endogenous and Exogenous Pathways"
+        }
+      },
+      {
+        "stem": "Minutes after a kidney is reperfused, the recipient develops cyanotic mottling of the graft and no urine output. Biopsy shows widespread fibrin thrombi in glomerular capillaries and neutrophil margination. Which mechanism best explains this event?",
+        "options": {
+          "A": "Delayed-type hypersensitivity to minor antigens",
+          "B": "Direct allorecognition by recipient T cells",
+          "C": "Describes chronic rejection.",
+          "D": "Preformed recipient IgG against donor antigens causing complement-mediated thrombosis (hyperacute rejection)",
+          "E": "GVHD occurs in stem-cell transplants."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Preformed recipient IgG against donor antigens causing complement-mediated thrombosis (hyperacute rejection) Why this is right: Preexisting anti-HLA/ABO antibodies rapidly fix complement, causing endothelial injury and thrombosis immediately upon reperfusion. Why the others are wrong: A/B. Cause later acute rejection."
+        }
+      },
+      {
+        "stem": "Germinal center mapping shows proliferating centroblasts in a \u201cdark zone\u201d and selection of higher-affinity clones in a \u201clight zone.\u201d Which chemokine\u2013receptor pairing primarily retains proliferating centroblasts in the dark zone?",
+        "options": {
+          "A": "Light zone/follicle retention.",
+          "B": "CXCL12\u2013CXCR4",
+          "C": "T-zone homing.",
+          "D": "Egress cue.",
+          "E": "Lowers activation threshold but not zonal positioning. Subtopic: T-independent Activation Q: Why are conjugate vaccines more effective than polysaccharide vaccines in infants? [Restored Pathology]"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "CXCL12\u2013CXCR4 Why this is right: Dark zone centroblasts express CXCR4 and localize to CXCL12; selection in the light zone depends more on CXCR5\u2013CXCL13. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 12-month-old receives a pure polysaccharide vaccine against Streptococcus pneumoniae but develops pneumonia months later. Serology shows poor response to the vaccine, with mainly low-affinity IgM and minimal memory. Which property of the original antigen best explains this outcome?",
+        "options": {
+          "A": "Strong peptide epitopes recruit Th1 help",
+          "B": "TLR signals alone don\u2019t provide cognate T-cell help.",
+          "C": "Highly repetitive epitopes cross-link BCRs (TI-2), eliciting poor memory in infants",
+          "D": "Describes conjugate vaccines (not used here).",
+          "E": "Presentation by HLA-DQ2 elicits Tfh cells Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Highly repetitive epitopes cross-link BCRs (TI-2), eliciting poor memory in infants Why this is right: TI-2 antigens (capsular polysaccharides) strongly cross-link BCRs on marginal zone B cells, producing mostly IgM with weak memory\u2014especially poor in infants. Why the others are wrong: A/E. Polysaccharides lack peptide for MHC II."
+        }
+      },
+      {
+        "stem": "A pediatrician switches from a polysaccharide vaccine to a conjugate vaccine (polysaccharide linked to diphtheria toxoid) to protect toddlers. Which mechanism explains the improved immunogenicity?",
+        "options": {
+          "A": "Polysaccharides aren\u2019t presented on MHC I. B/C. Nonspecific signals don\u2019t replace cognate T-cell help.",
+          "B": "LPS contamination activates TLR4",
+          "C": "Bystander activation from IL-12 and IFN-\u03b3",
+          "D": "B cell internalizes the conjugate, presents carrier peptides on MHC II to Tfh cells, receives CD40L help \u2192 class switching and memory",
+          "E": "Misses the essential T-cell help."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "B cell internalizes the conjugate, presents carrier peptides on MHC II to Tfh cells, receives CD40L help \u2192 class switching and memory Why this is right: Conjugates convert a TI polysaccharide into a T-dependent response, enabling germinal centers, class switching, and memory. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "Two leprosy patients present: one with well-formed granulomas and limited disease, and another with disseminated lesions and high bacterial loads. The contained form (tuberculoid) reflects which dominant T-helper response?",
+        "options": {
+          "A": "Th2 skews toward disseminated/lepromatous disease. B/C/E. Do not explain granulomatous containment. Subtopic: Treg cells (Regulatory T cells)",
+          "B": "Th17 with IL-17A",
+          "C": "Tfh with IL-21",
+          "D": "Th1 with IFN-\u03b3",
+          "E": "Treg with IL-10 Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Th1 with IFN-\u03b3 Why this is right: Tuberculoid leprosy features Th1/IFN-\u03b3\u2013mediated macrophage activation and bacterial control. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 45-year-old man with plaque psoriasis responds to secukinumab. Which immune pathway is directly targeted by this therapy?",
+        "options": {
+          "A": "Th1\u2013IFN-\u03b3 axis",
+          "B": "Th17\u2013IL-17A axis",
+          "C": "Th2\u2013IL-4 axis",
+          "D": "Treg\u2013IL-10 axis",
+          "E": "ILC2 activation Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Th17\u2013IL-17A axis Why this is right: Secukinumab neutralizes IL-17A, improving diseases driven by Th17 inflammation such as psoriasis. Why the others are wrong: A/C/D/E. Not the targeted cytokine/pathway."
+        }
+      },
+      {
+        "stem": "A GWAS links IL-23R variants with increased risk of autoimmune spondyloarthropathies. What is the principal role of IL-23 in the Th17 pathway?",
+        "options": {
+          "A": "Maintains and expands Th17 responses after initial priming",
+          "B": "Drives class switching to IgE",
+          "C": "Macrophage activation is IFN-\u03b3/TNF-\u03b1 driven.",
+          "D": "Induces Treg differentiation from na\u00efve CD4+ cells",
+          "E": "Promotes Th1 commitment via STAT4 Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Maintains and expands Th17 responses after initial priming Why this is right: IL-23 sustains Th17 cells and pathologic inflammation once the lineage is established. Why the others are wrong: B/D/E. Not Th17 maintenance roles."
+        }
+      },
+      {
+        "stem": "Peripheral blood lymphocytes from a healthy adult are stimulated with IL-2. Within minutes, receptor subunits aggregate, receptor-associated kinases trans-phosphorylate, and specific transcription factors dock via SH2 domains before nuclear translocation. Which is the correct event order?",
+        "options": {
+          "A": "STAT docking \u2192 receptor aggregation \u2192 JAK activation \u2192 transcription",
+          "B": "Transcription \u2192 STAT docking \u2192 receptor aggregation \u2192 JAK activation",
+          "C": "Receptor aggregation \u2192 JAK activation \u2192 STAT docking \u2192 STAT phosphorylation and nuclear translocation",
+          "D": "JAK activation \u2192 receptor aggregation \u2192 STAT docking \u2192 transcription",
+          "E": "STAT phosphorylation \u2192 receptor aggregation \u2192 JAK activation \u2192 transcription Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Receptor aggregation \u2192 JAK activation \u2192 STAT docking \u2192 STAT phosphorylation and nuclear translocation Why this is right: Cytokine binding clusters subunits, activates JAKs, recruits/activates STATs, which then dimerize and enter the nucleus. Why the others are wrong: A/B/D/E. Misorder the canonical sequence."
+        }
+      }
+    ],
+    "Detection and Response to Danger Signals": [
+      {
+        "stem": "A 30-year-old man suffers blunt chest trauma in a car crash. He has tachypnea and hypoxemia; CT shows pulmonary contusions without infection. BAL fluid reveals extracellular ATP and mitochondrial DNA. Which early cytokine pattern in alveolar macrophages best reflects a PRR-mediated response to these signals?",
+        "options": {
+          "A": "IL-4/IL-5 reflect Th2/allergic responses.",
+          "B": "Elevated IL-1\u03b2 and IL-18 following inflammasome activation",
+          "C": "IL-12/IFN-\u03b3 is more NK/Th1\u2013driven antimicrobial activation.",
+          "D": "IL-10/TGF-\u03b2 dominate resolution, not the immediate danger response.",
+          "E": "Type I IFNs are hallmarks of viral nucleic acid sensing, not sterile trauma."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Elevated IL-1\u03b2 and IL-18 following inflammasome activation Why this is right: DAMPs like extracellular ATP and mitochondrial DNA can activate inflammasome pathways, leading to caspase-1\u2013mediated processing and release of IL-1\u03b2 and IL-18. This pattern fits sterile lung injury with PRR sensing of danger signals. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 7-year-old girl has two episodes of herpes simplex encephalitis despite normal immunoglobulins and lymphocyte counts. Fibroblasts fail to produce type I interferon in response to synthetic double-stranded RNA in endosomes. Defect of which receptor pathway most likely explains her susceptibility?",
+        "options": {
+          "A": "TLR4 senses LPS (Gram-negatives).",
+          "B": "TLR2 senses Gram-positive motifs.",
+          "C": "TLR3 recognition of double-stranded RNA with IRF3 activation",
+          "D": "Dectin-1 targets fungi.",
+          "E": "NOD1 senses cytosolic peptidoglycan fragments, not dsRNA."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "TLR3 recognition of double-stranded RNA with IRF3 activation Why this is right: TLR3 senses dsRNA in endosomes to induce type I interferons crucial for antiviral defense in the CNS; genetic defects predispose to HSV encephalitis with otherwise intact adaptive immunity. The functional assay mirrors TLR3 signaling. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 70-year-old postsurgical patient develops hypotension and fever. Blood cultures grow Streptococcus pyogenes. Monocytes from this patient produce TNF when exposed to purified lipoteichoic acid and peptidoglycan. Which receptor pair initiates this response?",
+        "options": {
+          "A": "TLR4 senses LPS (Gram-negative).",
+          "B": "TLR2/TLR6 heterodimer",
+          "C": "TLR3 detects dsRNA.",
+          "D": "TLR7 detects ssRNA.",
+          "E": "Dectin-1 recognizes fungal \u03b2-glucan."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "TLR2/TLR6 heterodimer Why this is right: TLR2 (often with TLR6) recognizes Gram-positive lipoteichoic acid/peptidoglycan, leading to NF-\u03baB activation. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 28-year-old asplenic man develops sepsis from Streptococcus pneumoniae. He had not received conjugate vaccines. Loss of which B-cell population most compromises T-independent responses to encapsulated bacteria?",
+        "options": {
+          "A": "Splenic marginal zone B cells",
+          "B": "Maintain serum IgG but aren\u2019t the TI-2 first responders. C/E. T cells aren\u2019t central to TI-2.",
+          "C": "Follicular helper T cells",
+          "D": "Produce type I IFN, not polysaccharide IgM.",
+          "E": "Na\u00efve CD8+ T cells Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Splenic marginal zone B cells Why this is right: Marginal zone B cells rapidly respond to TI-2 polysaccharides from encapsulated organisms, producing IgM; splenectomy removes this defense. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "An elderly patient receives a plain polysaccharide vaccine. Antibody titers rise but wane within months; memory recall to boost is poor. Which feature of T-independent responses best explains this?",
+        "options": {
+          "A": "Strong germinal center reaction generates short-lived cells only",
+          "B": "Robust affinity maturation produces unstable antibodies",
+          "C": "Minimal germinal center formation \u2192 limited class switching/affinity maturation and weak memory",
+          "D": "Excessive TLR signaling deletes memory B cells",
+          "E": "Polyclonal T-cell activation exhausts Tfh cells Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Minimal germinal center formation \u2192 limited class switching/affinity maturation and weak memory Why this is right: TI responses largely bypass germinal centers, yielding short-lived IgM and scant memory. Why the others are wrong: A/B. Contradict the TI biology. D/E. Not defining features of TI vaccines."
+        }
+      },
+      {
+        "stem": "A 36-year-old healthcare worker has a 20-mm induration on tuberculin skin test read at 48 hours. Which statement best explains the cellular mechanism underlying this response?",
+        "options": {
+          "A": "IL-4\u2013driven IgE production and mast-cell degranulation",
+          "B": "Immune complex deposition in dermal vessels",
+          "C": "Th17 neutrophilia, not classic DTH.",
+          "D": "Complement-mediated MAC injury",
+          "E": "IFN-\u03b3\u2013activated macrophages recruited by Th1 cells Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "IFN-\u03b3\u2013activated macrophages recruited by Th1 cells Why this is right: DTH is a Th1-mediated reaction with IFN-\u03b3\u2013driven macrophage activation causing induration. Why the others are wrong: A/B/D. Distinct hypersensitivity mechanisms."
+        }
+      }
+    ],
+    "Main Components of Innate and Adaptive Immune Systems": [
+      {
+        "stem": "A 29-year-old primigravida at 10 weeks\u2019 gestation asks how vaccinations \u201cwork with\u201d versus \u201cwork against\u201d her body. You explain that her innate immune system will initially sense adjuvants and antigens, and her adaptive system will create specificity and memory. Which cell type is the critical bridge that captures antigen in tissues and initiates adaptive immune responses in lymph nodes?",
+        "options": {
+          "A": "Dendritic cell",
+          "B": "Neutrophils kill but do not prime na\u00efve T cells.",
+          "C": "Eosinophils target parasites and allergy.",
+          "D": "Basophils contribute to allergic inflammation.",
+          "E": "Mesangial cells are renal, not immune APCs."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Dendritic cell Why this is right: Dendritic cells are professional antigen-presenting cells that sense danger via PRRs, process antigens, migrate to lymph nodes, and prime na\u00efve T cells\u2014linking innate detection to adaptive specificity and memory, including vaccine responses. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 3-year-old girl presents with high fever 18 hours after onset of otitis media. Which attribute supports an innate rather than adaptive response at this early time?",
+        "options": {
+          "A": "Antigen presentation is required to activate na\u00efve T cells (adaptive).",
+          "B": "Slow kinetics describes adaptive responses.",
+          "C": "Recognition of conserved microbial motifs by fixed receptors",
+          "D": "SHM yields high-affinity antibodies (adaptive).",
+          "E": "Memory is a hallmark of adaptive immunity."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Recognition of conserved microbial motifs by fixed receptors Why this is right: Innate immunity responds within hours via germline-encoded receptors (PRRs) that recognize conserved patterns (PAMPs), explaining rapid fever and inflammation at 18 hours. Why the others are wrong:"
+        }
+      }
+    ],
+    "Immune Response Subsidence": [
+      {
+        "stem": "A 7-year-old boy receives his second dose of a conjugate vaccine. Two days later, he has only mild arm soreness. Which immune feature most distinguishes this secondary response from his primary response months earlier?",
+        "options": {
+          "A": "Greater magnitude and faster kinetics due to pre-existing memory B and T cells",
+          "B": "Complement may contribute but is not the distinguishing hallmark of secondary responses.",
+          "C": "TLR2 sensing does not explain secondary kinetics/affinity.",
+          "D": "A fixed Th2 skew is not universal and doesn\u2019t explain improved speed/strength.",
+          "E": "Affinity increases, not decreases, after memory responses."
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Greater magnitude and faster kinetics due to pre-existing memory B and T cells Why this is right: Secondary responses are faster and stronger because memory lymphocytes expand rapidly and produce higher-affinity antibodies, often with class switching already established\u2014distinguishing adaptive memory from primary responses. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 62-year-old woman with rheumatoid arthritis starts high-dose systemic glucocorticoids for a flare. Within days, her joint swelling improves and her CRP falls. Which mechanism best explains how the immune response is being forced into subsidence?",
+        "options": {
+          "A": "Steroids suppress DC function; they don\u2019t enhance presentation.",
+          "B": "Steroids suppress, not upregulate, NF-\u03baB cytokines.",
+          "C": "Increased production of IL-10 and TGF-\u03b2 and lymphocyte apoptosis",
+          "D": "Th17 expansion is proinflammatory.",
+          "E": "Complement regulation is not the principal steroid effect."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Increased production of IL-10 and TGF-\u03b2 and lymphocyte apoptosis Why this is right: Glucocorticoids promote anti-inflammatory cytokines (IL-10, TGF-\u03b2), reduce proinflammatory mediators, and induce lymphocyte apoptosis\u2014accelerating the normal resolution/subsidence phase of immune responses. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 38-year-old woman had a severe bacterial cellulitis that resolved after antibiotics. She is healthy at follow-up, but flow cytometry shows a small population of antigen-experienced CD4+ and CD8+ T cells with high Bcl-2 and rapid proliferative capacity on restimulation. Which coordinated processes allowed the immune response to subside while preserving protection against future infection?",
+        "options": {
+          "A": "Complete deletion would preclude memory.",
+          "B": "Specificity does not \u201cswitch\u201d from protein to carbohydrate.",
+          "C": "Contraction via apoptosis of most effector cells with survival of long-lived memory cells",
+          "D": "Efferocytosis promotes, not inhibits, resolution.",
+          "E": "Permanent MHC downregulation would impair future responses. Topic: Basics of Innate Immunity I [No high-yield questions available] Subtopic: Mechanisms of Innate Immunity"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Contraction via apoptosis of most effector cells with survival of long-lived memory cells Why this is right: Resolution entails contraction (apoptosis of effectors) while a subset differentiates into memory cells with enhanced survival (Bcl-2) and rapid recall. This balances subsidence with preparedness for re-exposure. Why the others are wrong:"
+        },
+        "long_form": true
+      }
+    ]
+  },
+  "Basics of Innate Immunity I": {
+    "Innate Immune Cells": [
+      {
+        "stem": "A 5-year-old girl with recurrent viral infections has normal neutrophil counts and immunoglobulin levels. NK cell cytotoxicity assays are markedly reduced. Which innate mechanism best explains early control of virally infected cells that is compromised in this patient?",
+        "options": {
+          "A": "Th1 activation is adaptive and indirect.",
+          "B": "Detection of missing-self (low MHC I) and stress ligands with perforin/granzyme-mediated killing",
+          "C": "Opsonophagocytosis is for extracellular microbes.",
+          "D": "Complement can opsonize but is not primary for infected host cells.",
+          "E": "NK receptors are germline-encoded; they do not undergo V(D)J recombination."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Detection of missing-self (low MHC I) and stress ligands with perforin/granzyme-mediated killing Why this is right: NK cells detect reduced MHC I and stress-induced ligands, then kill targets via perforin/granzyme. Defective NK function predisposes to severe viral infections during the window before robust adaptive CTL responses. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 33-year-old pediatric nurse develops abrupt fever, myalgias, and sore throat during an influenza outbreak. Within 24 hours, her nasal epithelial cells upregulate numerous antiviral genes, and neighboring uninfected cells display resistance to viral replication. Which innate mechanism most directly induces this early \u201cantiviral state\u201d?",
+        "options": {
+          "A": "Inflammasomes drive IL-1\u03b2, not the antiviral gene program.",
+          "B": "MBL targets microbes via complement, not intracellular antiviral genes.",
+          "C": "NETs target extracellular bacteria/fungi.",
+          "D": "NK killing helps, but the \u201cantiviral state\u201d refers to IFN-driven gene induction.",
+          "E": "Type I interferon signaling from infected and plasmacytoid dendritic cells Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Type I interferon signaling from infected and plasmacytoid dendritic cells Why this is right: Viral nucleic acid sensing induces IFN-\u03b1/\u03b2, which upregulate antiviral effectors (e.g., PKR, RNase L) in infected and neighboring cells, limiting replication within hours. Plasmacytoid dendritic cells amplify this signal systemically. This paracrine/autocrine response precedes adaptive immunity. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 42-year-old woman with immune thrombocytopenia responds to high-dose IVIG. One mechanism involves engaging an inhibitory Fc receptor on B cells and myeloid cells to dampen activation. Which receptor is this?",
+        "options": {
+          "A": "Fc\u03b3RI (CD64) with ITAM",
+          "B": "Fc\u03b3RIIB (CD32B) with ITIM that suppresses signaling when co-ligated",
+          "C": "Fc\u03b3RIIIa (CD16a) on NK cells",
+          "D": "Binds IgE, unrelated to IVIG\u2019s B-cell inhibition.",
+          "E": "Fc\u03b1RI (CD89) on neutrophils Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Fc\u03b3RIIB (CD32B) with ITIM that suppresses signaling when co-ligated Why this is right: Fc\u03b3RIIB provides inhibitory ITIM signals that counterbalance activating receptors and BCR, contributing to IVIG\u2019s immunomodulation. Why the others are wrong: A/C/E. Activating receptors."
+        }
+      },
+      {
+        "stem": "A viral immune-evasion protein prevents peptide transport into the ER. Infected cells show low class I on the surface and are killed by NK cells. Which statement best explains the dual effect?",
+        "options": {
+          "A": "Blocked class II loading prevents Th1 help",
+          "B": "Enhanced HLA-DM activity triggers apoptosis",
+          "C": "Increased \u03b22-microglobulin promotes NK activation",
+          "D": "Loss of class I presentation impairs CD8 recognition and removes inhibitory NK signals (\u201cmissing self\u201d)",
+          "E": "Increased TAP activity depletes peptides Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Loss of class I presentation impairs CD8 recognition and removes inhibitory NK signals (\u201cmissing self\u201d) Why this is right: Blocking TAP lowers class I, evading CTLs but triggering NK killing due to missing inhibitory ligands. Why the others are wrong: A/B/C/E. Do not explain the observed pattern."
+        }
+      },
+      {
+        "stem": "A 6-year-old girl has chronic, nonmalignant lymphadenopathy and splenomegaly, recurrent autoimmune hemolytic anemia and thrombocytopenia, and elevated double-negative (CD3+CD4\u2212CD8\u2212) T cells. In vitro, her T cells fail to undergo activation-induced cell death when exposed to agonistic anti-Fas antibody. Which defect best explains her syndrome?",
+        "options": {
+          "A": "Explains HLH, not this phenotype. B/D/E. Do not produce the classic ALPS triad with Fas-insensitive AICD.",
+          "B": "STAT1 gain-of-function with hyper\u2013IFN-\u03b3 signaling",
+          "C": "Fas (CD95) death receptor pathway mutation causing ALPS",
+          "D": "IL-2 receptor \u03b1 (CD25) deficiency causing Treg failure",
+          "E": "TAP deficiency causing reduced MHC I expression Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Fas (CD95) death receptor pathway mutation causing ALPS Why this is right: Autoimmune lymphoproliferative syndrome features impaired Fas-mediated apoptosis, DNT-cell expansion, and autoimmune cytopenias. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 30-year-old woman with chronic rhinosinusitis has biopsy showing clusters of IFN-\u03b3\u2013producing innate lymphoid cells near epithelium, with scarce IL-17 staining. Which ILC subset predominates?",
+        "options": {
+          "A": "ILC3",
+          "B": "ILC2",
+          "C": "ILC1",
+          "D": "NK\u2013T cells",
+          "E": "Tfh cells Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "ILC1 Why this is right: ILC1s mirror Th1, producing IFN-\u03b3. ILC3s produce IL-17/IL-22; ILC2s produce IL-5/IL-13. Why the others are wrong: A/B. Cytokine profiles don\u2019t match. D/E. Not ILC subsets."
+        }
+      }
+    ],
+    "Innate Immune Cytokines": [
+      {
+        "stem": "A 49-year-old man with acute hepatitis C has flu-like symptoms and increased expression of Mx proteins and oligoadenylate synthetase in hepatocytes. Which cytokines are primarily responsible for inducing this antiviral gene program?",
+        "options": {
+          "A": "IL-1 and IL-6",
+          "B": "TNF-\u03b1 and IL-1",
+          "C": "IFN-\u03b1 and IFN-\u03b2",
+          "D": "IFN-\u03b3 activates macrophages; IL-12 drives Th1.",
+          "E": "IL-10/TGF-\u03b2 are regulatory."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "IFN-\u03b1 and IFN-\u03b2 Why this is right: Type I interferons induce a suite of antiviral effectors (e.g., Mx, OAS, PKR) that inhibit viral replication in infected and neighboring cells. Why the others are wrong: A/B. IL-1/IL-6 contribute to fever/acute-phase, not antiviral genes."
+        }
+      }
+    ],
+    "The Complement System": [
+      {
+        "stem": "A 12-year-old girl has recurrent sinus infections and otitis media. Total hemolytic complement assay (CH50) is undetectable, but alternative pathway hemolytic activity (AH50) is normal. Which complement component deficiency best explains these findings?",
+        "options": {
+          "A": "Properdin stabilizes the alternative pathway; AH50 would be low.",
+          "B": "C2",
+          "C": "Factor D is required for the alternative pathway; AH50 would be low. D/E. C3 or C5 defects lower both CH50 and AH50.",
+          "D": "C3",
+          "E": "C5 Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "C2 Why this is right: Low CH50 with normal AH50 indicates a classical pathway defect (C1, C2, or C4). C2 deficiency is the most common classical component deficiency and fits the preserved alternative pathway function. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 7-year-old boy has two episodes of meningococcemia. CH50 is low; AH50 is also low. Which specific complement defect is most consistent with his susceptibility?",
+        "options": {
+          "A": "C1q",
+          "B": "C2",
+          "C": "C4",
+          "D": "C3 deficiency increases pyogenic infections broadly, not specifically Neisseria.",
+          "E": "\u2014 Correct."
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Terminal complement (C5\u2013C9) deficiency Why this is right: Deficiency of the membrane attack complex predisposes to recurrent Neisseria infections because MAC-mediated lysis is critical for these bacteria. Both CH50 and AH50 are reduced since the terminal pathway is shared. Why the others are wrong: A\u2013C. Classical pathway defects often spare AH50."
+        }
+      }
+    ],
+    "Mechanisms of Innate Immunity": [
+      {
+        "stem": "A term neonate is born to an Rh-negative mother who received appropriate anti-D prophylaxis. The infant has passive immunity against several pathogens for the first months of life. Which receptor-mediated structural interaction enabled transplacental transfer of maternal immunoglobulin to the fetus?",
+        "options": {
+          "A": "Binding of IgA to pIgR on placental trophoblasts",
+          "B": "FcRn-mediated transport of maternal IgG Fc across the placenta",
+          "C": "Dimeric IgA J chain engagement of Fc\u03b1RI on syncytiotrophoblasts",
+          "D": "IgM doesn\u2019t cross the placenta.",
+          "E": "Fc\u03b5RI is on mast cells/basophils, not mediating placental transport."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "FcRn-mediated transport of maternal IgG Fc across the placenta Why this is right: Neonatal Fc receptor (FcRn) binds the Fc region of IgG at acidic pH within endosomes of the placenta and transfers IgG into fetal circulation, conferring passive immunity. Why the others are wrong: A/C. pIgR transports IgA across mucosa, not placenta."
+        }
+      },
+      {
+        "stem": "A 6-year-old boy has recurrent wheeze and episodic urticaria. Labs show elevated IgE and peripheral eosinophilia. Which T-helper subset is primarily responsible for promoting this pattern of immunity?",
+        "options": {
+          "A": "Th1 targets intracellular pathogens.",
+          "B": "Th2",
+          "C": "Th17 recruits neutrophils for extracellular pathogens.",
+          "D": "Tfh provide B-cell help but aren\u2019t the allergic effector program.",
+          "E": "Tregs suppress, not promote, inflammation."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Th2 Why this is right: Th2 cells (IL-4/IL-5/IL-13) drive IgE class switching, eosinophilia, mucus production, and allergic responses. Why the others are wrong:"
+        }
+      }
+    ]
+  },
+  "Basics of Innate Immunity II": {
+    "Neutrophils": [
+      {
+        "stem": "A 6-year-old boy has a history of recurrent sinopulmonary infections beginning at age 2. He was hospitalized twice for pneumonia and once for meningococcal bacteremia. Between infections he is well and growing appropriately. Vaccinations are up to date. Physical exam is unremarkable. Labs today show normal absolute lymphocyte count, normal neutrophils, and low C3 with undetectable C5\u2013C9 hemolytic activity. Blood glucose and HIV test are normal. His mother asks what the immune system is \u201csupposed to do\u201d and why her son keeps getting these infections despite healthy habits. Which statement best captures the principal purpose of the immune system as illustrated by this child\u2019s presentation?",
+        "options": {
+          "A": "\u2014 Correct.",
+          "B": "Central tolerance is essential but does not explain recurrent bacterial infections with complement defects.",
+          "C": "Tissue repair is a consequence of injury, not the primary immune mandate in this scenario.",
+          "D": "Tumor surveillance is real but not the issue in a child with invasive bacteria.",
+          "E": "Memory is adaptive immunity\u2019s feature; terminal complement deficiency impairs immediate innate defense, not memory."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Protect the host by eliminating microbes while limiting collateral tissue damage Why this is right: Recurrent infections with encapsulated bacteria and Neisseria, along with terminal complement deficiency, highlight the core role of immunity in host defense against pathogens. Complement participates in opsonization and MAC-mediated lysis, particularly important for Neisseria. The overarching purpose is microbial elimination with regulated inflammation to prevent bystander injury. This case exemplifies failure of a defense arm rather than a tolerance or repair defect. Why the others are wrong:"
+        },
+        "expl": "A \u2014 Protect the host by eliminating microbes while limiting collateral tissue damage Why this is right: Recurrent infections with encapsulated bacteria and Neisseria, along with terminal complement deficiency, highlight the core role of immunity in host defense against pathogens. Complement participates in opsonization and MAC-mediated lysis, particularly important for Neisseria. The overarching purpose is microbial elimination with regulated inflammation to prevent bystander injury. This case exemplifies failure of a defense arm rather than a tolerance or repair defect. Why the others are wrong: A. \u2014 Correct. B. Central tolerance is essential but does not explain recurrent bacterial infections with complement defects. C. Tissue repair is a consequence of injury, not the primary immune mandate in this scenario. D. Tumor surveillance is real but not the issue in a child with invasive bacteria. E. Memory is adaptive immunity\u2019s feature; terminal complement deficiency impairs immediate innate defense, not memory.",
+        "long_form": true
+      },
+      {
+        "stem": "A 52-year-old man sustains a crush injury to his calf. Within hours, he develops fever and localized swelling without signs of infection. Serum shows elevated HMGB1 and uric acid near the wound bed. Neutrophils accumulate in the injured tissue. Which mechanism most directly explains the immune system\u2019s detection of this sterile danger signal?",
+        "options": {
+          "A": "IgE is for allergens/parasites, not DAMP detection.",
+          "B": "Recognition of damage-associated molecular patterns by pattern recognition receptors on innate cells",
+          "C": "BCR-driven clonal expansion is adaptive, delayed, and antigen-specific.",
+          "D": "MHC II presentation of self would promote tolerance, not acute sterile inflammation.",
+          "E": "C1q can bind debris, but PRR recognition of DAMPs is the initiating event here."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Recognition of damage-associated molecular patterns by pattern recognition receptors on innate cells Why this is right: Sterile injury releases DAMPs (e.g., HMGB1, ATP, uric acid) sensed by PRRs on macrophages and other innate cells, triggering inflammation and neutrophil recruitment even without microbes. This is the canonical danger-signal model linking tissue damage to an immediate innate response. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 60-year-old man with chronic hepatitis B is evaluated for functional cure after antivirals. He asks why his body \u201cdidn\u2019t wipe this virus out early.\u201d Which feature of adaptive immunity is essential for sterilizing clearance but requires days to develop?",
+        "options": {
+          "A": "\u2014 Correct (selected).",
+          "B": "Neutrophils are less relevant for intracellular viral control.",
+          "C": "CD8+ cytotoxic T lymphocytes with antigen-specific killing of infected hepatocytes",
+          "D": "Type I IFNs are innate and nonspecific.",
+          "E": "MAC targets bacteria; nucleated host cells resist MAC-mediated lysis."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "CD8+ cytotoxic T lymphocytes with antigen-specific killing of infected hepatocytes Why this is right: Clearance of intracellular viruses like HBV depends on adaptive, antigen-specific CTLs that require priming and expansion\u2014explaining delayed onset compared with innate mechanisms. Effective CTL responses correlate with functional cure. Why the others are wrong:"
+        },
+        "expl": "A \u2014 CD8+ cytotoxic T lymphocytes with antigen-specific killing of infected hepatocytes Why this is right: Clearance of intracellular viruses like HBV depends on adaptive, antigen-specific CTLs that require priming and expansion\u2014explaining delayed onset compared with innate mechanisms. Effective CTL responses correlate with functional cure. Why the others are wrong: A. \u2014 Correct (selected). B. Neutrophils are less relevant for intracellular viral control. D. Type I IFNs are innate and nonspecific. E. MAC targets bacteria; nucleated host cells resist MAC-mediated lysis."
+      },
+      {
+        "stem": "A 54-year-old man with uncontrolled diabetes presents with rapidly progressive cellulitis and bacteremia due to \u03b2-hemolytic streptococci. Blood smear shows toxic granulation in neutrophils. Despite antibiotics, he develops microvascular thrombosis and tissue necrosis. Which neutrophil-dependent innate mechanism most directly traps and concentrates bactericidal factors in necrotic tissue?",
+        "options": {
+          "A": "Endocytosis is not the extracellular trap mechanism.",
+          "B": "Phagocytosis is important but doesn\u2019t explain extracellular trapping.",
+          "C": "Eosinophils target parasites and allergy.",
+          "D": "Extrusion of chromatin-based neutrophil extracellular traps (NETs)",
+          "E": "Complement aids opsonization but doesn\u2019t form extracellular chromatin nets."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Extrusion of chromatin-based neutrophil extracellular traps (NETs) Why this is right: NETs immobilize microbes in a mesh of chromatin and granular proteins at sites of severe infection and tissue damage, concentrating antimicrobial effectors. This can contribute to local thrombosis and necrosis in overwhelming infections. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 31-year-old woman has a painful, erythematous leg wound with purulent drainage. Tissue cytokine analysis shows high levels of a chemokine that binds CXCR1/2 on neutrophils. Which mediator most directly promotes neutrophil chemotaxis to this site?",
+        "options": {
+          "A": "IL-1 causes fever/endothelial activation.",
+          "B": "IL-8 (CXCL8)",
+          "C": "IL-6 drives acute-phase responses.",
+          "D": "IFN-\u03b3 activates macrophages rather than chemotaxing neutrophils.",
+          "E": "IL-2 expands T cells."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "IL-8 (CXCL8) Why this is right: IL-8 is the key chemokine for neutrophil chemotaxis and activation via CXCR1/2, explaining the robust neutrophil influx in purulent bacterial infection. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A neonate has delayed separation of the umbilical cord, omphalitis, recurrent skin infections without pus, and marked neutrophilia. Flow cytometry shows absent CD18 on neutrophils. Which step in recruitment is primarily defective?",
+        "options": {
+          "A": "Rolling uses selectins, intact here. C/D/E. Occur after firm adhesion or are downstream functions.",
+          "B": "Firm adhesion via \u03b22 integrins (CD18) binding ICAM-1",
+          "C": "Chemotaxis along C5a and IL-8 gradients",
+          "D": "Diapedesis through PECAM-1 at endothelial junctions",
+          "E": "Opsonophagocytosis via Fc\u03b3 receptors Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Firm adhesion via \u03b22 integrins (CD18) binding ICAM-1 Why this is right: LAD-1 (CD18 deficiency) prevents integrin-mediated firm adhesion, causing poor pus formation and leukocytosis. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 7-year-old boy has recurrent pyogenic infections, oculocutaneous albinism, peripheral neuropathy, and giant azurophilic granules in neutrophils on smear. Which defect underlies his disease?",
+        "options": {
+          "A": "NADPH oxidase mutation impairing superoxide production",
+          "B": "Myeloperoxidase deficiency impairing HOCl formation",
+          "C": "Deficiency of Sialyl-Lewis^x impairing rolling",
+          "D": "Deficiency of CD18 impairing firm adhesion",
+          "E": "LYST mutation causing defective lysosomal trafficking and phagolysosome fusion Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "LYST mutation causing defective lysosomal trafficking and phagolysosome fusion Why this is right: Chediak\u2013Higashi syndrome features LYST defects \u2192 giant granules, albinism, neuropathy, and recurrent infections. Why the others are wrong: A/B. Oxidative defects lack albinism and giant granules. C/D. Adhesion defects present without giant granules or albinism."
+        }
+      },
+      {
+        "stem": "A 48-year-old man with cellulitis shows leukocytosis. Early recruitment of neutrophils to postcapillary venules is studied in vivo. Which molecular interaction mediates initial rolling on activated endothelium?",
+        "options": {
+          "A": "ICAM-1 binding to LFA-1 (CD11a/CD18)",
+          "B": "VCAM-1 binding to VLA-4",
+          "C": "E-selectin on endothelium binding Sialyl-Lewis^x on neutrophils",
+          "D": "Chemokine signaling activates integrins after rolling.",
+          "E": "PECAM-1 functions at diapedesis."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "E-selectin on endothelium binding Sialyl-Lewis^x on neutrophils Why this is right: Selectin\u2013SLe^x interactions mediate rolling; integrins mediate firm adhesion later. Why the others are wrong: A/B. Firm adhesion steps, not rolling."
+        }
+      },
+      {
+        "stem": "A 56-year-old man with uncontrolled diabetes presents with fever, hypotension, and right-leg cellulitis complicated by bacteremia. Despite broad-spectrum antibiotics, he remains septic. Peripheral smear shows toxic granulation in neutrophils. Flow cytometry of his opsonophagocytic assay demonstrates normal IgG levels but markedly reduced neutrophil uptake of opsonized Staphylococcus aureus when the immunoglobulin has been enzymatically trimmed to remove a specific region. Which structural part of the antibody most directly mediates the effector interactions that promote phagocytosis and complement activation in this setting?",
+        "options": {
+          "A": "VH framework maintains structure but doesn\u2019t engage effector systems.",
+          "B": "CL contributes to stability, not Fc-mediated functions.",
+          "C": "The hinge confers flexibility but not direct receptor/complement binding.",
+          "D": "Fc portion of the heavy-chain constant region",
+          "E": "CDRs bind antigen; they do not recruit phagocytes or complement."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Fc portion of the heavy-chain constant region Why this is right: The Fc region (primarily CH2/CH3 of IgG) binds Fc\u03b3 receptors on phagocytes and C1q to activate complement\u2014key effector functions for clearing extracellular bacteria. Removal of Fc abrogates these interactions despite intact antigen binding. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 36-year-old man with shigellosis has stools showing neutrophils ingesting IgA-coated bacteria. Which Fc receptor mediates this IgA-dependent uptake on neutrophils?",
+        "options": {
+          "A": "Fc\u03b3RI (CD64)",
+          "B": "Fc\u03b1RI (CD89)",
+          "C": "IgE receptor.",
+          "D": "Fc\u03b3RIIA (CD32A)",
+          "E": "Not a phagocytic Fc receptor."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Fc\u03b1RI (CD89) Why this is right: Fc\u03b1RI on neutrophils/macrophages binds IgA to promote phagocytosis and degranulation at mucosal surfaces. Why the others are wrong: A/D. IgG receptors."
+        }
+      },
+      {
+        "stem": "A renal transplant recipient develops graft dysfunction 3 weeks post-op. Biopsy shows neutrophils in peritubular capillaries and strong C4d deposition; donor-specific anti-HLA antibodies are detected. Which mechanism is operating?",
+        "options": {
+          "A": "Delayed-type hypersensitivity",
+          "B": "Acute antibody-mediated rejection with complement activation",
+          "C": "Chronic rejection",
+          "D": "Hyperacute rejection",
+          "E": "Drug toxicity Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Acute antibody-mediated rejection with complement activation Why this is right: C4d marks classical pathway activation by donor-specific antibodies in peritubular capillaries. Why the others are wrong: A/C/D/E. Do not match timing and C4d positivity."
+        }
+      },
+      {
+        "stem": "A 23-year-old with new-onset ulcerative gingivitis and recurrent sinus infections has mucosal biopsies rich in IL-17A and CXCL8 (IL-8). Neutrophils dominate the infiltrate. Which statement best explains the role of this helper subset in mucosal defense?",
+        "options": {
+          "A": "IL-4 induces eosinophil chemotaxis to mucosa",
+          "B": "Th1 mechanism.",
+          "C": "Th17-derived IL-17 induces epithelial chemokines that recruit neutrophils",
+          "D": "Th2 cells secrete IL-13 to drive neutrophil swarming",
+          "E": "Tregs enhance neutrophil transmigration via IL-10 Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Th17-derived IL-17 induces epithelial chemokines that recruit neutrophils Why this is right: IL-17 triggers epithelial chemokines (e.g., CXCL8) that recruit neutrophils against extracellular bacteria/fungi at barriers. Why the others are wrong: A/D/E. Not neutrophil-recruiting roles."
+        }
+      }
+    ],
+    "Other PRRs in the Innate Immune System": [
+      {
+        "stem": "A 42-year-old woman develops fever and lymphopenia with elevated serum IFN-stimulated gene expression within 12 hours of a dengue exposure. Which innate cell type is the dominant early source of type I interferons in systemic viral infections?",
+        "options": {
+          "A": "Monocytes make cytokines but are not the major IFN-\u03b1/\u03b2 source.",
+          "B": "Neutrophils are not dominant interferon producers.",
+          "C": "Kupffer cells are tissue macrophages with limited systemic IFN output.",
+          "D": "cDCs produce IFN but pDCs are the principal early source.",
+          "E": "Plasmacytoid dendritic cells Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Plasmacytoid dendritic cells Why this is right: Plasmacytoid DCs sense viral nucleic acids via endosomal TLRs and secrete large amounts of IFN-\u03b1/\u03b2 early, driving systemic antiviral programs. Their output exceeds that of most other leukocytes in viremic states. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 62-year-old woman receiving cytotoxic chemotherapy develops febrile neutropenia (ANC 200/\u00b5L). She is started on broad-spectrum antibiotics and a hematopoietic growth factor that accelerates neutrophil recovery. Which mechanism best describes this drug\u2019s action?",
+        "options": {
+          "A": "G-CSF binding to myeloid progenitors to expand and mobilize neutrophils",
+          "B": "IL-2 stimulation of na\u00efve T-cell clonal expansion",
+          "C": "IFN-\u03b3 activation of macrophage microbicidal pathways",
+          "D": "Erythropoietin activation of erythroid precursors",
+          "E": "GM-CSF supports myeloid growth; it doesn\u2019t inhibit granulopoiesis."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "G-CSF binding to myeloid progenitors to expand and mobilize neutrophils Why this is right: G-CSF enhances neutrophil production and egress, shortening neutropenia duration. Why the others are wrong: B/C/D. Target non-neutrophil lineages/functions."
+        }
+      },
+      {
+        "stem": "A 3-month-old has severe RSV bronchiolitis. The mother asks why he was protected at birth but became vulnerable now. Which statement best explains the class responsible for early protection?",
+        "options": {
+          "A": "IgA from placenta has a long half-life",
+          "B": "Maternal IgG crosses the placenta via FcRn and wanes over months",
+          "C": "IgM crosses placenta but is rapidly cleared",
+          "D": "IgD persists on neonatal B cells to neutralize viruses",
+          "E": "IgE persists bound to mast cells for months Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Maternal IgG crosses the placenta via FcRn and wanes over months Why this is right: Only IgG is efficiently transported across the placenta; its half-life (~21\u201328 days) leads to physiologic nadir around 3\u20136 months, increasing infection risk. Why the others are wrong: A/C/D/E. Do not cross the placenta or provide durable systemic protection."
+        },
+        "expl": "B \u2014 Maternal IgG crosses the placenta via FcRn and wanes over months Why this is right: Only IgG is efficiently transported across the placenta; its half-life (~21\u201328 days) leads to physiologic nadir around 3\u20136 months, increasing infection risk. Why the others are wrong: A/C/D/E. Do not cross the placenta or provide durable systemic protection."
+      }
+    ],
+    "The IL-12, IFN-\u03b3 Pathway": [
+      {
+        "stem": "A 40-year-old man with recurrent pyelonephritis has normal C3 and C4 levels. Functional testing shows robust alternative pathway activity that depends on stabilization of the C3 convertase (C3bBb). Which protein physiologically stabilizes this convertase on microbial surfaces?",
+        "options": {
+          "A": "Properdin",
+          "B": "Factor I cleaves C3b (inactivating).",
+          "C": "Factor H accelerates decay of the convertase and co-factors Factor I.",
+          "D": "C1q initiates the classical pathway.",
+          "E": "MASP-2 functions in the lectin pathway. Topic: Basics of Innate Immunity II [No high-yield questions available] Subtopic: The TLR System"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Properdin Why this is right: Properdin (factor P) stabilizes the alternative pathway C3 convertase (C3bBb), prolonging its activity and enhancing opsonization. This is a unique positive regulator of complement. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "In a research unit, dermal fibroblasts from a 4-year-old boy with recurrent severe viral encephalitis are stimulated with poly(I:C), a synthetic double-stranded RNA. Cells fail to produce IFN-\u03b2 unless transfected with cytosolic RNA, and IFN-\u03b2 production is restored when the medium is acidified to enhance endosomal function. Western blot shows intact MyD88 expression. His parents ask how his cells \u201csense\u201d viral material to trigger interferon. Which receptor-pathway best explains the missing signal?",
+        "options": {
+          "A": "TLR2 detects Gram-positive motifs, not viral dsRNA.",
+          "B": "TLR9 senses CpG DNA, not dsRNA.",
+          "C": "TLR3 recognition of dsRNA in endosomes with TRIF\u2013IRF3 activation",
+          "D": "NOD2 detects cytosolic peptidoglycan fragments.",
+          "E": "RIG-I is cytosolic; the defect resolves with endosomal rescue."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "TLR3 recognition of dsRNA in endosomes with TRIF\u2013IRF3 activation Why this is right: Endosomal TLR3 senses dsRNA and signals via TRIF to activate IRF3, inducing type I interferons. Dependence on endosomal acidification and preserved MyD88 point to a TRIF-dependent TLR (TLR3). Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 10-month-old boy develops disseminated BCG following routine vaccination. PBMCs produce little IFN-\u03b3 when stimulated with killed mycobacteria. Genetic testing shows an IL-12 receptor \u03b21 mutation. Which therapy would most directly improve macrophage activation in this child?",
+        "options": {
+          "A": "Anti\u2013IL-6 receptor antibody",
+          "B": "Steroids suppress Th1 responses.",
+          "C": "TNF-\u03b1 inhibitor",
+          "D": "Antibiotics don\u2019t fix the immunologic defect.",
+          "E": "Exogenous IFN-\u03b3 administration Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Exogenous IFN-\u03b3 administration Why this is right: IL-12R deficiency impairs Th1/NK IFN-\u03b3 production; providing IFN-\u03b3 bypasses the upstream defect and improves mycobacterial control. Why the others are wrong: A/C. Blocking cytokines worsens intracellular pathogen control."
+        }
+      },
+      {
+        "stem": "A 58-year-old woman on a JAK inhibitor for rheumatoid arthritis develops reactivation of latent tuberculosis. In vitro, her monocytes respond to IFN-\u03b3 by upregulating IFN-\u03b3 receptor but fail to induce IRF1 target genes. Which signaling step is most directly blocked by her medication?",
+        "options": {
+          "A": "IL-12 uses JAK2/TYK2 and STAT4, not the IFN-\u03b3 step asked. B/D/E. These are other pathways not specific to IFN-\u03b3\u2013JAK\u2013STAT1.",
+          "B": "MyD88-dependent TLR signaling",
+          "C": "STAT1 phosphorylation downstream of IFN-\u03b3 receptor\u2013associated JAKs",
+          "D": "NF-\u03baB p65 nuclear translocation in macrophages",
+          "E": "SMAD2/3 phosphorylation downstream of TGF-\u03b2 Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "STAT1 phosphorylation downstream of IFN-\u03b3 receptor\u2013associated JAKs Why this is right: IFN-\u03b3 signals through JAK1/JAK2 to phosphorylate STAT1; JAK inhibition prevents STAT1 activation and Th1-mediated control of TB. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A child with severe, recurrent disseminated mycobacterial disease fails to improve with exogenous IFN-\u03b3 therapy. Monocyte testing shows normal IL-12\u2013induced IFN-\u03b3 from T cells, but macrophages do not upregulate iNOS or HLA-DR after IFN-\u03b3 stimulation. Which defect best explains these findings?",
+        "options": {
+          "A": "Loss-of-function mutation in IFN-\u03b3 receptor (IFNGR1) preventing JAK-STAT1 signaling",
+          "B": "Would reduce IFN-\u03b3 production, not response. C/D/E. Don\u2019t specifically abolish macrophage responses to IFN-\u03b3. Topic: Overview of the Adaptive Immune System [No high-yield questions available] Subtopic: Lymphocyte Development",
+          "C": "Defect in TLR4 recognition of LPS reducing IL-12 production",
+          "D": "NOD2 loss-of-function impairing muramyl dipeptide sensing",
+          "E": "TRIF deficiency preventing TLR3 signaling Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Loss-of-function mutation in IFN-\u03b3 receptor (IFNGR1) preventing JAK-STAT1 signaling Why this is right: Normal IFN-\u03b3 production but absent macrophage response to IFN-\u03b3 indicates an IFN-\u03b3 receptor pathway defect; exogenous IFN-\u03b3 is ineffective. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A scientist contrasts receptor gene diversification pathways. Which statement is accurate?",
+        "options": {
+          "A": "V(D)J recombination generates receptor diversity in both B and T cells",
+          "B": "Class switching operates in both B and T cells to change constant regions",
+          "C": "Somatic hypermutation modifies TCR affinity in antigen-experienced T cells",
+          "D": "Junctional diversity also affects heavy chains and TCRs.",
+          "E": "Allelic exclusion applies to Ig heavy/light and TCR \u03b2 (not only \u03b1)."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "V(D)J recombination generates receptor diversity in both B and T cells Why this is right: RAG-mediated VDJ recombination is shared by both lineages; CSR/SHM (AID) are B-cell specific. Why the others are wrong: B/C. Class switching and SHM do not occur in T cells."
+        }
+      },
+      {
+        "stem": "A 58-year-old woman on a JAK inhibitor for rheumatoid arthritis develops reactivation of latent TB. Monocyte signaling studies show intact IFN-\u03b3 receptor expression but failure to induce IRF1 target genes after stimulation. Which step is blocked?",
+        "options": {
+          "A": "TRAF6 activation",
+          "B": "NF-\u03baB p65 translocation",
+          "C": "STAT1 phosphorylation downstream of IFN-\u03b3R\u2013associated JAKs",
+          "D": "TGF-\u03b2 signaling, not Th1.",
+          "E": "NLRP3 inflammasome activation Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "STAT1 phosphorylation downstream of IFN-\u03b3R\u2013associated JAKs Why this is right: IFN-\u03b3 signals via JAK1/JAK2 to activate STAT1; JAK blockade prevents macrophage activation needed for TB control. Why the others are wrong: A/B/E. Other pathways."
+        }
+      },
+      {
+        "stem": "A 58-year-old man with chronic mucocutaneous candidiasis has poor neutrophil recruitment to oral mucosa. Which cytokine is most central to the defective pathway?",
+        "options": {
+          "A": "IL-4",
+          "B": "IL-12",
+          "C": "IFN-\u03b3",
+          "D": "IL-10",
+          "E": "IL-17A Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "IL-17A Why this is right: IL-17A from Th17 cells protects mucosa against Candida by driving neutrophil-recruiting chemokines. Why the others are wrong: A/B/C/D. Not the principal cytokine for this defense."
+        }
+      }
+    ],
+    "The Inflammasome and Autoinflammatory Diseases": [
+      {
+        "stem": "A 14-year-old boy has recurrent fevers, serositis, and migratory arthritis since early childhood, often after minor stress. WBC is elevated during attacks; cultures are negative. A maternal uncle has similar symptoms. Colchicine prevents flares. Which defect best explains this autoinflammatory syndrome?",
+        "options": {
+          "A": "CAPS presents with cold-induced urticaria and hearing loss.",
+          "B": "C1-INH deficiency causes angioedema, not serositis/arthritis.",
+          "C": "ANCA vasculitis shows capillaritis, not periodic sterile fevers.",
+          "D": "Pyrin inflammasome dysregulation from MEFV mutation",
+          "E": "dsDNA autoimmunity indicates SLE."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Pyrin inflammasome dysregulation from MEFV mutation Why this is right: Familial Mediterranean fever is due to MEFV mutations affecting pyrin, leading to IL-1\u2013mediated serosal inflammation and colchicine responsiveness. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A laboratory identifies a patient whose monocytes produce normal pro\u2013IL-1\u03b2 after LPS but cannot secrete mature IL-1\u03b2 when the NLRP3 inflammasome is activated with ATP. Caspase-1 protein is present but doesn\u2019t bind the sensor. Which adaptor is most likely defective?",
+        "options": {
+          "A": "TRIF",
+          "B": "ASC (PYCARD)",
+          "C": "IRAK4",
+          "D": "MAVS",
+          "E": "STING Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "ASC (PYCARD) Why this is right: ASC bridges NLR sensors to caspase-1 via its PYD and CARD domains; without ASC, pro\u2013IL-1\u03b2 cannot be processed. Why the others are wrong: A/C. TRIF/IRAK4 are TLR adaptors, not inflammasome scaffolds. D/E. MAVS and STING are RNA/DNA sensing adaptors, not the IL-1\u03b2 inflammasome adaptor. Subtopic: Other PRRs in the Innate Immune System"
+        }
+      }
+    ]
+  },
+  "Overview of the Adaptive Immune System": {
+    "Receptors": [
+      {
+        "stem": "A researcher compares antigen recognition by B cells and T cells from the same donor. Which statement best distinguishes their receptors\u2019 recognition properties?",
+        "options": {
+          "A": "Both BCR and TCR recognize intact native proteins on APCs",
+          "B": "Both require antigen processing and presentation by MHC molecules",
+          "C": "BCR binds native conformational or linear epitopes; TCR recognizes processed peptide bound to MHC",
+          "D": "Affinity maturation is a BCR phenomenon; TCR affinity does not somatically mutate.",
+          "E": "\u03b22-microglobulin is a component of MHC I, not the BCR."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "BCR binds native conformational or linear epitopes; TCR recognizes processed peptide bound to MHC Why this is right: BCR (membrane Ig) can bind native antigen directly; TCR is MHC-restricted and recognizes peptides presented by APCs. This is the core dichotomy of adaptive receptor recognition. Why the others are wrong: A/B. Confound native vs processed recognition."
+        }
+      },
+      {
+        "stem": "A 28-year-old woman has fluctuating ptosis and diplopia that worsen throughout the day. Ice-pack test is positive. Antibodies against acetylcholine receptors are detected. Which antibody effect causes her weakness?",
+        "options": {
+          "A": "Complement-mediated lysis of motor neurons",
+          "B": "Immune complex deposition in extraocular muscles",
+          "C": "IgE is irrelevant.",
+          "D": "CTLs are not primary drivers here.",
+          "E": "Antibody-mediated receptor blockade/internalization impairing neuromuscular transmission Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Antibody-mediated receptor blockade/internalization impairing neuromuscular transmission Why this is right: In myasthenia gravis, IgG binds AChRs, promoting internalization and functional inhibition, reducing endplate potentials and causing fatigable weakness. Why the others are wrong: A/B. Not the dominant lesion in MG."
+        }
+      },
+      {
+        "stem": "A colorectal carcinoma line overexpresses decoy receptors (DcR1/DcR2) that bind TRAIL but lack functional death domains. The cells resist NK-induced apoptosis despite intact granule exocytosis. Which cytotoxic pathway is specifically inhibited by this tumor adaptation?",
+        "options": {
+          "A": "Complement MAC on tumor membranes",
+          "B": "Perforin pore formation and granzyme delivery",
+          "C": "Intrinsic apoptosis triggered by DNA damage",
+          "D": "TRAIL\u2013death receptor (DR4/DR5)\u2013mediated extrinsic apoptosis",
+          "E": "IgE-mediated eosinophil degranulation Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "TRAIL\u2013death receptor (DR4/DR5)\u2013mediated extrinsic apoptosis Why this is right: Decoy TRAIL receptors sequester ligand and prevent signaling through DR4/DR5, blunting NK/T-cell death receptor killing. Why the others are wrong: A/B/C/E. Not the pathway blocked by TRAIL decoys."
+        }
+      },
+      {
+        "stem": "A patient\u2019s activated T cells upregulate CD25, creating high-affinity IL-2 receptors that drive clonal expansion. Which subunit conversion most directly creates the high-affinity receptor?",
+        "options": {
+          "A": "Addition of IL-2R\u03b1 (CD25) to IL-2R\u03b2/\u03b3c dimer",
+          "B": "Replacement of \u03b3c with \u03b2c",
+          "C": "Removal of JAK3 from the cytoplasmic tail",
+          "D": "Exchange of STAT1 for STAT3",
+          "E": "Addition of gp130 Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Addition of IL-2R\u03b1 (CD25) to IL-2R\u03b2/\u03b3c dimer Why this is right: High-affinity IL-2R requires \u03b1\u03b2\u03b3 (CD25 + CD122 + CD132), enabling efficient IL-2 capture and proliferation. Why the others are wrong: B/E. Not components of IL-2R. C/D. Signaling modulators, not affinity-defining subunits."
+        }
+      }
+    ]
+  },
+  "B Cell and T Cell Receptors, and their Antigens": {
+    "Overall Structure of B Cell Receptors (Antibody)": [
+      {
+        "stem": "A 58-year-old woman with prior COVID-19 infection has robust rapid neutralizing antibody titers upon re-exposure 1 year later, despite waning circulating antibody at baseline. Which statement best explains this phenomenon?",
+        "options": {
+          "A": "Innate receptor repertoires are germline-encoded.",
+          "B": "Central tolerance is irrelevant to viral memory.",
+          "C": "Memory B cells persist and rapidly differentiate into plasma cells on re-exposure",
+          "D": "Persistent replication is not required for memory recall.",
+          "E": "Neutrophils do not undergo V(D)J recombination. Subtopic: Immune Response Subsidence Q: PD-1/PD-L1 expression on exhausted T cells contributes to chronic infection persistence. [Restored Pathology]"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Memory B cells persist and rapidly differentiate into plasma cells on re-exposure Why this is right: Even when serum antibody wanes, memory B cells remain and quickly generate high-affinity antibody upon antigen re-encounter, exemplifying adaptive memory. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 17-year-old develops fever, sore throat, and posterior cervical lymphadenopathy. Heterophile antibody test is positive. Which lymphocyte receptor does the causative virus use to enter B cells?",
+        "options": {
+          "A": "CD40 is for T\u2013B help signaling.",
+          "B": "CD19 is a coreceptor but not the EBV entry receptor.",
+          "C": "CD3 is part of the TCR complex.",
+          "D": "CD28 is a T-cell costimulator. Subtopic: Receptors Q: Which region of the antibody binds antigen with specificity? [HIGH YIELD] Subtopic: B Lymphocyte Development Q: During negative selection, autoreactive B cells may undergo receptor editing. Which light chain locus is rearranged? [HIGH YIELD]",
+          "E": "CD21 (CR2) Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "CD21 (CR2) Why this is right: Epstein\u2013Barr virus uses CD21 (CR2), a B-cell coreceptor, for entry. Infection of B cells and subsequent immune activation lead to the clinical mononucleosis syndrome. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A newly generated immature B cell in bone marrow binds strongly to multivalent self-antigen. It does not undergo apoptosis but instead reinitiates RAG expression and alters its antigen receptor specificity. What mechanism is occurring?",
+        "options": {
+          "A": "Anergy occurs peripherally with reduced signaling, not gene rearrangement. B/D. Occur after activation; do not fix central tolerance.",
+          "B": "Class-switch recombination to reduce autoreactivity",
+          "C": "Receptor editing of light-chain genes",
+          "D": "Somatic hypermutation in a germinal center",
+          "E": "Deletion is an alternative outcome, not what\u2019s described."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Receptor editing of light-chain genes Why this is right: Central tolerance in B cells allows receptor editing by rearranging a new light chain when strong self-reactivity is detected, preserving the cell if autoreactivity is eliminated. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 24-year-old woman with recurrent sinus infections has normal serum IgG/IgA/IgM but reduced B-cell surface immunoglobulin on flow cytometry. Bone marrow biopsy shows normal pre-B and immature B cells. RNA analysis of heavy chains reveals transcripts that variably include or exclude exons encoding a hydrophobic tail. Which post-transcriptional process distinguishes membrane BCR from secreted antibody in plasma cells?",
+        "options": {
+          "A": "Alternative polyadenylation/splicing that determines inclusion of transmembrane tailpiece",
+          "B": "Class switching changes constant region isotype, not membrane vs secreted.",
+          "C": "SHM alters affinity, not membrane anchoring.",
+          "D": "Glycosylation modifies protein but doesn\u2019t add a membrane anchor.",
+          "E": "Allelic exclusion controls specificity, not secretion mode."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Alternative polyadenylation/splicing that determines inclusion of transmembrane tailpiece Why this is right: B cells splice the heavy-chain mRNA to include a transmembrane/cytoplasmic tail (membrane BCR) or a secretory tail (secreted Ig). This switch is independent of class switching. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A scientist explains why CAR-T cells can recognize CD19 on tumor cells without MHC. Which construct element confers this specificity?",
+        "options": {
+          "A": "Co-expression of CD28 and 4-1BB cytoplasmic domains",
+          "B": "CD8\u03b1 hinge and transmembrane region",
+          "C": "Single-chain variable fragment (scFv) derived from an antibody as the extracellular domain",
+          "D": "CARs do not use TCR variable regions.",
+          "E": "Inclusion of Lck in the intracellular tail Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Single-chain variable fragment (scFv) derived from an antibody as the extracellular domain Why this is right: The scFv provides antibody-like binding to native surface antigens, making recognition MHC independent; signaling comes from CD3\u03b6 \u00b1 costims intracellularly. Why the others are wrong: A/B/E. Influence signaling/structure but not antigen recognition mode."
+        },
+        "expl": "C \u2014 Single-chain variable fragment (scFv) derived from an antibody as the extracellular domain Why this is right: The scFv provides antibody-like binding to native surface antigens, making recognition MHC independent; signaling comes from CD3\u03b6 \u00b1 costims intracellularly. Why the others are wrong: A/B/E. Influence signaling/structure but not antigen recognition mode. D. CARs do not use TCR variable regions."
+      },
+      {
+        "stem": "A 25-year-old receives a booster vaccine and months later generates antibodies with higher affinity for the same epitope. What cellular process most directly explains the improved binding in the antibody\u2019s CDRs?",
+        "options": {
+          "A": "Somatic hypermutation of V regions in germinal centers followed by selection",
+          "B": "Applies to T cells and does not involve SHM. C/D/E. Do not increase CDR affinity.",
+          "C": "Class switching from IgM to IgD",
+          "D": "Increased FcRn binding to IgG",
+          "E": "Superantigen engagement of BCR V regions Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Somatic hypermutation of V regions in germinal centers followed by selection Why this is right: AID introduces mutations in CDRs; selection in germinal centers retains clones with improved affinity\u2014affinity maturation. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 46-year-old man with untreated endocarditis due to Staphylococcus aureus develops hematuria and hypertension. Labs: low C3, normal C4, proteinuria, and RBC casts. Renal biopsy shows granular C3 deposits along glomerular capillary walls. Which antibody-related mechanism best explains his kidney injury?",
+        "options": {
+          "A": "ADCC targets cells coated with IgG, not circulating complexes.",
+          "B": "Direct receptor blockade does not explain C3 deposition.",
+          "C": "IgE reactions cause urticaria/anaphylaxis, not GN.",
+          "D": "DTH is T-cell\u2013mediated without prominent immune complexes.",
+          "E": "Type III immune complex deposition with complement activation (C3a/C5a) Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Type III immune complex deposition with complement activation (C3a/C5a) Why this is right: Circulating antigen\u2013antibody complexes from chronic bacteremia deposit in glomeruli, activating complement and recruiting neutrophils, producing hematuria and low C3. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 59-year-old man with chronic hepatitis B receives an experimental anti-HBs monoclonal during a household outbreak. Viral load falls rapidly before his own antibody titers rise. NK-cell CD16 occupancy increases in peripheral blood. Which antibody function most likely contributes to early viral control?",
+        "options": {
+          "A": "Neutralization occurs but NK engagement best fits CD16 occupancy.",
+          "B": "MAC does not lyse nucleated host cells efficiently. D/E. Not primary in HBV control. Subtopic: Immunoglobulin Classes and Functions",
+          "C": "ADCC via Fc\u03b3RIII (CD16) on NK cells recognizing IgG-coated targets",
+          "D": "IgA-mediated mucosal trapping of virions in bile",
+          "E": "Eosinophil degranulation against infected cells Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "ADCC via Fc\u03b3RIII (CD16) on NK cells recognizing IgG-coated targets Why this is right: Therapeutic IgG opsonizes infected cells/virions; NK cells bind Fc through CD16, releasing perforin/granzymes to reduce viral reservoirs. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 67-year-old man with pneumococcal pneumonia improves rapidly after opsonizing antibody titers rise. Which Fc receptor on macrophages binds monomeric IgG with highest affinity to promote phagocytosis?",
+        "options": {
+          "A": "Fc\u03b3RIII (CD16)",
+          "B": "Fc\u03b3RIIA (CD32A)",
+          "C": "Fc\u03b3RI (CD64)",
+          "D": "IgE receptor.",
+          "E": "Transport/recycling receptor, not a phagocytic Fc\u03b3R."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Fc\u03b3RI (CD64) Why this is right: Fc\u03b3RI is a high-affinity receptor for monomeric IgG and mediates efficient opsonophagocytosis of IgG-coated bacteria. Why the others are wrong: A/B. Lower affinity, often requiring immune complexes."
+        }
+      },
+      {
+        "stem": "After in vivo DC\u2013tumor cell contact, native tumor peptide\u2013MHC I complexes are detected on bystander DCs that never phagocytosed tumor proteins. Which phenomenon explains this?",
+        "options": {
+          "A": "Cross-presentation",
+          "B": "Cross-priming",
+          "C": "Epitope spreading",
+          "D": "Immunodominance",
+          "E": "Cross-dressing (transfer of intact peptide\u2013MHC complexes between cells) Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Cross-dressing (transfer of intact peptide\u2013MHC complexes between cells) Why this is right: Cross-dressing moves preformed pMHC complexes to recipient APCs, distinct from processing exogenous protein. Why the others are wrong: A/B. Require processing; here intact complexes were transferred. C/D. Different concepts."
+        }
+      },
+      {
+        "stem": "A patient develops diffuse rash, jaundice, and watery diarrhea 3 weeks after allogeneic hematopoietic stem-cell transplant. Liver biopsy shows lymphocytic portal tract inflammation. Which mechanism explains this syndrome?",
+        "options": {
+          "A": "Recipient T cells attacking donor tissues",
+          "B": "Preformed antibodies causing thrombosis of hepatic vessels",
+          "C": "Chronic rejection of liver tissue",
+          "D": "Direct toxicity of calcineurin inhibitors",
+          "E": "Donor T cells attacking recipient tissues (GVHD) Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Donor T cells attacking recipient tissues (GVHD) Why this is right: In GVHD, immunocompetent donor T cells react against recipient antigens in skin, liver, and gut. Why the others are wrong: A/C. Reverse direction or organ context. B/D. Do not cause the triad described."
+        }
+      },
+      {
+        "stem": "A kidney recipient develops rising creatinine and biopsy-proven acute cellular rejection at day 12. Which immediate therapy is most appropriate?",
+        "options": {
+          "A": "Abacavir is unrelated.",
+          "B": "Would worsen rejection.",
+          "C": "IL-5 targets eosinophils; IVIG is for humoral disorders.",
+          "D": "Administer high-dose corticosteroids, with consideration of T-cell\u2013depleting therapy if refractory",
+          "E": "Not a rejection treatment. Topic: B Cell & T Cell Activation [No high-yield questions available] Subtopic: B Cell Traffic and Activation"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Administer high-dose corticosteroids, with consideration of T-cell\u2013depleting therapy if refractory Why this is right: First-line treatment for acute cellular rejection is pulse steroids; refractory cases may need anti-thymocyte globulin or similar T-cell\u2013depleting agents. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A virology lab tracks molecular events during CTL killing. Seconds after synapse formation, a serine protease enters the cytosol of the target cell, cleaves caspase-3, and truncates Bid to tBid, amplifying mitochondrial apoptosis. Which molecule most directly performs these actions?",
+        "options": {
+          "A": "Forms pores but is not a protease.",
+          "B": "Initiator caspase in death receptor signaling. C/E. Cathepsin D/Granzyme A do not perform the described cleavages.",
+          "C": "Cathepsin D",
+          "D": "Granzyme B",
+          "E": "Granzyme A Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Granzyme B Why this is right: Granzyme B activates executioner caspases and cleaves Bid, linking extrinsic and intrinsic pathways after perforin-mediated entry. Why the others are wrong:"
+        }
+      }
+    ],
+    "Characteristics of Antigens and How They Bind to CDRs": [
+      {
+        "stem": "A 17-year-old with acute EBV infection produces IgM that binds repetitive glycoprotein antigens on virions with low individual affinity but high overall binding strength. Which concept best explains the strong binding observed with pentameric IgM in this setting?",
+        "options": {
+          "A": "Affinity refers to single binding-site strength. B/D. Genetic/isotype designations, not binding strength per se.",
+          "B": "Allotype",
+          "C": "Avidity",
+          "D": "Isotype",
+          "E": "Cross-reactivity refers to recognition of unrelated epitopes."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Avidity Why this is right: Avidity is the combined strength of multiple simultaneous interactions; pentameric IgM exhibits high avidity despite lower per-site affinity, improving early pathogen binding. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A biotech company extends a therapeutic IgG1\u2019s half-life by modifying Fc residues that increase binding at acidic pH to a receptor in endosomes. Which receptor is being targeted?",
+        "options": {
+          "A": "FcRn (neonatal Fc receptor)",
+          "B": "Fc\u03b3RIIB",
+          "C": "Fc\u03b3RIIIa",
+          "D": "Fc\u03b5RI",
+          "E": "Fc\u03b1RI Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "FcRn (neonatal Fc receptor) Why this is right: FcRn rescues IgG from lysosomal degradation via pH-dependent binding and recycling; enhancing this interaction prolongs serum half-life. Why the others are wrong: B/C/D/E. Not responsible for IgG salvage and recycling."
+        }
+      }
+    ],
+    "Consequences of Papain and Pepsin Digestion of Antibody Molecules": [
+      {
+        "stem": "A 45-year-old woman with newly diagnosed multiple myeloma has a homogeneous spike of IgG\u03ba on serum protein electrophoresis. Compared with her prior polyclonal responses to vaccines, which structural determinant explains why this pathologic antibody has distinct effector behavior?",
+        "options": {
+          "A": "Heavy-chain constant region determines isotype and effector functions",
+          "B": "Class switching targets heavy-chain constant genes, not light chains. C/D. CH1 length and glycosylation don\u2019t \u201cdictate\u201d those outcomes alone.",
+          "C": "CH1 domain length dictates complement fixation",
+          "D": "Hinge glycosylation dictates antigen specificity",
+          "E": "J chain is not involved in placental transfer (FcRn and IgG are). Subtopic: Consequences of Papain and Pepsin Digestion of Antibody Molecules"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Heavy-chain constant region determines isotype and effector functions Why this is right: Isotype (e.g., IgG vs IgA) is defined by heavy-chain constant regions and dictates complement activation, Fc receptor binding, and distribution, independent of antigen specificity. Why the others are wrong:"
+        },
+        "expl": "A \u2014 Heavy-chain constant region determines isotype and effector functions Why this is right: Isotype (e.g., IgG vs IgA) is defined by heavy-chain constant regions and dictates complement activation, Fc receptor binding, and distribution, independent of antigen specificity. Why the others are wrong: B. Class switching targets heavy-chain constant genes, not light chains. C/D. CH1 length and glycosylation don\u2019t \u201cdictate\u201d those outcomes alone. E. J chain is not involved in placental transfer (FcRn and IgG are). Subtopic: Consequences of Papain and Pepsin Digestion of Antibody Molecules"
+      }
+    ],
+    "Monoclonal Antibodies": [
+      {
+        "stem": "A pathology core facility switches from whole IgG to F(ab\u2032)2 secondary antibodies for immunohistochemistry. They observe reduced background staining from macrophage-rich sections. Which receptor-mediated interaction was most directly reduced by using F(ab\u2032)2?",
+        "options": {
+          "A": "Binding to complement receptors on macrophages",
+          "B": "Binding to Fc\u03b5RI on mast cells",
+          "C": "Transferrin receptor is unrelated.",
+          "D": "Binding to Fc\u03b3 receptors on macrophages",
+          "E": "Binding to FcRn on epithelial cells Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Binding to Fc\u03b3 receptors on macrophages Why this is right: F(ab\u2032)2 lacks Fc, so it cannot bind Fc\u03b3 receptors; this reduces Fc-mediated background staining in tissues rich in phagocytes. Why the others are wrong: A/B/E. These require Fc regions not present in F(ab\u2032)2, but macrophage Fc\u03b3R explains the observed artifact."
+        }
+      },
+      {
+        "stem": "One month after streptococcal pharyngitis, a teenager develops migratory polyarthritis and carditis. Which binding concept best explains how antibodies induced by Streptococcus pyogenes can injure host tissues?",
+        "options": {
+          "A": "Avidity does not explain tissue specificity.",
+          "B": "Epitope spreading broadens, not \u201crestricts,\u201d and is a different mechanism.",
+          "C": "Cross-reactivity (molecular mimicry) of CDRs with host epitopes resembling the bacterial antigen",
+          "D": "Superantigens act on T cells, not antibody cross-reactivity.",
+          "E": "Complexes can form with linear or conformational epitopes."
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Cross-reactivity (molecular mimicry) of CDRs with host epitopes resembling the bacterial antigen Why this is right: Antibodies raised against microbial epitopes can bind similar host structures, leading to autoimmune injury\u2014classic molecular mimicry. Why the others are wrong:"
+        }
+      }
+    ],
+    "V(D)J Recombination and Class Switching": [
+      {
+        "stem": "Peyer patch B cells from a healthy adult are cultured with TGF-\u03b2, retinoic acid, and BAFF/APRIL. They undergo class switching appropriate for mucosal immunity. Which isotype switching is favored by this cytokine milieu?",
+        "options": {
+          "A": "IL-4 promotes IgE. B/C. IFN-\u03b3/IL-4 influence IgG subclasses.",
+          "B": "IgG1",
+          "C": "IgG3",
+          "D": "IgA",
+          "E": "IgD arises via alternative splicing, not classical switch."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "IgA Why this is right: TGF-\u03b2 with mucosal factors drives switching to IgA for secretory immunity at mucosal surfaces. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 19-year-old woman with long-standing atopic dermatitis presents with an ED asthma exacerbation after cat exposure. She has diffuse wheezing, nasal polyps, and peripheral eosinophilia. Total serum immunoglobulin shows markedly elevated IgE. Bronchial mucosa biopsy reveals goblet cell hyperplasia and submucosal eosinophils. A biologic therapy is being considered to blunt the T2-high response by reducing the class switch that fuels this disease. Which cytokine is the principal driver of isotype switching to IgE in this pathway?",
+        "options": {
+          "A": "IL-4",
+          "B": "Th1 cytokine; antagonizes Th2.",
+          "C": "Drives eosinophil growth/survival, not IgE class switch.",
+          "D": "Polarizes Th1.",
+          "E": "Th17 neutrophil mediator, not IgE switching."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "IL-4 Why this is right: Th2 responses promote IgE production; IL-4 (with IL-13) signals B cells to switch to \u03b5 heavy-chain constant regions, central to atopy and asthma. Why the others are wrong:"
+        },
+        "long_form": true
+      }
+    ]
+  },
+  "Antibody Function": {
+    "Antibody Function in Host Defense and Immunopathology": [
+      {
+        "stem": "A 67-year-old woman with COPD presents with fever and productive cough. Gram stain shows Gram-negative rods. Before culture results, which immediate component of host defense most limits bacterial spread in her airways?",
+        "options": {
+          "A": "IgG is adaptive and requires prior class switching.",
+          "B": "Na\u00efve CD8 cells are not immediate airway defenders against extracellular bacteria.",
+          "C": "Epithelial barrier with ciliary clearance and antimicrobial peptides",
+          "D": "Somatic hypermutation is a B-cell process, not a direct defense mechanism.",
+          "E": "Memory B cells require activation and time to produce antibody."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Epithelial barrier with ciliary clearance and antimicrobial peptides Why this is right: Innate components\u2014physical barriers, mucociliary clearance, defensins\u2014provide immediate protection in the airways before adaptive responses are mobilized. In COPD, these defenses are often impaired, predisposing to bacterial infection. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 27-year-old man presents 6 hours after a contaminated laceration to his forearm sustained while repairing a rusty fence. He reports increasing throbbing pain and swelling around the wound but no purulent drainage yet. Temperature is 38.1\u00b0C (100.6\u00b0F), pulse 104/min, BP 118/72 mm Hg. Exam shows erythema with warmth and mild edema extending 2 cm beyond the wound margin. Laboratory studies show leukocytosis with a left shift; CRP is mildly elevated. You explain that the earliest host events restricting bacterial spread began within hours at local postcapillary venules. Which mechanism best initiated the rapid influx of the first phagocytes to the site of injury?",
+        "options": {
+          "A": "Opsonic IgG requires prior class switching and time.",
+          "B": "Endothelial E-selectin\u2013mediated neutrophil rolling induced by IL-1/TNF",
+          "C": "Clonal T-cell expansion takes days, not hours.",
+          "D": "Macrophage classical activation depends on IFN-\u03b3 and develops later.",
+          "E": "Complement helps opsonize, but leukocyte recruitment is initiated by cytokine-driven selectins."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Endothelial E-selectin\u2013mediated neutrophil rolling induced by IL-1/TNF Why this is right: Tissue injury and microbes trigger resident cells and macrophages to release IL-1 and TNF, upregulating E-selectin on endothelium and promoting neutrophil rolling within hours. Subsequent chemokines and integrin activation drive firm adhesion and transmigration, explaining the very early neutrophil influx and rubor/calor. This is a core innate mechanism that precedes antigen-specific lymphocyte activation. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 62-year-old man with EGFR-mutant colon cancer enrolls in an experimental trial to block ligand binding without engaging immune effector functions. Which antibody fragment is most appropriate to occupy the ligand-binding site while minimizing complement activation and ADCC?",
+        "options": {
+          "A": "Fab",
+          "B": "Whole IgG1",
+          "C": "IgM pentamer",
+          "D": "F(ab\u2032)2 is bivalent but still avoids Fc; \u201cengineered Fc\u201d could reintroduce effector functions.",
+          "E": "Fc cannot bind antigen."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Fab Why this is right: A Fab fragment retains the antigen-binding site but lacks Fc, minimizing complement activation and Fc\u03b3R-mediated ADCC while blocking the receptor. Why the others are wrong: B/C. Whole isotypes retain Fc functions."
+        }
+      },
+      {
+        "stem": "A 58-year-old man receives an ABO-incompatible transfusion. Within minutes he develops fever, hypotension, and hemoglobinuria. Which antibody function drives this reaction?",
+        "options": {
+          "A": "Pentameric IgM fixes complement efficiently, causing intravascular hemolysis via MAC",
+          "B": "IgE mediates allergy, not hemolysis.",
+          "C": "IgG can opsonize but ABO hemolysis is IgM/complement-dominant. D/E. Not involved in acute transfusion reactions.",
+          "D": "IgA at mucosal surfaces prevents RBC agglutination",
+          "E": "IgD on na\u00efve B cells triggers tolerance to donor antigens Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Pentameric IgM fixes complement efficiently, causing intravascular hemolysis via MAC Why this is right: Preformed anti-A/anti-B IgM robustly activates classical complement, lysing donor RBCs and releasing free hemoglobin. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 35-year-old asplenic man develops sepsis from Streptococcus pneumoniae. Which antibody function most improves bacterial clearance in the bloodstream?",
+        "options": {
+          "A": "IgE-mediated eosinophil degranulation",
+          "B": "IgA neutralization across mucosa",
+          "C": "IgD signaling on na\u00efve B cells",
+          "D": "IgG and C3b opsonization enabling Fc\u03b3/complement receptor\u2013mediated phagocytosis",
+          "E": "Superantigen activation of T cells Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "IgG and C3b opsonization enabling Fc\u03b3/complement receptor\u2013mediated phagocytosis Why this is right: Encapsulated bacteria are cleared by opsonins; IgG binds Fc\u03b3 receptors and C3b binds complement receptors on phagocytes, compensating for lack of splenic filtration. Why the others are wrong: A/B/C/E. Do not mediate efficient intravascular clearance of encapsulated bacteria."
+        }
+      },
+      {
+        "stem": "A 12-year-old boy returns from Brazil with abdominal pain and eosinophilia. Ova/parasite exam shows helminths. Which antibody-mediated function best explains parasite killing?",
+        "options": {
+          "A": "Complement is less effective on large parasites. C/D/E. Not the principal mechanism for helminth cytotoxicity.",
+          "B": "IgE bound to Fc\u03b5RI on eosinophils triggers degranulation against the helminth surface",
+          "C": "IgD-dependent neutrophil chemotaxis",
+          "D": "Secretory IgA transcytosis into blood",
+          "E": "IgM blockade of parasite proteases Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "IgE bound to Fc\u03b5RI on eosinophils triggers degranulation against the helminth surface Why this is right: Helminth surfaces coated with IgE promote eosinophil ADCC via Fc\u03b5RI, releasing major basic protein and other toxins. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A CTL line efficiently kills peptide-pulsed targets. When perforin function is specifically inhibited, killing decreases but is partially restored by adding agonistic anti-Fas to the culture. Which conclusion is best supported?",
+        "options": {
+          "A": "TNF-\u03b1 does not fully replace perforin/Fas.",
+          "B": "Complement does not mediate CTL cytotoxicity.",
+          "C": "FasL can induce apoptosis independently.",
+          "D": "Adhesion remains intact here. Subtopic: Inducing apoptosis",
+          "E": "CTLs use both granule exocytosis and Fas\u2013FasL pathways; inhibiting one can be partly compensated by the other Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "CTLs use both granule exocytosis and Fas\u2013FasL pathways; inhibiting one can be partly compensated by the other Why this is right: CTLs deploy perforin/granzymes and FasL; blocking perforin reduces killing but Fas agonism can trigger apoptosis via the death receptor pathway. Why the others are wrong:"
+        }
+      }
+    ]
+  },
+  "T Cell Receptors and the MHC": {
+    "Interaction of APCs and Processed Peptides with T Cell Receptors": [
+      {
+        "stem": "A 41-year-old woman with poorly controlled diabetes presents with hypotension, fever, and confusion after a urinary tract infection. Blood cultures grow E. coli. Labs show high lactate and elevated IL-6 and TNF. Which proximal interaction best initiates the cytokine storm responsible for her septic shock?",
+        "options": {
+          "A": "Lipoteichoic acid is recognized by TLR2, not TLR4.",
+          "B": "TLR4\u2013MD2\u2013CD14 recognition of lipopolysaccharide on Gram-negative bacteria",
+          "C": "NOD2 senses muramyl dipeptide, not flagellin (TLR5).",
+          "D": "RIG-I is for viral RNA, not bacterial LPS.",
+          "E": "C3a is anaphylatoxin but not the initiating LPS sensor causing septic shock."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "TLR4\u2013MD2\u2013CD14 recognition of lipopolysaccharide on Gram-negative bacteria Why this is right: Gram-negative sepsis features LPS recognition by the TLR4\u2013MD2\u2013CD14 complex on innate cells, triggering NF-\u03baB and massive cytokine release (TNF, IL-6) that drive hypotension and organ dysfunction. E. coli bacteremia is the classic context. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 72-year-old man undergoes open abdominal aortic aneurysm repair. Within hours he develops systemic inflammation with fever and leukocytosis despite sterile technique. Plasma shows high levels of circulating mitochondrial formyl peptides. Which receptor-mediated event most plausibly links these molecules to neutrophil recruitment and degranulation?",
+        "options": {
+          "A": "There is no IgG to trigger Fc\u03b3R in sterile release.",
+          "B": "NLRs detect intracellular ligands, not extracellular gradients for chemotaxis.",
+          "C": "FPR1 engagement on neutrophils causing chemotaxis and activation",
+          "D": "TCR recognition is antigen-specific and delayed.",
+          "E": "MAC deposition is terminal complement; not the direct formyl-peptide mechanism. Subtopic: Main Components of Innate and Adaptive Immune Systems"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "FPR1 engagement on neutrophils causing chemotaxis and activation Why this is right: Mitochondrial formylated peptides act as DAMPs that bind formyl peptide receptors (e.g., FPR1) on neutrophils, promoting chemotaxis and degranulation\u2014key early events in sterile postoperative inflammation. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 47-year-old man with asplenia after trauma is counseled about his infection risk. Which adaptive component is most crucial for defense against encapsulated extracellular bacteria in the bloodstream, particularly in asplenic patients?",
+        "options": {
+          "A": "Na\u00efve T cells are not immediate bloodstream defenders.",
+          "B": "Marginal zone B cell\u2013derived IgM with complement fixation and opsonization",
+          "C": "pDCs make IFN for antiviral defense, not anti-encapsulated bacteria.",
+          "D": "CTLs kill infected nucleated cells, not RBCs.",
+          "E": "Th17 aids mucosa, not intravascular clearance of encapsulated organisms. Subtopic: Comparison of Innate and Adaptive Immune Systems"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Marginal zone B cell\u2013derived IgM with complement fixation and opsonization Why this is right: The spleen\u2019s marginal zone B cells rapidly produce IgM that activates complement and opsonizes encapsulated bacteria for phagocytosis. Asplenic patients lack this rapid T-independent humoral response, increasing risk for fulminant sepsis. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 70-year-old woman with COPD presents with acute exacerbation and bacterial pneumonia. Prior to antibiotic therapy, which innate mechanism most enhances phagocytosis of extracellular bacteria in her alveoli?",
+        "options": {
+          "A": "Requires prior adaptive priming and time to produce.",
+          "B": "NK cells target altered self, not extracellular bacteria.",
+          "C": "C3b deposition on microbial surfaces with complement receptor\u2013mediated uptake",
+          "D": "IgA is protective but is an adaptive product; immediate opsonization is complement-driven.",
+          "E": "Cross-presentation primes CTLs, not immediate bacterial clearance. Subtopic: Innate Immune Cells"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "C3b deposition on microbial surfaces with complement receptor\u2013mediated uptake Why this is right: Complement opsonization via C3b promotes efficient phagocytosis by neutrophils and macrophages through complement receptors, a key rapid innate defense against extracellular bacteria in the lung. This precedes robust adaptive antibody responses. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 22-year-old man develops an acutely inflamed, painful wound 12 hours after a skateboarding accident. Temperature is 38.2\u00b0C (100.8\u00b0F). The wound is erythematous with serosanguinous exudate. Aspirate shows numerous cells with multilobed nuclei and azurophilic granules containing myeloperoxidase. Which cell population is providing the earliest bulk of antimicrobial activity at this time point?",
+        "options": {
+          "A": "Neutrophils",
+          "B": "DCs prime T cells rather than dominate early killing.",
+          "C": "Eosinophils target helminths/allergy, not acute wounds.",
+          "D": "NK cells target altered self and viruses.",
+          "E": "Basophils mediate allergy, not early pyogenic defense."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Neutrophils Why this is right: Neutrophils are first responders, arriving within hours to phagocytose and kill bacteria via oxidative burst and granule enzymes. Their morphologic features in the aspirate confirm their predominance early after injury. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 38-year-old traveler presents with abdominal pain and eosinophilia after returning from rural Southeast Asia. Stool O&P shows large ova consistent with a helminth. Which innate effector cell and mechanism primarily mediate killing of this pathogen?",
+        "options": {
+          "A": "NETs target extracellular bacteria.",
+          "B": "Macrophages are less effective vs large helminths.",
+          "C": "Eosinophils with antibody-dependent cytotoxicity and major basic protein",
+          "D": "NK cells target altered self, not parasites.",
+          "E": "DCs initiate T-cell responses, not direct helminth killing."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Eosinophils with antibody-dependent cytotoxicity and major basic protein Why this is right: Helminths are too large for phagocytosis; eosinophils bind IgE/IgG\u2013coated parasites via Fc receptors and degranulate (MBP, eosinophil cationic protein) to damage their surface. This is a classic innate\u2013adaptive interface. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 45-year-old man presents in septic shock with Gram-negative bacteremia. Monocytes strongly activate NF-\u03baB on exposure to patient plasma. Which receptor\u2013ligand interaction most likely initiates this response?",
+        "options": {
+          "A": "TLR4\u2013MD2\u2013CD14 binding to lipopolysaccharide lipid A",
+          "B": "TLR2 targets Gram-positive motifs.",
+          "C": "TLR5 senses flagellin at the surface/endosome, not cytosol.",
+          "D": "TLR9 recognizes unmethylated CpG DNA.",
+          "E": "NLRP3 activates IL-1\u03b2, but LPS recognition is upstream via TLR4."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "TLR4\u2013MD2\u2013CD14 binding to lipopolysaccharide lipid A Why this is right: LPS from Gram-negative bacteria binds the TLR4\u2013MD2\u2013CD14 complex to trigger NF-\u03baB and proinflammatory cytokines central to septic shock. Lipid A is the toxic moiety. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 64-year-old man with urosepsis develops hypotension, warm extremities, and rising lactate. He has fevers and marked anorexia with weight loss over several days. Which cytokine is most centrally responsible for the hemodynamic collapse and cachexia associated with severe sepsis?",
+        "options": {
+          "A": "IL-1 causes fever but is less central to shock.",
+          "B": "IL-12 promotes Th1/NK IFN-\u03b3, not shock.",
+          "C": "IFN-\u03b1 is antiviral.",
+          "D": "TNF-\u03b1",
+          "E": "IL-10 is anti-inflammatory."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "TNF-\u03b1 Why this is right: TNF-\u03b1 drives vasodilation, increased permeability, and myocardial depression in septic shock, and mediates cachexia through catabolic signaling. It synergizes with IL-1/IL-6 but is the principal culprit in shock physiology. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 70-year-old woman with giant cell arteritis is treated with an IL-6 receptor antagonist and notes rapid improvement in fevers and normalization of CRP. Which cytokine is being blocked to produce these effects?",
+        "options": {
+          "A": "IL-1\u03b2",
+          "B": "TNF-\u03b1",
+          "C": "IFN-\u03b3 is not the main acute-phase driver.",
+          "D": "IL-18 promotes IFN-\u03b3 but is not primary for CRP. Subtopic: Innate Immune Receptors Q: Which receptor family (besides TLRs) recognizes fungal \u03b2-glucans on Candida? [HIGH YIELD] Q: Scavenger receptors on macrophages are important for binding and clearing what type of molecules? [HIGH YIELD] Q: Which Toll-like receptor recognizes lipopolysaccharide (LPS) on Gram-negative bacteria? [HIGH YIELD] Q: MyD88 deficiency leads to impaired signaling of most TLRs. Which infections are patients especially prone to? [HIGH YIELD] Subtopic: Innate Immune Cytokines Q: Which cytokine is the main mediator of septic shock? [HIGH YIELD] Q: IL-12 drives differentiation of which T helper subset? [HIGH YIELD] Q: Type I interferons induce an antiviral state in neighboring cells. Which two interferons are type I? [HIGH YIELD] Subtopic: The Complement System Q: Deficiency of terminal complement components predisposes to recurrent Neisseria infections. [Restored Pathology]",
+          "E": "IL-6 Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "IL-6 Why this is right: IL-6 drives hepatic acute-phase protein synthesis (e.g., CRP) and contributes to fever; blockade rapidly reduces CRP and systemic symptoms in inflammatory diseases. Why the others are wrong: A/B. Blocking IL-1 or TNF can reduce fever but would not specifically normalize CRP as directly."
+        }
+      },
+      {
+        "stem": "A 62-year-old man develops septic shock 8 hours after perforated diverticulitis. Plasma shows high TNF and IL-6. A pharmacology team is testing inhibitors that block the very first extracellular recognition event that triggers this cytokine storm. Which interaction should their drug disrupt?",
+        "options": {
+          "A": "TLR4\u2013MD2\u2013CD14 binding of lipid A on Gram-negative LPS",
+          "B": "TLR2 recognizes Gram-positive motifs.",
+          "C": "TLR5 senses flagellin, not the key septic trigger here.",
+          "D": "TLR7 is antiviral.",
+          "E": "NLRP3 acts downstream to mature IL-1\u03b2, not the initial LPS sensor."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "TLR4\u2013MD2\u2013CD14 binding of lipid A on Gram-negative LPS Why this is right: Early Gram-negative sepsis is driven by LPS engaging TLR4 with MD2 and CD14, initiating NF-\u03baB\u2013mediated cytokines. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 58-year-old man with severe Gram-negative sepsis develops high fevers and circulating IL-1\u03b2. Monocyte death assays show rapid, lytic cell death with pore formation and IL-1\u03b2 release. Which molecular event is central to this death pathway?",
+        "options": {
+          "A": "Apaf-1 activation and caspase-9\u2013mediated apoptosis",
+          "B": "Necroptosis is caspase-independent.",
+          "C": "Caspase-1 cleavage of gasdermin D forming membrane pores (pyroptosis)",
+          "D": "Bax/Bak\u2013mediated mitochondrial outer membrane permeabilization",
+          "E": "Autophagy is a homeostatic process, not IL-1\u03b2 release."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Caspase-1 cleavage of gasdermin D forming membrane pores (pyroptosis) Why this is right: Inflammasome-activated caspase-1 cleaves gasdermin D to create pores, causing pyroptotic lysis and IL-1\u03b2 release. Why the others are wrong: A/D. These are apoptotic pathways (non-lytic, IL-1\u03b2-poor)."
+        }
+      },
+      {
+        "stem": "A 55-year-old man with Candida albicans fungemia has macrophages that internalize yeasts efficiently even without opsonins. Which receptor most directly mediates recognition and endocytosis of mannose-rich fungal glycans on macrophages?",
+        "options": {
+          "A": "Mannose receptor (CD206)",
+          "B": "TLR2 triggers cytokines, not primary uptake.",
+          "C": "SR-A binds modified self and some microbes, less specific for mannans. D/E. Require IgG or C3b opsonins.",
+          "D": "Fc\u03b3RIII (CD16)",
+          "E": "Complement receptor 3 (CD11b/CD18) Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Mannose receptor (CD206) Why this is right: CD206 binds terminal mannose/fucose residues on microbes and promotes endocytosis independent of opsonins. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 23-year-old man presents with fever, weight loss, and cavitary pulmonary lesions from Mycobacterium kansasii. CD4+ T cells produce robust IFN-\u03b3 after antigen stimulation. Which downstream effect in macrophages is critical for intracellular killing of this organism?",
+        "options": {
+          "A": "Upregulation of IL-4/IL-13 to enhance alternative activation",
+          "B": "Killing requires NO/ROS, not suppression.",
+          "C": "Mycobacteria inhibit fusion; IFN-\u03b3 counters this.",
+          "D": "IFN-\u03b3\u2013driven classical activation with enhanced ROS and NO generation",
+          "E": "Increased IL-10 production to restrain inflammation Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "IFN-\u03b3\u2013driven classical activation with enhanced ROS and NO generation Why this is right: IFN-\u03b3 activates macrophage microbicidal pathways (ROS, NO) and promotes phagolysosome maturation to kill intracellular mycobacteria. Why the others are wrong: A/E. Drive regulatory/alternative programs, not killing."
+        }
+      },
+      {
+        "stem": "Whole-exome sequencing in a toddler with recurrent Salmonella and mycobacterial infections reveals a mutation in IL12B. Which molecular consequence best explains his phenotype?",
+        "options": {
+          "A": "Loss of IFN-\u03b3 receptor expression on macrophages",
+          "B": "Deficiency of the p40 subunit shared by IL-12 and IL-23",
+          "C": "Absence of the p35 subunit specific to IL-12 only",
+          "D": "Overproduction of IL-18 driving excessive Th1 activation",
+          "E": "Gain-of-function STAT1 mutation causing hyper-IFN signaling Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Deficiency of the p40 subunit shared by IL-12 and IL-23 Why this is right: IL12B encodes the p40 subunit used by IL-12 (p35/p40) and IL-23 (p19/p40); deficiency impairs Th1 and some Th17 functions, predisposing to intracellular infections. Why the others are wrong: A/C. Do not capture the shared p40 biology; p35 loss spares IL-23. D/E. Would not cause this susceptibility pattern."
+        }
+      },
+      {
+        "stem": "A 3-month-old boy is evaluated for severe oral thrush, chronic diarrhea, and failure to thrive. He has had two hospitalizations for pneumonia. Physical exam reveals absent tonsillar tissue and small lymph nodes. Chest radiograph shows a normal-sized cardiac silhouette and a thymic shadow that is difficult to appreciate. Flow cytometry demonstrates profoundly decreased CD3+ T cells and CD19+ B cells, with normal NK cell numbers. Serum immunoglobulins are undetectable. A defect in which process best explains this presentation?",
+        "options": {
+          "A": "ADA deficiency usually reduces T, B, and NK cells.",
+          "B": "\u03b3c (IL2RG) defects spare B-cell numbers (T\u2212B+NK\u2212).",
+          "C": "V(D)J recombination of antigen receptor genes by RAG1/2 endonucleases",
+          "D": "TAP defects impair CD8 selection but do not eliminate B cells.",
+          "E": "BTK defects block B-cell maturation but T cells are preserved."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "V(D)J recombination of antigen receptor genes by RAG1/2 endonucleases Why this is right: Combined absence of mature T and B cells with intact NK cells and agammaglobulinemia is classic for RAG1/2 defects preventing V(D)J recombination. Without rearranged TCR and BCR genes, lymphocyte development stalls at early stages in thymus and marrow. This causes severe, early-onset infections and failure to thrive. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 4-year-old boy has recurrent viral and opportunistic infections. Flow cytometry shows normal numbers of CD4 and markedly reduced CD8 T cells. TCRs are present on both subsets, but TCR signaling is defective in CD8 lineage; responses improve with anti-CD3 crosslinking at very high doses. Which signaling molecule is most likely mutated?",
+        "options": {
+          "A": "ZAP-70",
+          "B": "Syk is the BCR analog; TCR relies on ZAP-70.",
+          "C": "Lck is proximal but its complete loss affects both CD4 and CD8 more globally.",
+          "D": "CD21 is a B-cell coreceptor (EBV receptor).",
+          "E": "BTK affects BCR signaling, not TCR."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "ZAP-70 Why this is right: ZAP-70 binds phosphorylated ITAMs of the CD3 \u03b6 chain and is essential for TCR signaling and positive selection. Loss characteristically produces very low CD8 cells with nonfunctional CD4 cells. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "Bone marrow analysis from a child with agammaglobulinemia shows early pro-B cells that fail to produce \u03bc heavy chains. Molecular testing seeks the earliest rearrangement expected at the heavy-chain locus in normal development. Which event comes first?",
+        "options": {
+          "A": "Light-chain rearrangement is later.",
+          "B": "V\u2013DJ follows D\u2013J. C/E. Post-activation germinal center processes.",
+          "C": "Class-switch recombination to IgG",
+          "D": "D\u2013J joining at heavy chain",
+          "E": "Somatic hypermutation of V regions Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "D\u2013J joining at heavy chain Why this is right: Heavy-chain rearrangement proceeds in an ordered fashion: D\u2013J first, then V\u2013DJ. Light-chain V\u2013J occurs later, and class switching/somatic hypermutation occur after antigen encounter. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 19-year-old woman with variable immunoglobulin levels has a genetic defect impairing survival of transitional B cells as they mature in the spleen. Which receptor\u2013ligand interaction is most implicated?",
+        "options": {
+          "A": "CD40\u2013CD40L is critical for class switching, not early survival.",
+          "B": "BAFF (BLyS) binding BAFF receptor (BAFF-R) on B cells",
+          "C": "ICOS supports Tfh function, indirectly affecting B cells later. D/E. Cytokines influence class switching and differentiation, less the T1\u2192T2 survival checkpoint. Subtopic: T Lymphocyte Development Q: DiGeorge syndrome results from failure of the 3rd/4th pharyngeal pouches to develop. Which lymphocyte subset is most affected? [Restored Pathology]",
+          "D": "IL-4 binding IL-4R on B cells",
+          "E": "TGF-\u03b2 binding TGF-\u03b2R on B cells Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "BAFF (BLyS) binding BAFF receptor (BAFF-R) on B cells Why this is right: BAFF\u2013BAFF-R signaling supports survival of transitional to mature B cells; defects cause reduced peripheral B-cell pools and hypogammaglobulinemia. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A newborn screens positive for severe T-cell lymphopenia with very low T-cell receptor excision circles (TRECs). NK and B-cell numbers are normal. The infant soon develops thrush and viral bronchiolitis. Which genetic lesion best matches this T\u2212B+NK+ pattern?",
+        "options": {
+          "A": "\u03b3c mutations yield T\u2212B+NK\u2212.",
+          "B": "ADA deficiency reduces all three lineages.",
+          "C": "RAG deficiency causes T\u2212B\u2212 with variable NK.",
+          "D": "ZAP-70 typically preserves CD4 counts at birth and skews CD8; not T\u2212B+NK+. Topic: B Cell and T Cell Receptors, and their Antigens [No high-yield questions available] Subtopic: Overall Structure of B Cell Receptors (Antibody)",
+          "E": "IL-7 receptor \u03b1 chain mutation Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "IL-7 receptor \u03b1 chain mutation Why this is right: IL-7 signaling is essential for human T-cell development but not B- or NK-cell development, producing T\u2212B+NK+ SCID with low TRECs on newborn screening. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "Equine anti-venom was reformulated from whole IgG to F(ab\u2032)2 to reduce adverse events. Which adverse effect is most likely decreased with the fragment formulation?",
+        "options": {
+          "A": "Immediate anaphylaxis can still occur to foreign protein.",
+          "B": "Hemolysis is not typical here. C/D. Not the principal concern with antivenoms. Subtopic: Monoclonal Antibodies",
+          "C": "Complement-mediated bacterial opsonization failure",
+          "D": "Neutropenia from marrow suppression",
+          "E": "Serum sickness from immune complex deposition Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Serum sickness from immune complex deposition Why this is right: Removing Fc reduces complement fixation and immune complex\u2013driven type III reactions, lowering serum sickness risk relative to whole IgG antiserum. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 34-year-old woman with toxic shock syndrome has massive T-cell activation. You explain that regardless of the trigger, TCR signaling requires invariant chains bearing ITAMs. Which components directly transmit signals across the membrane for \u03b1\u03b2 TCRs?",
+        "options": {
+          "A": "\u03b5 and \u03b3 chains of CD3 only",
+          "B": "\u03b4 and \u03b5 chains of CD3 only",
+          "C": "CD28 provides costimulation, not the primary ITAMs.",
+          "D": "TCR \u03b1/\u03b2 constant regions bind pMHC but do not signal.",
+          "E": "CD3 \u03b3\u03b5 and \u03b4\u03b5 plus \u03b6\u03b6 homodimer ITAMs Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "CD3 \u03b3\u03b5 and \u03b4\u03b5 plus \u03b6\u03b6 homodimer ITAMs Why this is right: The TCR itself lacks signaling motifs; CD3 \u03b3\u03b5/\u03b4\u03b5 and \u03b6\u03b6 chains contain ITAMs that recruit ZAP-70 after Lck phosphorylation. Why the others are wrong: A/B. Partial lists\u2014\u03b6\u03b6 is essential."
+        }
+      },
+      {
+        "stem": "A 19-year-old woman develops fever and hypotension after using superabsorbent tampons. Many T cells show activation without regard to peptide specificity. Which mechanism best explains the TCR engagement responsible for this presentation?",
+        "options": {
+          "A": "Tetramers still require peptide specificity.",
+          "B": "Superantigen cross-linking of TCR V\u03b2 domain to MHC class II outside the peptide groove",
+          "C": "Cross-presentation is peptide specific.",
+          "D": "Cytokines alone do not explain V\u03b2-restricted activation.",
+          "E": "Mimicry yields autoimmunity, not acute superantigen syndrome."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Superantigen cross-linking of TCR V\u03b2 domain to MHC class II outside the peptide groove Why this is right: Superantigens bind specific V\u03b2 families and MHC II nonpolymorphic regions outside the peptide groove, causing massive cytokine release. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 42-year-old sheep farmer has conjunctival irritation after handling hay bales; conjunctival lymphocytes show a predominance of \u03b3\u03b4 T cells. Compared with \u03b1\u03b2 T cells, which property best characterizes \u03b3\u03b4 TCRs?",
+        "options": {
+          "A": "Peptide\u2013MHC II is \u03b1\u03b2 CD4 territory.",
+          "B": "\u03b3\u03b4 T cells typically signal without CD4/CD8. C/E. Class switching and SHM are B-cell features.",
+          "C": "Ability to undergo class switching after activation",
+          "D": "Recognition of nonpeptide ligands/stress molecules often independent of classical MHC",
+          "E": "Capacity for affinity maturation via somatic hypermutation Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Recognition of nonpeptide ligands/stress molecules often independent of classical MHC Why this is right: \u03b3\u03b4 T cells can recognize phosphoantigens and stress ligands with limited MHC restriction, contributing to barrier defense. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A patient\u2019s T cells are imaged during activation. Within seconds of TCR\u2013pMHC engagement and CD4 co-receptor binding, a kinase phosphorylates ITAMs on CD3\u03b6, enabling ZAP-70 recruitment. Which proximal event occurs first?",
+        "options": {
+          "A": "ZAP-70 phosphorylates LAT to assemble the signalosome",
+          "B": "PLC-\u03b31 generates IP3 and DAG to raise cytosolic Ca2+",
+          "C": "Ras-GTP triggers MAPK-dependent AP-1 activation",
+          "D": "PKC\u03b8 translocates to the synapse to activate NF-\u03baB",
+          "E": "Lck phosphorylates CD3\u03b6 ITAMs to create docking sites for ZAP-70 Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Lck phosphorylates CD3\u03b6 ITAMs to create docking sites for ZAP-70 Why this is right: CD4/CD8-associated Lck is the first kinase to act, phosphorylating ITAMs to recruit and activate ZAP-70. Why the others are wrong: A\u2013D. These are downstream steps following Lck/ITAM priming."
+        }
+      },
+      {
+        "stem": "A vaccine designer screens 9-mer peptides for binding to HLA-A*02:01. Only peptides with leucine or valine at specific positions bind strongly. Which principle explains this selectivity?",
+        "options": {
+          "A": "TCR recognizes the pMHC; it doesn\u2019t mediate peptide binding to MHC. B/D/E. Not determinants of peptide\u2013MHC affinity.",
+          "B": "BCR affinity maturation generates anchor residues",
+          "C": "MHC peptide-binding groove requires specific anchor residues in the peptide",
+          "D": "Fc glycosylation alters peptide affinity for MHC",
+          "E": "Costimulatory molecules determine peptide\u2013MHC stability Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "MHC peptide-binding groove requires specific anchor residues in the peptide Why this is right: Class I MHC alleles have pockets that accommodate defined anchor residues, determining which peptides can be presented. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 32-year-old woman with hepatitis B mounts an invariant NKT-cell response to viral glycolipids. Which antigen presentation pathway is involved?",
+        "options": {
+          "A": "MHC class II presentation to conventional CD4 T cells",
+          "B": "MHC class I presentation to CD8 T cells",
+          "C": "BCR binding is not the T-cell pathway described.",
+          "D": "CD1d presentation of lipid antigens to invariant NKT cells",
+          "E": "Innate sensing, not antigen presentation to T cells."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "CD1d presentation of lipid antigens to invariant NKT cells Why this is right: CD1d presents lipids/glycolipids to iNKT cells, which rapidly produce cytokines bridging innate and adaptive immunity. Why the others are wrong: A/B. Peptide presentation pathways."
+        }
+      },
+      {
+        "stem": "An investigator notes that increasing ionic strength and temperature reduce antibody\u2013antigen binding in vitro without covalent modification. Which principle best explains the forces that govern CDR\u2013epitope interactions?",
+        "options": {
+          "A": "Disulfide bonds form between CDRs and epitopes",
+          "B": "Covalent Schiff bases stabilize antigen binding",
+          "C": "Multiple weak, reversible noncovalent forces (hydrogen bonds, electrostatic, hydrophobic, van der Waals)",
+          "D": "Peptide\u2013MHC binding is primarily covalent to ensure stability",
+          "E": "ITAM phosphorylation affects signaling, not affinity at the paratope. Subtopic: Overall Structure of T Cell Receptors Q: T cell receptors recognize peptide antigens only when presented by what molecules? [HIGH YIELD] Subtopic: V(D)J Recombination and Class Switching Q: A patient with Hyper-IgM syndrome has a defect in which molecule required for class switching? [Restored Pathology] Q: Which enzyme complex initiates V(D)J recombination? [HIGH YIELD] Q: Class switching requires CD40 on B cells and which ligand on T cells? [HIGH YIELD] Subtopic: Characteristics of Antigens and How They Bind to CDRs Q: Which antibody regions (CDRs) provide maximal diversity for antigen recognition? [HIGH YIELD] Topic: Antibody Function [No high-yield questions available] Subtopic: Antibody Function in Host Defense and Immunopathology"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Multiple weak, reversible noncovalent forces (hydrogen bonds, electrostatic, hydrophobic, van der Waals) Why this is right: Antibody\u2013antigen binding is noncovalent and reversible; salt and heat can disrupt these interactions. Why the others are wrong: A/B/D. Covalent bonds do not mediate physiologic antigen recognition."
+        }
+      },
+      {
+        "stem": "A 37-year-old woman returns from Southeast Asia with pruritic serpiginous skin tracts and marked eosinophilia. Which isotype most directly arms effector cells for parasite killing?",
+        "options": {
+          "A": "IgG2",
+          "B": "IgG4",
+          "C": "IgA",
+          "D": "IgM",
+          "E": "IgE Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "IgE Why this is right: IgE binds Fc\u03b5RI on mast cells/eosinophils; crosslinking on helminths triggers toxic granule release. Why the others are wrong: A/B. Less involved in helminth cytotoxicity. C/D. Do not mediate eosinophil degranulation."
+        }
+      },
+      {
+        "stem": "A 21-year-old man develops anaphylaxis within minutes of a peanut exposure. What receptor\u2013ligand event on effector cells triggers the immediate degranulation?",
+        "options": {
+          "A": "IgG binding to Fc\u03b3RI (CD64) on macrophages",
+          "B": "IgA binding to Fc\u03b1RI (CD89) on neutrophils",
+          "C": "IgM binding to complement receptor 1 (CD35)",
+          "D": "Crosslinking of IgE bound to Fc\u03b5RI on mast cells and basophils",
+          "E": "IgG binding to Fc\u03b3RIIA (CD32A) on platelets Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Crosslinking of IgE bound to Fc\u03b5RI on mast cells and basophils Why this is right: Allergen crosslinks Fc\u03b5RI-bound IgE, causing calcium influx and release of histamine and tryptase that produce anaphylaxis. Why the others are wrong: A/B/C/E. Do not initiate the IgE-dependent immediate reaction."
+        }
+      },
+      {
+        "stem": "A 61-year-old man enrolls in a dendritic-cell (DC) vaccine trial after resection of a melanoma. His DCs are pulsed ex vivo with tumor peptides and reinfused. One week later, flow cytometry shows expansion of tumor-reactive CD8+ and CD4+ T cells. The oncologist explains that specificity of the response depended on a \u201cfirst signal\u201d delivered at the immunologic synapse before any costimulation or cytokines. Which event provided this determinant of antigen specificity?",
+        "options": {
+          "A": "\u2014 Correct.",
+          "B": "IL-2 supports clonal expansion after activation, not specificity.",
+          "C": "ICOS helps Tfh after activation, not initial specificity.",
+          "D": "CD40\u2013CD40L licenses APCs but does not define peptide specificity.",
+          "E": "CD28\u2013B7 provides costimulation; insufficient alone."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "TCR recognition of peptide bound to self MHC on the DC (Signal 1) Why this is right: The TCR engages a specific peptide\u2013MHC complex to confer antigen specificity; this is Signal 1. Without it, neither costimulation (Signal 2) nor cytokines (Signal 3) can substitute. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 32-year-old man with selective CD8 lymphopenia has normal TCR recombination and proteasome function. His remaining CD8 T cells show poor binding to class I MHC tetramers; CD8 appears misfolded. Which physical interaction is normally required for optimal CD8 co-receptor function?",
+        "options": {
+          "A": "CD8 binding to \u03b22-microglobulin on class I MHC",
+          "B": "CD8 binding to the nonpolymorphic \u03b13 domain of class I MHC",
+          "C": "CD8 binding to the \u03b11 helix of class I MHC",
+          "D": "CD8 does not engage class II.",
+          "E": "CD8 binding to peptide anchor residues Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "CD8 binding to the nonpolymorphic \u03b13 domain of class I MHC Why this is right: CD8 engages the \u03b13 domain, stabilizing TCR\u2013pMHC interactions and bringing Lck to the synapse for signaling. Why the others are wrong: A/C/E. Not the canonical CD8 contact."
+        }
+      },
+      {
+        "stem": "A 48-year-old woman with sarcoidosis has lymph node biopsies rich in CD4+ T cells interacting with professional APCs. Which co-receptor\u2013MHC pairing underlies CD4 T-cell recognition?",
+        "options": {
+          "A": "CD4 binding the \u03b13 domain of class I",
+          "B": "CD4 binding \u03b22-microglobulin",
+          "C": "CD8 binding the \u03b22 domain of class II",
+          "D": "CD4 binding the nonpolymorphic \u03b22 domain of class II MHC",
+          "E": "CD8 binding the \u03b11 helix of class I Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "CD4 binding the nonpolymorphic \u03b22 domain of class II MHC Why this is right: CD4 engages class II at the \u03b22 domain to assist TCR signaling on professional APCs. Why the others are wrong: A/B/C/E. Incorrect co-receptor or domain pairings."
+        }
+      },
+      {
+        "stem": "A population genetics study shows extraordinary allelic diversity at HLA loci within individuals. Which property best explains this observation and its immunologic advantage?",
+        "options": {
+          "A": "Maternal imprinting of paternal HLA alleles",
+          "B": "Somatic hypermutation of HLA genes after infection",
+          "C": "Class I has strict length limits (\u22488\u201310 aa).",
+          "D": "TCR genes recombine with HLA genes during development",
+          "E": "Codominant expression of multiple maternal and paternal HLA alleles increases peptide presentation breadth Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Codominant expression of multiple maternal and paternal HLA alleles increases peptide presentation breadth Why this is right: HLA genes are highly polymorphic and expressed codominantly, maximizing peptide repertoire and population fitness. Why the others are wrong: A/B/D. Do not occur for HLA loci."
+        }
+      },
+      {
+        "stem": "A 60-year-old woman with viral reactivation after stem-cell transplant has lesions heavily infiltrated by NK cells. Tumor immunology shows the lesions\u2019 cells lack surface class I MHC. Which principle explains NK killing here?",
+        "options": {
+          "A": "NK cells require opsonizing IgG to kill targets",
+          "B": "NK cells respond to superantigen bound to MHC II",
+          "C": "NK cells recognize peptide\u2013MHC via TCR",
+          "D": "NK cells detect \u201cmissing self\u201d via loss of class I MHC, releasing inhibition",
+          "E": "NK cells require IL-5 for cytotoxicity Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "NK cells detect \u201cmissing self\u201d via loss of class I MHC, releasing inhibition Why this is right: Absence of class I removes inhibitory signals to NK KIRs, triggering cytotoxicity. Why the others are wrong: A/B/C/E. Incorrect requirements for NK activation."
+        }
+      },
+      {
+        "stem": "A mixed lymphocyte reaction (MLR) between two unrelated donors shows vigorous T-cell proliferation despite no shared peptides. What best explains this alloreactivity?",
+        "options": {
+          "A": "TCRs do not somatically mutate.",
+          "B": "Recipient T cells cross-react directly with foreign MHC molecules as if they were peptide\u2013MHC",
+          "C": "B cells are not required for direct allorecognition. D/E. Not mechanisms for T-cell proliferation in MLR.",
+          "D": "IgM binding to donor HLA antigens on lymphocytes",
+          "E": "MHC molecules present only self peptides in vitro Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Recipient T cells cross-react directly with foreign MHC molecules as if they were peptide\u2013MHC Why this is right: A high frequency of TCRs can recognize allogeneic MHC directly, driving strong MLR responses. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 49-year-old with AML needs an allogeneic hematopoietic stem-cell transplant. Which pretransplant factor most strongly predicts rejection risk and graft outcomes?",
+        "options": {
+          "A": "ABO matters less than HLA in HSCT.",
+          "B": "Minor antigens matter but are secondary. C/D. Not primary matching determinants.",
+          "C": "HLA-B27 status",
+          "D": "CMV serostatus matching alone",
+          "E": "High-resolution HLA matching at key class I (A, B, C) and class II (DRB1 \u00b1 DQB1) loci Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "High-resolution HLA matching at key class I (A, B, C) and class II (DRB1 \u00b1 DQB1) loci Why this is right: Close HLA matching minimizes alloreactivity and GVHD, improving engraftment and survival. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 55-year-old Korean woman with gout is considered for allopurinol. Which HLA result would prompt choosing an alternative agent due to severe cutaneous adverse reaction risk?",
+        "options": {
+          "A": "HLA-B27:05",
+          "B": "HLA-A02:01",
+          "C": "HLA-DRB103:01",
+          "D": "HLA-B57:01",
+          "E": "HLA-B*58:01 Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "HLA-B*58:01 Why this is right: HLA-B*58:01 is associated with allopurinol SCAR, especially in certain Asian groups. Why the others are wrong: A\u2013D. Not the key allopurinol risk allele."
+        }
+      },
+      {
+        "stem": "A 20-year-old man with chronic inflammatory back pain and limited spinal mobility has an X-ray showing sacroiliitis. Which HLA association supports the suspected diagnosis?",
+        "options": {
+          "A": "HLA-DR4",
+          "B": "HLA-DQ2",
+          "C": "HLA-B57:01",
+          "D": "HLA-B27",
+          "E": "HLA-A03 Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "HLA-B27 Why this is right: Ankylosing spondylitis has a strong association with HLA-B27. Why the others are wrong: A/B/C/E. Not the classic association for this disease."
+        }
+      },
+      {
+        "stem": "A virologist blocks TAP1/2 in human cells infected with influenza A. CD8+ T-cell recognition of infected targets diminishes markedly, although viral protein synthesis is intact. Which step in antigen processing is blocked?",
+        "options": {
+          "A": "Endosomal proteolysis with CLIP exchange",
+          "B": "Distinct DC pathway.",
+          "C": "Transport of proteasome-derived peptides into the ER for loading onto class I MHC",
+          "D": "HLA-DM\u2013mediated peptide editing for class II",
+          "E": "Autophagosome delivery of cytosolic antigens to class II Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Transport of proteasome-derived peptides into the ER for loading onto class I MHC Why this is right: TAP shuttles peptides into the ER for class I loading; without it, class I presentation to CD8 T cells falls. Why the others are wrong: A/D/E. Class II\u2013related steps."
+        }
+      },
+      {
+        "stem": "Researchers culture APCs with a weak base that neutralizes endosomal pH. CD4+ T-cell activation falls, but CD8+ responses to cytosolic viral proteins remain intact. Which step was inhibited?",
+        "options": {
+          "A": "Endosomal proteolysis and peptide loading onto class II (requires acidification)",
+          "B": "Proteasome generation of peptides for class I",
+          "C": "TAP-mediated peptide import",
+          "D": "\u03b22-microglobulin association with class I",
+          "E": "Not an antigen-processing step. Subtopic: Types of Transplant Rejection"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Endosomal proteolysis and peptide loading onto class II (requires acidification) Why this is right: Class II processing depends on acidic endosomes; neutralization blocks peptide generation/loading for CD4 responses. Why the others are wrong: B\u2013D. Class I pathway steps; unaffected here."
+        }
+      },
+      {
+        "stem": "A 35-year-old woman with relapsing\u2013remitting multiple sclerosis starts a new oral agent and within 2 weeks develops lymphopenia without bone-marrow suppression. Lymph node size is normal. Flow cytometry shows a drop in circulating na\u00efve B cells (IgD+CD27\u2212) but preserved counts within a node biopsy. She has increased infections with respiratory viruses. Which mechanism best explains the fall in blood B cells?",
+        "options": {
+          "A": "Affects synapse stability, not global egress.",
+          "B": "CXCR5 loss impairs follicular homing, not retention.",
+          "C": "BAFF supports survival; excess doesn\u2019t explain trapping.",
+          "D": "Blockade of S1P1-mediated egress traps lymphocytes within nodes",
+          "E": "FDCs display antigen; they don\u2019t control egress."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Blockade of S1P1-mediated egress traps lymphocytes within nodes Why this is right: S1P1 guides lymphocyte exit from lymph nodes; functional antagonism keeps B (and T) cells sequestered in nodes, reducing blood counts without marrow failure. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 4-year-old boy with recurrent Pneumocystis pneumonia has normal B-cell numbers and intact antigen binding but cannot class switch or form germinal centers. Which interaction at the T\u2013B border is most likely defective?",
+        "options": {
+          "A": "Preserved in the stem.",
+          "B": "Effector, not helper, function.",
+          "C": "Can augment activation but cannot replace CD40L.",
+          "D": "CD40L on activated CD4 T cells engaging CD40 on B cells",
+          "E": "BAFF supports survival, not T cell help."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "CD40L on activated CD4 T cells engaging CD40 on B cells Why this is right: CD40\u2013CD40L delivers essential \u201cSignal 2\u201d for class switching and germinal center formation; loss causes hyper-IgM phenotype. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A lung carcinoma line downregulates class I MHC and becomes resistant to CD8+ T-cell recognition. Coculture with healthy NK cells triggers rapid target-cell death that is prevented by concanamycin A (vacuolar ATPase inhibitor that disrupts cytotoxic granule function). Which effector mechanism most directly mediates this NK-dependent killing?",
+        "options": {
+          "A": "NK cells can use TRAIL/FasL, but granule exocytosis is primary here.",
+          "B": "ADCC uses Fc\u03b3RIII (CD16), not Fc\u03b5RI.",
+          "C": "Complement is not the dominant NK mechanism.",
+          "D": "TNF-\u03b1 is not the principal pathway in this assay.",
+          "E": "Perforin and granzyme release at the NK\u2013tumor synapse Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Perforin and granzyme release at the NK\u2013tumor synapse Why this is right: NK cells respond to \u201cmissing self\u201d and kill via polarized exocytosis of perforin and granzymes\u2014blocked by concanamycin A. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "In a live-cell imaging assay, antigen-specific CD8+ T cells form stable synapses with peptide\u2013MHC I+ targets. When extracellular Ca2+ is chelated with EGTA, synapse formation persists but no target apoptosis occurs and granules fail to dock at the membrane. Which step of cytotoxic T-cell function is most Ca2+-dependent and thus inhibited?",
+        "options": {
+          "A": "Exocytosis of lytic granules containing perforin and granzymes",
+          "B": "TCR recognition of peptide\u2013MHC I",
+          "C": "Expression of IFN-\u03b3 and TNF-\u03b1 genes",
+          "D": "Formation of immunologic synapse via LFA-1/ICAM-1",
+          "E": "Fas ligand transcription and trafficking Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Exocytosis of lytic granules containing perforin and granzymes Why this is right: Granule fusion with the membrane is Ca2+-dependent; chelation prevents granule release despite intact recognition and adhesion. Why the others are wrong: B/D. Recognition/adhesion occur despite EGTA. C/E. Transcription/trafficking are less acutely Ca2+-dependent than degranulation."
+        },
+        "long_form": true
+      },
+      {
+        "stem": "Cultured T cells are activated and then exposed to Fas agonist. Within minutes, the death-inducing signaling complex (DISC) forms and initiator caspases are cleaved. Which initiator caspase is most directly activated to trigger the extrinsic apoptosis cascade in this setting?",
+        "options": {
+          "A": "Caspase-9 is intrinsic/mitochondrial.",
+          "B": "Caspase-8",
+          "C": "Inflammasome IL-1\u03b2 maturation.",
+          "D": "ER stress (less established in humans).",
+          "E": "Executioner caspase downstream, not initiator."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Caspase-8 Why this is right: Fas engagement recruits FADD and activates caspase-8 (\u00b1 caspase-10), which then activates executioner caspases. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "Peripheral blood from a teen with lymphadenopathy shows expansion of CD3+CD4\u2212CD8\u2212 T cells. In vitro, anti-CD3 activation followed by anti-Fas\u2013induced apoptosis fails, whereas perforin/granzyme\u2013mediated killing of peptide-pulsed targets is intact. Which additional lab finding best supports the suspected diagnosis?",
+        "options": {
+          "A": "NK numbers may be normal.",
+          "B": "TAP/MHC I defects give CD8 lymphopenia.",
+          "C": "Describes CGD, not ALPS.",
+          "D": "Not characteristic.",
+          "E": "Failure of patient T cells to die after Fas agonist exposure across multiple assays (defective activation-induced cell death) Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Failure of patient T cells to die after Fas agonist exposure across multiple assays (defective activation-induced cell death) Why this is right: ALPS shows impaired Fas-dependent AICD with DNT-cell expansion and preserved granule-mediated killing. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 27-year-old man returns from a fishing trip with intensely pruritic serpiginous skin tracks and marked eosinophilia. He has a history of allergic rhinitis. The allergist explains that a Th2 program is recruiting eosinophils that damage the helminth surface. Blockade of which cytokine would most directly reduce eosinophil numbers and activity?",
+        "options": {
+          "A": "General T-cell growth factor.",
+          "B": "Promotes mucus and goblet cell hyperplasia, not eosinophil survival.",
+          "C": "IL-5",
+          "D": "Th1 cytokine.",
+          "E": "Proinflammatory but not specific for eosinophils."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "IL-5 Why this is right: IL-5 is the key Th2 cytokine for eosinophil maturation, survival, and activation; targeting IL-5 or its receptor reduces eosinophilia. Why the others are wrong:"
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A 34-year-old woman with steroid-dependent, T2-high asthma enrolls in a trial of an epithelial \u201calarmin\u201d blocker that reduces downstream type-2 inflammation and exacerbations. After 12 weeks, her FeNO falls and rescue inhaler use declines. Which immunologic axis is most directly being attenuated?",
+        "options": {
+          "A": "Th1 polarization via IL-12\u2013STAT4",
+          "B": "Th17 axis.",
+          "C": "Classical macrophage activation via IFN-\u03b3",
+          "D": "Not the dominant driver of T2-high disease.",
+          "E": "TSLP-driven ILC2/Th2 cascade producing IL-4/IL-5/IL-13 Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "TSLP-driven ILC2/Th2 cascade producing IL-4/IL-5/IL-13 Why this is right: Blocking the alarmin TSLP dampens upstream signals that feed ILC2 and Th2 programs, lowering IL-4/IL-5/IL-13 output in T2-high asthma. Why the others are wrong: A/C. Th1 pathways."
+        }
+      },
+      {
+        "stem": "A 22-year-old woman with severe nasal polyposis and asthma begins dupilumab (anti\u2013IL-4R\u03b1). At 8 weeks she notes less congestion and fewer exacerbations. Which mechanistic change best explains the improvement?",
+        "options": {
+          "A": "Th1 not targeted.",
+          "B": "Would worsen eosinophilia.",
+          "C": "Th17 axis unrelated.",
+          "D": "Blockade of IL-4/IL-13 signaling, reducing IgE class switching and mucus",
+          "E": "CD40 pathway is unaffected."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "Blockade of IL-4/IL-13 signaling, reducing IgE class switching and mucus Why this is right: IL-4R\u03b1 signals for IL-4 and IL-13; antagonism curbs IgE switching, goblet hyperplasia, and airway mucus in T2-high disease. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 30-year-old man with aspirin-exacerbated respiratory disease has chronic sinusitis with polyps, bronchial hyperreactivity, and eosinophilia. Which Th2 cytokine most directly drives goblet cell hyperplasia and mucus overproduction in his airways?",
+        "options": {
+          "A": "General growth factor. B/D. Th1 cytokines.",
+          "B": "IFN-\u03b3",
+          "C": "IL-13",
+          "D": "IL-12",
+          "E": "Th17 neutrophil chemokine inducer, not mucus driver. Subtopic: Th1 cells"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "IL-13 Why this is right: IL-13 promotes mucus production and airway remodeling typical of T2-high inflammation. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 52-year-old man with Crohn-like granulomatous colitis worsens on infliximab cessation. Which immunologic mechanism most likely flared after stopping TNF-\u03b1 blockade?",
+        "options": {
+          "A": "Enhanced Th2-mediated eosinophilia",
+          "B": "Loss of TNF-\u03b1\u2013dependent macrophage activation sustaining granulomas",
+          "C": "Increased IgE class switching",
+          "D": "Would reduce, not worsen, inflammation.",
+          "E": "Upregulated IL-17A\u2013driven neutrophilia only Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Loss of TNF-\u03b1\u2013dependent macrophage activation sustaining granulomas Why this is right: TNF-\u03b1 is critical for granuloma maintenance; withdrawal can exacerbate Th1-type granulomatous inflammation. Why the others are wrong: A/C/E. Not the dominant mechanism of granuloma integrity."
+        }
+      },
+      {
+        "stem": "A 28-year-old man with allergic asthma begins anti-TSLP therapy. At 12 weeks, blood eosinophils and FeNO decline. Which proximal change in the airway most directly reduces ILC2 output?",
+        "options": {
+          "A": "Upregulation of IL-12 by dendritic cells",
+          "B": "Blockade of epithelial alarmin signaling that normally triggers ILC2 IL-5/IL-13 release",
+          "C": "Enhanced antigen presentation to Th1 cells",
+          "D": "Increased PD-L1 expression on macrophages",
+          "E": "Expansion of Th17 cells Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Blockade of epithelial alarmin signaling that normally triggers ILC2 IL-5/IL-13 release Why this is right: TSLP blockade interrupts epithelial\u2013ILC2 crosstalk that fuels T2-high inflammation. Why the others are wrong: A/C/D/E. Do not directly suppress ILC2 cytokine production."
+        }
+      },
+      {
+        "stem": "T cells from a patient show brisk STAT5 phosphorylation with IL-2 but no STAT1 phosphorylation after IFN-\u03b3. Which receptor-proximal defect fits best?",
+        "options": {
+          "A": "Would impair IL-2 responses as well. C/D/E. Unrelated to IFN-\u03b3\u2013STAT1 signaling. Subtopic: Clinical Correlation (Jakinibs)",
+          "B": "Mutated IFN-\u03b3 receptor\u2013associated JAKs preventing STAT1 activation",
+          "C": "Absent CD3\u03b6 ITAMs",
+          "D": "Defective Fc\u03b3RIIIa",
+          "E": "Absent MHC class I Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Mutated IFN-\u03b3 receptor\u2013associated JAKs preventing STAT1 activation Why this is right: Selective loss of IFN-\u03b3\u2192STAT1 with preserved IL-2\u2192STAT5 points to a defect at the IFN-\u03b3R\u2013JAK1/JAK2 step. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "A 59-year-old man with refractory inflammatory arthritis starts an oral JAK inhibitor. Six weeks later he develops dermatomal vesicular lesions; PCR is positive for varicella-zoster virus. Which mechanism best explains this adverse effect?",
+        "options": {
+          "A": "Increased antigen presentation by class I MHC",
+          "B": "Direct mast-cell stabilization in skin",
+          "C": "Broad attenuation of cytokine-dependent antiviral signaling via JAK\u2013STAT blockade",
+          "D": "Complement C5 inhibition",
+          "E": "Enhanced neutrophil oxidative burst Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Broad attenuation of cytokine-dependent antiviral signaling via JAK\u2013STAT blockade Why this is right: Jakinibs reduce multiple cytokine signals (e.g., type I/II interferons), predisposing to viral reactivation such as zoster. Why the others are wrong: A/B/D/E. Do not account for interferon pathway suppression."
+        }
+      },
+      {
+        "stem": "A 47-year-old woman with ulcerative colitis is started on a JAK inhibitor after failing anti-TNF therapy. Which monitoring focus aligns with the drug\u2019s on-target risk profile?",
+        "options": {
+          "A": "Daily peak flow measurements",
+          "B": "Periodic audiometry",
+          "C": "Screening for infections (e.g., TB, zoster) and cytopenias",
+          "D": "Calcium scoring CT",
+          "E": "HLA typing Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Screening for infections (e.g., TB, zoster) and cytopenias Why this is right: JAK blockade blunts immune signaling and can cause cytopenias; screening and vigilance for infections are key. Why the others are wrong: A/B/D/E. Not primary safety concerns for jakinibs."
+        }
+      },
+      {
+        "stem": "A researcher compares corticosteroids with a JAK inhibitor in vitro. Both reduce inflammatory gene expression, but the JAK inhibitor specifically prevents phosphorylation of STATs while leaving NF-\u03baB p65 nuclear translocation relatively intact. Which inference is most accurate?",
+        "options": {
+          "A": "JAK inhibition acts upstream of STAT-dependent transcription, sparing NF-\u03baB activation",
+          "B": "JAK inhibition blocks TCR ITAM signaling",
+          "C": "JAK inhibition prevents complement activation",
+          "D": "JAK inhibition depletes B cells via CD20",
+          "E": "JAK inhibition prevents peptide loading on MHC II Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "JAK inhibition acts upstream of STAT-dependent transcription, sparing NF-\u03baB activation Why this is right: Jakinibs target cytokine receptor signaling to STATs, not NF-\u03baB downstream of many innate receptors. Why the others are wrong: B/C/D/E. Not mechanisms of jakinibs."
+        }
+      },
+      {
+        "stem": "A 63-year-old man on a JAK inhibitor presents with fever and cough. BAL cultures grow Histoplasma capsulatum. Which cytokine axis compromised by JAK blockade most directly underlies poor macrophage activation against intracellular fungi?",
+        "options": {
+          "A": "IL-4/IL-13",
+          "B": "IL-5",
+          "C": "Drives neutrophils, not primary defense here.",
+          "D": "IFN-\u03b3",
+          "E": "TSLP Correct: D"
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "IFN-\u03b3 Why this is right: IFN-\u03b3\u2013JAK\u2013STAT1 signaling activates macrophages to kill intracellular pathogens; suppression predisposes to histoplasmosis. Why the others are wrong: A/B/E. Not macrophage-activating axes."
+        }
+      },
+      {
+        "stem": "A 52-year-old woman with polyarthritis starts a pan-JAK inhibitor. Three months later she has anemia and mild leukopenia. Bone marrow is normocellular with decreased erythroid maturation markers linked to cytokine signaling. Which change best explains these cytopenias?",
+        "options": {
+          "A": "Increased IL-5 signaling to marrow",
+          "B": "Reduced responsiveness to cytokines that use JAK\u2013STAT for hematopoiesis",
+          "C": "Increased Fc\u03b3R signaling in neutrophils",
+          "D": "Enhanced complement C3 production",
+          "E": "Increased SMAD2/3 phosphorylation Correct: B"
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "Reduced responsiveness to cytokines that use JAK\u2013STAT for hematopoiesis Why this is right: Many hematopoietic growth factors signal via JAK\u2013STAT; blocking this pathway can yield cytopenias. Why the others are wrong: A/C/D/E. Do not cause the described marrow effects."
+        }
+      }
+    ],
+    "MHC Class I and Class II Molecules": [
+      {
+        "stem": "A 33-year-old man with chronic osteomyelitis has high-titer anti-staphylococcal IgG. ELISA mapping shows his antibodies bind two epitopes on a surface protein that are ~10 nm apart. Structural analysis indicates his dominant IgG subclass uses flexible angulation between Fab arms to engage both epitopes simultaneously. Which structural element of IgG most directly enables this bivalent flexibility?",
+        "options": {
+          "A": "Disulfide bonds within CL domains",
+          "B": "The J chain is in IgM/IgA polymers, not IgG.",
+          "C": "CH3 domains of heavy chains",
+          "D": "Carbohydrate moieties in CH2 domains",
+          "E": "Hinge region between CH1 and CH2 segments Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Hinge region between CH1 and CH2 segments Why this is right: The hinge confers rotational and translational flexibility, allowing Fab arms to span variable distances between epitopes for optimal binding and cross-linking. Why the others are wrong: A/C/D. These contribute to stability or effector function, not primary flexibility."
+        },
+        "long_form": true
+      },
+      {
+        "stem": "A chemist conjugates a small molecule (hapten) to tetanus toxoid and injects it into mice. High-affinity, class-switched anti-hapten IgG is detected. Which immunologic principle is illustrated?",
+        "options": {
+          "A": "Haptens directly activate B cells to undergo class switching without T cells",
+          "B": "B cells specific for the hapten receive T-cell help specific for carrier-derived peptides",
+          "C": "T cells recognize the hapten directly in the MHC groove",
+          "D": "Carriers provide T-dependent help without needing TLRs.",
+          "E": "Superantigens are not required."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "B cells specific for the hapten receive T-cell help specific for carrier-derived peptides Why this is right: The BCR internalizes the hapten\u2013carrier; peptides from the carrier are presented to Tfh cells, providing help that enables class switching to anti-hapten antibodies. Why the others are wrong: A/C. T cells do not recognize haptens directly."
+        }
+      },
+      {
+        "stem": "A 25-year-old man with primary EBV infection shows early serology dominated by a pentameric antibody that agglutinates virions and strongly activates complement. Which class is responsible?",
+        "options": {
+          "A": "IgG1",
+          "B": "IgG3",
+          "C": "IgA is mucosal.",
+          "D": "IgM",
+          "E": "IgE mediates allergy/parasites."
+        },
+        "answer": "D",
+        "rationales": {
+          "E": "IgM Why this is right: IgM is the first isotype produced in primary responses; as a pentamer it has high avidity and fixes complement efficiently. Why the others are wrong: A/B. IgG subclasses dominate later."
+        }
+      },
+      {
+        "stem": "During meningococcemia, an individual mounts an IgG subclass response that most potently activates the classical complement pathway. Which subclass is the strongest complement activator?",
+        "options": {
+          "A": "IgG2",
+          "B": "IgG4",
+          "C": "IgG3",
+          "D": "Potent but typically second to IgG3.",
+          "E": "Not a real subclass."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "IgG3 Why this is right: IgG3 > IgG1 for complement activation; IgG2 is weaker; IgG4 does not fix complement. Why the others are wrong: A/B. Less effective or none."
+        }
+      },
+      {
+        "stem": "A 5-year-old boy has very low surface class I MHC on leukocytes with normal class II. His \u03b22-microglobulin gene has a loss-of-function mutation. Which consequence is most expected?",
+        "options": {
+          "A": "Reduced stability and surface expression of class I MHC with decreased CD8 T-cell numbers",
+          "B": "Absent class II MHC on B cells and macrophages",
+          "C": "NK inhibition would be reduced, not increased.",
+          "D": "TAP is independent of \u03b22m.",
+          "E": "Selective loss of CD4 T cells Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Reduced stability and surface expression of class I MHC with decreased CD8 T-cell numbers Why this is right: Class I requires \u03b22-microglobulin for assembly/stability; low class I impairs CD8 positive selection. Why the others are wrong: B/E. Describe class II\u2013related defects."
+        }
+      },
+      {
+        "stem": "A structural biologist compares peptide binding to class I versus class II MHC. Which difference is accurate?",
+        "options": {
+          "A": "Class I binds longer peptides (13\u201325 aa) with open ends; class II binds 8\u201310 aa",
+          "B": "Class I and II both have open-ended grooves",
+          "C": "Class I binds \u22488\u201310 aa with closed ends; class II accommodates longer peptides with open ends",
+          "D": "Both require \u03b22-microglobulin",
+          "E": "Class II does not bind peptides Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Class I binds \u22488\u201310 aa with closed ends; class II accommodates longer peptides with open ends Why this is right: Groove geometry dictates peptide length constraints: closed for class I, open for class II. Why the others are wrong: A/B/D/E. Incorrect or nonsensical for MHC biology. Subtopic: HLA Typing: Clinical Uses"
+        }
+      },
+      {
+        "stem": "A pharmaceutical company tests a small molecule that blocks HLA-DM function. In treated APCs, class II molecules reach the surface carrying CLIP. Which normal process is being disrupted?",
+        "options": {
+          "A": "Exchange of CLIP for higher-affinity peptides on class II after invariant chain\u2013guided trafficking",
+          "B": "TAP-dependent peptide import for class I",
+          "C": "Different phenomenon.",
+          "D": "ER aminopeptidase trimming for class I",
+          "E": "\u03b22-microglobulin association with class I heavy chains Correct: A"
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Exchange of CLIP for higher-affinity peptides on class II after invariant chain\u2013guided trafficking Why this is right: HLA-DM catalyzes removal of CLIP and peptide loading in endosomes for class II presentation. Why the others are wrong: B/D/E. Class I processes."
+        }
+      },
+      {
+        "stem": "A tumor vaccine uses dead tumor cells fed to dendritic cells, which then prime CD8+ T cells. Which mechanism enables exogenous tumor antigens to reach the class I pathway?",
+        "options": {
+          "A": "Invariant chain trafficking",
+          "B": "HLA-DM editing",
+          "C": "Not the dominant mechanism.",
+          "D": "Inadequate for CD8 priming with dead cells.",
+          "E": "Cross-presentation by specialized dendritic cells Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "Cross-presentation by specialized dendritic cells Why this is right: Certain DCs route exogenous antigens into the class I pathway to prime na\u00efve CD8 T cells. Why the others are wrong: A/B. Class II steps."
+        }
+      }
+    ],
+    "Types of Transplant Rejection": [
+      {
+        "stem": "Ten days after a kidney transplant, creatinine rises. Biopsy shows interstitial lymphocytic infiltrates with tubulitis and endothelialitis. C4d staining is minimal. Which rejection pattern is most likely?",
+        "options": {
+          "A": "Immediate onset.",
+          "B": "Late, fibrotic changes.",
+          "C": "Acute T-cell\u2013mediated rejection via direct allorecognition",
+          "D": "Would show C4d/DSA.",
+          "E": "Not a solid-organ phenomenon."
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Acute T-cell\u2013mediated rejection via direct allorecognition Why this is right: The timing and histology (tubulitis/endothelialitis, scant C4d) point to cellular rejection driven by recipient T cells recognizing donor MHC. Why the others are wrong:"
+        }
+      },
+      {
+        "stem": "Two years after lung transplant, FEV1 declines. Biopsy shows concentric intimal fibrosis of small arteries and bronchiolitis obliterans. Which process is most consistent?",
+        "options": {
+          "A": "Chronic rejection with immune-mediated vascular smooth muscle proliferation and fibrosis",
+          "B": "Acute cellular rejection",
+          "C": "Hyperacute rejection",
+          "D": "Primary graft dysfunction (ischemia\u2013reperfusion)",
+          "E": "Infection can mimic decline but biopsy shows chronic lesions."
+        },
+        "answer": "A",
+        "rationales": {
+          "E": "Chronic rejection with immune-mediated vascular smooth muscle proliferation and fibrosis Why this is right: Chronic rejection presents months\u2013years later with progressive fibrosis and vasculopathy/bronchiolitis obliterans. Why the others are wrong: B/C/D. Incorrect timing or pathology."
+        }
+      },
+      {
+        "stem": "A newly transplanted patient receives tacrolimus and mycophenolate. Which statement best describes how tacrolimus helps prevent acute cellular rejection?",
+        "options": {
+          "A": "Blocks IL-6 receptor signaling",
+          "B": "Depletes B cells via CD20",
+          "C": "Inhibits calcineurin, preventing NFAT-mediated IL-2 transcription in T cells",
+          "D": "Neutralizes TNF-\u03b1 to maintain granulomas",
+          "E": "Inhibits JAK\u2013STAT signaling downstream of IFN-\u03b3 Correct: C"
+        },
+        "answer": "C",
+        "rationales": {
+          "E": "Inhibits calcineurin, preventing NFAT-mediated IL-2 transcription in T cells Why this is right: Calcineurin inhibitors block IL-2 production, blunting clonal T-cell expansion critical for rejection. Why the others are wrong: A/B/D/E. Different drug mechanisms."
+        }
+      }
+    ]
+  },
+  "B Cell & T Cell Activation": {
+    "T-independent Activation": [
+      {
+        "stem": "In vitro, human B cells produce IgM when exposed to high-dose lipopolysaccharide, even without T cells. Which signal most directly explains this T-independent activation?",
+        "options": {
+          "A": "IL-4\u2013mediated class switching",
+          "B": "CD40\u2013CD40L engagement from T cells",
+          "C": "Antigen presentation to Tfh cells in germinal centers",
+          "D": "B cells don\u2019t rely on Fc\u03b3R cross-linking for primary activation.",
+          "E": "TLR4 engagement by LPS providing a TI-1 signal that synergizes with BCR Correct: E"
+        },
+        "answer": "E",
+        "rationales": {
+          "E": "TLR4 engagement by LPS providing a TI-1 signal that synergizes with BCR Why this is right: TI-1 antigens (e.g., LPS) activate B cells via TLRs; at high dose, they can polyclonally activate B cells independent of T-cell help. Why the others are wrong: A/B/C. Require T-cell help."
+        }
+      }
+    ],
+    "B Cell Traffic and Activation": [
+      {
+        "stem": "In a vaccine study, opsonizing C3d is covalently attached to a polysaccharide antigen. B cells respond at lower antigen concentrations. Which B-cell surface molecule binds C3d to enhance activation?",
+        "options": {
+          "A": "Costimulatory receptor for T-dependent help.",
+          "B": "CR2 (CD21)",
+          "C": "On T cells, not B-cell coreceptor complex.",
+          "D": "Fc receptor on myeloid cells.",
+          "E": "BAFF/APRIL receptor, not C3d-binding."
+        },
+        "answer": "B",
+        "rationales": {
+          "E": "CR2 (CD21) Why this is right: CR2 on B cells binds C3d-tagged antigen, co-ligating with the BCR to lower activation thresholds. Why the others are wrong:"
+        }
+      }
+    ]
+  }
+}

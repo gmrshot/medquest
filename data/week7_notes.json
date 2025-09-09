@@ -1,0 +1,437 @@
+{
+  "lectures": [
+    {
+      "topic": "Immunopathology Basics (Dolen)",
+      "subtopics": [
+        {
+          "name": "Gell & Coombs Hypersensitivity Types",
+          "content": "Immunopathology refers to the mechanisms of hypersensitivity reactions, traditionally classified into four main types by Gell & Coombs. Type I is IgE-mediated immediate hypersensitivity, responsible for conditions like rhinitis, asthma, atopic dermatitis, and anaphylaxis. Type II involves IgG (or IgM) antibodies binding to antigens on cell surfaces, causing cytotoxic effects (like drug-induced hemolysis) or stimulatory/inhibitory reactions (like in Graves' disease or myasthenia gravis). Type III is characterized by IgG (or IgM) immune complex reactions, where antigen-antibody complexes deposit in tissues, leading to conditions like serum sickness or Arthus reactions. Type IV is a T-cell mediated delayed hypersensitivity response, involving effector T cells and macrophages, as seen in contact dermatitis or tuberculin sensitivity. It's important to remember that these mechanisms can overlap clinically.",
+          "explain_like_i_am_stupid": "Doctors figured out there are 4 main ways your immune system can overreact. Type I is fast and allergy-like (sneezing, asthma, anaphylaxis). Type II is when antibodies mistakenly attack your own cells. Type III is when clumps of antibodies and antigens clog up tissues (like in serum sickness). Type IV is slow and caused by T cells (like poison ivy reaction).",
+          "mnemonic": "ACID Mnemonic for Hypersensitivity Types \n\nAnaphylactic (Type I - Allergy, IgE)\n\nCytotoxic (Type II - Antibody-mediated, IgG/IgM)\n\nImmune Complex (Type III - Antigen-antibody complexes, IgG/IgM)\n\nDelayed (Type IV - T-cell mediated)",
+          "high_yield": true
+        },
+        {
+          "name": "Concepts of Allergy and Atopy",
+          "content": "\"Allergy\" specifically refers to an IgE-dependent Type I immediate hypersensitivity mechanism, not a general adverse reaction or a disease itself. However, in common usage, it's often used more broadly. \"Atopy\" describes a genetic predisposition to develop IgE-mediated reactions to common environmental allergens. Diseases where symptoms can be triggered by allergic (Type I) mechanisms, other immunologic mechanisms, or non-immunologic mechanisms are often called \"allergic diseases\" or \"atopic diseases\" and tend to be inherited together (e.g., rhinitis, asthma, atopic dermatitis).",
+          "explain_like_i_am_stupid": "An allergy means your body is reacting to something harmless (like pollen) using IgE antibodies. Atopy means you’re born more likely to have allergies (like asthma, eczema, hay fever).",
+          "mnemonic": "Allergy is IgE, Atopy is Predisposition (A.I.A.P.)",
+          "high_yield": true
+        },
+        {
+          "name": "Mast Cell Activation and Mediator Release",
+          "content": "Mast cells, basophils, and activated eosinophils express the FcεRI high-affinity IgE receptor. When allergens cross-link IgE bound to these receptors, it triggers receptor aggregation and activation. This leads to the release of various mediators like histamine, leukotrienes, and cytokines, causing immediate symptoms (like sneezing, wheezing) and recruiting other effector cells, such as eosinophils. Mast cells can also be activated by non-IgE dependent mechanisms. Tryptase is a clinically useful biomarker of mast cell activation, which basophils do not possess.",
+          "explain_like_i_am_stupid": "Mast cells are like grenades packed with histamine. When allergens cross-link IgE on them, they explode with chemicals that cause itching, sneezing, and swelling. Tryptase is a special marker that shows mast cells were activated.",
+          "mnemonic": "MAC Attack! Mast Activation Cross-links IgE, leading to mediator release.",
+          "high_yield": true
+        },
+        {
+          "name": "Mediators of Hypersensitivity",
+          "content": "Key mediators include Histamine, preformed in mast cells and basophils, which acts via H1 and H4 receptors, causing itching, sneezing, bronchospasm, increased vascular permeability (edema), and inflammation. Leukotrienes are synthesized upon mast cell activation and bind to CysLT1 receptors, promoting inflammation, smooth muscle contraction, and mucus secretion. Eosinophils are major effector cells in Type I responses, releasing toxic mediators and contributing to chronic inflammation in conditions like asthma and rhinitis. Basophils, like mast cells, are crucial effector cells in Type I responses and release histamine, but notably, they do not release tryptase.",
+          "explain_like_i_am_stupid": "The main troublemakers are histamine (causes itching, swelling), leukotrienes (cause mucus and tightening of airways), eosinophils (release toxic stuff), and basophils (release histamine but no tryptase).",
+          "mnemonic": "Happy Little Elephants Blast! (Histamine, Leukotrienes, Eosinophils, Basophils)",
+          "high_yield": true
+        },
+        {
+          "name": "Therapeutic Interventions",
+          "content": "Therapeutic interventions for allergic, autoimmune, and inflammatory diseases often target the underlying immunologic mechanisms. These include: \n\nCorticosteroids and other immunosuppressants to broadly suppress immune responses.\n\nSpecific monoclonal antibodies such as omalizumab (anti-IgE), benralizumab (anti-IL-5 receptor), and tezepelumab (anti-TSLP).\n\nMediator-specific agents like H1 antihistamines (for histamine) and leukotriene receptor antagonists (for leukotrienes).\n\nAllergy shots (immunotherapy) to modify the immune response to specific allergens.",
+          "explain_like_i_am_stupid": "Doctors calm down allergies and immune overreactions with: steroids (broad suppression), special antibodies (block IgE or IL-5), antihistamines, anti-leukotrienes, and allergy shots to retrain your immune system.",
+          "mnemonic": "Calm Some Mediators All Now! (Corticosteroids, Specific monoclonal antibodies, Mediator-specific agents, Allergy shots)",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Immunosuppressants (Su)",
+      "subtopics": [
+        {
+          "name": "Glucocorticoids",
+          "content": "Glucocorticoids, like prednisone and hydrocortisone, exert their immunosuppressive effects by binding to nuclear receptors, leading to both transactivation (upregulation of anti-inflammatory genes) and transrepression (downregulation of pro-inflammatory genes). They decrease the cell cycle of activated lymphocytes and reduce the production of inflammatory mediators. Clinically, they are used for transplantation rejection, graft-versus-host disease, and various autoimmune disorders. However, they are associated with significant side effects including \"moon facies,\" iatrogenic Cushing's syndrome, protein breakdown, hyperglycemia, hypertension, osteonecrosis, and osteoporosis, requiring careful management and caution against abrupt cessation.",
+          "explain_like_i_am_stupid": "Glucocorticoids are powerful drugs that shut down your immune system by flipping genetic switches. They’re used to stop organ rejection and autoimmune attacks, but they can cause problems like round face, weak bones, high blood sugar, and high blood pressure.",
+          "mnemonic": "Giant Cushion Stocks: Glucocorticoids cause Cushing's syndrome and Suppress immunity.",
+          "high_yield": true
+        },
+        {
+          "name": "Calcineurin Inhibitors",
+          "content": "Calcineurin inhibitors, such as cyclosporine and tacrolimus, work by inhibiting calcineurin and the NFAT (Nuclear Factor of Activated T cells) pathway. This action reduces the cell cycle progression of activated lymphocytes and decreases the production of lymphokines (cytokines) crucial for immune responses. Their primary clinical uses include preventing organ transplant rejection, treating graft-versus-host disease, and managing certain autoimmune disorders (e.g., uveitis, rheumatoid arthritis unresponsive to methotrexate). Major side effects are nephrotoxicity (renal dysfunction), neurotoxicity (tremor, headache), hypertension, hyperlipidemia, and hyperglycemia.",
+          "explain_like_i_am_stupid": "These drugs block a key switch inside T-cells so they can’t turn on fully. This stops transplant rejection but can hurt the kidneys and cause shaking, high blood pressure, and high cholesterol.",
+          "mnemonic": "Calm T-cells, Not Kidneys: Calcineurin Inhibitors (Cyclosporine, Tacrolimus) block T-cell activation but are known for Nephrotoxicity.",
+          "high_yield": true
+        },
+        {
+          "name": "Antiproliferative and Antimetabolic Drugs",
+          "content": "This class of drugs, including sirolimus, everolimus, mycophenolate mofetil, azathioprine, methotrexate, and cyclophosphamide, works by interfering with lymphocyte proliferation and metabolism. \n\nSirolimus and Everolimus inhibit mTOR, thus reducing the cell cycle of activated lymphocytes. Side effects include hyperlipidemia and bone marrow suppression.\n\nMycophenolate mofetil inhibits inosine monophosphate dehydrogenase, impacting lymphocyte cell cycle. It can cause bone marrow suppression and GI side effects.\n\nAzathioprine is a prodrug converted to fraudulent nucleotides (6-TGNs) that are incorporated into DNA, preventing gene transcription and cell proliferation. Side effects include bone marrow suppression and GI/liver issues.\n\nMethotrexate is a folic acid antagonist, inhibiting dihydrofolate reductase and lymphocyte proliferation. It causes bone marrow suppression and GI/liver side effects.\n\nCyclophosphamide is an alkylating agent that cross-links DNA/RNA/proteins, leading to lymphocyte cell death. It causes bone marrow suppression and GI side effects. These drugs are broadly used for preventing organ transplant rejection and treating various autoimmune disorders (e.g., SLE, MS, rheumatoid arthritis).",
+          "explain_like_i_am_stupid": "These drugs stop immune cells from multiplying by messing with their DNA or metabolism. They’re useful in transplants and autoimmune diseases, but can cause low blood counts, stomach issues, and liver problems.",
+          "mnemonic": "Always Make Sure Cells Proliferate Less: Azathioprine, Methotrexate, Sirolimus, Cyclophosphamide, Prevent Lymphocyte proliferation.",
+          "high_yield": true
+        },
+        {
+          "name": "Polyclonal and Monoclonal Antibodies",
+          "content": "These agents target specific immune cells or molecules to induce immunosuppression. \n\nAntithymocyte globulin (ATG) and antilymphocyte globulin (ALG) are polyclonal antibodies (derived from horses or rabbits) that recognize multiple antigens on T lymphocytes. They work by activating cytotoxicity against lymphocytes and blocking their function, leading to rapid T cell depletion. They are used for induction of immunosuppression and treatment of acute renal transplant rejection. Side effects include fever, chills, leukopenia, thrombocytopenia, and potential HAMA (human anti-mouse antibody) reactions.\n\nMuromonab-CD3 (OKT3) is a murine monoclonal antibody that recognizes human CD3 on T cells, inactivating T cell function and rapidly depleting them. Used for acute and steroid-resistant allograft rejection, its side effects include cytokine release syndrome, HAMA reaction, aseptic meningitis, and increased risk of opportunistic infections/lymphoma.\n\nAlefacept is a fusion protein that binds to CD2, inhibiting T cell activation, and is used for plaque psoriasis.\n\nTNF blockers inhibit TNFα and TNFβ and are used for rheumatoid arthritis.",
+          "explain_like_i_am_stupid": "These drugs are antibodies that act like targeted missiles against immune cells. They wipe out T-cells or block signals like TNF. Great for transplants and autoimmune diseases, but they can cause fevers, infections, or rare reactions.",
+          "mnemonic": "Always Monitor Targets: ATG/ALG, Muromonab-CD3, TNF blockers target specific immune cells/proteins.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Introduction to Inborn Errors of Immunity (Dolen)",
+      "subtopics": [
+        {
+          "name": "Clinical Warning Signs of IEIs",
+          "content": "Recognizing Inborn Errors of Immunity (IEIs) early is crucial. In children, warning signs include frequent infections like ≥4 new ear infections or ≥2 serious sinus infections in a year, ≥2 months on antibiotics with poor response, ≥2 pneumonias in 1 year, recurrent deep skin or organ abscesses, persistent thrush or fungal skin infection, need for IV antibiotics, ≥2 episodes of sepsis, failure to thrive, and a family history of IEI. An abnormal newborn screen (TREC) is also a critical indicator. For adults, signs include ≥2 new ear or serious sinus infections in a year, pneumonia yearly for >1 year, chronic diarrhea with weight loss, recurrent viral infections (herpes, warts), recurrent need for IV antibiotics, recurrent deep skin or organ abscesses, persistent thrush, infection with normally harmless TB-like bacteria, and a family history of IEI.",
+          "explain_like_i_am_stupid": "Think: too many infections, too serious, or not getting better with normal treatment. Kids who don’t grow well, need IV antibiotics, or keep getting pneumonia might have an immune system problem. Adults with repeat sinus/ear infections, chronic diarrhea, weird or severe infections, or a family history could too.",
+          "mnemonic": "10 Warning Signs of Primary Immunodeficiency:\n- 2+ ear infections/year\n- 2+ serious sinus infections/year\n- 2+ months antibiotics with little effect\n- 2+ pneumonias/year\n- Failure to thrive\n- Recurrent deep abscesses\n- Persistent thrush/fungal skin infection\n- Need IV antibiotics\n- 2+ deep-seated infections (incl. sepsis)\n- Family history of PID",
+          "high_yield": true
+        },
+        {
+          "name": "First-Line Laboratory Tests for IEIs",
+          "content": "Initial screening tests for IEIs, which can often be ordered in a primary care setting, include a CBC with differential (always calculate absolute lymphocyte and neutrophil counts, check platelet number/size). Immunoglobulin levels (IgG, IgA, IgM, IgE) are critical to identify low or abnormally high levels. Delayed Hypersensitivity Skin Testing (DHST), though fading due to antigen unavailability, traditionally screened for T cell function. HIV-1 testing is essential, even without traditional risk factors. TREC screen results from newborn screening detect congenital lymphopenia. Lastly, Complement tests (CH50 for classical pathway, AH50 for alternative pathway, C3, C4) help assess complement system integrity.",
+          "explain_like_i_am_stupid": "Start simple: count the blood cells, measure the antibody levels, check for HIV, and look at complement. For babies, a newborn screening called TREC can flag very low T cells.",
+          "mnemonic": "Can I Do HIV Tests Correctly? → CBC, Immunoglobulins, DHST, HIV-1, TRECs, Complement",
+          "high_yield": true
+        },
+        {
+          "name": "Second-Line Laboratory Tests for IEIs",
+          "content": "These more advanced tests are typically ordered by immunology specialists. They include Antibody functional studies (e.g., isohemagglutinin titers for IgM, titers to childhood immunizations for IgG, allergy testing for IgE). Lymphocyte flow cytometry is used to count T cell subsets, B cells, and NK cells, and is crucial for SCID immunophenotyping and detecting specific markers like CD40L. Mitogen and antigen stimulation assays assess lymphocyte proliferation in response to non-specific (mitogens) or specific (antigens) activators. Basic neutrophil studies, such as the DHR (dihydrorhodamine) test and the historical Nitroblue Tetrazolium (NBT) test, evaluate neutrophil oxidative burst function, particularly for chronic granulomatous disease (CGD).",
+          "explain_like_i_am_stupid": "If the simple tests look off (or the story is suspicious), specialists check how well the antibodies work, what kinds of lymphocytes you have, whether those cells divide when stimulated, and whether neutrophils can make their killing chemicals.",
+          "mnemonic": "Functional Labs Measure Neutrophils: Flow, Lymphocyte function, Mitogen/antigen assays, Neutrophil studies",
+          "high_yield": true
+        },
+        {
+          "name": "Role of Genotyping",
+          "content": "Genotyping has become essential for definitive diagnosis of IEIs, moving beyond phenotypic descriptions like 'CVID'. It allows for precise genetic identification, which is critical for effective genetic counseling (especially for X-linked vs. autosomal forms, or heterozygous presentations). Genotyping can involve individual gene tests, gene panels, or whole exome/genome sequencing, with costs decreasing over time. It can reveal specific defects, guide targeted therapies (e.g., leniolisib for APDS), and help identify adults previously misdiagnosed with pediatric immunodeficiency diseases.",
+          "explain_like_i_am_stupid": "Reading the DNA can tell you exactly which wiring problem the immune system has. That helps with family planning and picking the right treatment.",
+          "mnemonic": "Genetic Data Clarifies True IEI: Diagnosis, Counseling, Treatment",
+          "high_yield": true
+        },
+        {
+          "name": "IEI Phenotypes",
+          "content": "IEIs are often categorized by their predominant clinical phenotype, guiding diagnostic approaches: \n\nCombined Immunodeficiency (SCID) phenotype: Characterized by all types of infections (viral, bacterial, fungal, protozoal), often with a low age-related total lymphocyte count. SCID refers to severe combined immunodeficiency.\n\nT Cell Dysfunction phenotype: Patients typically struggle with recurrent viral, fungal, and protozoal infections but can often handle pyogenic infections (e.g., DiGeorge syndrome, Wiskott-Aldrich syndrome).\n\nHyper IgM phenotype: Features normal or elevated IgM levels with very low levels of other immunoglobulin classes (IgG, IgA, IgE), leading to mostly bacterial and some fungal infections (e.g., CD40L deficiency).\n\nAntibody Deficiency phenotype: Primarily causes recurrent bacterial infections, as antibodies are crucial opsonins. Patients can often manage infections requiring T cells (e.g., XLA1, selective IgA deficiency, CVID).\n\nComplement Deficiency phenotype: Can lead to recurrent Neisseria infections (terminal complement deficiency), other bacterial infections, or rheumatologic/lupus-like diseases.\n\nPhagocyte Deficiency phenotype: Presents with boils, deep-seated abscesses, pneumonia, and osteomyelitis, often caused by specific organisms like Aspergillus or Staphylococcus (e.g., CGD, LAD).\n\nNormal Child phenotype: When recurrent infections are due to environmental factors (e.g., daycare), misdiagnosis, or other non-immunodeficiency causes.",
+          "explain_like_i_am_stupid": "Doctors sort immune problems by the kind of infections you get. Lots of all kinds → think combined problems; mostly bacteria → think low antibodies; weird bugs or abscesses → think complement or phagocytes; sometimes it’s just normal kid exposure.",
+          "mnemonic": "Can Through Helpful Antibodies Cure Patients Now? → Combined, T cell dysfunction, Hyper IgM, Antibody deficiency, Complement deficiency, Phagocyte deficiency, Normal child",
+          "high_yield": true
+        },
+        {
+          "name": "SCID Immunophenotypes",
+          "content": "SCID (Severe Combined Immunodeficiency) forms are classified based on the presence or absence of T, B, and NK cells, which helps pinpoint the underlying genetic defect. \n\nT+ B+ NK+ SCID (e.g., p56Lck deficiency).\n\nT- B+ NK- SCID (e.g., IL2RG (common gamma chain, γc) deficiency, JAK3 deficiency).\n\nT- B+ NK+ SCID (e.g., IL7RA deficiency, CD3 chain deficiencies).\n\nT- B- NK- SCID (Metabolic defect, e.g., ADA deficiency).\n\nT- B- NK+ SCID (e.g., RAG1 or RAG2 deficiency, Artemis deficiency).",
+          "explain_like_i_am_stupid": "We look at whether T cells, B cells, and NK cells are present (+) or missing (−). That pattern is like a fingerprint that points to the guilty gene.",
+          "mnemonic": "TBNK patterns:\n- T− B− NK− → ADA\n- T− B+ NK− → IL2RG/JAK3\n- T− B+ NK+ → IL7RA/CD3\n- T+ B+ NK+ → p56Lck\n- T− B− NK+ → RAG1/2",
+          "high_yield": true
+        },
+        {
+          "name": "CVID",
+          "content": "Common Variable Immunodeficiency (CVID) is a heterogeneous group of disorders presenting with an antibody deficiency phenotype (two or more immunoglobulin classes are low without an alternative explanation). It is considered a preliminary diagnosis, as many specific molecular causes have been identified. Defects in BAFF, TACI, and APRIL (ligands and receptors regulating B-cell development) are high-yield causes. Genetic testing is indicated for CVID patients to achieve a precise diagnosis, guide therapy (e.g., leniolisib for APDS), and provide proper genetic counseling, as it can unveil specific defects or even pediatric immunodeficiencies misclassified as CVID in adults. Treatment typically involves gamma globulin replacement.",
+          "explain_like_i_am_stupid": "CVID means your antibody levels are low and you keep getting infections—but it’s really a mix of different problems. DNA testing can reveal the exact cause and guide treatment like antibody infusions.",
+          "mnemonic": "Can Variable Ig Deficiency Truly Be A Find? → CVID, TACI, BAFF, APRIL, need Genotyping",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Inflammation and Repair (Samra)",
+      "subtopics": [
+        {
+          "name": "Purposes and Cardinal Signs of Inflammation",
+          "content": "Inflammation is a protective response to cell injury (e.g., bacteria) that aims to remove necrotic cells and initiate tissue repair. While beneficial, it can be harmful if excessive, prolonged, or inappropriate (e.g., autoimmune disease). The five cardinal (clinical) signs of inflammation are: Rubor (redness/erythema), Calor (heat), Tumor (swelling), Dolor (pain), and Functio laesa (loss of function).",
+          "explain_like_i_am_stupid": "Inflammation is your body’s alarm system when something is damaged or invaded. The 5 big signs are: redness, heat, swelling, pain, and loss of function.",
+          "mnemonic": "Really Cute Toys Don't Function → Rubor, Calor, Tumor, Dolor, Functio laesa",
+          "high_yield": true
+        },
+        {
+          "name": "Acute Inflammation",
+          "content": "Acute inflammation is the initial, rapid, and transient response (minutes to days), characterized by the presence of neutrophils in the tissue and mediated by innate immunity. It's triggered by infections (e.g., bacterial), tissue necrosis (hypoxia, ischemia, trauma, toxins), foreign bodies, and immune reactions. Key processes involve: \n\nVascular Changes: Vasodilation leading to increased blood flow (rubor, calor) and vascular congestion. Increased spaces between endothelial cells cause leakage of fluid and proteins (tumor, loss of function).\n\nNeutrophil Extravasation: Neutrophils leave the circulation through a multi-step process: margination (sticking to endothelium), rolling (mediated by selectins binding Sialyl-Lewis X), stopping and adhering (mediated by integrins), and diapedesis/transmigration (squeezing between endothelial cells, through basement membrane).\n\nChemotaxis: Neutrophils migrate towards chemo-attractants (bacterial products, chemokines like IL-8, leukotrienes B4, complement components like C5a).\n\nIngestion & Destruction: Neutrophils ingest and destroy injurious agents using lysosomal enzymes, reactive oxygen species, and reactive nitrogen species.\n\nMacrophages: Arrive later, ingest agents, and manage subsequent inflammation (continued acute, chronic, or resolution/healing).\n\nAbscesses: Localized collections of purulent inflammatory and necrotic tissue, formed when neutrophils release microbicidal products extracellularly, causing collateral damage.",
+          "explain_like_i_am_stupid": "Acute inflammation is like the body’s emergency first responders—neutrophils rush in, blood vessels widen, fluid leaks out, and white cells squeeze into tissues. They chase chemical signals, eat germs, and sometimes leave pus (abscess).",
+          "mnemonic": "Really Slow Animals Can't Dance → Rubor, Swelling, Adhesion, Chemotaxis, Diapedesis",
+          "high_yield": true
+        },
+        {
+          "name": "Chronic Inflammation",
+          "content": "Chronic inflammation is a slower, prolonged response (weeks to years) that can follow acute inflammation or begin subtly. It's characterized by the predominance of mononuclear cells (lymphocytes, macrophages, plasma cells) and involves adaptive immunity. Causes include persistent infections (viral, bacterial, fungal), hypersensitivity/autoimmune diseases (e.g., allergic contact dermatitis, rheumatoid arthritis), and prolonged exposure to toxic agents (e.g., cigarette smoke, silica). Macrophages are central, ingesting microbes, initiating repair, secreting inflammatory mediators (TNF, IL-1, chemokines), and presenting antigens to T lymphocytes. T lymphocytes secrete cytokines, promoting inflammation, while B lymphocytes become plasma cells to produce antibodies. A granuloma is a hallmark of some chronic inflammatory responses, forming localized collections of macrophages (epithelioid histiocytes) and giant cells, often with central necrosis (e.g., in tuberculosis).",
+          "explain_like_i_am_stupid": "Chronic inflammation is when the fight drags on for weeks to years. Instead of neutrophils, the long-term soldiers (lymphocytes, macrophages, plasma cells) dominate. They can form special clumps called granulomas, like in TB.",
+          "mnemonic": "Months Long Inflammation → Mononuclear cells, Lymphocytes, Infections (persistent), Autoimmune",
+          "high_yield": true
+        },
+        {
+          "name": "Systemic Effects of Inflammation",
+          "content": "Inflammation can cause systemic clinical and pathologic changes. These include Fever, often induced by cytokines like IL-1 and TNF. Acute phase proteins, such as fibrinogen and hepcidin, are synthesized in the liver in response to cytokines (IL-6, IL-1, TNF). Fibrinogen increases erythrocyte sedimentation rate (ESR), a marker of inflammation, while hepcidin reduces iron availability, leading to anemia of chronic disease. Leukocytosis, an elevated white blood cell count, occurs due to cytokines (TNF and IL-1). Bacterial infections often cause neutrophilia, viral infections cause lymphocytosis, and allergies/parasitic infections cause eosinophilia.",
+          "explain_like_i_am_stupid": "Inflammation doesn’t just stay local—it can give you fever, change blood proteins, and raise your white blood cell count. Different bugs cause different WBC types to increase: bacteria → neutrophils, viruses → lymphocytes, parasites → eosinophils.",
+          "mnemonic": "Fever Always Limits → Fever, Acute phase proteins, Leukocytosis",
+          "high_yield": true
+        },
+        {
+          "name": "Tissue Repair",
+          "content": "Tissue healing involves two main processes: \n\nRegeneration: Replacement of damaged tissue with native, identical tissue. This depends on the tissue's regenerative capacity: labile (continuously recycle, e.g., bowel mucosa), stabile (quiescent but can regenerate, e.g., liver), or permanent (lacks reparative potential, e.g., myocardium, neurons).\n\nRepair: Replacement of damaged tissue with fibrous scar, occurring when regenerative capacity is lost or insufficient (e.g., deep skin cuts, myocardial infarction).\n\nCutaneous Healing can occur by primary intention (wound edges approximated, minimal scar) or secondary intention (edges not approximated, more extensive scar). Healing progresses through phases: \n\nInflammatory phase (24-48 hours): Coagulation pathway activation forms a thrombus, leading to a scab. Neutrophils clear debris.\n\nProliferative phase (Days 3-7): Macrophages replace neutrophils. Granulation tissue forms with fibroblasts (depositing Type III collagen), endothelial cells (angiogenesis via VEGF), and myofibroblasts (wound contraction). Epithelial cells proliferate.\n\nRemodeling phase (1 week to 6 months+): Fibroblasts replace Type III collagen with Type I collagen, increasing wound tensile strength.",
+          "explain_like_i_am_stupid": "Healing can mean growing back the same tissue (regeneration) or patching with a scar (repair). Skin heals in phases: clot and scab → new tissue growth → scar strengthening.",
+          "mnemonic": "Really Rapid Progress In Proper Repair → Regeneration, Repair, Primary/Secondary, Inflammatory, Proliferative, Remodeling",
+          "high_yield": true
+        },
+        {
+          "name": "Abnormalities in Tissue Repair",
+          "content": "Various factors influence tissue repair, including infection, diabetes, poor perfusion, nutritional status, and mechanical factors. Abnormalities can include: \n\nWound dehiscence: Rupture of a wound due to increased pressure (e.g., vomiting, coughing).\n\nUlceration: A local defect or excavation of a surface due to sloughing of inflamed necrotic tissue (e.g., neuropathic ulcers).\n\nKeloid: An accumulation of excessive collagen, forming a raised scar that grows beyond the original wound boundaries, more common in African Americans.\n\nContractures: An exaggerated wound contraction process that results in deformities and can compromise joint movement, often seen after severe burns.",
+          "explain_like_i_am_stupid": "Sometimes healing goes wrong. Scars can split open (dehiscence), form ulcers, grow too much (keloid), or tighten up joints (contractures).",
+          "mnemonic": "We Usually Keep Cool → Wound dehiscence, Ulceration, Keloid, Contractures",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "HIV Pathogenesis & Common Opportunistic Infections in AIDS Patients (Anderson)",
+      "subtopics": [
+        {
+          "name": "HIV Pathophysiology and CD4 Coreceptors",
+          "content": "HIV targets CD4 T cells, transmembrane glycoproteins found on immune cells, which serve as a binding site for HIV. HIV also uses co-receptors, primarily CCR5 and CXCR4, to aid in binding and cell entry. A CCR5 Δ32 gene mutation, present in some Caucasians, can provide resistance to HIV (homozygous) or slow disease progression (heterozygous) by making CCR5 absent from the cell surface. Beyond CD4+ T cells, HIV can also affect non-CD4 dependent cells like astrocytes (HIV-associated neurocognitive disorder) and renal epithelial cells (HIV-associated nephropathy).",
+          "explain_like_i_am_stupid": "HIV gets into your body’s helper T-cells (CD4 cells) by using special door handles called CCR5 and CXCR4. If you’re missing the CCR5 handle (because of a rare mutation), HIV can’t get in easily. Besides T-cells, HIV can also damage brain and kidney cells.",
+          "mnemonic": "Catch Cells, Replicate Virus: CD4 cells are targets, CCR5 co-receptor aids entry, leading to Viral replication.",
+          "high_yield": true
+        },
+        {
+          "name": "HIV Progression and AIDS Definition",
+          "content": "HIV infection progresses through stages. In the acute phase, there's a rapid drop in CD4 cells (though generally above 200) and a rapid increase in viral load, leading to flu-like symptoms. The chronic phase is often asymptomatic, with CD4 counts plateauing (200-500) and a relatively stable viral load. AIDS (Acquired Immunodeficiency Syndrome) is defined by a CD4 count below 200 cells/mm³ or the presence of an opportunistic infection (OI) or other AIDS-defining condition. Examples of AIDS-defining conditions include Candida esophagitis, Pneumocystis pneumonia, Kaposi sarcoma, Toxoplasmosis, Cryptococcosis, Cytomegalovirus, and HIV wasting.",
+          "explain_like_i_am_stupid": "HIV starts with a flu-like stage, then goes quiet for years. Doctors track CD4 counts: if they drop below 200, or if you get certain serious infections, that’s called AIDS.",
+          "mnemonic": "200 Is AIDS: CD4 count < 200 or an Opportunistic Infection defines AIDS.",
+          "high_yield": true
+        },
+        {
+          "name": "Opportunistic Infections (OIs)",
+          "content": "AIDS patients are susceptible to various OIs due to immunosuppression. \n\nPneumocystis jirovecii Pneumonia (PCP): A fungal infection, often with CD4 < 200 cells/mcL. Prophylaxis with Trimethoprim/sulfamethoxazole (TMP/SMX) is common. Diagnosis is confirmed by bronchiolar lavage with PCR.\n\nToxoplasmosis: Caused by Toxoplasma gondii, typically reactivation when CD4 < 100 cells. Diagnosed by mass lesions on imaging and anti-Toxoplasma IgG antibodies, treated with pyrimethamine/sulfadiazine.\n\nCNS Lymphoma: Caused by Epstein-Barr virus (EBV), presenting with headache, seizure, focal deficits. Diagnosed by EBV PCR from CSF and treated with radiation.\n\nProgressive Multifocal Leukoencephalopathy (PML): Caused by JC virus, a demyelinating condition, generally with CD4 < 50. Treatment focuses on underlying HIV.\n\nCryptococcus neoformans/gattii Meningitis: A fungal infection, often with CD4 < 50. Diagnosed by cryptococcal antigen (CrAg) and PCR/culture from CSF. Treated with induction therapy (liposomal amphotericin B + flucytosine), followed by consolidation and maintenance fluconazole.\n\nMycobacterium Avium Complex (MAC): Ubiquitous environmental bacteria, CD4 < 50. Prophylaxis (azithromycin, clarithromycin) is used if not on suppressive ART. Treatment involves clarithromycin/azithromycin plus ethambutol.\n\nKaposi Sarcoma (KS): Caused by human herpesvirus-8 (HHV-8), presenting as hyperpigmented skin lesions. Diagnosis requires tissue examination. Treatment involves antiretrovirals, chemotherapy, or radiation depending on stage.",
+          "explain_like_i_am_stupid": "With AIDS, the body can’t fight germs well, so rare infections pop up. At CD4 <200, pneumonia (PCP) is common. At <100, toxoplasma brain infections show up. At <50, things like JC virus (PML), cryptococcal meningitis, and MAC bacteria are big threats. Kaposi’s sarcoma is a cancer linked to a herpes virus.",
+          "mnemonic": "Please Tell Christopher Patients Can Make Kites: PCP, Toxoplasmosis, CNS Lymphoma, PML, Cryptococcus, MAC, Kaposi Sarcoma.",
+          "high_yield": true
+        },
+        {
+          "name": "Prophylaxis and Treatment Thresholds for OIs",
+          "content": "Prophylaxis for OIs is critical in HIV management and is guided by CD4 cell counts: \n\nPCP: Prophylaxis (TMP/SMX, atovaquone, dapsone) is given when CD4 < 200 cells/mcL or < 14%.\n\nToxoplasmosis: Prophylaxis (TMP/SMX, dapsone + pyrimethamine + leucovorin, atovaquone) is given when CD4 < 100 cells/mcL and IgG positive.\n\nMAC: Prophylaxis (azithromycin, clarithromycin) is given when CD4 < 50 cells/mcL and the patient is not on fully suppressive antiretrovirals.\n\nCryptococcus: No routine prophylaxis is listed in the handout, but treatment protocols are provided. Prophylaxis can generally be discontinued when CD4 counts are consistently above the threshold for a sustained period (e.g., >200 for 3 months for PCP, >100-200 for 3-6 months for Toxoplasmosis) with HIV RNA suppression.",
+          "explain_like_i_am_stupid": "Doctors prevent these infections before they happen by giving meds when CD4 counts get too low: below 200 → prevent PCP; below 100 → prevent toxoplasmosis (if IgG positive); below 50 → prevent MAC. Once the immune system recovers, prophylaxis can be stopped.",
+          "mnemonic": "200 (PCP), 100 (Toxo), 50 (MAC) Go!: CD4 counts for prophylaxis thresholds",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Herpes Virus Infections (Newman / ECHO_Herpes Virus Infections_2024)",
+      "subtopics": [
+        {
+          "name": "Overview of Human Herpesviruses",
+          "content": "There are 8 major human herpesviruses (HHVs), all double-stranded DNA viruses that establish latency:\n\nHSV-1 (Herpes simplex virus-1): oral herpes, encephalitis.\nHSV-2: genital herpes, neonatal herpes.\nVZV (Varicella-Zoster Virus): chickenpox (primary), shingles (reactivation).\nEBV (Epstein-Barr Virus): mononucleosis, Burkitt lymphoma, nasopharyngeal carcinoma.\nCMV (Cytomegalovirus): congenital infections, retinitis, pneumonia in immunocompromised patients.\nHHV-6 and HHV-7: roseola (exanthem subitum).\nHHV-8: Kaposi sarcoma, especially in immunocompromised patients.\n\nAll herpesviruses establish latency in different cell types and can reactivate during immunosuppression.",
+          "explain_like_i_am_stupid": "There are 8 herpes viruses humans get. They all hide in your body for life and can wake up later. HSV-1 usually gives cold sores, HSV-2 causes genital herpes, VZV causes chickenpox then shingles, EBV causes mono and some cancers, CMV hurts babies and immunocompromised people, HHV-6/7 cause a baby rash, and HHV-8 causes Kaposi’s sarcoma.",
+          "mnemonic": "Herpes Has 8 Members: HSV-1, HSV-2, VZV, EBV, CMV, HHV-6, HHV-7, HHV-8",
+          "high_yield": true
+        },
+        {
+          "name": "HSV Clinical Features and Diagnosis",
+          "content": "HSV-1 typically presents as gingivostomatitis or recurrent herpes labialis (cold sores), while HSV-2 presents as painful vesicular genital ulcers and neonatal herpes. Both can cause herpetic whitlow (finger infection), keratoconjunctivitis (eye infection), and encephalitis (HSV-1 is the most common cause of sporadic encephalitis in the U.S.). Diagnosis is by PCR, viral culture, or direct fluorescent antibody testing. Tzanck smear (historical) shows multinucleated giant cells but is nonspecific.",
+          "explain_like_i_am_stupid": "HSV-1 gives cold sores; HSV-2 gives genital sores. Both can infect eyes, fingers, or even cause brain infection. Doctors test with PCR now (not the old Tzanck smear).",
+          "mnemonic": "1 Mouth, 2 Private: HSV-1 mouth, HSV-2 genitals.",
+          "high_yield": true
+        },
+        {
+          "name": "VZV Clinical Features and Complications",
+          "content": "Varicella (chickenpox) causes a pruritic rash that appears in crops at different stages (vesicles, pustules, crusts). Shingles (herpes zoster) is a painful, dermatomal vesicular eruption due to VZV reactivation. Complications include postherpetic neuralgia, pneumonia, and encephalitis. Immunocompromised patients are at higher risk for severe disease. The live-attenuated varicella vaccine and recombinant zoster vaccine reduce incidence and severity.",
+          "explain_like_i_am_stupid": "Chickenpox makes an itchy rash with spots at different stages. Years later, the virus can wake up as shingles, causing a painful stripe rash. Vaccines help prevent both.",
+          "mnemonic": "Varicella = Various stages, Zoster = Zone (dermatome).",
+          "high_yield": true
+        },
+        {
+          "name": "EBV and CMV Infections",
+          "content": "Epstein-Barr Virus (EBV) causes infectious mononucleosis, presenting with fever, lymphadenopathy, splenomegaly, and atypical lymphocytes. It’s associated with Burkitt lymphoma and nasopharyngeal carcinoma. Diagnosis is by heterophile antibody (Monospot) test or EBV-specific serologies.\n\nCytomegalovirus (CMV) causes mononucleosis-like illness but Monospot-negative. In immunocompromised patients, it causes retinitis, pneumonia, esophagitis, and colitis. Congenital CMV can cause hearing loss and developmental delay. Diagnosis is by PCR, antigen testing, or culture.",
+          "explain_like_i_am_stupid": "EBV gives mono (fever, swollen nodes, big spleen) and can also lead to cancers. CMV can look like mono but with a negative test. In weak immune systems or babies, CMV can damage eyes, lungs, or hearing.",
+          "mnemonic": "Mono with Spot = EBV, Mono without Spot = CMV.",
+          "high_yield": true
+        },
+        {
+          "name": "HHV-6/7 and HHV-8",
+          "content": "HHV-6 and HHV-7 cause roseola (exanthem subitum) in infants, with high fever that resolves before a rash appears. HHV-8 is linked to Kaposi sarcoma, particularly in immunocompromised patients such as those with AIDS. KS presents as purplish skin lesions and can also affect internal organs.",
+          "explain_like_i_am_stupid": "HHV-6 and 7 cause baby roseola—fever first, then a rash when the fever goes away. HHV-8 causes Kaposi’s sarcoma, purple skin spots in people with weak immune systems.",
+          "mnemonic": "6/7 = Sick Kids (roseola), 8 = AIDS-associated Kaposi.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Viral Structure & Pathogenesis (Thai)",
+      "subtopics": [
+        {
+          "name": "Basic Viral Structure",
+          "content": "Viruses are obligate intracellular parasites composed of nucleic acid (DNA or RNA) enclosed in a protein coat (capsid). Some viruses are enveloped, meaning they acquire a lipid bilayer from the host cell membrane, while non-enveloped viruses lack this layer. The viral genome can be single-stranded (ss) or double-stranded (ds), positive-sense or negative-sense (for RNA viruses). The capsid can have icosahedral or helical symmetry. Enveloped viruses are generally more sensitive to environmental conditions (e.g., detergents, desiccation, heat), while naked (non-enveloped) viruses are more stable in the environment.",
+          "explain_like_i_am_stupid": "Viruses are just genetic material wrapped in protein, sometimes with an extra fat bubble coat (envelope). Enveloped ones are fragile, naked ones are tougher.",
+          "mnemonic": "Naked = tough, Enveloped = easy to kill.",
+          "high_yield": true
+        },
+        {
+          "name": "Steps of Viral Replication",
+          "content": "The general viral life cycle includes:\n\n1. Attachment: Virus binds to host cell receptors (e.g., HIV to CD4 and CCR5/CXCR4).\n2. Entry: Via membrane fusion (enveloped viruses) or endocytosis (naked viruses).\n3. Uncoating: Release of viral genome into the host cell.\n4. Replication: Genome is copied using host or viral enzymes. Positive-sense RNA viruses can be directly translated; negative-sense RNA viruses require an RNA-dependent RNA polymerase; DNA viruses usually use host polymerases (except poxvirus).\n5. Assembly: Viral proteins and genomes self-assemble into new virions.\n6. Release: Enveloped viruses bud from membranes; naked viruses lyse the cell.",
+          "explain_like_i_am_stupid": "Viruses are like burglars: they grab the door (attachment), sneak in (entry), drop their suitcase (uncoating), copy their instructions (replication), build new burglars (assembly), and then escape (release).",
+          "mnemonic": "AERUAR → Attachment, Entry, Release, Uncoating, Assembly, Replication (different orders remembered).",
+          "high_yield": true
+        },
+        {
+          "name": "Viral Cytopathic Effects",
+          "content": "Viruses can cause direct damage to host cells, called cytopathic effects (CPE). Examples include cell rounding, detachment, inclusion body formation (e.g., Negri bodies in rabies, owl’s eye inclusions in CMV), and syncytia formation (multinucleated giant cells, as seen in RSV and HSV). CPEs can be diagnostic in histology or cytology specimens.",
+          "explain_like_i_am_stupid": "Viruses mess up cells in ways doctors can see under a microscope—like weird blobs inside cells, giant fused cells, or cells shriveling up. Each virus has its own ‘signature look.’",
+          "mnemonic": "CPE = Cells Piled Everywhere: inclusions, syncytia, rounding.",
+          "high_yield": true
+        },
+        {
+          "name": "Mechanisms of Viral Pathogenesis",
+          "content": "Viral disease results from a combination of direct viral cytotoxicity, immune-mediated damage, and evasion of immune responses. Some viruses kill cells outright during replication (e.g., poliovirus). Others trigger strong immune responses that cause tissue damage (e.g., hepatitis viruses). Latency allows viruses (e.g., herpesviruses) to persist and reactivate later. Viral proteins can also subvert immune recognition, such as downregulating MHC expression. Some viruses (oncogenic viruses) disrupt normal cell cycle control, leading to cancer.",
+          "explain_like_i_am_stupid": "Viruses make you sick either by wrecking your cells, by making your immune system overreact and damage tissues, by hiding quietly and then reappearing, or by messing with your cell’s growth controls.",
+          "mnemonic": "Kill, Confuse, Hide, Hijack → Direct killing, Immune damage, Latency, Oncogenesis.",
+          "high_yield": true
+        },
+        {
+          "name": "Determinants of Viral Tropism",
+          "content": "Viral tropism refers to the specificity of a virus for certain host cells, tissues, or species. It depends on receptor expression (e.g., CD4 for HIV, CD21 for EBV), availability of host factors needed for replication, and ability to overcome host defenses. Tropism explains why some viruses cause very specific diseases: rabies virus infects neurons, hepatitis viruses infect hepatocytes, rhinoviruses infect respiratory epithelium.",
+          "explain_like_i_am_stupid": "Viruses can only infect certain cells because they need the right ‘lock and key.’ That’s why rabies goes for nerves, hepatitis goes for the liver, and colds hit your nose and throat.",
+          "mnemonic": "Tropism = Target Preference.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Oncogenic Viruses (Thai)",
+      "subtopics": [
+        {
+          "name": "Definition and Mechanisms",
+          "content": "Oncogenic viruses are viruses that can cause cancer by altering normal cell growth control. They may integrate viral DNA into the host genome, disrupt tumor suppressor genes, activate oncogenes, or chronically stimulate cell division. Viral proteins often interfere with cell cycle regulators like p53 and Rb. Persistent infection, latency, and immune evasion all contribute to malignant transformation.",
+          "explain_like_i_am_stupid": "Some viruses mess with your cell’s brakes (tumor suppressors) or gas pedals (oncogenes), making cells grow out of control and become cancer. They hide out long-term and dodge your immune system, which makes the risk worse.",
+          "mnemonic": "Viruses Can Spark Tumors: Viral DNA, Chronic infection, Suppressor loss, Tumor growth.",
+          "high_yield": true
+        },
+        {
+          "name": "DNA Oncogenic Viruses",
+          "content": "Several DNA viruses are oncogenic:\n- EBV (Epstein-Barr Virus): Burkitt lymphoma, nasopharyngeal carcinoma, Hodgkin lymphoma, post-transplant lymphoproliferative disorder.\n- HPV (Human Papillomavirus, especially types 16, 18): Cervical cancer, anogenital cancers, oropharyngeal carcinoma.\n- HBV (Hepatitis B Virus, partially double-stranded DNA): Hepatocellular carcinoma due to chronic inflammation and integration.\n- HHV-8 (Human Herpesvirus 8): Kaposi sarcoma.\n- Merkel Cell Polyomavirus: Merkel cell carcinoma.",
+          "explain_like_i_am_stupid": "DNA tumor viruses include EBV (causes mono but also lymphomas), HPV (causes cervical and throat cancers), HBV (can lead to liver cancer), HHV-8 (causes Kaposi’s sarcoma), and Merkel virus (causes rare skin cancer).",
+          "mnemonic": "Every Hot Head Has Malignancy: EBV, HPV, HBV, HHV-8, Merkel virus.",
+          "high_yield": true
+        },
+        {
+          "name": "RNA Oncogenic Viruses",
+          "content": "RNA viruses can also be oncogenic:\n- HCV (Hepatitis C Virus): Hepatocellular carcinoma, driven by chronic inflammation and liver regeneration.\n- HTLV-1 (Human T-cell Leukemia Virus-1): Adult T-cell leukemia/lymphoma via Tax gene activation.\n- Retroviruses in general may insert near proto-oncogenes, activating them through insertional mutagenesis.",
+          "explain_like_i_am_stupid": "Some RNA viruses cause cancer too: Hepatitis C makes liver cells regenerate over and over until cancer develops, and HTLV-1 turns T-cells cancerous.",
+          "mnemonic": "Hot Hepatic Tumors: HCV, HTLV-1.",
+          "high_yield": true
+        },
+        {
+          "name": "Oncogenesis and Immune Suppression",
+          "content": "Oncogenic viruses often exploit immune suppression to establish cancers. For example, EBV-driven lymphoproliferative disease is much more common in transplant patients and HIV/AIDS due to lack of immune surveillance. HHV-8–associated Kaposi sarcoma occurs in similar contexts. Vaccination (HPV, HBV) and antiretroviral therapy (HIV) reduce the incidence of virus-associated cancers.",
+          "explain_like_i_am_stupid": "When your immune system is weak, viruses that might normally be kept in check can drive cancers more easily. That’s why HIV and transplant patients get more EBV and HHV-8 cancers. Vaccines like HPV and HBV help prevent virus-linked cancers.",
+          "mnemonic": "Immune Weakness Lets Viruses Win.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "HIV Anti-Retrovirals (Anderson)",
+      "subtopics": [
+        {
+          "name": "Classes of Antiretroviral Drugs",
+          "content": "Antiretroviral therapy (ART) targets different stages of the HIV life cycle. The main classes are:\n\n- Nucleoside/Nucleotide Reverse Transcriptase Inhibitors (NRTIs): faulty DNA building blocks that terminate viral DNA synthesis (e.g., zidovudine, lamivudine, tenofovir).\n- Non-Nucleoside Reverse Transcriptase Inhibitors (NNRTIs): bind to reverse transcriptase and block enzyme activity (e.g., efavirenz, nevirapine).\n- Protease Inhibitors (PIs): prevent cleavage of viral polyproteins, leading to immature, non-infectious virions (e.g., ritonavir, lopinavir).\n- Integrase Strand Transfer Inhibitors (INSTIs): block HIV integrase, preventing insertion of viral DNA into the host genome (e.g., raltegravir, dolutegravir, bictegravir).\n- Fusion Inhibitors: block gp41-mediated fusion of viral and cellular membranes (e.g., enfuvirtide).\n- CCR5 Antagonists: block CCR5 co-receptor, preventing viral entry (e.g., maraviroc).\n\nCombination therapy uses multiple classes to prevent resistance and control viral replication.",
+          "explain_like_i_am_stupid": "HIV drugs block the virus at different steps: some mess up its copying machine, some stop it from cutting proteins, some stop it from hiding in DNA, and others block the door so HIV can’t get inside the cell. Doctors use combos so the virus can’t escape.",
+          "mnemonic": "Nice New Pills Inhibit Funky Cells → NRTIs, NNRTIs, PIs, INSTIs, Fusion inhibitors, CCR5 blockers.",
+          "high_yield": true
+        },
+        {
+          "name": "Principles of ART",
+          "content": "The goal of ART is to reduce viral load to undetectable levels, restore immune function, and prevent transmission. Therapy usually consists of at least 3 active drugs from 2 or more classes. Adherence is crucial; poor adherence leads to drug resistance. ART dramatically reduces morbidity and mortality in HIV infection and is recommended for all patients regardless of CD4 count.",
+          "explain_like_i_am_stupid": "Doctors give at least 3 drugs together so HIV can’t easily mutate around them. If patients take meds every day, the virus stays so low it can’t be found in the blood—and it can’t spread to others.",
+          "mnemonic": "Triple Therapy Triumphs → 3 drugs, 2 classes.",
+          "high_yield": true
+        },
+        {
+          "name": "Side Effects of Antiretrovirals",
+          "content": "Each drug class has characteristic side effects:\n- NRTIs: lactic acidosis, mitochondrial toxicity, anemia (zidovudine), renal toxicity (tenofovir).\n- NNRTIs: rash, hepatotoxicity, vivid dreams (efavirenz).\n- PIs: lipodystrophy, hyperglycemia, dyslipidemia, GI upset.\n- INSTIs: generally well tolerated, but can cause insomnia, weight gain.\n- Fusion inhibitors: injection site reactions.\n- CCR5 antagonists: hepatotoxicity, cardiovascular risks.\n\nMonitoring for toxicity and drug-drug interactions is essential in HIV care.",
+          "explain_like_i_am_stupid": "Different HIV drugs cause different problems. Some can hurt the kidneys, liver, or blood counts. Some mess with fat and sugar. Others just give weird dreams or stomach issues. Doctors have to balance the benefits and side effects.",
+          "mnemonic": "Never Need Pills If Causes Hurt → NRTI, NNRTI, PI, INSTI, CCR5, HIV meds with side effects.",
+          "high_yield": true
+        },
+        {
+          "name": "Treatment as Prevention (TasP)",
+          "content": "Undetectable = Untransmittable (U=U). Patients on effective ART with undetectable viral loads do not sexually transmit HIV. Early initiation of ART reduces HIV-related complications and community transmission. Pre-exposure prophylaxis (PrEP, e.g., tenofovir/emtricitabine) is used for high-risk HIV-negative individuals. Post-exposure prophylaxis (PEP) is started as soon as possible (within 72 hours) after potential exposure and continued for 28 days.",
+          "explain_like_i_am_stupid": "If someone with HIV takes meds and their virus is so low it can’t be measured, they can’t pass it on through sex. HIV-negative people can also take meds before or after exposure to protect themselves.",
+          "mnemonic": "U=U: Undetectable = Untransmittable.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Pathology of Cell Injury, Cell Death & Adaptations (Samra)",
+      "subtopics": [
+        {
+          "name": "Cell Injury: Reversible vs Irreversible",
+          "content": "Cell injury occurs when cells are stressed beyond their adaptive capacity. Reversible injury includes cellular swelling (hydropic change), fatty change, and membrane blebbing, where the cell can recover if the stress is removed. Irreversible injury leads to cell death, often signaled by membrane rupture, mitochondrial dysfunction, and nuclear changes (pyknosis, karyorrhexis, karyolysis).",
+          "explain_like_i_am_stupid": "Cells can bounce back from mild stress (they swell or fill with fat), but if damage goes too far, the cell can’t recover—it dies. Dead cells show shrunken or broken nuclei.",
+          "mnemonic": "Reversible = Swell, Irreversible = Smell (death).",
+          "high_yield": true
+        },
+        {
+          "name": "Causes of Cell Injury",
+          "content": "Causes include hypoxia/ischemia, physical agents (trauma, temperature, radiation), chemical agents and drugs, infectious agents, immunologic reactions, genetic defects, and nutritional imbalances. Hypoxia impairs oxidative phosphorylation, reducing ATP and leading to cell swelling and injury. Toxins (e.g., cyanide, alcohol, chemotherapy drugs) directly damage cellular structures or metabolic pathways.",
+          "explain_like_i_am_stupid": "Cells get hurt by lack of oxygen, poisons, infections, trauma, bad genes, or missing nutrients. Without oxygen, they can’t make energy and start to swell and malfunction.",
+          "mnemonic": "HIPING → Hypoxia, Infection, Physical, Immune, Nutritional, Genetic.",
+          "high_yield": true
+        },
+        {
+          "name": "Necrosis vs Apoptosis",
+          "content": "Necrosis is uncontrolled cell death due to severe damage, with leakage of cell contents that trigger inflammation. Types include coagulative (ischemia, except brain), liquefactive (brain infarct, abscess), caseous (TB), fat necrosis (pancreatitis, trauma), and fibrinoid (immune reactions in vessels). Apoptosis is programmed cell death, energy-dependent and orderly, involving cell shrinkage, chromatin condensation, and apoptotic bodies cleared by phagocytes without inflammation. It can be physiologic (embryogenesis, hormone withdrawal) or pathologic (DNA damage).",
+          "explain_like_i_am_stupid": "Necrosis = messy, uncontrolled death that makes inflammation. Apoptosis = neat, planned cell suicide where the cell breaks into bite-sized pieces without causing trouble.",
+          "mnemonic": "Necrosis = Nasty, Apoptosis = Applause (clean).",
+          "high_yield": true
+        },
+        {
+          "name": "Intracellular Accumulations",
+          "content": "Cells can accumulate abnormal amounts of substances due to metabolic derangements. Examples:\n- Lipids: fatty change in liver (alcohol, obesity).\n- Proteins: reabsorption droplets in kidney, alpha-1 antitrypsin deficiency.\n- Glycogen: diabetes mellitus, glycogen storage diseases.\n- Pigments: lipofuscin (wear-and-tear), melanin, hemosiderin (iron overload), bilirubin (jaundice).",
+          "explain_like_i_am_stupid": "Cells can fill up with fat, proteins, sugar, or pigments. Like junk in a house, too much can cause problems (fatty liver, iron overload, jaundice).",
+          "mnemonic": "Lots of Piles Growing Pretty Garbage: Lipid, Protein, Glycogen, Pigments.",
+          "high_yield": true
+        },
+        {
+          "name": "Cellular Adaptations",
+          "content": "Cells adapt to stress with changes in size, number, or type:\n- Hypertrophy: increased cell size (e.g., bodybuilder muscles, left ventricular hypertrophy).\n- Hyperplasia: increased cell number (e.g., endometrial hyperplasia).\n- Atrophy: reduced cell size/number (e.g., disuse atrophy).\n- Metaplasia: replacement of one adult cell type with another (e.g., squamous metaplasia in smokers’ bronchi).\n- Dysplasia: disordered growth, loss of uniformity, precancerous lesion.",
+          "explain_like_i_am_stupid": "Cells can get bigger, make more copies, shrink, switch to another type, or grow abnormally. The last one (dysplasia) is a warning sign for cancer.",
+          "mnemonic": "Happy Hippos Are Making Dough → Hypertrophy, Hyperplasia, Atrophy, Metaplasia, Dysplasia.",
+          "high_yield": true
+        },
+        {
+          "name": "Cellular Aging",
+          "content": "Aging is associated with progressive decline in cellular function due to DNA damage, telomere shortening, and decreased regenerative capacity. Accumulation of metabolic and genetic damage, as well as reduced ability to clear abnormal proteins, contributes to age-related disease.",
+          "explain_like_i_am_stupid": "Cells age because their DNA gets damaged, their chromosome ends (telomeres) wear down, and they can’t repair or recycle as well. This leads to weaker tissues and diseases of aging.",
+          "mnemonic": "DNA, Damage, Decline.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Non-HIV Anti-viral Agents (Fisher)",
+      "subtopics": [
+        {
+          "name": "Anti-Herpesvirus Agents",
+          "content": "Acyclovir, valacyclovir, and famciclovir are guanosine analogs that inhibit viral DNA polymerase after phosphorylation by viral thymidine kinase (TK). They are effective against HSV-1, HSV-2, and VZV. Resistance can develop via mutated or absent viral TK. Ganciclovir is similar but has greater activity against CMV; valganciclovir is its oral prodrug. Foscarnet is a pyrophosphate analog that directly inhibits viral DNA polymerase without requiring phosphorylation, useful against resistant HSV/CMV. Cidofovir is a cytosine nucleotide analog that also bypasses TK dependence, used in resistant CMV or adenovirus infections.",
+          "explain_like_i_am_stupid": "Drugs like acyclovir and valacyclovir block herpes viruses by jamming their DNA copier. CMV needs stronger drugs like ganciclovir. If the virus mutates its starter enzyme (TK), other drugs like foscarnet and cidofovir can still work.",
+          "mnemonic": "All Herpes Get Cranky Fast → Acyclovir, HSV, Ganciclovir, CMV, Foscarnet.",
+          "high_yield": true
+        },
+        {
+          "name": "Anti-Influenza Agents",
+          "content": "Amantadine and rimantadine block the viral M2 protein, preventing uncoating of influenza A virus. Resistance is now widespread, limiting clinical use. Neuraminidase inhibitors (oseltamivir, zanamivir, peramivir) block release of new viral particles, effective against influenza A and B if started within 48 hours. Baloxavir marboxil inhibits viral endonuclease (cap-dependent endonuclease inhibitor), blocking mRNA synthesis, and is effective against influenza A and B.",
+          "explain_like_i_am_stupid": "Flu drugs work in different ways: old ones (amantadine) blocked virus uncoating but don’t work much anymore. Newer ones (Tamiflu/oseltamivir) stop the virus from leaving cells. Baloxavir stops the virus from making its message RNA.",
+          "mnemonic": "Amantadine = uncoating, Oseltamivir = exit, Baloxavir = blocks RNA.",
+          "high_yield": true
+        },
+        {
+          "name": "Anti-Hepatitis Agents",
+          "content": "Chronic HBV therapy includes nucleos(t)ide analogs (entecavir, tenofovir, lamivudine) which inhibit reverse transcriptase/DNA polymerase, and pegylated interferon-alpha, which enhances host immune response. HCV therapy has advanced with direct-acting antivirals (DAAs) targeting nonstructural proteins: NS3/4A protease inhibitors (grazoprevir), NS5A inhibitors (ledipasvir, velpatasvir), and NS5B polymerase inhibitors (sofosbuvir). These agents are used in combination and can cure most HCV infections.",
+          "explain_like_i_am_stupid": "For hepatitis B, drugs like tenofovir keep the virus from copying itself, and interferon boosts your immune system. For hepatitis C, new combo pills block different viral proteins and can actually cure the infection.",
+          "mnemonic": "HBV = Tenofovir, HCV = Triple Block (Protease, NS5A, NS5B).",
+          "high_yield": true
+        },
+        {
+          "name": "Other Antiviral Agents",
+          "content": "Ribavirin is a guanosine analog used for RSV (with inhalation), hepatitis C (historically with interferon), and some viral hemorrhagic fevers. It works by multiple mechanisms including inhibition of RNA-dependent RNA polymerase. Cidofovir and brincidofovir have broad activity against DNA viruses. Tecovirimat (Tpoxx) is approved for smallpox and works by inhibiting viral envelope protein needed for egress. Remdesivir, a nucleotide analog prodrug, inhibits RNA-dependent RNA polymerase, and is used for SARS-CoV-2 infection.",
+          "explain_like_i_am_stupid": "Some antivirals don’t fit in other groups: ribavirin helps with RSV and used to be used for hep C; cidofovir covers lots of DNA viruses; tecovirimat is for smallpox; and remdesivir helps treat COVID-19.",
+          "mnemonic": "Random Cool Treatments Remain → Ribavirin, Cidofovir, Tecovirimat, Remdesivir.",
+          "high_yield": true
+        }
+      ]
+    }
+  ]
+}

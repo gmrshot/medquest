@@ -1,0 +1,1147 @@
+{
+  "lectures": [
+    {
+      "topic": "Introduction to Neoplasia",
+      "subtopics": [
+        {
+          "name": "Papillomas: Histologic Pattern vs Site",
+          "content": "Some tumors are defined by their microscopic architecture regardless of their anatomic site. Papillomas are papillary, frond-like epithelial tumors that can arise in multiple organs (breast ducts, urinary tract, nasal mucosa). The defining feature is the papillary histology rather than the specific location. The epithelial lining may vary (squamous, transitional, glandular) depending on the tissue of origin.",
+          "explain_like_i_am_stupid": "Papillomas are finger-like growths that pop up in different body parts. What matters is the shape (papillae), not the location.",
+          "mnemonic": "Papill-ANY-oma = Papillary tumor in any site.",
+          "high_yield": true
+        },
+        {
+          "name": "Adenocarcinoma and Differentiation Spectrum",
+          "content": "Adenocarcinoma is a malignant epithelial tumor that forms glands. Well-differentiated adenocarcinomas show clear glandular structures resembling normal tissue. Poorly differentiated adenocarcinomas lose glandular architecture and may form only rare or no glands at all, making them harder to recognize under the microscope. Loss of differentiation is associated with more aggressive behavior and worse prognosis.",
+          "explain_like_i_am_stupid": "An adenocarcinoma is cancer that tries to make glands. If it’s well-behaved, it still looks like glands. If it’s wild, the gland shape disappears and it just looks messy.",
+          "mnemonic": "Well = glands still ‘well’ formed. Poor = glands ‘poorly’ formed or gone.",
+          "high_yield": true
+        },
+        {
+          "name": "Normal Tissue vs Anaplasia",
+          "content": "Normal breast ducts or other epithelia show orderly nuclei and regular mitoses. Anaplasia is the complete loss of differentiation: cells appear abnormal, with nuclear pleomorphism, hyperchromasia, and atypical mitotic figures (e.g., tripolar spindles). Anaplastic tumors are aggressive and lack resemblance to the tissue of origin.",
+          "explain_like_i_am_stupid": "Normal cells look neat and divide normally. Anaplastic cells forget who they are, look chaotic, and divide in weird ways (like splitting into three instead of two).",
+          "mnemonic": "Anaplasia = identity amnesia.",
+          "high_yield": true
+        },
+        {
+          "name": "Dysplasia and Carcinoma in Situ",
+          "content": "Dysplasia is abnormal cell maturation and proliferation within epithelium. Features include loss of polarity, nuclear atypia, and increased mitotic figures, but confined above the basement membrane. Severe dysplasia may progress to carcinoma in situ (CIS), where the entire thickness of the epithelium is replaced by abnormal cells, but the basement membrane is intact. CIS has not yet invaded underlying stroma but is a direct precursor to invasive carcinoma.",
+          "explain_like_i_am_stupid": "Dysplasia = messy, abnormal-looking cells but still contained. Carcinoma in situ = the whole layer is bad, but the cells haven’t broken through the basement ‘floor’.",
+          "mnemonic": "CIS = Cancer In Side (still above the basement).",
+          "high_yield": true
+        },
+        {
+          "name": "Leiomyoma (Benign Smooth Muscle Tumor)",
+          "content": "Leiomyomas are benign tumors of smooth muscle, often seen in the uterus (‘fibroids’). They are slow-growing, well-circumscribed, and composed of spindle-shaped cells resembling normal smooth muscle. Nuclei are uniform with little pleomorphism and few or no mitoses. They are generally not life-threatening but can cause symptoms based on size and location (e.g., heavy uterine bleeding, infertility).",
+          "explain_like_i_am_stupid": "Leiomyoma = a smooth, calm, slow-growing lump of muscle cells that look normal. They usually aren’t dangerous but can cause problems if they get big.",
+          "mnemonic": "Myoma = My muscle, benign.",
+          "high_yield": true
+        },
+        {
+          "name": "Leiomyosarcoma (Malignant Smooth Muscle Tumor)",
+          "content": "Leiomyosarcomas are malignant smooth muscle tumors. They grow rapidly and are more cellular than leiomyomas. Their nuclei are pleomorphic, hyperchromatic, and variable in size/shape. Numerous abnormal mitoses are seen. Margins are infiltrative, making surgical removal more difficult. Prognosis is poor due to risk of recurrence and metastasis.",
+          "explain_like_i_am_stupid": "Leiomyosarcoma = an aggressive muscle tumor that grows fast, looks messy, and invades nearby tissue. Much more dangerous than a leiomyoma.",
+          "mnemonic": "Sarcoma = scary muscle tumor.",
+          "high_yield": true
+        },
+        {
+          "name": "Tumor Margins: Benign vs Malignant",
+          "content": "Benign tumors typically have well-defined, smooth, or encapsulated borders (‘circumscribed’). Malignant tumors often have ill-defined, irregular, or infiltrative margins that blend into surrounding tissue. This difference is critical during surgery, as infiltrative margins make complete excision challenging and increase risk of recurrence.",
+          "explain_like_i_am_stupid": "Benign = neat ball you can scoop out. Malignant = messy crab legs reaching into neighbors, harder to remove.",
+          "mnemonic": "Benign = bordered ball. Malignant = messy margins.",
+          "high_yield": true
+        },
+        {
+          "name": "Carcinoma in Situ vs Invasive Carcinoma",
+          "content": "Carcinoma in situ (CIS) shows malignant cells confined above the basement membrane, without invasion. Once malignant cells breach the basement membrane and invade the underlying stroma, it is termed invasive carcinoma. This transition allows access to lymphatics and blood vessels, enabling metastasis.",
+          "explain_like_i_am_stupid": "CIS = bad cells trapped upstairs. Invasive = they broke through the floor and can now spread downstairs and beyond.",
+          "mnemonic": "In Situ = Still in place. Invasive = Into stroma.",
+          "high_yield": true
+        },
+        {
+          "name": "Metastasis and Routes of Spread",
+          "content": "Cancer spreads by three main routes: (1) Lymphatic spread: most common for carcinomas (e.g., breast cancer to axillary lymph nodes). (2) Hematogenous spread: typical of sarcomas, but also renal cell carcinoma and hepatocellular carcinoma, often metastasizing to lungs or liver. (3) Transcoelomic seeding: spread across body cavities (e.g., ovarian carcinoma seeding the peritoneum). Successful metastasis requires invasion through basement membranes, intravasation into vessels, survival in circulation, extravasation, and colonization in distant tissue. Although inefficient biologically, metastasis is responsible for the majority of cancer deaths.",
+          "explain_like_i_am_stupid": "Cancers can travel through lymph channels, ride the bloodstream, or sprinkle seeds into spaces like the belly. That’s how they set up shop in new organs.",
+          "mnemonic": "3 highways: Lymph, Blood, Belly.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Genetic Testing for Familial Cancer Syndromes",
+      "subtopics": [
+        {
+          "name": "Genetic vs Epigenetic Changes",
+          "content": "Genetic changes are permanent alterations in the DNA sequence itself. These can be single nucleotide variants (SNVs), small insertions/deletions, copy number changes (deletions, duplications), inversions, or translocations. Epigenetic changes, by contrast, do not alter the DNA code but instead regulate gene expression (e.g., DNA methylation of promoters, histone modification). Both can drive tumorigenesis, but epigenetic changes are reversible while genetic mutations are fixed.",
+          "explain_like_i_am_stupid": "Genetic = permanent typo in the DNA book. Epigenetic = sticky notes on the book telling the cell whether to read or ignore a page. The words don’t change, but the instructions do.",
+          "mnemonic": "Genetic = code change, Epigenetic = expression change.",
+          "high_yield": true
+        },
+        {
+          "name": "Germline vs Somatic Mutations",
+          "content": "Germline variants are present in every cell of the body, including gametes, and can be passed to offspring. They explain hereditary cancer syndromes (e.g., BRCA1, APC, MLH1). Somatic mutations arise in individual cells after fertilization and are not inherited; they drive sporadic cancers (e.g., smoking-related lung cancer). Mosaicism occurs when a post-zygotic mutation is present in some but not all cells, leading to intermediate phenotypes.",
+          "explain_like_i_am_stupid": "Germline = born with it, in every cell. Somatic = picked up later, only in some cells. Mosaic = patchwork of mutated and normal cells.",
+          "mnemonic": "Germline = Generations. Somatic = Some cells.",
+          "high_yield": true
+        },
+        {
+          "name": "Sporadic, Familial, and Hereditary Cancer",
+          "content": "Sporadic cancers (≈80%) result from random somatic mutations in a single cell (e.g., lung cancer from smoking). Familial cancers (≈20%) cluster in families without an identifiable genetic mutation; likely a mix of environment and polygenic risk. Hereditary cancers (≈10%) result from pathogenic germline variants (e.g., BRCA1, APC, MLH1) and show Mendelian inheritance patterns (often autosomal dominant).",
+          "explain_like_i_am_stupid": "Sporadic = random bad luck. Familial = runs in families but no single clear gene. Hereditary = a broken gene passed down in the family.",
+          "mnemonic": "80-20-10 rule: Sporadic–Familial–Hereditary.",
+          "high_yield": true
+        },
+        {
+          "name": "Oncogenes vs Tumor Suppressor Genes",
+          "content": "Oncogenes are proto-oncogenes that acquire activating mutations (‘gas pedals’). A single mutated allele is often sufficient for oncogenic activity. Examples: RET (MEN2), RAS, MYC. Tumor suppressor genes (TSGs) are ‘brakes’ that normally restrain growth, promote DNA repair, or trigger apoptosis. Both alleles typically need to be inactivated (Knudson’s two-hit hypothesis). Examples: RB1, TP53, BRCA1/2. Oncogenes often have mutation hotspots, while TSG mutations are scattered throughout the gene.",
+          "explain_like_i_am_stupid": "Oncogenes = gas pedals stuck on ‘go’ with one press. Tumor suppressors = brakes, need both broken for the car to crash.",
+          "mnemonic": "Gas vs Brakes, One-hit vs Two-hit.",
+          "high_yield": true
+        },
+        {
+          "name": "Second-Hit Hypothesis",
+          "content": "In hereditary tumor suppressor syndromes, individuals inherit one defective allele (‘first hit’). Cancer develops when the second allele is inactivated by somatic mutation (‘second hit’). This explains early onset and high penetrance in hereditary cancers (e.g., Retinoblastoma, Lynch syndrome).",
+          "explain_like_i_am_stupid": "You’re born with one broken brake. Later in life, the other brake fails too → now there’s no stopping the cancer car.",
+          "mnemonic": "First hit = seed, Second hit = speed.",
+          "high_yield": true
+        },
+        {
+          "name": "Pathways Targeted by Hereditary Syndromes",
+          "content": "Different germline variants disrupt key cancer control pathways: \n- Mitogenic signaling: APC loss (FAP), RET activation (MEN2), RB1/NF1 loss (retinoblastoma, neurofibromatosis). \n- DNA repair: MMR defects (Lynch), HR defects (BRCA1/2, PALB2 in HBOC). \n- Angiogenesis: VHL loss → inappropriate vessel growth. \n- Metabolism: SDHx mutations → paragangliomas. These pathways converge on unchecked proliferation, impaired repair, and tumorigenesis.",
+          "explain_like_i_am_stupid": "Cancer genes break in different systems: growth signals, DNA fixers, blood vessel controllers, or metabolism. Each leads to its own family cancer syndrome.",
+          "mnemonic": "APC→polyps, MMR→MSI, BRCA→HRD, VHL→vessels, SDH→suffocated metabolism.",
+          "high_yield": true
+        },
+        {
+          "name": "Lynch Syndrome (Hereditary Nonpolyposis Colorectal Cancer)",
+          "content": "Caused by germline mutations in DNA mismatch repair genes (MLH1, MSH2, MSH6, PMS2, EPCAM). Autosomal dominant. Not a polyposis syndrome. Associated cancers: colorectal (esp. right-sided), endometrial, ovarian, urothelial, pancreatic, prostate. Tumors are microsatellite instability-high (MSI-H) and hypermutated, making them responsive to immune checkpoint inhibitors (e.g., PD-1 blockade). Management includes early/frequent colonoscopy, gynecologic risk-reduction, and immunotherapy for advanced disease.",
+          "explain_like_i_am_stupid": "The DNA spell-check is broken, so lots of typos build up. This causes colon and uterine cancers. These cancers actually respond well to immune therapy.",
+          "mnemonic": "Lynch = Lost spell-check. MSI-H → immune therapy.",
+          "high_yield": true
+        },
+        {
+          "name": "Familial Adenomatous Polyposis (FAP)",
+          "content": "Caused by germline APC mutations (tumor suppressor; Wnt/β-catenin pathway). Autosomal dominant. Characterized by hundreds to thousands of colonic polyps, typically appearing in adolescence. Without colectomy, nearly all patients develop colorectal cancer by middle age. Associated findings: duodenal/periampullary polyps, desmoid tumors, osteomas, CHRPE (congenital hypertrophy of retinal pigment epithelium), papillary thyroid carcinoma. Tumors have low mutation burden and lack targeted therapy. Management = prophylactic colectomy and GI surveillance.",
+          "explain_like_i_am_stupid": "Without APC, the colon makes a carpet of polyps. Removing the colon is the only way to prevent cancer.",
+          "mnemonic": "APC = A Pile of Colon polyps.",
+          "high_yield": true
+        },
+        {
+          "name": "Hereditary Breast and Ovarian Cancer (HBOC)",
+          "content": "Caused mainly by BRCA1 and BRCA2 germline mutations (HR repair). Autosomal dominant. Cancers: breast (BRCA1: 60–72%, BRCA2: 55–69%), ovarian (BRCA1: 39–58%, BRCA2: 13–29%), prostate, pancreatic, melanoma. Ashkenazi Jewish ancestry has 1/40 carrier frequency. Management: enhanced screening, prophylactic mastectomy/salpingo-oophorectomy, PARP inhibitors in HR-deficient tumors. BRCA1 also affects transcription and G2-M checkpoint. Founder variants increase risk of autosomal recessive Fanconi anemia when inherited biallelically.",
+          "explain_like_i_am_stupid": "BRCA is a DNA repair crew. If it’s broken, breast and ovarian cancer risk shoots up. These cancers can be tricked with PARP-blocking drugs. Jewish ancestry increases risk because of founder mutations.",
+          "mnemonic": "BRCA broken = breast/ovary bad; PARPi to punish.",
+          "high_yield": true
+        },
+        {
+          "name": "Genetic Test Result Categories",
+          "content": "Results of germline testing are classified as: Pathogenic (P), Likely Pathogenic (LP), Variant of Uncertain Significance (VUS), Likely Benign (LB), or Benign (B). P/LP variants guide management and cascade testing. VUS should NOT be used to alter management or predict risk in relatives. LB/B have no clinical consequence.",
+          "explain_like_i_am_stupid": "Only clearly bad results matter for treatment. ‘Uncertain’ means don’t act on it. Benign = harmless.",
+          "mnemonic": "P/LP = Plan. VUS = Verify later. LB/B = Leave it be.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Molecular Diagnostics",
+      "subtopics": [
+        {
+          "name": "Isolation of Nucleic Acids",
+          "content": "DNA and RNA must be purified from cells before analysis. Cells are lysed, proteins are denatured with detergents or chaotropic salts, and organic solvents (e.g., phenol, chloroform) are used to separate proteins. Nucleic acids are precipitated with ethanol or isopropanol. Purity is measured by absorbance at 260 nm (DNA/RNA absorbs UV light strongly here). The ratio A260/A280 indicates protein contamination. Proper isolation is the foundation for all downstream molecular diagnostics.",
+          "explain_like_i_am_stupid": "To study DNA, you crack open the cell, wash away the proteins, and pull the DNA out with alcohol. Then you check it with UV light to make sure it’s clean.",
+          "mnemonic": "260 = DNA glow show. Alcohol = DNA snowfall.",
+          "high_yield": true
+        },
+        {
+          "name": "Restriction Endonucleases (Cutting DNA)",
+          "content": "Restriction enzymes recognize short palindromic DNA sequences (usually 4–8 bp) and cut at specific sites. They can create blunt ends (straight cuts) or sticky ends (overhangs). They are bacterial defense proteins against phages and are essential for cloning, mapping, and diagnostic techniques (e.g., RFLP).",
+          "explain_like_i_am_stupid": "Restriction enzymes are like molecular scissors that only cut special palindromic words in DNA. Sticky ends are like puzzle pieces that can reattach easily.",
+          "mnemonic": "Restriction = scissors with rules.",
+          "high_yield": true
+        },
+        {
+          "name": "Gel Electrophoresis",
+          "content": "DNA, RNA, and proteins can be separated based on size and charge by applying an electric field. DNA is negatively charged and moves toward the positive pole. Smaller fragments migrate faster. Agarose gels separate larger fragments; polyacrylamide gels separate small differences (as little as 1 nucleotide). Visualization is often with intercalating dyes like ethidium bromide under UV light.",
+          "explain_like_i_am_stupid": "Put DNA in jelly and zap it with electricity. Small pieces run faster, big ones get stuck. Shine UV light and you see glowing bands.",
+          "mnemonic": "Gel = DNA race track.",
+          "high_yield": true
+        },
+        {
+          "name": "Reverse Transcription and cDNA",
+          "content": "RNA (typically mRNA) can be copied into complementary DNA (cDNA) using reverse transcriptase. cDNA is more stable and lacks introns, making it ideal for studying gene expression and cloning. It represents the transcribed genes at the time of RNA collection.",
+          "explain_like_i_am_stupid": "RNA is flimsy, so we turn it into a sturdier DNA copy. That way we can study what the cell was saying at that moment.",
+          "mnemonic": "RT = RNA to Tougher form (cDNA).",
+          "high_yield": true
+        },
+        {
+          "name": "Transfection vs Transduction",
+          "content": "Transfection = artificial introduction of DNA into eukaryotic cells using chemicals, liposomes, or electroporation. Transduction = using a virus to deliver DNA, which is more efficient and can be tissue-specific. Transduction is preferred for gene therapy applications.",
+          "explain_like_i_am_stupid": "Transfection = sneak DNA in with tricks. Transduction = use a virus as a delivery truck. Viruses are better at getting inside cells.",
+          "mnemonic": "TransFECTION = fake trick. TransDUCTION = delivery truck (virus).",
+          "high_yield": true
+        },
+        {
+          "name": "Molecular Cloning",
+          "content": "A DNA fragment or cDNA is inserted into a vector (like a plasmid), which is introduced into bacteria. The bacteria replicate, amplifying the DNA. Cloning allows researchers to mass-produce DNA for sequencing, mutagenesis, or protein expression.",
+          "explain_like_i_am_stupid": "Put DNA into a bacterial backpack (plasmid), and every time the bacteria divide, they copy that DNA too.",
+          "mnemonic": "Cloning = bacterial photocopying.",
+          "high_yield": true
+        },
+        {
+          "name": "Polymerase Chain Reaction (PCR)",
+          "content": "PCR exponentially amplifies a DNA fragment in vitro. Requires primers, heat-stable DNA polymerase (e.g., Taq), dNTPs, and a thermocycler. Steps: denaturation (heat separates strands), annealing (primers bind), and extension (polymerase synthesizes new strands). Applications: diagnosis (pathogen detection), forensics, genetic testing, and cloning. RT-PCR adds a reverse transcription step to detect RNA viruses or gene expression.",
+          "explain_like_i_am_stupid": "PCR is like a copy machine for DNA. Heat splits it, primers stick, polymerase builds. Repeat the cycle, and you get millions of copies.",
+          "mnemonic": "PCR = Print Copies Rapidly.",
+          "high_yield": true
+        },
+        {
+          "name": "Blotting Techniques",
+          "content": "Blotting methods use hybridization between a probe and target: \n- Southern blot: DNA target, DNA probe. Detects specific genes/fragments. \n- Northern blot: RNA target, DNA probe. Measures mRNA expression. \n- Western blot: Protein target, antibody probe. Detects protein amount. \n- Southwestern blot: Protein target, DNA probe. Detects DNA-binding proteins (e.g., transcription factors).",
+          "explain_like_i_am_stupid": "Blotting = sticking molecules to a filter and checking them with a probe. Southern = DNA, Northern = RNA, Western = Protein, Southwestern = Protein-DNA.",
+          "mnemonic": "SNoW DRoP → Southern=DNA, Northern=RNA, Western=Protein.",
+          "high_yield": true
+        },
+        {
+          "name": "Sanger Sequencing",
+          "content": "The chain termination method uses DNA polymerase, primers, normal dNTPs, and dideoxy dNTPs (ddNTPs) that stop elongation when incorporated. Different-sized fragments are generated and separated by capillary electrophoresis. Reading the fragment order gives the DNA sequence. Sanger sequencing is accurate for small regions but low-throughput.",
+          "explain_like_i_am_stupid": "Sanger sequencing is like reading a book by making lots of copies that stop at different letters. Then you line them up to figure out the whole story.",
+          "mnemonic": "Sanger = Stop with special ddNTPs.",
+          "high_yield": true
+        },
+        {
+          "name": "Next-Generation Sequencing (NGS)",
+          "content": "NGS allows massively parallel sequencing of millions of DNA fragments simultaneously. Applications: whole-genome sequencing, exome sequencing, tumor mutation burden analysis. Exome sequencing (only coding regions, ~2% of genome) is particularly useful in cancer diagnostics to identify actionable mutations.",
+          "explain_like_i_am_stupid": "NGS = DNA speed-reading. Instead of one book at a time, it reads millions of books in parallel.",
+          "mnemonic": "NGS = Next Gear Sequencing.",
+          "high_yield": true
+        },
+        {
+          "name": "Bisulfite Sequencing (Epigenetics)",
+          "content": "DNA treated with sodium bisulfite converts unmethylated cytosines to uracil (read as thymine after PCR/sequencing). Methylated cytosines are protected and remain as cytosine. This reveals DNA methylation patterns, critical for epigenetic profiling of cancers.",
+          "explain_like_i_am_stupid": "Bisulfite = highlighter for methylation. It changes unmethylated C into T but leaves methylated C alone.",
+          "mnemonic": "Bisulfite = C to T unless Methyl shields it.",
+          "high_yield": true
+        },
+        {
+          "name": "VNTR and STR Analysis",
+          "content": "Variable Number Tandem Repeats (VNTRs) and Short Tandem Repeats (STRs) are repetitive DNA sequences that vary between individuals. VNTRs are 10–60 bp repeats, STRs are 2–6 bp repeats. Analysis is done with PCR and electrophoresis. Applications: forensic identification, paternity testing, population genetics.",
+          "explain_like_i_am_stupid": "Some people have longer or shorter repeats of DNA letters. Measuring these repeats is like a DNA fingerprint.",
+          "mnemonic": "STR = Short Tandem Repeat → Short repeat ID tag.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Gene Therapy",
+      "subtopics": [
+        {
+          "name": "Definition and Core Approaches",
+          "content": "Gene therapy is the use of genetic material to prevent or treat disease by modifying a patient’s cells. The three classic strategies are: (1) Replacing a mutated gene with a functional copy, (2) Inactivating or ‘silencing’ a malfunctioning gene, (3) Introducing a new gene to fight disease (e.g., suicide gene, cytokine gene). Modern extensions include immunotherapy applications such as genetically engineered T-cells.",
+          "explain_like_i_am_stupid": "Gene therapy = fixing broken instructions. You can either swap the broken page, cover up the bad sentence, or add a brand-new instruction.",
+          "mnemonic": "Fix, Silence, Add.",
+          "high_yield": true
+        },
+        {
+          "name": "Exon-Skipping Therapy",
+          "content": "Exon skipping uses antisense oligonucleotides (AONs) that bind to pre-mRNA and mask faulty exons from the splicing machinery. This restores the reading frame, producing a shorter but still functional protein. Clinical example: Duchenne Muscular Dystrophy (DMD), where skipping exon 51 (drug: eteplirsen) can convert DMD into the milder Becker phenotype. Exon skipping does not cure the disease but improves clinical severity.",
+          "explain_like_i_am_stupid": "If a sentence has a bad word, exon skipping makes the reader skip that word. The sentence is shorter, but it still makes sense.",
+          "mnemonic": "Skip the bad exon, save the protein.",
+          "high_yield": true
+        },
+        {
+          "name": "Somatic vs Germline Gene Therapy",
+          "content": "Somatic therapy: modifies only patient body cells; not inherited by offspring. Can be ex vivo (cells removed, modified, returned; e.g., CAR-T therapy, stem cell editing) or in vivo (gene delivered directly into the body; e.g., AAV therapy for hemophilia). Germline therapy: alters gametes or embryos; changes are heritable. Germline therapy raises major ethical and safety concerns and is not performed clinically.",
+          "explain_like_i_am_stupid": "Somatic = fix the patient’s cells. Germline = fix the baby’s blueprint before birth (forbidden in humans).",
+          "mnemonic": "Somatic = Self only. Germline = Generations.",
+          "high_yield": true
+        },
+        {
+          "name": "Viral Vectors: Retroviral and Lentiviral",
+          "content": "Retroviruses (RNA genome) integrate into host DNA → long-term stable expression, but only infect dividing cells. Max payload ~8 kb. Lentiviruses (HIV-derived) are retroviruses that can infect both dividing and non-dividing cells. They allow permanent correction but carry risk of insertional mutagenesis. Clinical uses: ex vivo hematopoietic stem cell modification, CAR-T cell therapy.",
+          "explain_like_i_am_stupid": "Retro/lenti = permanent installs. Retro = only works when the cell is dividing. Lenti = works in any cell.",
+          "mnemonic": "Lenti = Lasting in any cell.",
+          "high_yield": true
+        },
+        {
+          "name": "Viral Vectors: Adenoviral and AAV",
+          "content": "Adenoviruses: dsDNA, do not integrate, remain extrachromosomal. Very strong expression but short-lived and immunogenic. Large payload (~37 kb). Used in cancer immunotherapy. Adeno-associated virus (AAV): ssDNA, integrates rarely, usually episomal. Very safe, low immunogenicity, long-term expression. Payload limited to ~4.5 kb. Used in approved therapies: Luxturna (RPE65 retinal dystrophy), Zolgensma (SMA).",
+          "explain_like_i_am_stupid": "Adeno = big package, loud but short-lived. AAV = tiny package, safe and long-lasting.",
+          "mnemonic": "Adeno = Adrenaline (short burst). AAV = Always Around, Very safe.",
+          "high_yield": true
+        },
+        {
+          "name": "Non-Viral Delivery Systems",
+          "content": "Non-viral methods avoid immune risks but are less efficient. Options include liposomes, lipid nanoparticles (like mRNA COVID vaccines), naked DNA injection, electroporation, and CRISPR ribonucleoproteins. These approaches are safer for repeat dosing and are being refined for precision delivery.",
+          "explain_like_i_am_stupid": "Instead of viruses, you can use fat bubbles, electric zaps, or naked DNA to sneak genes in. Safer but less efficient.",
+          "mnemonic": "Non-viral = safer but slower.",
+          "high_yield": false
+        },
+        {
+          "name": "Clinical Examples of Gene Therapy",
+          "content": "- CAR-T Cell Therapy: Patient T-cells modified with chimeric antigen receptors, reintroduced to attack leukemia/lymphoma. \n- Luxturna: AAV-based therapy delivering functional RPE65 gene, restoring vision in congenital retinal dystrophy. \n- Zolgensma: AAV-based therapy replacing SMN1 gene in Spinal Muscular Atrophy infants, single-dose curative. \n- Hemophilia A/B: AAV-based gene therapies under development to restore Factor VIII/IX expression.",
+          "explain_like_i_am_stupid": "Some gene therapies already work: fix blindness, SMA, or train T-cells to fight cancer. These are real-life examples, not just experiments.",
+          "mnemonic": "Lux = Light, Zol = SMA ‘soul saver’, CAR-T = Cancer Attack.",
+          "high_yield": true
+        },
+        {
+          "name": "Risks of Gene Therapy",
+          "content": "1. Insertional mutagenesis (retroviral integration activating oncogenes, e.g., X-SCID trial leukemia). \n2. Immune reactions against viral vectors (inflammation, organ failure). \n3. Off-target infection of unintended cell types. \n4. Overexpression of therapeutic gene causing toxicity. \n5. Limited payload size (esp. AAV). \n6. Manufacturing costs and accessibility. \nThese risks require careful trial design and long-term monitoring.",
+          "explain_like_i_am_stupid": "Risks = gene lands in wrong spot, immune system freaks out, too much protein, or therapy is too expensive to use widely.",
+          "mnemonic": "Risk = Wrong place, Wrong target, Wrong reaction, Wrong dose, Wrong cost.",
+          "high_yield": true
+        },
+        {
+          "name": "Ethical Considerations",
+          "content": "Germline editing raises serious ethical issues: permanent transmission to future generations, consent of unborn individuals, potential for ‘designer babies’. The 2018 case of CRISPR-edited twins in China sparked global condemnation. Ethical guidelines currently ban human germline gene therapy. Somatic therapy is accepted but must balance risks and benefits.",
+          "explain_like_i_am_stupid": "Editing babies’ DNA forever is dangerous and unfair. That’s why only adult/patient therapies are allowed right now.",
+          "mnemonic": "Germline = Global controversy.",
+          "high_yield": true
+        },
+        {
+          "name": "Future Directions",
+          "content": "CRISPR-Cas9 has revolutionized gene editing, allowing precise DNA cuts and repairs. Next-gen tools include base editors (swap one base without cuts) and prime editing (write new sequences). These may allow safer, targeted therapy with fewer off-target effects. Combining gene editing with iPSC-derived cells and organoid systems could transform regenerative medicine. Delivery remains the key challenge.",
+          "explain_like_i_am_stupid": "Future = super-precise scissors (CRISPR) that can swap letters or rewrite whole words in the DNA book. Still need better delivery trucks.",
+          "mnemonic": "CRISPR = Cut, Base edit = Swap, Prime edit = Rewrite.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Cytogenetics",
+      "subtopics": [
+        {
+          "name": "What Cytogenetics Studies & Why It Matters",
+          "content": "Cytogenetics is the study of chromosomes: their number, structure, and inheritance. It explains developmental disorders, infertility, recurrent miscarriage, congenital malformations, hematologic/solid malignancies, and guides prognosis/therapy (e.g., translocations). Core tools: karyotyping and FISH; complementary: microarray/NGS.",
+          "explain_like_i_am_stupid": "Think of chromosomes as books on a shelf. Cytogenetics checks if books are missing, duplicated, torn, or swapped.",
+          "mnemonic": "Cyto = cell; genetics = DNA. ‘Chromosome book check.’",
+          "high_yield": true
+        },
+        {
+          "name": "Karyotyping: Sample Prep & G-Banding Workflow",
+          "content": "Peripheral blood lymphocytes are stimulated with mitogen (PHA) to divide. Colchicine arrests cells in metaphase (chromosomes condensed). Cells are swollen in hypotonic solution, fixed, dropped on slides, then proteins are removed (trypsin/heat) and stained with Giemsa → G-bands. Metaphase spreads are imaged and chromosomes arranged into a karyotype.",
+          "explain_like_i_am_stupid": "Make white blood cells divide, freeze them mid-division, spread their chromosomes, stain the stripes, and take a picture.",
+          "mnemonic": "PHA → Colchicine → Hypotonic → Fix → Trypsin/Giemsa → Photo.",
+          "high_yield": true
+        },
+        {
+          "name": "What Bands Mean & Resolution",
+          "content": "Dark G-bands are AT-rich, gene-poor; light bands are GC-rich, gene-dense. Higher-resolution (prometaphase) banding reveals subtle anomalies. Typical detection limit is ~5–10 Mb (lab dependent); smaller events evade standard karyotype.",
+          "explain_like_i_am_stupid": "Dark stripes = desert of genes; light stripes = city of genes. High-zoom shows smaller glitches.",
+          "mnemonic": "Dark = Desert, Light = Lively.",
+          "high_yield": true
+        },
+        {
+          "name": "Chromosome Anatomy: Arms & Centromeres",
+          "content": "Each chromosome has a short arm (p for ‘petite’) and a long arm (q). Centromere position defines: metacentric (middle), submetacentric (offset), acrocentric (near end). Human acrocentrics: 13, 14, 15, 21, 22 (carry stalks/satellites with rDNA).",
+          "explain_like_i_am_stupid": "Chromosomes wear a belt (centromere). Where the belt sits changes their shape; p is the short sleeve, q is the long sleeve.",
+          "mnemonic": "p = petite; Acro = at the edge.",
+          "high_yield": true
+        },
+        {
+          "name": "ISCN Nomenclature Essentials",
+          "content": "International System for Human Cytogenomic Nomenclature (ISCN) standardizes names. Examples: 46,XX (female normal); 47,XY,+21 (Down syndrome); t(9;22)(q34;q11) (balanced reciprocal translocation); del(5p) (terminal/interstitial deletion depending on bands); i(Xq) (isochromosome of X long arm); rob(14;21) (Robertsonian).",
+          "explain_like_i_am_stupid": "ISCN is the license plate system for chromosome changes.",
+          "mnemonic": "t = translocation, del = deletion, dup = duplication, inv = inversion, i = isochromosome, rob = Robertsonian.",
+          "high_yield": true
+        },
+        {
+          "name": "Limits of Karyotyping",
+          "content": "Requires dividing cells (metaphase), cannot interrogate uncultured interphase cells. Limited sensitivity for microdeletions/microduplications (<5–10 Mb). Balanced rearrangements without gain/loss are visible; single-gene/point mutations are invisible.",
+          "explain_like_i_am_stupid": "It needs a mid-air photo of chromosomes; small rips or typos won’t show up.",
+          "mnemonic": "Needs metaphase; misses micro.",
+          "high_yield": true
+        },
+        {
+          "name": "Aneuploidy & Trisomy: Epidemiology",
+          "content": "Aneuploidy = chromosome number not an exact multiple of 23. Trisomy (~3% of recognized conceptions; ~50% of early miscarriages) and monosomy (autosomal monosomy is usually lethal; monosomy X is viable). Live-born common trisomies: 21, 18, 13.",
+          "explain_like_i_am_stupid": "Too many or too few chromosome books is common early on and often causes miscarriage; a few trisomies can survive to birth.",
+          "mnemonic": "Live-born trisomies: 13, 18, 21.",
+          "high_yield": true
+        },
+        {
+          "name": "Trisomy 21 (Down Syndrome)",
+          "content": "Genotype: 47,XY,+21 or 47,XX,+21. Phenotype: hypotonia, brachycephaly, flat facies/nasal bridge, upslanting palpebral fissures, Brushfield spots, single palmar crease, clinodactyly, congenital heart disease (AV canal), GI anomalies (duodenal atresia, TE fistula). Increased risk of acute leukemia; Alzheimer-like neuropathology in adulthood. Risk increases with maternal age. Mosaic and Robertsonian forms exist.",
+          "explain_like_i_am_stupid": "Extra 21 gives a recognizable look, heart/GI issues, and learning disability; risk rises with older moms.",
+          "mnemonic": "21 = ‘drinking age’ → Down.",
+          "high_yield": true
+        },
+        {
+          "name": "Trisomy 18 (Edwards Syndrome)",
+          "content": "Incidence ≈1/8,000; 80% female; associated with advanced maternal age. Phenotype: hypertonia, prominent occiput, micrognathia, short sternum, clenched fists with overlapping fingers, rocker-bottom feet, hypoplastic nails, cardiac defects, severe intellectual disability. High infant mortality; most die by 6 months.",
+          "explain_like_i_am_stupid": "Babies have tight fists, small jaw, foot shape changes, and usually don’t live long.",
+          "mnemonic": "18 = ‘election age’ → Edwards.",
+          "high_yield": true
+        },
+        {
+          "name": "Trisomy 13 (Patau Syndrome)",
+          "content": "Incidence ≈1/25,000; often associated with advanced maternal age. Phenotype: severe growth restriction, holoprosencephaly/midline defects, cleft lip/palate, microphthalmia, congenital heart disease. Most die within months of birth.",
+          "explain_like_i_am_stupid": "Severe brain/midline problems with very poor survival.",
+          "mnemonic": "13 = ‘puberty’ → Patau.",
+          "high_yield": true
+        },
+        {
+          "name": "Mechanisms: Meiotic Nondisjunction (I vs II)",
+          "content": "Most trisomies result from meiotic nondisjunction. Meiosis I error → homologs fail to separate (gamete gets both parental homologs or none). Meiosis II error → sister chromatids fail to separate (gamete gets two identical copies or none). Maternal age increases risk (cohesin degradation, spindle issues).",
+          "explain_like_i_am_stupid": "In baby-making cell division, the chromosome pairs or their copies don’t split correctly, so an egg gets extra or missing copies.",
+          "mnemonic": "MI = homologs, MII = sisters.",
+          "high_yield": true
+        },
+        {
+          "name": "Robertsonian Translocations",
+          "content": "Fusion of long arms at centromeres of two acrocentrics (13,14,15,21,22) with loss of short arms (rDNA). Carriers are usually phenotypically normal but have reproductive risks (miscarriage, unbalanced offspring). Classic: rob(14;21) can yield a child with Down syndrome (translocation Down). ISCN: rob or der depending on context.",
+          "explain_like_i_am_stupid": "Two acrocentric chromosomes fuse into one big one; the person is fine but future babies can get the wrong mix.",
+          "mnemonic": "Rob = ‘robbed’ two to make one.",
+          "high_yield": true
+        },
+        {
+          "name": "Isochromosomes & Ring Chromosomes",
+          "content": "Isochromosome: loss of one arm and duplication of the other → two identical arms (e.g., i(Xq)). Causes partial trisomy/monosomy of arms. Ring chromosome: breaks at both ends and re-joins in a circle; leads to instability and variable phenotypes.",
+          "explain_like_i_am_stupid": "Iso = mirror-arm chromosome; Ring = bracelet chromosome that’s unstable.",
+          "mnemonic": "Iso = identical arms; Ring = round and risky.",
+          "high_yield": true
+        },
+        {
+          "name": "Mosaicism",
+          "content": "Post-zygotic nondisjunction produces two (or more) cell lines within the same person (e.g., some cells 46,XX; others 47,XX,+21). Phenotype is often milder and variable, depending on tissue distribution of the abnormal line.",
+          "explain_like_i_am_stupid": "A patchwork body: some cells normal, some with extra chromosome. Effects depend on where the patches are.",
+          "mnemonic": "Mosaic = mixed tiles.",
+          "high_yield": true
+        },
+        {
+          "name": "Partial Trisomies/Duplications vs Deletions",
+          "content": "Unequal crossing over or aberrant segregation can create segmental duplications (partial trisomy) or deletions. Duplications are generally less harmful than deletions, but both can disrupt key genes. Carriers are hemizygous across deletions (only one copy).",
+          "explain_like_i_am_stupid": "Extra segment usually safer than missing segment, but both can cause problems depending on which genes are involved.",
+          "mnemonic": "Dup ≤ bad than Del (usually).",
+          "high_yield": true
+        },
+        {
+          "name": "Classic Deletion & Microdeletion Syndromes",
+          "content": "Examples: del(5p) Cri-du-Chat (cat-like cry, round face, hypertelorism, severe ID). 22q11.2 deletion (DiGeorge/velocardiofacial): conotruncal heart defects, hypocalcemia (parathyroid), thymic hypoplasia/immune issues, palate defects. 15q11-q13 imprinting disorders: Prader-Willi (paternal deletion) vs Angelman (maternal deletion). Others: Williams (7q11.23; elfin facies, supravalvular aortic stenosis, hypersociability), Smith-Magenis (17p11.2; self-injury, sleep issues), Cat-eye (partial tetrasomy 22q11 duplication).",
+          "explain_like_i_am_stupid": "Small missing pieces can cause recognizable syndromes with heart, face, hormone, or behavior differences. Which parent the piece comes from can matter (imprinting).",
+          "mnemonic": "D(e)l-George (22q11); Paternal-Prader, Maternal-Angelman.",
+          "high_yield": true
+        },
+        {
+          "name": "Structural Rearrangements: inv, ins, t",
+          "content": "Inversions (paracentric: same arm; pericentric: across centromere), insertions, and reciprocal translocations can be balanced (no net gain/loss) or unbalanced (copy number change). Balanced carriers often healthy but risk unbalanced gametes and affected offspring. FISH/karyotype confirm structure; arrays detect copy number but not balance.",
+          "explain_like_i_am_stupid": "Chromosome pieces can flip, move, or swap. If nothing is gained or lost, the person may be fine—but their kids may inherit the wrong mix.",
+          "mnemonic": "Balanced today, unbalanced tomorrow (in gametes).",
+          "high_yield": true
+        },
+        {
+          "name": "FISH: How It Works & When To Use",
+          "content": "Fluorescence in situ hybridization uses fluorescent DNA probes that hybridize to complementary target DNA on chromosomes or nuclei. Works on metaphase spreads and uncultured interphase nuclei. Faster than karyotype for specific questions; detects aneuploidies, microdeletions, and confirms rearrangements. Requires a priori probe selection.",
+          "explain_like_i_am_stupid": "Glow-in-the-dark DNA stickers bind matching spots—letting you count or find missing/extra pieces even without cell division.",
+          "mnemonic": "FISH = Fluorescent probe Finder.",
+          "high_yield": true
+        },
+        {
+          "name": "FISH Probe Types & Applications",
+          "content": "Whole-chromosome paint (WCP): paints entire chromosome to detect complex translocations/rearrangements. Locus-specific probes: target critical regions (e.g., 22q11.2 for DiGeorge). Centromere enumeration probes (CEP): count specific chromosomes (e.g., trisomies). Telomere probes: assess terminal rearrangements. In oncology, FISH rapidly detects hallmark events (e.g., BCR-ABL, MYC, HER2 amplification, ALK/ROS1 rearrangements).",
+          "explain_like_i_am_stupid": "Different probes = different jobs: paint the whole chromosome, tag one address, count the centromere, or check the ends.",
+          "mnemonic": "WCP = paint; CEP = count; Locus = pinpoint.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Introduction to Carcinogenesis",
+      "subtopics": [
+        {
+          "name": "Definition and Multistep Nature",
+          "content": "Carcinogenesis is the process by which normal cells transform into malignant ones through accumulated genetic and epigenetic changes. The classic stages are initiation (permanent DNA damage), promotion (clonal expansion of initiated cells), and progression (additional mutations leading to aggressive features like invasion and metastasis). Cancer development is slow and requires multiple ‘hits’ over years or decades.",
+          "explain_like_i_am_stupid": "Cancer doesn’t pop up overnight. First the DNA gets hurt, then those damaged cells multiply, then they pick up more bad tricks until they turn into full cancer.",
+          "mnemonic": "I-P-P: Initiation → Promotion → Progression.",
+          "high_yield": true
+        },
+        {
+          "name": "Most Common vs Most Deadly Cancers",
+          "content": "In women: breast cancer is the most common, but lung cancer causes the most deaths. In men: prostate cancer is most common, but lung cancer is most deadly. This illustrates how incidence ≠ mortality. Screening efforts often target high-incidence cancers (breast, prostate), while prevention is critical for high-mortality cancers (lung, pancreatic).",
+          "explain_like_i_am_stupid": "The cancer people get most often isn’t always the one that kills the most. For women: breast is common, lung kills. For men: prostate is common, lung kills.",
+          "mnemonic": "‘Common ≠ Killer’: Breast/Prostate common, Lung deadly.",
+          "high_yield": true
+        },
+        {
+          "name": "Carcinogens: Classes and Examples",
+          "content": "Carcinogens are substances that cause cancer by damaging DNA or altering cellular control. \n- **Chemical**: Polycyclic aromatic hydrocarbons (smoking → lung cancer), aflatoxin B1 (Aspergillus in grains → hepatocellular carcinoma), nitrosamines (smoked foods → gastric cancer), asbestos (mesothelioma, synergistic with smoking). \n- **Physical**: UV radiation (skin cancers via pyrimidine dimers), ionizing radiation (thyroid cancer after radiation exposure, leukemias in atomic bomb survivors). \n- **Biological**: HPV (cervical, anal, oropharyngeal SCC via E6/E7 proteins inactivating p53 and Rb), EBV (Burkitt lymphoma, nasopharyngeal carcinoma), HBV/HCV (chronic inflammation and cirrhosis → hepatocellular carcinoma), H. pylori (chronic gastritis → gastric adenocarcinoma, MALT lymphoma).",
+          "explain_like_i_am_stupid": "Carcinogens = cancer-causing stuff. Chemicals (smoke, mold toxin, nitrosamines, asbestos), radiation (UV, X-rays), and germs (HPV, EBV, HBV, H. pylori).",
+          "mnemonic": "CPA = Chemical, Physical, Agent (biological).",
+          "high_yield": true
+        },
+        {
+          "name": "Initiators vs Promoters",
+          "content": "Initiators are agents that directly damage DNA and cause irreversible mutations (e.g., aflatoxin, radiation). Promoters stimulate proliferation of mutated cells but are not mutagenic themselves (e.g., chronic inflammation, hormones). Cancer usually requires both: initiators start the mutation, promoters push the mutated cells to expand.",
+          "explain_like_i_am_stupid": "Initiator = first punch to DNA. Promoter = cheerleader telling the bad cells to multiply. Together → cancer.",
+          "mnemonic": "I = irreversible, P = pushes growth.",
+          "high_yield": true
+        },
+        {
+          "name": "Latency and Field Cancerization",
+          "content": "Cancers often take decades to arise because multiple mutations accumulate. In carcinogen-exposed tissues (e.g., bronchial mucosa in smokers, aerodigestive tract in alcoholics), the entire ‘field’ is primed with mutations (‘field cancerization’). This explains multiple independent tumors in one organ system.",
+          "explain_like_i_am_stupid": "It takes years for enough damage to pile up. Sometimes a whole tissue (like lungs of a smoker) is damaged, so many spots can turn into cancer at once.",
+          "mnemonic": "Field cancerization = ‘multiple weeds in the same soil’.",
+          "high_yield": true
+        },
+        {
+          "name": "DNA Repair Defects and Carcinogenesis",
+          "content": "DNA repair genes protect against cancer. Defects in mismatch repair (Lynch), nucleotide excision repair (xeroderma pigmentosum), or homologous recombination repair (BRCA1/2) increase mutation burden and cancer risk. Repair deficiency accelerates carcinogenesis because mutations accumulate unchecked.",
+          "explain_like_i_am_stupid": "Cells normally fix typos. If the proofreader genes are broken, mistakes pile up and cause cancer faster.",
+          "mnemonic": "Repair gone = Rapid cancer.",
+          "high_yield": true
+        },
+        {
+          "name": "Epigenetics in Carcinogenesis",
+          "content": "Epigenetic changes can silence tumor suppressors (e.g., promoter hypermethylation of MLH1 in sporadic colorectal cancer) or activate oncogenes. These changes are reversible and don’t alter DNA sequence. Carcinogenesis involves both genetic mutations and epigenetic reprogramming.",
+          "explain_like_i_am_stupid": "Epigenetics = sticky notes telling the cell to shut off good genes (like brakes) or turn on bad ones (like gas pedals).",
+          "mnemonic": "Epigenetic = Expression edited.",
+          "high_yield": true
+        },
+        {
+          "name": "Hallmarks of Cancer",
+          "content": "Hanahan and Weinberg described essential features (‘hallmarks’): (1) Sustained proliferative signaling, (2) Evasion of growth suppressors, (3) Resistance to cell death, (4) Replicative immortality, (5) Induction of angiogenesis, (6) Activation of invasion/metastasis. Emerging hallmarks include immune evasion and altered metabolism. These molecular hallmarks explain both cancer biology and therapeutic targets.",
+          "explain_like_i_am_stupid": "Cancer cells act like rebels: grow nonstop, ignore stop signs, refuse to die, live forever, make their own blood supply, and spread everywhere. They also dodge the immune system and change how they eat energy.",
+          "mnemonic": "Growth, Escape, Don’t Die, Immortal, Angio, Spread (GEDIAS).",
+          "high_yield": true
+        },
+        {
+          "name": "Dose-Response and Threshold Effects",
+          "content": "Carcinogen exposure often has dose–response relationships. Some agents have thresholds (radiation dose, specific chemicals), while others act stochastically (any exposure increases risk, e.g., smoking). Duration and intensity of exposure modulate risk (pack-years for tobacco).",
+          "explain_like_i_am_stupid": "More exposure usually means more risk. Some things are bad at any dose (smoking), others are only harmful above a threshold (radiation).",
+          "mnemonic": "Carcinogen risk = dose × time.",
+          "high_yield": false
+        }
+      ]
+    },
+    {
+      "topic": "Nucleotide Metabolism",
+      "subtopics": [
+        {
+          "name": "Overview of Nucleotide Pathways",
+          "content": "Cells make nucleotides either de novo (from scratch) or salvage (recycling). Both require PRPP as a starting hub. Purines are built directly on PRPP; pyrimidines are built as a ring first, then attached to PRPP. Salvage is energy-efficient and dominant in humans.",
+          "explain_like_i_am_stupid": "De novo = cook from raw ingredients. Salvage = leftovers. PRPP is the stove for both.",
+          "mnemonic": "PRPP = Primes both Purine & Pyrimidine.",
+          "high_yield": true
+        },
+        {
+          "name": "PRPP Synthetase and Regulation",
+          "content": "PRPP synthetase converts ribose-5-phosphate + ATP → PRPP. Stimulated by glucose-6-phosphate, inhibited by ADP/GDP. Overactivity causes gout due to excess purine production. PRPP drives both purine and pyrimidine synthesis.",
+          "explain_like_i_am_stupid": "PRPP synthetase is like the gas pedal. If it’s too active, the cell makes too many purines, causing gout.",
+          "mnemonic": "PRPP = Pushes pathways.",
+          "high_yield": true
+        },
+        {
+          "name": "Stepwise Donors in Purine Ring",
+          "content": "Purine atoms come from multiple donors: N1 = aspartate, C2 and C8 = N10-formyl-THF, N3 and N9 = glutamine, C4, C5, N7 = glycine, C6 = CO₂. Built directly onto PRPP scaffold. Folate is critical for carbon donors.",
+          "explain_like_i_am_stupid": "The purine ring is a patchwork quilt sewn from amino acids, CO₂, and folate bits, all stitched onto PRPP.",
+          "mnemonic": "GAG-COF (Glycine, Asp, Glutamine + CO₂, Folate).",
+          "high_yield": true
+        },
+        {
+          "name": "Key Enzyme: Glutamine-PRPP Amidotransferase",
+          "content": "The committed enzyme of de novo purine synthesis. Converts PRPP + glutamine → phosphoribosylamine. Inhibited by AMP, GMP, IMP (feedback). Activated by PRPP. Target of 6-MP (thio-IMP inhibition).",
+          "explain_like_i_am_stupid": "This enzyme decides if PRPP goes into purine-making. Too much product shuts it down, excess PRPP speeds it up.",
+          "mnemonic": "PRPP Amidotransferase = Purine gatekeeper.",
+          "high_yield": true
+        },
+        {
+          "name": "Branching to AMP vs GMP",
+          "content": "IMP is the parent purine. To make AMP: IMP → adenylosuccinate → AMP (requires GTP). To make GMP: IMP → XMP → GMP (requires ATP, via IMP dehydrogenase). Cross-regulation ensures balance. Mycophenolate and ribavirin inhibit IMP dehydrogenase, blocking GMP synthesis (immunosuppression/antiviral).",
+          "explain_like_i_am_stupid": "IMP can choose AMP or GMP path. Making AMP burns GTP; making GMP burns ATP. It’s like cross-paying so neither pile gets too big.",
+          "mnemonic": "IMP = I Might Pick AMP (uses GTP) or GMP (uses ATP).",
+          "high_yield": true
+        },
+        {
+          "name": "Purine Salvage Pathway",
+          "content": "HGPRT salvages hypoxanthine → IMP and guanine → GMP. APRT salvages adenine → AMP. Salvage conserves PRPP and energy. HGPRT competes with amidotransferase for PRPP, preferentially directing PRPP to salvage when bases are available.",
+          "explain_like_i_am_stupid": "Salvage = recycling bases into new nucleotides. HGPRT is the recycling machine.",
+          "mnemonic": "HGPRT = Hypoxanthine Guanine Purine Reuse Tool.",
+          "high_yield": true
+        },
+        {
+          "name": "Lesch-Nyhan Syndrome (HGPRT Deficiency)",
+          "content": "X-linked recessive. Near-absent HGPRT leads to inability to salvage purines. Excess PRPP shunted into de novo pathway → uric acid overproduction. Clinical triad: gout, neurologic dysfunction, self-mutilation (lip/finger biting). Treatment: allopurinol lowers uric acid, but neurologic issues persist.",
+          "explain_like_i_am_stupid": "Without HGPRT, bases can’t be recycled. The cell goes wild making new purines, causing uric acid overload. Kids have gout and bite themselves.",
+          "mnemonic": "HGPRT = Hyperuricemia, Gout, Pissed-off behavior, Retardation, self-muTilate.",
+          "high_yield": true
+        },
+        {
+          "name": "Kelley-Seegmiller Syndrome",
+          "content": "Partial HGPRT deficiency (10–20% activity). Milder form with hyperuricemia and gout but no self-mutilation or severe neurologic symptoms.",
+          "explain_like_i_am_stupid": "HGPRT not fully gone, so you get gout but not the severe brain/behavior problems.",
+          "mnemonic": "Kelley = Kind of Lesch-Nyhan.",
+          "high_yield": false
+        },
+        {
+          "name": "Adenosine Deaminase (ADA) Deficiency",
+          "content": "AR. ADA converts adenosine/deoxyadenosine → inosine/deoxyinosine. Deficiency → dATP accumulation → inhibits ribonucleotide reductase → SCID (failure of B and T cells). Presents with recurrent infections, failure to thrive. Treated with gene therapy, enzyme replacement, or HSCT.",
+          "explain_like_i_am_stupid": "Without ADA, deoxyadenosine piles up, shuts down DNA building. Immune cells can’t grow → bubble boy disease.",
+          "mnemonic": "ADA = Adenosine Death to Adaptive immunity.",
+          "high_yield": true
+        },
+        {
+          "name": "Xanthinuria",
+          "content": "Rare autosomal recessive deficiency of xanthine oxidase. Hypoxanthine and xanthine accumulate, uric acid is absent. Leads to kidney stones of xanthine but not gout.",
+          "explain_like_i_am_stupid": "If xanthine oxidase is missing, uric acid isn’t made. Instead, xanthine piles up and forms stones.",
+          "mnemonic": "Xanthinuria = Xanthine stones, no uric acid.",
+          "high_yield": false
+        },
+        {
+          "name": "Purine Degradation Overview",
+          "content": "AMP → inosine → hypoxanthine → xanthine → uric acid. GMP → guanosine → guanine → xanthine → uric acid. Xanthine oxidase catalyzes final steps. Uric acid excreted in urine; impaired excretion = hyperuricemia.",
+          "explain_like_i_am_stupid": "Purine trash gets shredded step by step until it becomes uric acid and goes out in urine.",
+          "mnemonic": "All roads → uric acid.",
+          "high_yield": true
+        },
+        {
+          "name": "Purine Metabolism Drugs: Xanthine Oxidase Inhibitors",
+          "content": "Allopurinol and febuxostat inhibit xanthine oxidase, lowering uric acid and treating gout/tumor lysis syndrome. Allopurinol also increases 6-MP levels by blocking its breakdown. Rasburicase/urate oxidase convert uric acid → allantoin (soluble) for tumor lysis management.",
+          "explain_like_i_am_stupid": "Allopurinol blocks uric acid making, lowering gout. Rasburicase dissolves uric acid into an easier-to-excrete form.",
+          "mnemonic": "XO blocked = Xtra Outflow (less uric acid).",
+          "high_yield": true
+        },
+        {
+          "name": "Pyrimidine De Novo Pathway",
+          "content": "Steps: CPS II makes carbamoyl phosphate (glutamine + CO₂). Aspartate → carbamoyl aspartate → dihydroorotate → orotate. Orotate + PRPP → OMP → UMP. UMP → UDP → UTP → CTP. Thymidylate synthase converts dUMP → dTMP using N5,N10-methylene-THF.",
+          "explain_like_i_am_stupid": "Pyrimidines = build ring first, then snap it onto PRPP. UMP is the first pyrimidine base.",
+          "mnemonic": "CPS II in Cytosol for pyrimidines.",
+          "high_yield": true
+        },
+        {
+          "name": "Leflunomide Mechanism",
+          "content": "Leflunomide inhibits dihydroorotate dehydrogenase, blocking pyrimidine synthesis. Used as an immunosuppressant in rheumatoid arthritis.",
+          "explain_like_i_am_stupid": "Leflunomide blocks the enzyme that helps make pyrimidines, so immune cells can’t multiply.",
+          "mnemonic": "Leflunomide = Less lymphocyte growth.",
+          "high_yield": false
+        },
+        {
+          "name": "Orotic Aciduria: Type I and II",
+          "content": "Type I: Deficiency of UMP synthase (orotate phosphoribosyltransferase + OMP decarboxylase). Causes orotic acid buildup, megaloblastic anemia, growth retardation. Treat with uridine. Type II: isolated OMP decarboxylase deficiency, rarer. Differentiate from urea cycle defects: those also cause hyperammonemia and ↓BUN.",
+          "explain_like_i_am_stupid": "UMP synthase defect → orotic acid piles up, anemia, but ammonia normal. Urea cycle defect → orotic acid + ammonia up.",
+          "mnemonic": "Orotic aciduria = Oral uridine helps (in Type I).",
+          "high_yield": true
+        },
+        {
+          "name": "Dihydropyrimidine Dehydrogenase (DPD) Deficiency",
+          "content": "DPD deficiency prevents breakdown of uracil/thymine. Causes developmental delay, seizures, and extreme 5-FU toxicity (drug accumulates). Screening important before chemotherapy.",
+          "explain_like_i_am_stupid": "If DPD is missing, pyrimidines aren’t broken down and chemo drug 5-FU becomes deadly toxic.",
+          "mnemonic": "DPD = Danger with 5-FU.",
+          "high_yield": true
+        },
+        {
+          "name": "Ribonucleotide Reductase",
+          "content": "Converts NDPs → dNDPs (building blocks of DNA). Regulated by ATP (on) and dATP (off). Balanced by allosteric sites for specificity. Hydroxyurea inhibits, treating sickle cell (↑HbF) and malignancies.",
+          "explain_like_i_am_stupid": "Ribonucleotide reductase turns RNA letters into DNA letters. Hydroxyurea shuts it down.",
+          "mnemonic": "RR = RNA → DNA. Hydroxyurea = halt.",
+          "high_yield": true
+        },
+        {
+          "name": "dTMP Synthesis and Drug Targets",
+          "content": "Thymidylate synthase makes dTMP from dUMP. Requires folate (methylene-THF). Blocked by 5-FU (5-fdUMP) and indirectly by methotrexate (DHFR inhibition). Lack of dTMP = ‘thymine-less death’.",
+          "explain_like_i_am_stupid": "Cells need thymine to copy DNA. 5-FU blocks the enzyme; methotrexate blocks folate, which the enzyme needs.",
+          "mnemonic": "5-FU = Fake Uracil; MTX = Metho-Tox Folate.",
+          "high_yield": true
+        },
+        {
+          "name": "Purine Analog Drugs",
+          "content": "6-MP and azathioprine (its prodrug) mimic purines. Activated by HGPRT → thio-IMP, blocking amidotransferase and AMP/GMP synthesis. Also incorporated into nucleic acids. Inactivated by xanthine oxidase (toxicity ↑ with allopurinol). Cladribine: purine analog resistant to adenosine deaminase → used in hairy cell leukemia.",
+          "explain_like_i_am_stupid": "Purine analog drugs trick cells into using fake purines. This jams DNA/RNA building and kills cancer cells.",
+          "mnemonic": "6-MP = 6-Mimic Purine. Cladribine = Clad in resistance (to ADA).",
+          "high_yield": true
+        },
+        {
+          "name": "Pyrimidine Analog Drugs",
+          "content": "5-FU blocks thymidylate synthase. Cytarabine (Ara-C) inhibits DNA polymerase. Gemcitabine terminates DNA chains and inhibits ribonucleotide reductase. These drugs target S-phase rapidly dividing cells.",
+          "explain_like_i_am_stupid": "Pyrimidine analogs pretend to be C or U bases and jam DNA copying enzymes.",
+          "mnemonic": "Cytarabine = Cytosine mimic. Gemcitabine = Gem = DNA chain stopper.",
+          "high_yield": true
+        },
+        {
+          "name": "Antifolate Drugs",
+          "content": "Methotrexate, trimethoprim, pyrimethamine = folate analogs that inhibit DHFR in humans, bacteria, protozoa respectively. Block THF regeneration, halting purine and dTMP synthesis. Cause megaloblastic changes in rapidly dividing cells. Leucovorin rescue bypasses DHFR block.",
+          "explain_like_i_am_stupid": "Antifolates are fake folates that stop DNA building. Leucovorin acts like a shortcut to rescue normal cells.",
+          "mnemonic": "MTX = Metho-toxin. TMP = Treats Microbes. PYR = Parasites.",
+          "high_yield": true
+        },
+        {
+          "name": "Clinical Integration: Tumor Lysis Syndrome",
+          "content": "Rapid chemotherapy of leukemias/lymphomas releases massive purine load → uric acid buildup → hyperuricemia, renal failure, electrolyte derangements. Prevention: hydration, allopurinol, or rasburicase.",
+          "explain_like_i_am_stupid": "When many cancer cells die at once, purine waste floods the blood, overwhelming the kidneys. Drugs help prevent crystal overload.",
+          "mnemonic": "TLS = Tumor Lysis = Too many purines.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Cytogenetics of Cancer",
+      "subtopics": [
+        {
+          "name": "Overview of Cancer Cytogenetics",
+          "content": "Cancer cytogenetics studies how chromosomal changes drive malignancy. Both structural (translocations, deletions, inversions, amplifications) and numerical (aneuploidy) changes alter oncogenes and tumor suppressors. Cytogenetic analysis helps diagnose, stratify prognosis, and guide targeted therapy.",
+          "explain_like_i_am_stupid": "Cancers often have scrambled chromosomes. Studying these patterns helps doctors know what type of cancer it is and how to treat it.",
+          "mnemonic": "Cancer = Chromosome chaos.",
+          "high_yield": true
+        },
+        {
+          "name": "Multidrug Resistance and BCL2 Overexpression",
+          "content": "BCL2 is an anti-apoptotic protein. Its overexpression prevents cell death, contributing to chemoresistance. Mechanisms: gene translocation, amplification, or epigenetic upregulation. Follicular lymphoma: t(14;18) places BCL2 under the Ig heavy-chain promoter → constitutive overexpression → cells survive indefinitely. These tumors are resistant to apoptosis-inducing chemotherapies.",
+          "explain_like_i_am_stupid": "Normally, damaged cells self-destruct. With too much BCL2, cancer cells refuse to die, making chemo less effective.",
+          "mnemonic": "BCL2 = Bans Cell Loss.",
+          "high_yield": true
+        },
+        {
+          "name": "BCL2 Translocation t(14;18)",
+          "content": "t(14;18)(q32;q21) moves BCL2 next to IgH enhancer on chromosome 14. Strong expression in B-cells causes follicular lymphoma. Clinical hallmark: indolent course but resistant to apoptosis. Detected by karyotype, FISH, or PCR.",
+          "explain_like_i_am_stupid": "The BCL2 gene got plugged into an ‘always-on’ switch in B-cells. Now they don’t die when they should, leading to lymphoma.",
+          "mnemonic": "14;18 = follicu-eight-er (follicular).",
+          "high_yield": true
+        },
+        {
+          "name": "Philadelphia Chromosome and BCR-ABL Fusion",
+          "content": "t(9;22)(q34;q11) creates the Philadelphia chromosome. Fuses BCR gene (chromosome 22) with ABL (chromosome 9) → BCR-ABL fusion protein (constitutively active tyrosine kinase). Found in 95% of chronic myeloid leukemia (CML), some ALL. Drives proliferation, blocks apoptosis, alters adhesion. Targeted by tyrosine kinase inhibitors (imatinib, dasatinib).",
+          "explain_like_i_am_stupid": "Two chromosomes swap parts, making a new gene (BCR-ABL) that’s stuck in the ON position. This pushes white cells to multiply nonstop. Special drugs can turn it off.",
+          "mnemonic": "Philly = 9 + 22 = bad news.",
+          "high_yield": true
+        },
+        {
+          "name": "Detection of BCR-ABL",
+          "content": "Methods: cytogenetics (karyotype; low sensitivity), FISH (higher), quantitative RT-PCR (sensitive to 1 in 10^5–10^6 cells). PCR monitoring guides therapy response and relapse detection.",
+          "explain_like_i_am_stupid": "Doctors look for the Philly chromosome with microscope, glowing probes, or PCR ‘magnifying glass.’ PCR is the most sensitive test.",
+          "mnemonic": "PCR = Precise Cancer Reading.",
+          "high_yield": false
+        },
+        {
+          "name": "Genomic Instability",
+          "content": "Cancer cells show high mutation rates due to checkpoint loss. p53 (‘guardian of the genome’) and RB normally halt division after DNA damage. Their loss → unchecked replication with accumulating errors. Genomic instability leads to aneuploidy, chromosomal breaks, and amplifications. Seen in >90% of cancers.",
+          "explain_like_i_am_stupid": "Without p53 or RB, cells don’t stop to fix mistakes. They keep dividing with broken DNA, making chaos worse each time.",
+          "mnemonic": "No p53 = No proofreading.",
+          "high_yield": true
+        },
+        {
+          "name": "Gene Amplification: General Concept",
+          "content": "Gene amplification = abnormal increase in copy number of oncogenes. Can be intrachromosomal (HSRs = homogeneous staining regions) or extrachromosomal (double minutes, small circular DNA lacking centromeres). Amplification gives cells growth advantage and drug resistance. Amplified genes can reach hundreds of copies.",
+          "explain_like_i_am_stupid": "Cancer cells sometimes photocopy an oncogene hundreds of times, making super-strong growth signals.",
+          "mnemonic": "Amp = Amplify growth.",
+          "high_yield": true
+        },
+        {
+          "name": "Cyclin D1 Amplification",
+          "content": "Cyclin D1 (CCND1 gene) overexpression is common in breast and bladder cancers. Activates CDK4/6 → phosphorylates RB → uncontrolled G1→S transition. Basis for CDK4/6 inhibitors (palbociclib, ribociclib, abemaciclib).",
+          "explain_like_i_am_stupid": "Extra Cyclin D = cells rush from G1 to S phase without brakes. Drugs now exist to block CDK4/6 and slow them down.",
+          "mnemonic": "Cyclin D = Drives cell cycle.",
+          "high_yield": true
+        },
+        {
+          "name": "MDM2 Amplification",
+          "content": "MDM2 encodes a ubiquitin ligase that degrades p53. Amplification (common in sarcomas) → functional p53 loss. Tumors evade apoptosis, gain multidrug resistance. Clinically associated with worse prognosis.",
+          "explain_like_i_am_stupid": "Too much MDM2 = it destroys p53, the ‘guardian.’ Without p53, cells never stop or die, making them harder to treat.",
+          "mnemonic": "MDM2 = Makes p53 Disappear.",
+          "high_yield": true
+        },
+        {
+          "name": "MYCN Amplification",
+          "content": "Seen in ~25% of neuroblastomas (pediatric adrenal/nerve tumors). Associated with aggressive disease and poor prognosis. Often appears as intrachromosomal amplification (HSRs). MYCN encodes a transcription factor driving cell cycle progression and metabolism.",
+          "explain_like_i_am_stupid": "Extra MYCN copies make kids’ nerve tumors grow aggressively and harder to cure.",
+          "mnemonic": "MYCN = ‘My Child’s Neuroblastoma’.",
+          "high_yield": true
+        },
+        {
+          "name": "HER2/neu (ERBB2) Amplification",
+          "content": "HER2 is a receptor tyrosine kinase amplified in 15–30% of breast cancers. Activates Ras/MAPK and PI3K/AKT pathways. Overexpression → aggressive tumor growth, recurrence, and poor prognosis. Targeted by trastuzumab (Herceptin) and lapatinib. Limitation: resistance develops, and trastuzumab poorly crosses the blood-brain barrier.",
+          "explain_like_i_am_stupid": "HER2 is like an antenna that’s copied too many times. Tumors grow fast. Drugs like Herceptin block the signal, but resistance is common.",
+          "mnemonic": "HER2 = ‘HER tumor too aggressive.’",
+          "high_yield": true
+        },
+        {
+          "name": "Double Minutes and Extrachromosomal DNA",
+          "content": "Double minutes (dmins) = tiny circular DNA fragments with amplified oncogenes. Lack centromeres, unstable, can integrate/excise, driving tumor heterogeneity and drug resistance. Seen with MYC, MDM2 amplifications. Targeting extrachromosomal DNA is an emerging therapeutic strategy.",
+          "explain_like_i_am_stupid": "Some oncogenes live on tiny floating DNA circles. They make tumors resistant because they can multiply or vanish easily.",
+          "mnemonic": "Double minutes = DNA donuts.",
+          "high_yield": false
+        },
+        {
+          "name": "Oncogene vs Tumor Suppressor Gene Alterations",
+          "content": "Oncogenes: usually activated by point mutations, translocations, or amplifications (one allele sufficient). Tumor suppressor genes: usually inactivated by deletions, mutations, promoter methylation, or ‘two-hit’ loss (both alleles must be lost). Classic oncogene: BCR-ABL. Classic TSG: p53, RB.",
+          "explain_like_i_am_stupid": "Oncogenes = gas pedals stuck ON. Tumor suppressors = brakes cut out. Both cause runaway growth.",
+          "mnemonic": "Oncogenes = One hit ON. TSG = Two hits Gone.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Foundations of Cancer Screening & Diagnosis",
+      "subtopics": [
+        {
+          "name": "Principles of Population Screening",
+          "content": "Screening aims to detect cancer early in an asymptomatic population. Requirements: (1) disease has a latent/early stage; (2) suitable test exists; (3) treatment improves outcomes; (4) test acceptable to population; (5) facilities available; (6) cost justified; (7) continuous process, not one-time. Example: breast cancer takes ~5 years from first malignant cell to palpable mass.",
+          "explain_like_i_am_stupid": "Screening = testing healthy people to catch cancer early. It only makes sense if: there’s a hidden stage, a good test, treatment helps, people accept it, and we can afford it.",
+          "mnemonic": "Screening = Latent + Test + Treatment + Acceptable + Affordable.",
+          "high_yield": true
+        },
+        {
+          "name": "Test Accuracy: Sensitivity and Specificity",
+          "content": "Sensitivity = % of true positives detected (miss few sick people). Specificity = % of true negatives (don’t falsely label healthy people). Poor sensitivity → false negatives. Poor specificity → false positives. Both must be balanced depending on disease and context.",
+          "explain_like_i_am_stupid": "Sensitivity = how good a test is at finding sick people. Specificity = how good at ruling out healthy people.",
+          "mnemonic": "SnNout, SpPin: Sensitive test Negative rules OUT; Specific test Positive rules IN.",
+          "high_yield": true
+        },
+        {
+          "name": "Predictive Values",
+          "content": "Positive predictive value (PPV) = probability of disease if test is positive. Negative predictive value (NPV) = probability of no disease if test negative. Both depend heavily on disease prevalence: high prevalence increases PPV, low prevalence increases NPV.",
+          "explain_like_i_am_stupid": "PPV = if test is +, chance you’re actually sick. NPV = if test is –, chance you’re actually healthy. They depend on how common the disease is.",
+          "mnemonic": "PPV/NPV vary with Prevalence.",
+          "high_yield": true
+        },
+        {
+          "name": "Biases in Screening",
+          "content": "Lead-time bias: earlier diagnosis looks like longer survival but death time unchanged. Length-time bias: screening finds slower-growing cancers, missing aggressive ones. Overdiagnosis: finding cancers that never would have harmed the patient, leading to overtreatment.",
+          "explain_like_i_am_stupid": "Screening can trick us: catching cancer earlier doesn’t always mean living longer, and we often find slow cancers while missing fast killers.",
+          "mnemonic": "LL-O: Lead, Length, Overdiagnosis.",
+          "high_yield": true
+        },
+        {
+          "name": "Breast Cancer Screening Guidelines",
+          "content": "ACS: yearly mammograms from age 40; clinical breast exam every 3 years in 20s–30s, yearly after 40. USPSTF: biennial mammograms age 40–74; no CBE; recommend against BSE. Biennial reduces harm while maintaining benefit. NNS (number needed to screen to prevent 1 death): ~1905 (age 40–45), 1339 (50–59), 377 (60–69).",
+          "explain_like_i_am_stupid": "Different groups disagree: some say yearly mammograms starting at 40, others say every 2 years. Younger women need many more screens to save one life.",
+          "mnemonic": "ACS = Annual; USPSTF = Every 2 years.",
+          "high_yield": true
+        },
+        {
+          "name": "Lung Cancer Screening",
+          "content": "High-risk patients: 50–80 years old, 20+ pack-years, current smoker or quit <15 years. Test: low-dose CT annually. NLST showed NNS ≈320 to prevent one death. Screening stops if 15+ years quit or patient cannot undergo treatment.",
+          "explain_like_i_am_stupid": "Heavy smokers 50–80 should get yearly low-dose CT scans. It can save lives, but only works if patient could be treated.",
+          "mnemonic": "Lung screen = Low-dose CT, Long smoking history.",
+          "high_yield": true
+        },
+        {
+          "name": "Other Cancer Screening Highlights",
+          "content": "Cervical cancer: Pap smears (cytology) every 3 years age 21–29; HPV testing or co-testing 30–65 every 5 years. Colorectal cancer: colonoscopy every 10 years from age 45–75, or alternative stool-based/FIT tests. Prostate cancer: controversial; PSA-based screening individualized, more common in high-risk (African American, BRCA mutation carriers).",
+          "explain_like_i_am_stupid": "Pap smears catch cervical cancer early. Colonoscopies catch colon cancer. PSA is debated — used for high-risk men.",
+          "mnemonic": "Cervix = Cytology; Colon = Colonoscopy; Prostate = PSA? maybe.",
+          "high_yield": true
+        },
+        {
+          "name": "Diagnostic Workflow After Screening",
+          "content": "Positive screen requires diagnostic confirmation. Tools: biopsy (fine needle aspiration, core, incisional, excisional). Histology and immunohistochemistry finalize diagnosis. Advanced tools: next-generation sequencing (to identify mutations), liquid biopsy (cell-free tumor DNA), AI pathology for tumor classification.",
+          "explain_like_i_am_stupid": "If a screening test looks bad, doctors take a tissue piece (biopsy) to confirm. They also use stains, gene sequencing, or even blood tests with DNA fragments.",
+          "mnemonic": "Screen → Biopsy → Histology/IHC → Molecular.",
+          "high_yield": true
+        },
+        {
+          "name": "Staging and Imaging",
+          "content": "Staging describes tumor extent: TNM system (Tumor size, Node involvement, Metastasis). Imaging includes CT chest/abdomen/pelvis, MRI brain, PET-CT, and tumor markers. Stage guides therapy and prognosis.",
+          "explain_like_i_am_stupid": "Doctors map out how big the cancer is, whether it spread to lymph nodes, and if it went far away. This is staging.",
+          "mnemonic": "TNM = Tumor, Node, Metastasis.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Foundations of Cancer Therapy",
+      "subtopics": [
+        {
+          "name": "Overview of the Three Pillars",
+          "content": "Cancer therapy rests on surgery, radiation, and pharmacotherapy (chemotherapy, targeted therapy, immunotherapy). Surgery and radiation are local/regional; chemo and systemic therapies act body-wide. Often combined for best outcomes (e.g., breast-conserving therapy = lumpectomy + radiation + systemic therapy).",
+          "explain_like_i_am_stupid": "Cancer is fought with three main tools: cutting it out (surgery), zapping it (radiation), and poisoning it (chemo/drugs). Doctors often mix them for best results.",
+          "mnemonic": "Cut, Zap, Poison.",
+          "high_yield": true
+        },
+        {
+          "name": "Cancer Surgery",
+          "content": "Types: prophylactic (e.g., colectomy in FAP, mastectomy for BRCA carriers), diagnostic (biopsies), definitive/curative (remove tumor + margin), cytoreductive (debulk tumor before chemo/radiation), reconstructive (restore form/function, e.g., breast reconstruction), palliative (relieve symptoms). Surgery works best for localized tumors with low metastatic potential. Risks: bleeding, infection, cardiopulmonary complications.",
+          "explain_like_i_am_stupid": "Sometimes surgery prevents cancer, sometimes it diagnoses, sometimes it cures, and sometimes it just makes life better when cure isn’t possible.",
+          "mnemonic": "Pro-D-C-R-P: Prevent, Diagnose, Cure, Rebuild, Palliate.",
+          "high_yield": true
+        },
+        {
+          "name": "Radiation Therapy: Mechanism",
+          "content": "Ionizing radiation damages DNA directly (double-strand breaks) and indirectly (ROS/free radicals). Most lethal = double-strand breaks. Rapidly dividing tissues are more radiosensitive. Radiosensitivity highest in late G2/M phase, lowest in late S phase (HR repair active).",
+          "explain_like_i_am_stupid": "Radiation works by smashing DNA or making free radicals that break it. Fast-dividing cancer cells are hit hardest.",
+          "mnemonic": "Radiation = ROS + Rupture.",
+          "high_yield": true
+        },
+        {
+          "name": "Radiation Modalities",
+          "content": "External beam radiation (linear accelerator; photons, protons, electrons), brachytherapy (radioactive sources implanted near tumor), systemic radiation (I-131 for thyroid, radioisotopes for bone mets), total body irradiation (prep for HSCT). Advanced: IMRT, IGRT, SBRT, stereotactic radiosurgery.",
+          "explain_like_i_am_stupid": "Radiation can come from outside beams, seeds inside, or radioactive drugs in the bloodstream.",
+          "mnemonic": "External, Inside (brachy), Systemic.",
+          "high_yield": true
+        },
+        {
+          "name": "5 R’s of Radiobiology",
+          "content": "Repair (normal cells fix DNA), Redistribution (cells cycle into more sensitive phases), Reoxygenation (killing outer cells lets oxygen reach inner hypoxic cells), Repopulation (normal tissue regenerates), Radiosensitivity (cell type differences). Fractionated radiation exploits these for better tumor kill and lower toxicity.",
+          "explain_like_i_am_stupid": "Radiation is given in chunks so normal cells recover, cancer cells cycle into vulnerable phases, and oxygen reaches hidden areas.",
+          "mnemonic": "5 R’s = Repair, Redistribution, Reoxygenation, Repopulation, Radiosensitivity.",
+          "high_yield": true
+        },
+        {
+          "name": "Chemotherapy: Principles",
+          "content": "Cytotoxic chemo kills dividing cells by damaging DNA or blocking replication. Log-kill model: each dose kills a constant fraction of cells (not a constant number). Requires repeated cycles. Chemo affects all rapidly dividing tissues → side effects (marrow, GI, hair).",
+          "explain_like_i_am_stupid": "Chemo doesn’t kill all cancer at once — it knocks off a fraction each time. That’s why multiple rounds are needed. It also hurts normal fast-growing cells.",
+          "mnemonic": "Log-kill = fraction, not fixed number.",
+          "high_yield": true
+        },
+        {
+          "name": "Chemo Drug Classes",
+          "content": "1. Alkylating agents (cyclophosphamide, platinum drugs) = DNA crosslinks. \n2. Antimetabolites (MTX, 5-FU, cytarabine) = block nucleotide synthesis. \n3. Microtubule inhibitors (vinca alkaloids block polymerization, taxanes stabilize) = mitotic arrest. \n4. Topoisomerase inhibitors (etoposide, irinotecan) = prevent DNA re-ligation. \n5. Anthracyclines (doxorubicin) = intercalate DNA, ROS. \n6. Misc: asparaginase, hydroxyurea, bortezomib.",
+          "explain_like_i_am_stupid": "Chemo drugs either break DNA, block DNA building, freeze the mitotic spindle, or jam repair enzymes. Each class has its own trick.",
+          "mnemonic": "Chemo = Crosslink, Copy-block, Cytoskeleton-freeze, Cut-block, Cardiotoxic intercalate.",
+          "high_yield": true
+        },
+        {
+          "name": "Chemo Toxicities",
+          "content": "Myelosuppression, mucositis, nausea/vomiting, alopecia are common. Drug-specific: cyclophosphamide → hemorrhagic cystitis (give mesna), doxorubicin → cardiomyopathy (dexrazoxane rescue), bleomycin → pulmonary fibrosis, vincristine → neurotoxicity. Oncologic emergencies: neutropenic fever, tumor lysis syndrome.",
+          "explain_like_i_am_stupid": "Chemo side effects = kills bone marrow, gut, hair. Some drugs have special toxicities (bladder, heart, lung, nerves).",
+          "mnemonic": "BM + GI + Hair + Special organs.",
+          "high_yield": true
+        },
+        {
+          "name": "Targeted Therapy",
+          "content": "Designed to block specific oncogenic drivers. Examples: imatinib (BCR-ABL), trastuzumab (HER2), erlotinib (EGFR), vemurafenib (BRAF V600E). Often cytostatic (block growth) not cytotoxic. Precision medicine tailors drugs to mutations (NGS panels). Resistance common via secondary mutations or alternate pathways.",
+          "explain_like_i_am_stupid": "Targeted drugs = sniper shots at specific cancer genes. They work well at first but cancer often finds workarounds.",
+          "mnemonic": "Targeted = Tumor-tailored.",
+          "high_yield": true
+        },
+        {
+          "name": "Hormone Therapy",
+          "content": "Used in hormone-driven cancers (breast, prostate, endometrial). Strategies: block receptors (tamoxifen, fulvestrant for estrogen), block synthesis (aromatase inhibitors; abiraterone for androgens), supply antagonistic hormones (GnRH agonists/antagonists). Often combined with other therapies.",
+          "explain_like_i_am_stupid": "Some cancers grow when fed hormones. Hormone therapy starves them by blocking signals or cutting supply.",
+          "mnemonic": "Block receptor, Block making, Block signal.",
+          "high_yield": true
+        },
+        {
+          "name": "Immunotherapy",
+          "content": "Harnesses immune system. Types: checkpoint inhibitors (anti-PD-1, anti-CTLA-4), CAR-T cells (engineered T-cells), monoclonal antibodies, cytokine therapies, cancer vaccines. Toxicities: immune-related adverse events (colitis, dermatitis, hepatitis, endocrinopathies).",
+          "explain_like_i_am_stupid": "Immunotherapy = unleashing or reprogramming the immune system to fight cancer. Side effects are autoimmune-like.",
+          "mnemonic": "ICI = Immune Checkpoint Inhibitors. CAR-T = Cancer Assassins Reprogrammed.",
+          "high_yield": true
+        },
+        {
+          "name": "Multidisciplinary and Personalized Therapy",
+          "content": "Modern cancer care uses a team: surgeons, medical oncologists, radiation oncologists, pathologists, genetic counselors. Personalized medicine tailors therapy based on tumor biomarkers (e.g., HER2, PD-L1, BRCA). Genomics and AI tools refine predictions for drug response and prognosis.",
+          "explain_like_i_am_stupid": "Cancer care = team sport. Each specialist brings a tool, and treatment is tailored to the tumor’s unique genetic fingerprint.",
+          "mnemonic": "Team + Tailored.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Cancer Survival Mechanisms (Hallmarks of Cancer)",
+      "subtopics": [
+        {
+          "name": "Overview of Hallmarks",
+          "content": "Hanahan & Weinberg described key hallmarks that allow cancers to survive: sustained growth signaling, evading growth suppressors, resisting cell death, enabling replicative immortality, inducing angiogenesis, activating invasion & metastasis. Emerging hallmarks: altered metabolism, immune evasion, tumor-promoting inflammation, genomic instability.",
+          "explain_like_i_am_stupid": "Cancer cells act like rebels: they never stop growing, ignore stop signs, refuse to die, live forever, make blood vessels, spread everywhere, eat differently, and dodge the immune system.",
+          "mnemonic": "G-S-D-I-A-M-E = Grow, Suppress-evade, Don’t die, Immortal, Angio, Metastasis, Eat weird, Evade immune.",
+          "high_yield": true
+        },
+        {
+          "name": "Sustained Growth Signaling",
+          "content": "Normal cells divide only with external growth factors. Cancer cells activate oncogenes (e.g., Ras, HER2) → constant proliferation. Autocrine loops (cell makes its own GF) or receptor amplification (HER2). Targeted therapies: EGFR inhibitors, HER2 blockade.",
+          "explain_like_i_am_stupid": "Normal cells wait for a ‘grow’ signal. Cancer cells flip the grow switch on permanently.",
+          "mnemonic": "Oncogenes = ON switch.",
+          "high_yield": true
+        },
+        {
+          "name": "Evading Growth Suppressors",
+          "content": "Tumor suppressors (RB, TP53) normally stop cell cycle when DNA is damaged. Cancer mutates/inactivates them. RB loss → unchecked G1/S progression. p53 loss → no arrest/apoptosis after DNA damage (‘guardian of the genome’ disabled).",
+          "explain_like_i_am_stupid": "Cancer breaks the brakes. Without RB or p53, cells ignore stop signs and keep dividing.",
+          "mnemonic": "RB = RoadBlock. p53 = Proofreader.",
+          "high_yield": true
+        },
+        {
+          "name": "Resisting Apoptosis",
+          "content": "Apoptosis via intrinsic (mitochondrial, BAX/PUMA vs BCL2) and extrinsic (death receptor) pathways removes damaged cells. Cancer overexpresses anti-apoptotics (BCL2, survivin) and inactivates pro-apoptotics (p53, BAX). Therapies: BCL2 inhibitor venetoclax, PARP inhibitors for BRCA cancers.",
+          "explain_like_i_am_stupid": "Cancer cells refuse suicide signals by making extra ‘don’t die’ proteins or mutating the ones that say ‘time to die.’",
+          "mnemonic": "BCL2 = Blocks Cell Loss.",
+          "high_yield": true
+        },
+        {
+          "name": "Enabling Replicative Immortality",
+          "content": "Telomeres shorten with each division, causing senescence. Cancer reactivates telomerase (TERT), restoring telomeres and allowing limitless divisions. Some use alternative lengthening of telomeres (ALT). Telomerase is a tumor marker and target for inhibitors.",
+          "explain_like_i_am_stupid": "Normal cells have a countdown clock (telomeres). Cancer resets the clock with telomerase, living forever.",
+          "mnemonic": "Telomerase = Time reset.",
+          "high_yield": true
+        },
+        {
+          "name": "Inducing Angiogenesis",
+          "content": "Tumors need new blood supply beyond 2–3 mm. VEGF upregulation drives angiogenesis. Drugs: bevacizumab (anti-VEGF), ramucirumab (VEGFR2 blocker), TKIs (sunitinib, pazopanib). Resistance common due to alternative angiogenic pathways.",
+          "explain_like_i_am_stupid": "Cancer calls for new blood vessels to feed itself. Drugs block VEGF, but tumors often find other ways.",
+          "mnemonic": "VEGF = Vessels Grow For tumor.",
+          "high_yield": true
+        },
+        {
+          "name": "Activating Invasion & Metastasis",
+          "content": "Steps: (1) loss of adhesion (↓E-cadherin), (2) basement membrane degradation (MMPs), (3) intravasation into blood/lymph, (4) survival in circulation (platelet cloaking), (5) extravasation, (6) colonization of new organ. Organ tropism follows ‘seed and soil’ concept (e.g., prostate → bone, breast → brain/liver/bone).",
+          "explain_like_i_am_stupid": "Cancer cells loosen, chew through barriers, hitchhike in blood, then set up shop in new organs.",
+          "mnemonic": "Invasion = Loosen, Chew, Travel, Settle.",
+          "high_yield": true
+        },
+        {
+          "name": "Immune Evasion",
+          "content": "Cancer hides from immunity: downregulates MHC, expresses PD-L1 to exhaust T-cells, recruits Tregs and MDSCs. Immunotherapies restore recognition: PD-1/PD-L1 inhibitors (nivolumab, pembrolizumab), CTLA-4 blockers (ipilimumab), CAR-T cells for hematologic malignancies.",
+          "explain_like_i_am_stupid": "Cancer wears disguises and waves ‘don’t attack’ flags. Immunotherapy pulls off the disguise so T-cells attack.",
+          "mnemonic": "PD-L1 = Please Don’t kill me.",
+          "high_yield": true
+        },
+        {
+          "name": "Altered Metabolism (Warburg Effect)",
+          "content": "Cancer prefers glycolysis even with oxygen (‘aerobic glycolysis’). Produces lactate but shunts intermediates to biosynthesis. Advantages: rapid ATP, biosynthetic precursors, survival in hypoxia. Also addicted to glutamine for nitrogen and anaplerosis. Oncometabolites (IDH mutations → 2-HG) block differentiation.",
+          "explain_like_i_am_stupid": "Even when oxygen is there, cancer eats sugar the fast but sloppy way (glycolysis), because it helps it grow fast and build parts.",
+          "mnemonic": "Warburg = Weird glucose use.",
+          "high_yield": true
+        },
+        {
+          "name": "Cancer Cachexia",
+          "content": "80% of cancer patients develop cachexia: involuntary weight loss, muscle wasting, fatigue. Driven by cytokines (IL-6, TNF-α, IL-1), ↑catabolism, ↓anabolism. Leads to death in ~20–30% of cancer patients. Nutritional support insufficient; anti-inflammatory and anabolic strategies under study.",
+          "explain_like_i_am_stupid": "Cancer makes the body waste away by releasing signals that burn muscle and fat, even if you eat enough.",
+          "mnemonic": "Cachexia = Cancer consumes.",
+          "high_yield": true
+        },
+        {
+          "name": "Tumor Heterogeneity and Cancer Stem Cells",
+          "content": "Tumors aren’t uniform. Subclones evolve (clonal evolution) → drug resistance. Cancer stem cells (slow-growing, therapy-resistant) repopulate tumor after treatment. Explains why metastatic cancer is managed, not cured.",
+          "explain_like_i_am_stupid": "Tumors are like mixed gangs of cells. Some hide during chemo, then come back stronger later.",
+          "mnemonic": "Heterogeneity = Hideouts inside tumor.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Individualizing Care of the Cancer Patient",
+      "subtopics": [
+        {
+          "name": "Overview of Precision Medicine",
+          "content": "Modern oncology emphasizes tailoring therapy to the patient’s tumor biology, genetics, comorbidities, and preferences. Rather than one-size-fits-all, precision medicine uses molecular profiling, risk stratification, and patient factors to choose the most effective and least toxic regimen.",
+          "explain_like_i_am_stupid": "Instead of giving every cancer patient the same drug, doctors look at the tumor’s DNA and the person’s situation to pick the best treatment.",
+          "mnemonic": "Precision = Personal plan.",
+          "high_yield": true
+        },
+        {
+          "name": "Biomarker-Driven Therapy",
+          "content": "Examples: HER2 amplification → trastuzumab; EGFR mutations in lung cancer → erlotinib; BRAF V600E melanoma → vemurafenib; BRCA mutations → PARP inhibitors; PD-L1 expression → checkpoint inhibitors. Biomarker testing prevents giving toxic, ineffective drugs when the target isn’t present.",
+          "explain_like_i_am_stupid": "If the tumor has a special flag (like HER2+), doctors can give a drug that targets just that flag.",
+          "mnemonic": "Match Mutation to Medicine.",
+          "high_yield": true
+        },
+        {
+          "name": "NGS and Liquid Biopsy",
+          "content": "Next-generation sequencing (NGS) analyzes tumor DNA for actionable mutations. Liquid biopsy detects circulating tumor DNA in blood, useful when tissue is hard to obtain or for monitoring treatment. Increasingly used for therapy guidance and detecting resistance mutations.",
+          "explain_like_i_am_stupid": "Instead of always cutting tumor pieces, doctors can read its DNA from blood and use sequencing machines to find weak spots.",
+          "mnemonic": "Liquid biopsy = blood tumor spy.",
+          "high_yield": true
+        },
+        {
+          "name": "Oncotype Dx and Prognostic Panels",
+          "content": "Oncotype Dx in breast cancer predicts recurrence risk and chemo benefit by scoring expression of 21 genes. Similar genomic panels stratify prognosis in prostate, colon, and hematologic malignancies. These tools guide intensity of treatment.",
+          "explain_like_i_am_stupid": "Some tests measure dozens of genes in the tumor and tell whether chemo will help or not.",
+          "mnemonic": "Oncotype = Oncologist’s roadmap.",
+          "high_yield": true
+        },
+        {
+          "name": "Stratified Medicine vs Precision Medicine",
+          "content": "Stratified medicine: divides patients into subgroups based on common biomarkers (e.g., PD-L1 high vs low). Precision medicine: tailoring therapy at the individual level using comprehensive data (genomics, environment, preferences). Both reduce overtreatment and toxicity.",
+          "explain_like_i_am_stupid": "Stratified = group patients by type. Precision = custom fit for each person.",
+          "mnemonic": "Stratified = Segments, Precision = Personal.",
+          "high_yield": false
+        },
+        {
+          "name": "Pharmacogenomics",
+          "content": "Genetic differences affect drug metabolism/toxicity. Examples: TPMT deficiency → thiopurine toxicity; DPD deficiency → 5-FU toxicity; G6PD deficiency → hemolysis with oxidant drugs; UGT1A1 polymorphisms → irinotecan toxicity. Testing prevents life-threatening side effects.",
+          "explain_like_i_am_stupid": "Some people’s livers can’t process chemo well because of gene quirks. Testing before giving drugs avoids deadly reactions.",
+          "mnemonic": "Pharmacogenomics = Genes guide drug dose.",
+          "high_yield": true
+        },
+        {
+          "name": "Genetic Counseling: Process",
+          "content": "Steps: (1) collect detailed family/personal history (pedigree), (2) assess hereditary cancer risk, (3) discuss inheritance/testing, (4) order genetic tests if indicated, (5) interpret results (Pathogenic, Likely pathogenic, VUS, Likely benign, Benign), (6) guide management and cascade testing in family.",
+          "explain_like_i_am_stupid": "Genetic counseling = a careful family history, then testing, then explaining what the results mean for the patient and family.",
+          "mnemonic": "Counsel = Collect, Calculate risk, Check DNA, Clarify, Counsel family.",
+          "high_yield": true
+        },
+        {
+          "name": "Red Flags for Hereditary Cancer",
+          "content": "Features suggesting hereditary syndromes: young age at diagnosis, multiple primaries, rare tumor types, multiple affected relatives, autosomal dominant patterns, founder mutations (e.g., Ashkenazi Jewish BRCA). Examples: breast ≤50, triple negative breast, ovarian, pancreatic, metastatic prostate.",
+          "explain_like_i_am_stupid": "Clues for inherited cancer = cancer too young, too many types, too many in family, or known risky ancestry.",
+          "mnemonic": "Young, Many, Rare, Family, Founder.",
+          "high_yield": true
+        },
+        {
+          "name": "Variant of Uncertain Significance (VUS)",
+          "content": "Genetic tests often find DNA changes we don’t understand (VUS). Clinical rule: treat VUS as benign until proven pathogenic. Do not use for medical decisions or relative testing. Reclassification may occur with new data.",
+          "explain_like_i_am_stupid": "Sometimes tests find weird DNA changes that we don’t know if they’re dangerous or not. Doctors ignore them until proven harmful.",
+          "mnemonic": "VUS = Very Unclear Significance.",
+          "high_yield": true
+        },
+        {
+          "name": "Management of Pathogenic Variants",
+          "content": "Based on guidelines (e.g., NCCN). Options: enhanced surveillance (earlier/more frequent colonoscopies, breast MRIs), risk-reducing surgery (mastectomy, salpingo-oophorectomy), chemoprevention (tamoxifen), cascade testing for relatives. Counseling includes psychosocial support and insurance considerations (GINA protection).",
+          "explain_like_i_am_stupid": "If a harmful mutation is found, doctors offer extra screening, preventive surgery, or medicine, and recommend family get tested too.",
+          "mnemonic": "Manage = Monitor, Modify, Medicate, Mention family.",
+          "high_yield": true
+        }
+      ]
+    },
+    {
+      "topic": "Genetic Counseling of Familial Cancers",
+      "subtopics": [
+        {
+          "name": "Overview of Genetic Counseling",
+          "content": "Genetic counseling is the process of evaluating personal and family cancer risk, educating patients on inheritance, interpreting genetic test results, and guiding management. It combines medical knowledge with psychosocial support. Counselors act as both educators and advocates.",
+          "explain_like_i_am_stupid": "Genetic counseling = doctors and counselors explain how cancer runs in families, what tests mean, and what you can do about it.",
+          "mnemonic": "Counsel = Communicate + Calculate risk.",
+          "high_yield": true
+        },
+        {
+          "name": "Taking a Family History (Pedigree)",
+          "content": "Key step: draw a 3-generation pedigree. Record ages, cancer types, age at diagnosis, ethnicity, consanguinity. Look for clustering of similar cancers (e.g., breast/ovarian, colon/endometrial). Pedigree helps distinguish sporadic vs familial vs hereditary.",
+          "explain_like_i_am_stupid": "Doctors make a family tree with ages and who had cancer to see if there’s a pattern.",
+          "mnemonic": "3-G Pedigree = 3 Generations Gathered.",
+          "high_yield": true
+        },
+        {
+          "name": "Hereditary vs Familial vs Sporadic Cancer",
+          "content": "Hereditary: germline mutation, autosomal dominant inheritance, ~10%. Familial: clustering without identifiable mutation, ~20%. Sporadic: random mutations in single cells, ~70–80%. Hereditary syndromes often have early onset, multiple primaries, bilateral disease.",
+          "explain_like_i_am_stupid": "Hereditary = bad gene passed down. Familial = runs in family but no clear gene found. Sporadic = just random.",
+          "mnemonic": "Hereditary = High risk gene, Familial = Family cluster, Sporadic = Solo.",
+          "high_yield": true
+        },
+        {
+          "name": "When to Suspect a Hereditary Syndrome",
+          "content": "Red flags: multiple affected relatives, cancer at unusually young age, rare cancers, multiple primary cancers in one person, autosomal dominant patterns. Ethnic risks (e.g., Ashkenazi Jewish BRCA founder mutations).",
+          "explain_like_i_am_stupid": "If cancer happens too young, too often, in too many family members, or in rare forms, it may be inherited.",
+          "mnemonic": "Young, Many, Rare, Family, Founder.",
+          "high_yield": true
+        },
+        {
+          "name": "Common Hereditary Cancer Syndromes",
+          "content": "Lynch syndrome: MMR gene mutations → colon, endometrial, ovarian, other cancers. FAP: APC mutation → hundreds of colon polyps, colon cancer. HBOC: BRCA1/2 mutations → breast, ovarian, prostate, pancreatic cancers. Li-Fraumeni: TP53 mutation → diverse cancers at young age. Cowden (PTEN), Peutz-Jeghers (STK11), NF1/NF2, VHL, MEN syndromes. Each has distinct spectrum and management.",
+          "explain_like_i_am_stupid": "Some gene mutations strongly raise cancer risk — BRCA for breast/ovarian, Lynch for colon/uterus, APC for colon polyps, p53 for many cancers.",
+          "mnemonic": "Lynch = Colon mismatch; BRCA = Breast; APC = Polyps; TP53 = Many.",
+          "high_yield": true
+        },
+        {
+          "name": "Genetic Testing: Logistics",
+          "content": "Testing can use blood, saliva, or buccal swab. Labs analyze germline DNA for pathogenic variants. Panel testing covers multiple genes at once. Test results categories: Pathogenic, Likely pathogenic, VUS, Likely benign, Benign. VUS should not guide care. Testing affected individuals first is most informative.",
+          "explain_like_i_am_stupid": "DNA tests can come from blood, spit, or cheek swab. Results tell if there’s a harmful gene, maybe-harmful, or harmless. The unclear ones (VUS) are ignored for now.",
+          "mnemonic": "Test = Tube, Swab, Spit.",
+          "high_yield": true
+        },
+        {
+          "name": "Management of Pathogenic Variants",
+          "content": "Options: increased surveillance (e.g., colonoscopy every 1–2 yrs for Lynch), prophylactic surgery (mastectomy, oophorectomy for BRCA), chemoprevention (tamoxifen for breast cancer risk reduction), and cascade testing in family. NCCN provides guidelines. Counseling includes discussion of psychosocial, reproductive, and insurance considerations (GINA 2008).",
+          "explain_like_i_am_stupid": "If a harmful gene is found, you can do more frequent tests, preventive surgery, or medicine. Family members should get tested too.",
+          "mnemonic": "Manage = Monitor, Modify, Medicate, Mention family.",
+          "high_yield": true
+        },
+        {
+          "name": "Psychosocial and Ethical Issues",
+          "content": "Genetic results impact identity, family dynamics, and reproductive decisions. Ethical issues include testing minors, incidental findings, privacy, and discrimination (mitigated by GINA in the US). Counseling provides emotional support and informed decision-making.",
+          "explain_like_i_am_stupid": "Learning you have a cancer gene can be scary and affect family relationships. Laws try to protect from insurance/job discrimination.",
+          "mnemonic": "GENE = Guilt, Ethics, News, Emotions.",
+          "high_yield": false
+        }
+      ]
+    }
+  ]
+}

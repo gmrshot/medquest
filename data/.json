@@ -1,0 +1,1126 @@
+{
+  "Immunopathology Basics (Dolen)": {
+    "Gell & Coombs Hypersensitivity Types": [
+      {
+        "stem": "A 32-year-old man develops a painful, blistering rash and joint swelling a week after starting a new antibiotic for a skin infection. Examination reveals generalized urticaria and polyarthralgia. Lab tests show elevated inflammatory markers. This clinical presentation is most consistent with which type of hypersensitivity reaction?",
+        "options": {
+          "A": "Type I",
+          "B": "Type II",
+          "C": "Type III",
+          "D": "Type IV",
+          "E": "Type V"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Serum sickness is a classic Type III hypersensitivity, caused by IgG/IgM immune complex deposition leading to inflammation. The patient’s delayed rash, arthritis, and urticaria match this mechanism.",
+          "A": "Type I is IgE-mediated immediate hypersensitivity (minutes–hours), not delayed serum sickness.",
+          "B": "Type II involves antibody-mediated cytotoxicity (e.g., hemolytic anemia), not systemic rash/arthritis.",
+          "D": "Type IV is T cell–mediated (e.g., contact dermatitis), not systemic urticaria and arthritis.",
+          "E": "Type V is a non-standard extension of Type II, not recognized in the core 4-type classification."
+        },
+        "long_form": true
+      }
+    ],
+    "Concepts of Allergy and Atopy": [
+      {
+        "stem": "Which of the following statements best defines 'allergy' in the context of specific disease mechanisms, as per most US allergists?",
+        "options": {
+          "A": "Any adverse reaction to a substance.",
+          "B": "A disease characterized by the presence of eosinophils.",
+          "C": "A Type IV T-cell mediated hypersensitivity response.",
+          "D": "An IgE-dependent Type I immediate hypersensitivity mechanism.",
+          "E": "A genetic predisposition to develop IgE-mediated reactions to common environmental allergens."
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "Allergy = IgE-mediated Type I immediate hypersensitivity. This mechanistic definition is used clinically by allergists.",
+          "A": "Lay usage, not immunologically precise.",
+          "B": "Eosinophilia occurs in many allergic conditions but is not the definition.",
+          "C": "This describes delayed hypersensitivity, not allergy.",
+          "E": "That describes atopy, not allergy itself."
+        },
+        "long_form": true
+      }
+    ],
+    "Mast Cell Activation and Mediator Release": [
+      {
+        "stem": "A 28-year-old woman presents with acute onset of generalized urticaria, wheezing, and hypotension after consuming a seafood dish. Which of the following is a clinically useful biomarker specifically indicative of mast cell activation, but not released by basophils?",
+        "options": {
+          "A": "Histamine",
+          "B": "Leukotrienes",
+          "C": "Tryptase",
+          "D": "Prostaglandins",
+          "E": "Immunoglobulin E (IgE)"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Tryptase is mast cell–specific and not present in basophils, making it a key biomarker of mast cell activation.",
+          "A": "Histamine is released by both mast cells and basophils.",
+          "B": "Leukotrienes are made by mast cells but are not unique biomarkers.",
+          "D": "Prostaglandins are inflammatory mediators, not mast cell–specific.",
+          "E": "IgE is an antibody that binds mast cells but is not released during activation."
+        },
+        "long_form": true
+      }
+    ],
+    "Mediators of Hypersensitivity": [
+      {
+        "stem": "A 10-year-old boy with asthma experiences bronchospasm and mucus secretion after exposure to cat dander. Which mediator, synthesized upon mast cell activation, primarily contributes to these symptoms by binding to CysLT1 receptors?",
+        "options": {
+          "A": "Histamine",
+          "B": "Tryptase",
+          "C": "Leukotrienes",
+          "D": "Cytokines",
+          "E": "Immunoglobulin E (IgE)"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Leukotrienes bind CysLT1 receptors and cause bronchospasm + mucus secretion.",
+          "A": "Histamine causes itching, sneezing, and vascular leakage but not the key mucus/CysLT1 effect.",
+          "B": "Tryptase is a biomarker, not the mediator here.",
+          "D": "Cytokines recruit cells, but do not cause acute bronchospasm/mucus.",
+          "E": "IgE triggers mast cells but is not a mediator released in the reaction."
+        },
+        "long_form": true
+      }
+    ],
+    "Therapeutic Interventions": [
+      {
+        "stem": "Which therapeutic intervention for allergic diseases directly targets and binds to IgE, preventing its interaction with mast cell receptors?",
+        "options": {
+          "A": "Corticosteroids",
+          "B": "H1 antihistamines",
+          "C": "Leukotriene receptor antagonists",
+          "D": "Omalizumab",
+          "E": "Tezepelumab"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "Omalizumab is an anti-IgE monoclonal antibody that prevents mast cell activation.",
+          "A": "Corticosteroids broadly suppress inflammation, not IgE specifically.",
+          "B": "H1 blockers block histamine effects, not IgE binding.",
+          "C": "Leukotriene antagonists block receptors, not IgE.",
+          "E": "Tezepelumab blocks TSLP, not IgE."
+        },
+        "long_form": true
+      }
+    ]
+  }
+}
+{
+  "Immunosuppressants (Su)": {
+    "Glucocorticoids": [
+      {
+        "stem": "A 55-year-old woman receives high-dose prednisone for acute graft-versus-host disease after a bone marrow transplant. After several weeks, she develops a rounded face, increased fat deposition around her neck and abdomen, and elevated blood glucose levels. Which of the following is the primary mechanism by which prednisone exerts its immunosuppressive effects?",
+        "options": {
+          "A": "Inhibition of calcineurin, reducing lymphokine production.",
+          "B": "Alkylation of DNA, leading to lymphocyte cell death.",
+          "C": "Binding to nuclear receptors, downregulating pro-inflammatory genes.",
+          "D": "Inhibition of inosine monophosphate dehydrogenase, impacting lymphocyte cell cycle.",
+          "E": "Binding to CD3 on T cells, leading to rapid T cell depletion."
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Glucocorticoids bind nuclear receptors → upregulate anti-inflammatory genes + downregulate pro-inflammatory genes. They also slow lymphocyte proliferation. The side effects described are classic iatrogenic Cushing’s.",
+          "A": "Mechanism of calcineurin inhibitors (e.g., cyclosporine, tacrolimus).",
+          "B": "Mechanism of cyclophosphamide (alkylating agent).",
+          "D": "Mechanism of mycophenolate mofetil.",
+          "E": "Mechanism of muromonab-CD3 (OKT3)."
+        },
+        "long_form": true
+      }
+    ],
+    "Calcineurin Inhibitors": [
+      {
+        "stem": "A 45-year-old man who underwent a kidney transplant 3 months ago is maintained on cyclosporine. He presents with new-onset hypertension and a tremor. Lab tests reveal elevated serum creatinine. Which of the following is the most significant adverse effect associated with calcineurin inhibitors like cyclosporine?",
+        "options": {
+          "A": "Bone marrow suppression",
+          "B": "Lipodystrophy",
+          "C": "Nephrotoxicity",
+          "D": "Cytokine release syndrome",
+          "E": "Peripheral neuropathy"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Nephrotoxicity is the hallmark adverse effect of calcineurin inhibitors (cyclosporine, tacrolimus). Hypertension and tremor also fit this toxicity profile.",
+          "A": "More associated with mycophenolate, azathioprine, or sirolimus.",
+          "B": "Adverse effect of HIV protease inhibitors.",
+          "D": "Adverse effect of muromonab-CD3 (OKT3).",
+          "E": "Seen with older NRTIs; calcineurin inhibitors cause tremor instead."
+        },
+        "long_form": true
+      }
+    ],
+    "Antiproliferative and Antimetabolic Drugs": [
+      {
+        "stem": "A 60-year-old woman with rheumatoid arthritis unresponsive to methotrexate is started on azathioprine. Her physician explains that this medication works by interfering with lymphocyte proliferation. Which of the following best describes the mechanism of action of azathioprine?",
+        "options": {
+          "A": "It inhibits mTOR, reducing lymphocyte cell cycle.",
+          "B": "It is converted to fraudulent nucleotides that prevent gene transcription.",
+          "C": "It acts as a folic acid antagonist, inhibiting dihydrofolate reductase.",
+          "D": "It cross-links DNA/RNA/proteins, leading to lymphocyte cell death.",
+          "E": "It inhibits inosine monophosphate dehydrogenase."
+        },
+        "answer": "B",
+        "rationales": {
+          "B": "Azathioprine is converted to 6-thioguanine nucleotides → incorporated into DNA → halt gene transcription and proliferation.",
+          "A": "Mechanism of sirolimus/everolimus.",
+          "C": "Mechanism of methotrexate.",
+          "D": "Mechanism of cyclophosphamide.",
+          "E": "Mechanism of mycophenolate mofetil."
+        },
+        "long_form": true
+      }
+    ],
+    "Polyclonal and Monoclonal Antibodies": [
+      {
+        "stem": "A 50-year-old patient undergoing treatment for acute allograft rejection receives a murine monoclonal antibody that targets the CD3 molecule on T cells. Which of the following adverse effects is most specifically associated with this particular agent due to its murine origin and mechanism of action?",
+        "options": {
+          "A": "Dose-dependent nephrotoxicity",
+          "B": "Hyperlipidemia and bone marrow suppression",
+          "C": "Cytokine release syndrome",
+          "D": "Hypersensitivity reaction due to HLA-B*5701 allele",
+          "E": "Crystalluria and renal failure"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Muromonab-CD3 (OKT3) causes cytokine release syndrome (fever, chills, GI upset) and anti-mouse antibody reactions.",
+          "A": "Seen with calcineurin inhibitors and cidofovir.",
+          "B": "Seen with sirolimus/everolimus.",
+          "D": "Classic for abacavir hypersensitivity.",
+          "E": "Seen with acyclovir/ganciclovir."
+        },
+        "long_form": true
+      }
+    ]
+  }
+}
+{
+  "Introduction to Inborn Errors of Immunity (Dolen)": {
+    "Clinical Warning Signs of IEIs": [
+      {
+        "stem": "A 4-year-old boy's mother reports 5 ear infections, 3 sinus infections, 2 pneumonias, and >3 months of antibiotics with little improvement in the past year. Which warning sign for Inborn Errors of Immunity (IEIs) is most clearly present?",
+        "options": {
+          "A": "≥2 episodes of sepsis or deep-seated infections",
+          "B": "Failure to thrive in an infant",
+          "C": "≥2 months on antibiotics with poor response",
+          "D": "Persistent thrush or fungal skin infection",
+          "E": "Abnormal newborn screen (TREC)"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "≥2 months of antibiotics with poor response is a classic IEI warning sign. He also meets criteria for ≥4 ear infections, ≥2 sinus infections, and ≥2 pneumonias per year.",
+          "A": "No sepsis or organ abscesses described.",
+          "B": "He is 4 years old, not an infant with FTT.",
+          "D": "No fungal infections reported.",
+          "E": "No newborn screen data provided."
+        },
+        "long_form": true
+      }
+    ],
+    "First-Line Laboratory Tests for IEIs": [
+      {
+        "stem": "A 6-month-old with recurrent infections and low lymphocyte count is being evaluated for an IEI. Which test is considered a standard first-line laboratory screen?",
+        "options": {
+          "A": "Lymphocyte flow cytometry for T, B, NK cell subsets",
+          "B": "Mitogen and antigen stimulation assays",
+          "C": "Immunoglobulin levels (IgG, IgA, IgM, IgE)",
+          "D": "Dihydrorhodamine (DHR) test for neutrophil oxidative burst",
+          "E": "Whole exome sequencing"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Measuring immunoglobulin levels is a standard, basic, first-line screen along with CBC. Can be ordered in primary care.",
+          "A": "Second-line test usually ordered by immunologists.",
+          "B": "Second-line test for lymphocyte proliferation.",
+          "D": "Second-line test for CGD (neutrophil function).",
+          "E": "Third-line advanced genetic testing."
+        },
+        "long_form": true
+      }
+    ],
+    "Second-Line Laboratory Tests for IEIs": [
+      {
+        "stem": "A 2-year-old with recurrent bacterial infections, thrush, and family history of immunodeficiency is being evaluated. Initial CBC and immunoglobulins are inconclusive. Which second-line test best evaluates neutrophil oxidative burst for suspected CGD?",
+        "options": {
+          "A": "Isohemagglutinin titers",
+          "B": "Lymphocyte flow cytometry for CD45RA/RO",
+          "C": "Mitogen stimulation assay",
+          "D": "Dihydrorhodamine (DHR) test",
+          "E": "HIV-1 testing"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "The DHR test is the standard second-line assay for neutrophil oxidative burst, replacing the older NBT test, and is diagnostic for CGD.",
+          "A": "Assesses IgM functional response, not neutrophils.",
+          "B": "Assesses T-cell naive/memory subsets, not neutrophil function.",
+          "C": "Tests lymphocyte proliferation, not neutrophils.",
+          "E": "HIV testing evaluates acquired immunodeficiency, not primary CGD."
+        },
+        "long_form": true
+      }
+    ],
+    "Role of Genotyping": [
+      {
+        "stem": "A 35-year-old woman with CVID (low IgG, IgA, recurrent bacterial infections) is recommended genetic testing. What is the main reason for performing genotyping in phenotypically diagnosed IEI patients?",
+        "options": {
+          "A": "To confirm the presence of an infectious agent",
+          "B": "To evaluate the patient's nutritional status",
+          "C": "To obtain a definitive diagnosis and guide specific therapies",
+          "D": "To determine the effectiveness of gamma globulin replacement",
+          "E": "To assess delayed hypersensitivity skin test results"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Genotyping allows definitive diagnosis, guides precision therapies (e.g., leniolisib for APDS), and enables proper counseling.",
+          "A": "Infectious agents are identified by culture/PCR, not genotyping for IEI.",
+          "B": "Nutritional status is not genetic.",
+          "D": "Response to IVIG is measured clinically and with IgG levels, not genetics.",
+          "E": "Delayed hypersensitivity skin testing evaluates T-cell function, not molecular diagnosis."
+        },
+        "long_form": true
+      }
+    ],
+    "IEI Phenotypes": [
+      {
+        "stem": "A 6-month-old infant has recurrent viral (CMV, RSV), fungal (candidiasis), and bacterial infections. Lymphocyte counts are very low, and an older sibling died of overwhelming infection in infancy. Which IEI phenotype is most likely?",
+        "options": {
+          "A": "Hyper IgM phenotype",
+          "B": "Antibody deficiency phenotype",
+          "C": "T cell dysfunction phenotype",
+          "D": "Combined immunodeficiency (SCID) phenotype",
+          "E": "Phagocyte deficiency phenotype"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "SCID presents with infections of all types, very low lymphocytes, and severe early course (the 'walking agar plate').",
+          "A": "Hyper-IgM → bacterial and some fungal infections, not broad viral + protozoal.",
+          "B": "Antibody deficiencies → bacterial infections mainly, not severe viral/fungal.",
+          "C": "T cell dysfunction → viral/fungal infections but usually handle pyogenic bacteria.",
+          "E": "Phagocyte deficiency → boils/abscesses with staph/aspergillus, not pancytopenia of infections."
+        },
+        "long_form": true
+      }
+    ],
+    "SCID Immunophenotypes": [
+      {
+        "stem": "A newborn with abnormal TREC screen has SCID. Flow cytometry shows T- B+ NK- immunophenotype. Which genetic defect is most consistent?",
+        "options": {
+          "A": "RAG1 or RAG2 deficiency",
+          "B": "ADA deficiency",
+          "C": "IL2RG (common gamma chain) deficiency",
+          "D": "IL7RA deficiency",
+          "E": "p56Lck deficiency"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "IL2RG deficiency (or JAK3) → T- B+ NK- SCID, the classic X-linked form.",
+          "A": "RAG defects → T- B- NK+.",
+          "B": "ADA deficiency → T- B- NK-.",
+          "D": "IL7RA deficiency → T- B+ NK+.",
+          "E": "p56Lck deficiency → T+ B+ NK+ with signaling defect."
+        },
+        "long_form": true
+      }
+    ],
+    "CVID": [
+      {
+        "stem": "A 40-year-old man with CVID continues to have infections despite Ig replacement. His physician explains CVID is heterogeneous, but certain genetic defects are 'high-yield.' Which are they?",
+        "options": {
+          "A": "RAG1 and RAG2",
+          "B": "CD40L and NEMO",
+          "C": "BAFF, TACI, and APRIL",
+          "D": "IL2RG and JAK3",
+          "E": "p53 and RB"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "BAFF, TACI, APRIL are key B-cell survival/differentiation pathways and strongly linked to CVID phenotype.",
+          "A": "RAG → SCID, not CVID.",
+          "B": "CD40L/NEMO → Hyper IgM, not CVID.",
+          "D": "IL2RG/JAK3 → SCID.",
+          "E": "p53/RB → tumor suppressors, not immunodeficiency."
+        },
+        "long_form": true
+      }
+    ]
+  }
+}
+{
+  "Inflammation and Repair (Samra)": {
+    "Purposes and Cardinal Signs of Inflammation": [
+      {
+        "stem": "A patient sustains a minor cut on their finger, which quickly becomes red, swollen, warm, and painful. Which of the following is considered a primary purpose of this inflammatory response?",
+        "options": {
+          "A": "To induce apoptosis of healthy cells",
+          "B": "To spread infectious agents throughout the body",
+          "C": "To remove necrotic cells and initiate tissue repair",
+          "D": "To immediately form a permanent fibrous scar",
+          "E": "To suppress the innate immune system"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Inflammation’s purposes include eliminating the inciting cause, removing necrotic tissue, and initiating repair. The cardinal signs (redness, heat, swelling, pain) reflect this process.",
+          "A": "Apoptosis is programmed cell death, not the goal of inflammation.",
+          "B": "Inflammation contains and eliminates pathogens, not spread them.",
+          "D": "Fibrous scar occurs later; initial inflammation promotes repair but not immediate scar formation.",
+          "E": "Inflammation is part of the innate immune system, not its suppression."
+        },
+        "long_form": true
+      }
+    ],
+    "Acute Inflammation": [
+      {
+        "stem": "A 25-year-old man steps on a rusty nail, leading to a localized bacterial infection. Within hours, the area becomes red and swollen. Histology would primarily reveal which cell type?",
+        "options": {
+          "A": "Lymphocytes",
+          "B": "Plasma cells",
+          "C": "Macrophages",
+          "D": "Neutrophils",
+          "E": "Fibroblasts"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "Neutrophils dominate acute inflammation (minutes–days). They exit circulation quickly and accumulate at the site of infection.",
+          "A": "Lymphocytes are more characteristic of chronic inflammation.",
+          "B": "Plasma cells also appear in chronic inflammation.",
+          "C": "Macrophages arrive later (2–3 days) and play a role in resolution/chronic inflammation.",
+          "E": "Fibroblasts participate in repair, not the acute infiltrate."
+        },
+        "long_form": true
+      }
+    ],
+    "Chronic Inflammation": [
+      {
+        "stem": "A 40-year-old woman with chronic cough and weight loss undergoes lung biopsy. Histology shows collections of activated macrophages (epithelioid histiocytes) with lymphocytes and central necrosis. Which type of inflammation is this?",
+        "options": {
+          "A": "Acute suppurative inflammation",
+          "B": "Fibrinoid necrosis",
+          "C": "Chronic granulomatous inflammation",
+          "D": "Serous inflammation",
+          "E": "Acute interstitial inflammation"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Granulomatous inflammation = epithelioid macrophages + giant cells, often with caseous necrosis (e.g., TB). It is a subtype of chronic inflammation.",
+          "A": "Suppurative inflammation = neutrophils/pus, not granulomas.",
+          "B": "Fibrinoid necrosis = vascular pathology, not inflammation type.",
+          "D": "Serous inflammation = fluid exudate, not granulomas.",
+          "E": "Interstitial inflammation = acute neutrophilic infiltrate, not organized granulomas."
+        },
+        "long_form": true
+      }
+    ],
+    "Systemic Effects of Inflammation": [
+      {
+        "stem": "A 7-year-old boy with bacterial infection has fever, leukocytosis, and elevated ESR. The increased ESR is due to which acute-phase protein?",
+        "options": {
+          "A": "Albumin",
+          "B": "C-reactive protein (CRP)",
+          "C": "Fibrinogen",
+          "D": "Hepcidin",
+          "E": "Transferrin"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Fibrinogen promotes rouleaux formation → faster RBC sedimentation → elevated ESR.",
+          "A": "Albumin decreases in inflammation (negative acute phase reactant).",
+          "B": "CRP is an acute-phase protein but does not cause ESR rise.",
+          "D": "Hepcidin regulates iron metabolism, not ESR.",
+          "E": "Transferrin is iron transport protein, not main ESR contributor."
+        },
+        "long_form": true
+      }
+    ],
+    "Tissue Repair": [
+      {
+        "stem": "A 60-year-old man suffers a large myocardial infarction. Despite therapy, his heart muscle cannot regain its function. This occurs because cardiac tissue is classified as which type of regenerative tissue?",
+        "options": {
+          "A": "Labile tissue",
+          "B": "Stabile tissue",
+          "C": "Permanent tissue",
+          "D": "Connective tissue",
+          "E": "Epithelial tissue"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Myocardium and neurons are permanent tissues → no regenerative capacity, healing only by scar.",
+          "A": "Labile tissues (skin, marrow, mucosa) regenerate readily.",
+          "B": "Stabile tissues (liver, kidney) regenerate when stimulated.",
+          "D": "Scar is connective tissue, but the classification is about the original tissue.",
+          "E": "Epithelial tissue often regenerates, not scar-only repair."
+        },
+        "long_form": true
+      }
+    ],
+    "Abnormalities in Tissue Repair": [
+      {
+        "stem": "A 30-year-old African American woman develops a thick, raised scar on her chest after a burn. The scar extends beyond the wound boundaries and keeps growing. What is this abnormality called?",
+        "options": {
+          "A": "Wound dehiscence",
+          "B": "Ulceration",
+          "C": "Keloid",
+          "D": "Contracture",
+          "E": "Hypertrophic scar"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Keloid = excessive collagen scar extending beyond wound borders, common in African Americans.",
+          "A": "Dehiscence = wound rupture, not overgrowth.",
+          "B": "Ulcer = loss of epithelium/necrosis, not scar overgrowth.",
+          "D": "Contracture = excessive wound contraction → deformity, not expansion beyond boundaries.",
+          "E": "Hypertrophic scar = raised scar confined to wound area, unlike keloid."
+        },
+        "long_form": true
+      }
+    ]
+  }
+}
+{
+  "HIV Pathogenesis & Opportunistic Infections (Anderson)": {
+    "HIV Pathophysiology and CD4 Coreceptors": [
+      {
+        "stem": "A medical student is learning about the initial steps of HIV infection. HIV primarily targets specific immune cells and uses co-receptors to facilitate entry. Which cells and co-receptors are the primary targets?",
+        "options": {
+          "A": "B cells and CXCR4",
+          "B": "CD8 T cells and CCR5",
+          "C": "Macrophages and CD4 and CCR5",
+          "D": "Natural Killer cells and CXCR4",
+          "E": "Neutrophils and CD4"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "HIV binds CD4 + chemokine co-receptors (CCR5, CXCR4) on CD4+ T cells and macrophages. CCR5 is used early, CXCR4 later.",
+          "A": "B cells are not the main HIV targets.",
+          "B": "CD8 T cells lack CD4 receptors and are not directly infected.",
+          "D": "NK cells do not use CXCR4 as an HIV entry receptor.",
+          "E": "Neutrophils do not express CD4."
+        },
+        "long_form": true
+      }
+    ],
+    "HIV Progression and AIDS Definition": [
+      {
+        "stem": "A 40-year-old man with untreated HIV for 10 years presents with fever, weight loss, and severe dysphagia. Endoscopy shows Candida esophagitis. CD4 count is 150 cells/mm³. What is the correct classification of his HIV stage?",
+        "options": {
+          "A": "Acute HIV infection",
+          "B": "Chronic asymptomatic HIV infection",
+          "C": "AIDS (Acquired Immunodeficiency Syndrome)",
+          "D": "HIV seroconversion syndrome",
+          "E": "Elite controller stage"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "AIDS = CD4 <200 or any AIDS-defining opportunistic infection (e.g., Candida esophagitis). This patient has both.",
+          "A": "Acute HIV occurs weeks after infection with flu-like illness.",
+          "B": "Chronic asymptomatic HIV has CD4 >200 and no OIs.",
+          "D": "Seroconversion = acute primary infection.",
+          "E": "Elite controllers maintain undetectable viral loads without ART, not described here."
+        },
+        "long_form": true
+      }
+    ],
+    "Opportunistic Infections": [
+      {
+        "stem": "A 38-year-old man with AIDS (CD4 = 10) presents with seizure, headache, and weakness. CT shows two ring-enhancing masses with edema near the basal ganglia. Which pathogen is most likely?",
+        "options": {
+          "A": "Epstein-Barr virus (EBV)",
+          "B": "JC virus",
+          "C": "Toxoplasma gondii",
+          "D": "Cryptococcus neoformans",
+          "E": "Human herpesvirus-8 (HHV-8)"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Toxoplasma gondii reactivation is the most common cause of multiple ring-enhancing brain lesions in AIDS patients with CD4 <100.",
+          "A": "EBV causes CNS lymphoma; usually solitary lesions, not multiple ring-enhancing ones.",
+          "B": "JC virus → PML, demyelination, non-enhancing lesions.",
+          "D": "Cryptococcus → meningitis, not ring-enhancing brain masses.",
+          "E": "HHV-8 → Kaposi sarcoma, not brain lesions."
+        },
+        "long_form": true
+      }
+    ],
+    "Prophylaxis and Treatment Thresholds for OIs": [
+      {
+        "stem": "A 29-year-old HIV-positive man (CD4 = 75) is IgG positive for Toxoplasma gondii. Which prophylaxis should be started, and at what CD4 threshold is it indicated?",
+        "options": {
+          "A": "Azithromycin, CD4 <50",
+          "B": "Trimethoprim/sulfamethoxazole (TMP/SMX), CD4 <200",
+          "C": "Trimethoprim/sulfamethoxazole (TMP/SMX), CD4 <100",
+          "D": "Liposomal amphotericin B, CD4 <50",
+          "E": "Fluconazole, CD4 <100"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Toxoplasma prophylaxis = TMP/SMX if CD4 <100 and patient is IgG positive.",
+          "A": "Azithromycin is for MAC prophylaxis at CD4 <50.",
+          "B": "TMP/SMX prophylaxis for PCP starts at CD4 <200, but toxoplasma requires IgG positivity + CD4 <100.",
+          "D": "Amphotericin B treats cryptococcal meningitis, not used for prophylaxis.",
+          "E": "Fluconazole is not used for toxoplasma prophylaxis."
+        },
+        "long_form": true
+      }
+    ]
+  }
+}
+{
+  "Herpes Virus Infections (Newman / ECHO 2024)": {
+    "Overview of Human Herpesviruses": [
+      {
+        "stem": "Which characteristic is true for all human herpesviruses, including HSV and CMV?",
+        "options": {
+          "A": "They are non-enveloped RNA viruses",
+          "B": "They replicate exclusively in the cytoplasm",
+          "C": "They are capable of establishing latent infections",
+          "D": "They are primarily transmitted fecal-orally",
+          "E": "They lack a protein coat (capsid)"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Latency with reactivation is the defining feature of herpesviruses.",
+          "A": "They are enveloped DNA viruses.",
+          "B": "They replicate in the nucleus, not only cytoplasm.",
+          "D": "They spread via body fluids, not fecal-oral route.",
+          "E": "All viruses have capsids."
+        },
+        "long_form": true
+      }
+    ],
+    "HSV Clinical Features and Diagnosis": [
+      {
+        "stem": "A 65-year-old man with fever, confusion, and behavioral changes has temporal lobe inflammation and RBCs in CSF. What is the definitive diagnostic test?",
+        "options": {
+          "A": "Serum cryptococcal antigen",
+          "B": "Viral culture of CSF",
+          "C": "CSF HSV-1 PCR",
+          "D": "Herpesvirus IgM in serum",
+          "E": "CMV PCR of blood"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "HSV encephalitis diagnosis is confirmed by HSV PCR of CSF.",
+          "A": "CrAg testing diagnoses cryptococcus, not HSV.",
+          "B": "Culture is slow/insensitive compared to PCR.",
+          "D": "IgM is not diagnostic of CNS involvement.",
+          "E": "CMV PCR of blood does not diagnose HSV encephalitis."
+        },
+        "long_form": true
+      }
+    ],
+    "VZV Clinical Features and Complications": [
+      {
+        "stem": "An 82-year-old man with dermatomal vesicular rash is diagnosed with shingles. What is the most common late complication?",
+        "options": {
+          "A": "Acute retinal necrosis",
+          "B": "Herpes encephalitis",
+          "C": "Post-herpetic neuralgia",
+          "D": "Disseminated zoster",
+          "E": "Neonatal herpes"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Post-herpetic neuralgia is the most common late complication, especially in elderly.",
+          "A": "Retinal necrosis is less common.",
+          "B": "HSV, not VZV, causes encephalitis classically.",
+          "D": "Disseminated zoster occurs in immunocompromised but is not the most common.",
+          "E": "Neonatal herpes occurs in infants, not elderly."
+        },
+        "long_form": true
+      }
+    ],
+    "EBV and CMV Infections": [
+      {
+        "stem": "A 19-year-old college student with fever, sore throat, lymphadenopathy, and splenomegaly has positive heterophile antibody (Monospot). What is the diagnosis?",
+        "options": {
+          "A": "CMV mononucleosis; positive CMV PCR",
+          "B": "Infectious mononucleosis (EBV); negative heterophile antibody",
+          "C": "CMV mononucleosis; negative heterophile antibody",
+          "D": "Infectious mononucleosis (EBV); positive heterophile antibody",
+          "E": "Primary HIV infection; positive HIV ELISA"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "EBV mononucleosis shows atypical lymphocytosis + positive heterophile antibody test.",
+          "A": "CMV mono is heterophile negative.",
+          "B": "EBV mono is heterophile positive.",
+          "C": "CMV mono is heterophile negative, but this patient is positive.",
+          "E": "Acute HIV may mimic mono but Monospot would be negative."
+        },
+        "long_form": true
+      }
+    ],
+    "HHV-6/7 and HHV-8": [
+      {
+        "stem": "A 9-month-old infant develops high fever for 3 days, then a trunk rash after defervescence. What is the causative virus?",
+        "options": {
+          "A": "HSV-1",
+          "B": "VZV",
+          "C": "CMV",
+          "D": "HHV-6",
+          "E": "HHV-8"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "HHV-6B causes roseola (exanthem subitum) with high fever then rash.",
+          "A": "HSV-1 causes oral lesions, encephalitis.",
+          "B": "VZV causes chickenpox/shingles.",
+          "C": "CMV causes congenital disease or mono-like illness.",
+          "E": "HHV-8 causes Kaposi sarcoma, not roseola."
+        },
+        "long_form": true
+      }
+    ]
+  },
+  "Viral Structure & Pathogenesis (Thai)": {
+    "Basic Viral Structure": [
+      {
+        "stem": "Which statement best describes viruses?",
+        "options": {
+          "A": "Large complex cells reproducing independently",
+          "B": "Contain both DNA and RNA in genome",
+          "C": "Obligate intracellular agents needing host cells for reproduction",
+          "D": "Have a rigid bacterial-like cell wall",
+          "E": "All viruses acquire envelopes"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Viruses are obligate intracellular parasites that require host cells to replicate.",
+          "A": "They are not cells and cannot reproduce independently.",
+          "B": "They contain either DNA or RNA, never both.",
+          "D": "They lack cell walls.",
+          "E": "Some are naked viruses without envelopes."
+        },
+        "long_form": true
+      }
+    ],
+    "Steps of Viral Replication": [
+      {
+        "stem": "A drug prevents release of viral genome into host cytoplasm. Which stage of viral life cycle is targeted?",
+        "options": {
+          "A": "Attachment",
+          "B": "Entry",
+          "C": "Uncoating",
+          "D": "Replication",
+          "E": "Assembly/Maturation"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Uncoating = release of viral genome after entry. Blocking this stops replication.",
+          "A": "Attachment is binding to receptors.",
+          "B": "Entry is via fusion or endocytosis, not genome release.",
+          "D": "Replication happens after uncoating.",
+          "E": "Assembly occurs later in the cycle."
+        },
+        "long_form": true
+      }
+    ],
+    "Viral Cytopathic Effects": [
+      {
+        "stem": "Brain biopsy shows eosinophilic intracytoplasmic inclusions (Negri bodies) in Ammon’s horn neurons. Which virus?",
+        "options": {
+          "A": "CMV",
+          "B": "HSV",
+          "C": "HPV",
+          "D": "Rabies virus",
+          "E": "Parvovirus B19"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "Negri bodies are pathognomonic for rabies infection.",
+          "A": "CMV → owl’s eye inclusions.",
+          "B": "HSV → Cowdry A inclusions.",
+          "C": "HPV → koilocytes.",
+          "E": "Parvovirus → margination of chromatin."
+        },
+        "long_form": true
+      }
+    ],
+    "Mechanisms of Viral Pathogenesis": [
+      {
+        "stem": "A patient with chronic HBV develops arthralgia, rash, and glomerulonephritis. Which hypersensitivity reaction explains these systemic effects?",
+        "options": {
+          "A": "Type I IgE-mediated",
+          "B": "Type II antibody-mediated cytotoxic",
+          "C": "Type III immune complex-mediated",
+          "D": "Type IV T cell–mediated",
+          "E": "Direct viral cytopathic effect"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "HBV immune complexes deposit in tissues → Type III hypersensitivity.",
+          "A": "Type I causes anaphylaxis/atopy, not glomerulonephritis.",
+          "B": "Type II causes cytotoxic diseases (AIHA).",
+          "D": "Type IV causes DTH/contact dermatitis.",
+          "E": "Direct cytopathic effect is distinct from immune complex–driven disease."
+        },
+        "long_form": true
+      }
+    ],
+    "Determinants of Viral Tropism": [
+      {
+        "stem": "A virus infects respiratory epithelium but not liver cells. Which viral component determines this tropism?",
+        "options": {
+          "A": "Type of nucleic acid",
+          "B": "Presence of envelope",
+          "C": "Viral attachment proteins (VAP)",
+          "D": "Host ribosomal machinery",
+          "E": "Viral uncoating enzymes"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Viral attachment proteins (VAPs) bind specific host receptors and determine tropism.",
+          "A": "Nucleic acid type determines replication strategy, not cell specificity.",
+          "B": "Envelope influences stability and transmission, not tropism.",
+          "D": "Ribosomes are universal, not cell-type selective.",
+          "E": "Uncoating occurs after tropism has been established."
+        },
+        "long_form": true
+      }
+    ]
+  },
+  "Oncogenic Viruses (Thai)": {
+    "Definition and Mechanisms": [
+      {
+        "stem": "Which mechanism explains how oncogenic viruses cause cancer?",
+        "options": {
+          "A": "Rapid cell lysis → necrosis",
+          "B": "Destroy tumor suppressors in all infected cells",
+          "C": "Integrate genome near proto-oncogenes or encode oncogenes",
+          "D": "Stimulate immune system to attack healthy cells",
+          "E": "Cause transient infections that resolve without changes"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Oncogenic viruses cause persistent infections, integrate into host DNA, and encode oncogenes.",
+          "A": "Cell lysis prevents cancer.",
+          "B": "They may interfere with tumor suppressors but not universally.",
+          "D": "Immune attack on healthy cells is not the mechanism.",
+          "E": "Persistence, not transience, leads to cancer."
+        },
+        "long_form": true
+      }
+    ],
+    "DNA Oncogenic Viruses": [
+      {
+        "stem": "A 28-year-old woman has cervical carcinoma strongly linked to persistent infection with which DNA virus?",
+        "options": {
+          "A": "EBV",
+          "B": "HBV",
+          "C": "HPV",
+          "D": "HHV-8",
+          "E": "CMV"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "High-risk HPV (16, 18) accounts for ~70% of cervical carcinoma cases.",
+          "A": "EBV → Burkitt, Hodgkin, nasopharyngeal carcinoma.",
+          "B": "HBV → hepatocellular carcinoma.",
+          "D": "HHV-8 → Kaposi sarcoma.",
+          "E": "CMV is not oncogenic."
+        },
+        "long_form": true
+      }
+    ],
+    "RNA Oncogenic Viruses": [
+      {
+        "stem": "Which RNA virus is known to cause adult T-cell leukemia/lymphoma?",
+        "options": {
+          "A": "HCV",
+          "B": "Influenza A",
+          "C": "HTLV-1",
+          "D": "Rotavirus",
+          "E": "HIV"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "HTLV-1 is a retrovirus causing adult T-cell leukemia/lymphoma.",
+          "A": "HCV causes hepatocellular carcinoma.",
+          "B": "Influenza is not oncogenic.",
+          "D": "Rotavirus → gastroenteritis.",
+          "E": "HIV predisposes to cancer but is not directly oncogenic."
+        },
+        "long_form": true
+      }
+    ],
+    "Oncogenesis and Immune Suppression": [
+      {
+        "stem": "In HPV oncogenesis, which viral early genes inactivate p53 and RB?",
+        "options": {
+          "A": "E1 and E2",
+          "B": "E6 and E7",
+          "C": "L1 and L2",
+          "D": "LMP-1 and EBNA-2",
+          "E": "vIL-6 and vFLIP"
+        },
+        "answer": "B",
+        "rationales": {
+          "B": "E6 inactivates p53, E7 inactivates RB → uncontrolled cell proliferation.",
+          "A": "E1/E2 regulate replication, not tumor suppression.",
+          "C": "L1/L2 = capsid proteins.",
+          "D": "LMP-1/EBNA-2 = EBV oncogenes.",
+          "E": "vIL-6/vFLIP = HHV-8 proteins."
+        },
+        "long_form": true
+      }
+    ]
+  },
+  "HIV Anti-Retrovirals (Anderson)": {
+    "Classes of Antiretroviral Drugs": [
+      {
+        "stem": "A patient’s new HIV drug binds reverse transcriptase directly without being incorporated into DNA. Which class?",
+        "options": {
+          "A": "NRTIs",
+          "B": "NNRTIs",
+          "C": "INSTIs",
+          "D": "Protease inhibitors",
+          "E": "Coreceptor antagonists"
+        },
+        "answer": "B",
+        "rationales": {
+          "B": "NNRTIs directly inhibit RT enzyme, not incorporated into DNA.",
+          "A": "NRTIs are incorporated and cause chain termination.",
+          "C": "INSTIs block integration into host DNA.",
+          "D": "PIs block viral protein cleavage.",
+          "E": "Coreceptor antagonists block CCR5, not RT."
+        },
+        "long_form": true
+      }
+    ],
+    "Principles of ART": [
+      {
+        "stem": "What is the primary goal of ART for HIV patients?",
+        "options": {
+          "A": "Induce allergic response",
+          "B": "Achieve undetectable viral load to prevent replication/transmission",
+          "C": "Directly kill infected CD4 T cells",
+          "D": "Permanently eradicate HIV",
+          "E": "Prevent opportunistic infections only"
+        },
+        "answer": "B",
+        "rationales": {
+          "B": "Goal = undetectable viral load (U=U), preserving health and preventing transmission.",
+          "A": "Allergic response is irrelevant.",
+          "C": "ART blocks replication, does not directly kill cells.",
+          "D": "HIV reservoirs remain, so not eradicated.",
+          "E": "Preventing OIs comes via viral suppression, not direct OI effect."
+        },
+        "long_form": true
+      }
+    ],
+    "Side Effects of Antiretrovirals": [
+      {
+        "stem": "A patient on ART develops Fanconi syndrome and rising creatinine. Which drug is most likely responsible?",
+        "options": {
+          "A": "Abacavir",
+          "B": "Dolutegravir",
+          "C": "Tenofovir alafenamide (TAF)",
+          "D": "Tenofovir disoproxil fumarate (TDF)",
+          "E": "Rilpivirine"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "TDF → nephrotoxicity, Fanconi syndrome, and bone loss.",
+          "A": "Abacavir → hypersensitivity (HLA-B*5701).",
+          "B": "Dolutegravir → mild creatinine bump, not Fanconi.",
+          "C": "TAF is safer for kidneys and bone.",
+          "E": "Rilpivirine → depression, rash."
+        },
+        "long_form": true
+      }
+    ],
+    "Treatment as Prevention (TasP)": [
+      {
+        "stem": "Provider explains to an HIV+ patient with undetectable viral load on ART that they cannot transmit sexually. What is this concept called?",
+        "options": {
+          "A": "Post-exposure prophylaxis (PEP)",
+          "B": "Immune reconstitution inflammatory syndrome (IRIS)",
+          "C": "Pre-exposure prophylaxis (PrEP)",
+          "D": "Treatment as Prevention (TasP) / U=U",
+          "E": "Rapid initiation (RI)"
+        },
+        "answer": "D",
+        "rationales": {
+          "D": "TasP / U=U: undetectable = untransmittable, cornerstone of ART.",
+          "A": "PEP = prophylaxis for HIV-negative after exposure.",
+          "B": "IRIS = inflammatory rebound after ART initiation.",
+          "C": "PrEP = prophylaxis for HIV-negative before exposure.",
+          "E": "RI = rapid ART start, different concept."
+        },
+        "long_form": true
+      }
+    ]
+  },
+  "Pathology of Cell Injury, Death & Adaptations (Samra)": {
+    "Cell Injury (Reversible vs Irreversible)": [
+      {
+        "stem": "A patient with TIA has reversible injury in neurons. What is the earliest ultrastructural change?",
+        "options": {
+          "A": "Nuclear pyknosis",
+          "B": "Cell membrane rupture",
+          "C": "Ribosomal detachment with decreased protein synthesis",
+          "D": "Nuclear karyorrhexis",
+          "E": "Mitochondrial rupture"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Reversible injury = cell swelling, ribosomal detachment, decreased protein synthesis.",
+          "A": "Pyknosis = irreversible nuclear change.",
+          "B": "Membrane rupture = irreversible necrosis.",
+          "D": "Karyorrhexis = nuclear fragmentation, irreversible.",
+          "E": "Mitochondrial rupture = irreversible."
+        },
+        "long_form": true
+      }
+    ],
+    "Necrosis Patterns": [
+      {
+        "stem": "A patient with TB has granulomatous lung lesions with cheese-like necrosis. What type?",
+        "options": {
+          "A": "Coagulative",
+          "B": "Liquefactive",
+          "C": "Caseous",
+          "D": "Fat",
+          "E": "Fibrinoid"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Caseous necrosis = TB hallmark, with cheese-like material and granulomas.",
+          "A": "Coagulative = infarcts in most tissues.",
+          "B": "Liquefactive = brain infarcts, abscesses.",
+          "D": "Fat = pancreatitis, trauma.",
+          "E": "Fibrinoid = immune vasculitis."
+        },
+        "long_form": true
+      }
+    ],
+    "Apoptosis and Necrosis": [
+      {
+        "stem": "A biopsy shows cell shrinkage, chromatin condensation, apoptotic bodies. Which pathway?",
+        "options": {
+          "A": "Apoptosis",
+          "B": "Necrosis",
+          "C": "Autophagy",
+          "D": "Oncosis",
+          "E": "Pyroptosis"
+        },
+        "answer": "A",
+        "rationales": {
+          "A": "Apoptosis = programmed cell death with shrinkage and apoptotic bodies.",
+          "B": "Necrosis = swelling, lysis, inflammation.",
+          "C": "Autophagy = survival mechanism under stress.",
+          "D": "Oncosis = cell swelling, not apoptosis.",
+          "E": "Pyroptosis = caspase-1/IL-1β–driven inflammatory death."
+        },
+        "long_form": true
+      }
+    ],
+    "Cellular Adaptations": [
+      {
+        "stem": "A 60-year-old alcoholic has hepatocytes with large clear lipid vacuoles. Which adaptation?",
+        "options": {
+          "A": "Hypertrophy",
+          "B": "Hyperplasia",
+          "C": "Steatosis (fatty change)",
+          "D": "Metaplasia",
+          "E": "Dysplasia"
+        },
+        "answer": "C",
+        "rationales": {
+          "C": "Fatty change (steatosis) is accumulation of lipid vacuoles in hepatocytes.",
+          "A": "Hypertrophy = increased cell size.",
+          "B": "Hyperplasia = increased cell number.",
+          "D": "Metaplasia = one cell type replaced by another.",
+          "E": "Dysplasia = disordered growth, premalignant."
+        },
+        "long_form": true
+      }
+    ]
+  },
+  "Non-HIV Antiviral Agents (Anderson)": {
+    "Acyclovir and Related Drugs": [
+      {
+        "stem": "A patient with recurrent genital HSV starts acyclovir. Which viral enzyme is required for activation?",
+        "options": {
+          "A": "Reverse transcriptase",
+          "B": "Viral thymidine kinase",
+          "C": "DNA polymerase",
+          "D": "Neuraminidase",
+          "E": "Integrase"
+        },
+        "answer": "B",
+        "rationales": {
+          "B": "Acyclovir requires phosphorylation by viral thymidine kinase for activation.",
+          "A": "RT is HIV enzyme, not HSV.",
+          "C": "DNA polymerase is target, not activator.",
+          "D": "Neuraminidase is influenza enzyme.",
+          "E": "Integrase is HIV enzyme."
+        },
+        "long_form": true
+      }
+    ],
+    "Ganciclovir and CMV Drugs": [
+      {
+        "stem": "A kidney transplant patient with CMV infection is started on ganciclovir. Which is the most important adverse effect?",
+        "options": {
+          "A": "Nephrotoxicity",
+          "B": "Bone marrow suppression",
+          "C": "Neurotoxicity",
+          "D": "Crystalluria",
+          "E": "Ototoxicity"
+        },
+        "answer": "B",
+        "rationales": {
+          "B": "Ganciclovir → bone marrow suppression (neutropenia, thrombocytopenia).",
+          "A": "Nephrotoxicity is more with foscarnet, cidofovir.",
+          "C": "Not major toxicity of ganciclovir.",
+          "D": "Crystalluria = acyclovir toxicity.",
+          "E": "Ototoxicity = aminoglycosides."
+        },
+        "long_form": true
+      }
+    ],
+    "Foscarnet and Cidofovir": [
+      {
+        "stem": "A patient with ganciclovir-resistant CMV retinitis is started on foscarnet. Which adverse effect is most characteristic?",
+        "options": {
+          "A": "Hypocalcemia, hypomagnesemia, seizures",
+          "B": "Neutropenia",
+          "C": "Fanconi syndrome",
+          "D": "Lactic acidosis",
+          "E": "Hemolytic anemia"
+        },
+        "answer": "A",
+        "rationales": {
+          "A": "Foscarnet → electrolyte abnormalities (Ca, Mg, K) → seizures.",
+          "B": "Seen with ganciclovir.",
+          "C": "Seen with cidofovir and TDF.",
+          "D": "Seen with NRTIs (esp. older ones).",
+          "E": "Seen with ribavirin or dapsone, not foscarnet."
+        },
+        "long_form": true
+      }
+    ],
+    "Influenza Antivirals": [
+      {
+        "stem": "A 7-year-old girl with influenza is prescribed oseltamivir. Which viral protein does it target?",
+        "options": {
+          "A": "Hemagglutinin",
+          "B": "Neuraminidase",
+          "C": "RNA polymerase",
+          "D": "M2 proton channel",
+          "E": "Nucleoprotein"
+        },
+        "answer": "B",
+        "rationales": {
+          "B": "Oseltamivir inhibits neuraminidase → prevents viral release from cells.",
+          "A": "Hemagglutinin = viral attachment.",
+          "C": "RNA polymerase is not oseltamivir’s target.",
+          "D": "M2 channel is targeted by amantadine (obsolete).",
+          "E": "Nucleoprotein is not drug target."
+        },
+        "long_form": true
+      }
+    ]
+  }
+}
